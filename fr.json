@@ -739,7 +739,7 @@
   "nav.documentation": "Docs/Support",
   "nav.logout": "Déconnection",
   "nav.manageItemTypes": "Contenu",
-  "nav.mediaArea": "Médie",
+  "nav.mediaArea": "Média",
   "navigationBar.dashboard": "Retour au Dashboard",
   "netlify.success": "Bien joué, l'intégration avec le projet Netlify \"{name}\" a été réalisée avec succès, vous pouvez sauvegarder vos paramètres !",
   "netlify.branch": "Branche Git à construire :",
