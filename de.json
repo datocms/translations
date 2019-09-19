@@ -951,7 +951,7 @@
   "dateTime.timeInterval": "Zeitintervall",
   "dateTime.twentyfourHourFormat": "Verwenden Sie das 24-Stunden-Format",
   "dateTime.minutes": "Minuten, Plural, eine { 1 Minute } andere { { { Minuten} Minuten} Minuten} }",
-  "itemTypeForm.tab.basic": "Grundlegende Informatione",
+  "itemTypeForm.tab.basic": "Grundlegende Informationen",
   "itemTypeForm.tab.extra": "Zusätzliche Einstellungen",
   "globalError.INSUFFICIENT_PERMISSIONS": "Deine Rolle erlaubt diese Aktion nicht",
   "globalError.INVALID_SITE.title": "Dieses Projekt existiert nicht!..",
