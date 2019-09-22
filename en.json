@@ -268,7 +268,7 @@
 
   "editor.item.batch.delete.result": "{successful, plural, =0 {No record deleted} one {One record successfully deleted!} other {{successful} records successfully deleted!} }",
   "editor.item.batch.publish.result": "{successful, plural, =0 {No record published} one {One record successfully published!} other {{successful} records successfully published!} }",
-  "editor.item.batch.unpublish.result": "{successful, plural, =0 {No record unpublished} one {One record successfully published!} other {{successful} records successfully unpublished!} }",
+  "editor.item.batch.unpublish.result": "{successful, plural, =0 {No record unpublished} one {One record successfully unpublished!} other {{successful} records successfully unpublished!} }",
   "editor.item.batch.delete.failure": "Couldn't destroy the records!",
   "editor.item.batch.publish.failure": "Couldn't publish the records!",
   "editor.item.batch.unpublish.failure": "Couldn't unpublish the records!",
@@ -1162,7 +1162,7 @@
   "itemTable.publication_scheduled_at": "Scheduled publishing at",
   "itemTable.editor": "Editor",
   "itemTable.position": "Position",
-  "itemTable.creator": "Creator",
+  
   "itemTable.publishAtSpecificDate": "Publish at a specific date/time",
   "itemTable.insertRecords": "Add selected records",
   "itemTable.show": "Show selected records",
