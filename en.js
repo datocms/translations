@@ -122,6 +122,8 @@ module.exports = {
   'admin.ssoSettings.scimToken': `API Token`,
   'admin.ssoSettings.spSamlMetadataUrl': `DatoCMS Metadata URL`,
   'admin.ssoSettings.title': `Single Sign-On settings`,
+  'admin.ssoSettings.generateNewToken.info': `<p><strong>Be careful!</strong> For security reasons, you will only be able to see your API token once. Be sure to copy and paste it in your IdP now.</p>`,
+  'admin.ssoSettings.generateNewToken': `Generate API token`,
   'admin.ssoSettings.update.failure': `Couldn't update SSO Settings!`,
   'admin.ssoSettings.update.success': `SSO Settings have been successfully saved!`,
   'admin.ssoUsers.changeRole': `Change role`,
@@ -1438,7 +1440,7 @@ module.exports = {
   'travis.config': `If you want to <a target="_blank" href="https://docs.travis-ci.com/user/triggering-builds/">override the some settings contained in your .travis.yml</a>, you can paste here the JSON payload for the <code>"config"</code> parameter of the build request:`,
 
   'travis.config.placeholder': `'{
-  "script": "echo FOO" 
+  "script": "echo FOO"
 }'`,
 
   'travis.configHint': `This can be useful to pass different environment variables, script commands or deployment settings during the build`,
