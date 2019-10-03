@@ -1630,8 +1630,10 @@ module.exports = {
   'editor.item.changeCreator.description': `Please select the users that will become the new creator for this record:`,
   'editor.item.changeCreator.field': `New creator`,
   'editor.item.changeCreator.submit.default': `Set as new creator`,
-  'editor.image.loading': 'Loading...',
+  'imageMetadata.noMetadata': 'No metadata set',
+  'imageMetadata.loading': 'Loading asset...',
   'imageMetadata.cancelUpload': 'Cancel upload',
+  'imageMetadata.uploadInProgress': 'Uploading...',
 
   'imageEditor.labelButtonReset': 'Reset',
   'imageEditor.labelButtonCancel': 'Cancel',
@@ -1665,6 +1667,8 @@ module.exports = {
   'imageEditor.labelMarkupSelectLineStyle': 'Style',
   'imageEditor.labelMarkupSelectShapeStyle': 'Style',
   'imageEditor.labelMarkupRemoveShape': 'Remove',
+
+  'imageMetadata.cannotDeleteCustomData': `This custom data is inherited from a default value thus it can only be removed from the Media Area`,
 
   'editor.upload.copy.success': 'Asset URL successfully copied to clipboard!',
 };
