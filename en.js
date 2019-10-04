@@ -716,6 +716,12 @@ module.exports = {
   'form.fileGalleryInput.openMediaGallery': `From library`,
   'form.fileGalleryInput.removeImage': `Remove`,
   'form.fileGalleryInput.uploadInProgress': `Uploading... { percentage }%`,
+
+  'imageMetadata.replace': `Replace asset`,
+  'form.replaceAsset.dragHere': `Drag a new version here`,
+  'form.replaceAsset.emptyButtonLabel': `Browse...`,
+  'form.replaceAsset.hint': `Max size 150MB`,
+
   'form.fileInput.buttonLabel': `Upload new file`,
   'form.fileInput.cancelButton': `Cancel upload`,
   'form.fileInput.dragHere': `Drag a file here`,
@@ -854,6 +860,9 @@ module.exports = {
   'imageMetadata.customData': `Custom data`,
   'imageMetadata.edit': `Edit metadata`,
   'imageMetadata.delete': `Remove`,
+  'imageMetadata.destroy': `Delete`,
+  'imageMetadata.rename': `Rename`,
+  'imageMetadata.renameHint': `Press Enter to confirm`,
   'imageMetadata.fileSize': `File size`,
   'imageMetadata.fileType': `File type`,
   'imageMetadata.image': `Image`,
