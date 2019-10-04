@@ -1680,4 +1680,5 @@ module.exports = {
   'imageMetadata.cannotDeleteCustomData': `This custom data is inherited from a default value thus it can only be removed from the Media Area`,
 
   'editor.upload.copy.success': 'Asset URL successfully copied to clipboard!',
+  'imageMetadata.openInMediaArea': 'Open in Media Area »',
 };
