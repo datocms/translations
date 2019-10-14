@@ -436,7 +436,6 @@
   "fieldTypeHint.text": "Pro Markdown, HTML nebo plain text",
   "fieldTypeHint.video": "Podporuje YouTube/Vimeo URL adresy",
   "fileInput.error.notAnImage": "Rozšíření musí být jedno z PNG, GIF, JPG, SVG",
-  "fileInput.error.tooBig": "Rozměry přesáhly 150MB",
   "fileInput.invalidFile": "Soubor není platný: {error}!",
   "fileInput.uploadError": "Nepodařilo se nahrát soubor",
   "filter.add": "Přidat nový filtr",

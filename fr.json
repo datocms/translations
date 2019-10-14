@@ -562,7 +562,6 @@
   "fieldTypeHint.text": "Pour le Markdown, HTML ou texte simple",
   "fieldTypeHint.video": "Supporte les URL de vidéos YouTube/Vimeo",
   "fileInput.error.notAnImage": "l'extension doit être d'un de ces types PNG, GIF, JPG, SVG",
-  "fileInput.error.tooBig": "les dimensions dépassent 150MB",
   "fileInput.invalidFile": "Fichier invalide : {error}!",
   "fileInput.uploadError": "Impossible d'envoyer le fichier",
   "filter.add": "Créer un nouveau filtre",

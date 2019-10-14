@@ -636,7 +636,6 @@ module.exports = {
   'fieldTypeHint.text': `For Markdown, HTML or plain text`,
   'fieldTypeHint.video': `Supports YouTube/Vimeo URLs`,
   'fileInput.error.notAnImage': `extension must be one of PNG, GIF, JPG, SVG`,
-  'fileInput.error.tooBig': `dimensions exceed 150MB`,
   'fileInput.invalidFile': `File invalid: {error}!`,
   'fileInput.uploadError': `Couldn't upload file`,
   'filter.add': `Add new filter`,
