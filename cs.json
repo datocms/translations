@@ -976,7 +976,6 @@
   "nav.mediaArea": "Média",
   "nav.new": "Co je nového",
   "nav.support": "Požádat o pomoc",
-  "navigationBar.dashboard": "Zpět na nástěnku",
   "netlify.branch": "Git branch pro sestavení:",
   "netlify.branch.hint": "Pokud není specifikováno, bude použita produkční branch projektu",
   "netlify.branch.placeholder": "master",

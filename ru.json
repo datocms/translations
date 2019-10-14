@@ -584,7 +584,6 @@
   "nav.logout": "Выйти",
   "nav.manageItemTypes": "Контент",
   "nav.mediaArea": "Медиа",
-  "navigationBar.dashboard": "Назад в Панель управления",
   "netlify.success": "Отлично, интеграция с проектом Netlify с именем \"{name}\" завершена успешно, теперь вы можете сохранить ваши настройки!",
   "newItem.filter": "Поиск по результатам...",
   "newItem.title": "Добавить {name}",

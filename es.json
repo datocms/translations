@@ -708,7 +708,6 @@
   "nav.mediaArea": "Media",
   "nav.new": "Novedades",
   "nav.support": "Pedir soporte",
-  "navigationBar.dashboard": "Back to Dashboard",
   "navigationBar.visitEnvSite": "Visitar sitio {env}",
   "navigationBar.visitSite": "Visitar sitio",
   "netlify.branch.placeholder": "master",

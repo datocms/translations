@@ -1118,7 +1118,6 @@
   "nav.mediaArea": "Média",
   "nav.new": "Quoi de neuf",
   "nav.support": "Demander de l'aide",
-  "navigationBar.dashboard": "Retour au Dashboard",
   "navigationBar.visitEnvSite": "Visiter {env} site",
   "navigationBar.visitSite": "Visiter le site",
   "netlify.branch": "Branche Git à construire :",
