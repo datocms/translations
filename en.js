@@ -882,7 +882,7 @@ module.exports = {
   'imageEditor.labelStatusLoadImageError': `Error loading image…`,
   'imageEditor.labelStatusLoadingImage': `Loading image…`,
   'imageEditor.labelStatusProcessingImage': `Processing image…`,
-  'imageInput.error.tooBig': `dimensions exceed 150MB`,
+  'imageInput.error.tooBig': `dimensions exceed 1GB`,
   'imageMetadata.alt': `Alternate text`,
   'imageMetadata.archiving': `Title/Caption`,
   'imageMetadata.author': `Author`,
