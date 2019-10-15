@@ -535,8 +535,8 @@ module.exports = {
   'fieldError.VALIDATION_REQUIRED_SEO_FIELDS': `{valorizedKeys, select,
       description { Field must specify SEO description }
       image { Field must specify sharing image }
-      title { Field must specify SEO description }
-      twitter_card { Field must specify SEO description }
+      title { Field must specify SEO title }
+      twitter_card { Field must specify type of Twitter card }
       description_image { Field must specify SEO description and sharing image }
       description_title { Field must specify SEO title and description }
       description_twitter_card { Field must specify SEO description and type of Twitter card }

@@ -339,7 +339,7 @@
   "editor.item.filterClear": "Vyčistit",
   "editor.item.new": "Přidat položku",
   "editor.item.noItems.button": "Vytvořit novou položku",
-  "editor.item.noItems.description": "Začněte jej rovnou plnit novými položkami typu \"{name}\"!",
+  "editor.item.noItems.description": "Začněte ji rovnou plnit novými položkami typu \"{name}\"!",
   "editor.item.noItems.title": "Tato kolekce je prázdná",
   "editor.item.publish.failure": "Položku se nepodařilo vypublikovat!",
   "editor.item.publish.success": "Položka úspěšně vypublikována!",
