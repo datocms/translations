@@ -1692,7 +1692,7 @@ module.exports = {
   'wysiwygEditor.toolbar.outdent': `Outdent`,
   'wysiwygEditor.toolbar.quote': `Quote`,
   'wysiwygEditor.toolbar.redo': `Redo`,
-  'wysiwygEditor.toolbar.show_source': `Show HTML source`,
+  'wysiwygEditor.toolbar.show_source': `Edit HTML source`,
   'wysiwygEditor.toolbar.strikethrough': `Strikethrough`,
   'wysiwygEditor.toolbar.table': `Add table`,
   'wysiwygEditor.toolbar.undo': `Undo`,
