@@ -123,6 +123,7 @@ module.exports = {
   'admin.ssoSettings.scimSettings.title': `SCIM Settings`,
   'admin.ssoSettings.scimToken': `API Token`,
   'admin.ssoSettings.spSamlBaseUrl': `DatoCMS SAML Base URL`,
+  'admin.ssoSettings.samlToken': `API Token`,
   'admin.ssoSettings.spSamlMetadataUrl': `DatoCMS Metadata URL`,
   'admin.ssoSettings.title': `Single Sign-On settings`,
   'admin.ssoSettings.update.failure': `Couldn't update SSO Settings!`,
