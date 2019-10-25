@@ -48,7 +48,7 @@
   "filter.meta.created_at": "Gemaakt op",
   "filter.meta.first_published_at": "Voor het eerst gepubliceerd op",
   "filter.meta.id": "ID",
-  "filter.meta.publication_scheduled_at": "Gepland gepubliceerd op",
+  "filter.meta.publication_scheduled_at": "Geplande publicatie op",
   "filter.meta.published_at": "Als laatste gepubliceerd op",
   "filter.meta.status": "Status",
   "filter.meta.updated_at": "Gewijzigd op",
