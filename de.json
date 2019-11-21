@@ -961,6 +961,7 @@
   "itemType.singleton.guide": "Lesen Sie mehr über Einzelinstanzmodelle vs. Kollektionen in unserer Dokumentation",
   "itemType.singleton.hint": "Müssen Sie eine Sammlung von Datensätzen dieser Art oder nur eine einzige verwalten",
   "itemType.titleField": "Titelfeld",
+  "itemType.toContent": "Zum Inhalt wechseln",
   "itemType.validator.placeholder": "Wählen Sie ein (oder mehrere) Models aus...",
   "itemTypeForm.tab.basic": "Grundlegende Informationen",
   "itemTypeForm.tab.extra": "Zusätzliche Einstellungen",
