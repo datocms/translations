@@ -329,6 +329,7 @@ module.exports = {
   'editor.editor.create.failure': `Couldn't invite collaborator!`,
   'editor.editor.create.success': `Invitation successfully sent!`,
   'editor.editor.destroy.failure': `Couldn't remove user!`,
+  'editor.inviteNew': `Invite new collaborator`,
 
   'editor.editor.destroy.newCreator.description': `
     Before removing { user } from this project,
@@ -501,11 +502,11 @@ module.exports = {
   'fieldError.INVALID_FOR_CURRENT_PLAN': `Field not valid under the current plan`,
   'fieldError.INVALID_URL': `Field must be a valid URL`,
   'fieldError.JSON': `Field must be valid JSON`,
-  'fieldError.MAX_LENGTH': `Field cannot be more than { max_length } characters`,
+  'fieldError.MAX_LENGTH': `Field cannot be more than { max_length } characters long`,
   'fieldError.MIN_ARRAY_LENGTH': `Field must contain at least { min_length } values`,
   'fieldError.MIN_IMAGE_HEIGHT': `Image height must be at least { min_height }px`,
   'fieldError.MIN_IMAGE_WIDTH': `Image width must be at least { min_width }px`,
-  'fieldError.MIN_LENGTH': `Field must be at least { min_length } characters`,
+  'fieldError.MIN_LENGTH': `Field must be at least { min_length } characters long`,
   'fieldError.MULTIPLE_INSTANCES_OF_SINGLETON': `Cannot convert to single instance as currently there is more than one record of this kind!`,
   'fieldError.REQUIRED_FIELD': `Field is required`,
   'fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE': `Cannot convert to single instance as this model is currently referenced in some Link, Links or Modular content field!`,
