@@ -1450,7 +1450,7 @@ module.exports = {
   'richText.add': `Add new`,
   'richText.add.multiple': `Create new...`,
   'richText.add.single': `New {itemType}`,
-  'richText.chooseItemType': `No models available, please edit this field settings`,
+  'richText.chooseItemType': `No models available`,
   'richText.copy': `Copy from {locale}`,
   'richText.copyStructure': `Copy structure`,
   'richText.copyStructureAndContent': `Copy structure and content`,
