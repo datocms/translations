@@ -922,7 +922,6 @@
   "itemTable.records.select": "Items selecteren",
   "itemTable.records.selected": "{count, plural, one {1 item geselecteerd} other {{count} items geselecteerd}}",
   "itemTable.records.unpublish": "Depubliceren",
-  "itemTable.show": "Toon geselecteerde items",
   "itemTable.status": "Status",
   "itemTable.title": "Preview",
   "itemTable.updated_at": "Laatste update",

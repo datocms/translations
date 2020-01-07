@@ -922,7 +922,6 @@
   "itemTable.records.select": "Einträge auswählen",
   "itemTable.records.selected": "{count, plural, one {Ein Eintrag ausgewählt} other {{count} Einträge ausgewählt}}",
   "itemTable.records.unpublish": "Nicht veröffentlichen",
-  "itemTable.show": "Zeigt ausgewählte Datensätze an",
   "itemTable.status": "Status",
   "itemTable.title": "Vorschau",
   "itemTable.updated_at": "Letztes Update",

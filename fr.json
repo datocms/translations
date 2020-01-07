@@ -834,7 +834,6 @@
   "itemTable.records.publish": "Publier",
   "itemTable.records.selected": "{count, plural, one {Une entité séléctionnée} other {{count} entités selectionnées}}",
   "itemTable.records.unpublish": "Dépublier",
-  "itemTable.show": "Montrer les entités séléctionnées",
   "itemTable.status": "Statut",
   "itemTable.title": "Aperçu",
   "itemTable.updated_at": "Dernière modification",

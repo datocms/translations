@@ -922,7 +922,6 @@
   "itemTable.records.select": "Seleziona record",
   "itemTable.records.selected": "{count, plural, one {Un record selezionato}  other {{count} records selezionati}}",
   "itemTable.records.unpublish": "Marca come bozza",
-  "itemTable.show": "Mostra record selezionati",
   "itemTable.status": "Stato",
   "itemTable.title": "Anteprima",
   "itemTable.updated_at": "Ultimo aggiornamento",
