@@ -1785,12 +1785,12 @@ module.exports = {
   'filter.operator.contains': 'contains',
   'filter.colors.operator.eq': 'are exactly',
 
-  'filter.size.operator.gt': `bigger than (bytes)`,
-  'filter.size.operator.gte': `bigger or equal (bytes)`,
-  'filter.size.operator.lt': `less than (bytes)`,
-  'filter.size.operator.lte': `less or equal (bytes)`,
-  'filter.size.operator.eq': `exactly (bytes)`,
-  'filter.size.operator.neq': `not (bytes)`,
+  'filter.size.operator.gt': `bigger than`,
+  'filter.size.operator.gte': `bigger or equal`,
+  'filter.size.operator.lt': `less than`,
+  'filter.size.operator.lte': `less or equal`,
+  'filter.size.operator.eq': `exactly`,
+  'filter.size.operator.neq': `not`,
 
   'uploadTable.id': 'ID',
   'uploadTable._updated_at': 'Updated at',
