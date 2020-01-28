@@ -1211,6 +1211,7 @@ module.exports = {
   'menuPage.noItemType': `No model`,
   'menuitem.add': `Add Menu item`,
   'menuitem.edit': `Edit Menu item`,
+  'menuItem.openInNewTab': `Open in new tab`,
   'menuitem.fieldrow.delete': `Delete`,
   'menuitem.fieldrow.edit': `Edit`,
   'menuitem.link.external': `External URL`,
