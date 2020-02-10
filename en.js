@@ -1002,7 +1002,7 @@ module.exports = {
     <p>You can write them with basic HTML and JavaScript, or using more advanced client-side frameworks such as React, Angular or Vue.</p>
     <p>Want to know more? Read how to install, develop and share plugins to the community in <a target="_blank" href="https://www.datocms.com/docs/guides/building-plugins">our guide</a>!</p>
   `,
-
+  'languageSettings.modal': `Language Settings`,
   'integration.step1.success': `Command received, hurray!`,
   'item.back': `Back`,
   'item.button.default': `Save record`,
@@ -1354,6 +1354,7 @@ module.exports = {
   'nav.new': `What's new`,
   'nav.support': `Ask for support`,
   'nav.cdaExplorer': `API Explorer`,
+  'nav.languageSettings': `Language settings`,
   'navigationBar.visitEnvSite': `Visit {env} site`,
   'navigationBar.visitSite': `Visit site`,
   'navigationBar.dashboard.account': `Profile`,
@@ -1459,6 +1460,7 @@ module.exports = {
   'pluginType.sidebar': `Sidebar widget`,
   'plugins.noPlugins.description': `Plugins add new features to your DatoCMS project. Install one of the plugins already made available by the community, or create one yourself!`,
   'plugins.noPlugins.title': `No plugins installed!`,
+  'recordInfo.id': `Record ID`,
   'recordInfo.createdAt': `Created at`,
   'recordInfo.createdBy': `Created by`,
   'recordInfo.firstPublished': `First published at`,
@@ -1553,6 +1555,7 @@ module.exports = {
   'settings.favicon': `Favicon`,
   'settings.globalSeo': `Global SEO settings`,
   'settings.noIndex': `Prevent your site from being indexed by search engines?`,
+  'settings.backendLanguage': `Set your backend language`,
   'sidebar.actions': `Actions`,
   'sidebar.revisionHistory': `Revision history`,
   'signin.button.default': `Login`,
