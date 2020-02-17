@@ -941,7 +941,6 @@
   "imageMetadata.gps_location": "Ubicación GPS",
   "imageMetadata.image": "Imagen",
   "imageMetadata.iso": "ISO",
-  "imageMetadata.language": "Idioma",
   "imageMetadata.lens_model": "Modelo de lente",
   "imageMetadata.linksToItems": "Registros que usan este fichero",
   "imageMetadata.linksToItems.blank": "Este fichero no se utiliza.",
