@@ -1009,6 +1009,7 @@ module.exports = {
   'item.duplicate': `Duplicate`,
   'item.edit': `Edit { itemType }`,
   'item.remove': `Delete`,
+  'item.publish': `Publish`,
   'item.save': `Save`,
   'item.saving': `Saving...`,
   'item.scheduled': `scheduled on`,
