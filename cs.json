@@ -976,6 +976,7 @@
   "item.button.default": "Uložit položku",
   "item.duplicate": "Duplikovat",
   "item.edit": "Upravit { itemType }",
+  "item.publish": "Publikovat",
   "item.remove": "Odstranit",
   "item.save": "Uložit",
   "item.saving": "Ukládám...",
