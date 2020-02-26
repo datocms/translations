@@ -943,7 +943,6 @@
   "imageMetadata.gps_location": "GPS souřadnice",
   "imageMetadata.image": "Obrázek",
   "imageMetadata.iso": "ISO",
-  "imageMetadata.language": "Jazyk",
   "imageMetadata.lens_model": "Čočka",
   "imageMetadata.linksToItems": "Položky používající tento soubor",
   "imageMetadata.linksToItems.blank": "Tento soubor není používán",
