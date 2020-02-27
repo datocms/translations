@@ -514,8 +514,8 @@ module.exports = {
   'fieldError.REQUIRED_FIELD': `Field is required`,
   'fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE': `Cannot convert to single instance as this model is currently referenced in some Link, Links or Modular content field!`,
   'fieldError.SQUARE_IMAGE': `Image must be square`,
-  'fieldError.VALIDATION_DATE_RANGE': `{ valorizedKeys, select, min { Date must be greater or equal than {min} } max { Date cannot be less or equal than {max} } max_min { Date must be between {min} and {max} } }`,
-  'fieldError.VALIDATION_DATE_TIME_RANGE': `{ valorizedKeys, select, min { Date must be greater or equal than {min} } max { Date cannot be less or equal than {max} } max_min { Date must be between {min} and {max} } }`,
+  'fieldError.VALIDATION_DATE_RANGE': `{ valorizedKeys, select, min { Date must be greater or equal to {min} } max { Date cannot be less or equal to {max} } max_min { Date must be between {min} and {max} } }`,
+  'fieldError.VALIDATION_DATE_TIME_RANGE': `{ valorizedKeys, select, min { Date must be greater or equal to {min} } max { Date cannot be less or equal to {max} } max_min { Date must be between {min} and {max} } }`,
   'fieldError.VALIDATION_ENUM': `Field must contain one of the allowed values: { values }`,
   'fieldError.VALIDATION_EXTENSION': `{ valorizedKeys, select, predefined_list { Field must contain files of type { predefined_list } } extensions { Field must contain one of the allowed values: { extensions } } }`,
 
@@ -547,8 +547,8 @@ module.exports = {
   'fieldError.VALIDATION_MUSTACHE': `Field must be a valid Mustache template`,
 
   'fieldError.VALIDATION_NUMBER_RANGE': `{ valorizedKeys, select,
-    min { Field value must be greater or equal than {min} }
-    max { Field value cannot be less or equal than {max} }
+    min { Field value must be greater or equal to {min} }
+    max { Field value must be less or equal to {max} }
     max_min { Field value must be between {min} and {max} }
   }`,
 
