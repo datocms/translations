@@ -981,7 +981,7 @@
   "item.saving": "Ukládám...",
   "item.scheduled": "naplánováno na",
   "item.shortStatus.availableVersions": "{number, plural, one {Dostupná jiná verze} few {Další {number} verze dostupné} other {Dalších {number} verzí dostupných}}",
-  "item.shortStatus.draft": "Návrh",
+  "item.shortStatus.draft": "Draft",
   "item.shortStatus.published": "Publikováno",
   "item.shortStatus.updated": "Upraveno",
   "item.status.draft.dirty": "Nepublikováno (neuložené změny)",
