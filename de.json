@@ -1020,7 +1020,7 @@
   "markdownEditor.toolbar.strikethrough": "Durchgestrichen",
   "markdownEditor.toolbar.unordered_list": "Ungeordnete Liste",
   "mediaArea.add": "{length} Bilder hinzufügen",
-  "mediaArea.assets.count": "Anzahl, Plural, =0 {Keine Vermögenswerte vorhanden} ein {Ein Vermögen vorhanden} andere {{Zählung} vorhandener Vermögenswerte}}}",
+  "mediaArea.assets.count": "{count, plural, =0 {Keine Vermögenswerte} one {1 Vermögen} other {{count} Vermögenswerte}}",
   "mediaArea.assets.delete": "Löschen",
   "mediaArea.assets.delete.confirm": "Möchten Sie diese Mediendatei wirklich löschen?",
   "mediaArea.assets.delete.selection": "Möchten Sie wirklich {count} Mediendateien löschen?",
