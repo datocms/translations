@@ -414,7 +414,7 @@ module.exports = {
   'editor.textarea': `Simple textarea`,
   'editor.upload.batchDestroy.failure': `Couldn't delete the assets`,
   'editor.upload.batchDestroy.result': `{
-    deleted, plural, =0 {No asset deleted} one {One asset} other {{deleted} assets}}deleted
+    deleted, plural, =0 {No asset deleted} one {One asset} other {{deleted} assets}} deleted
     {inUse, plural, =0 {} one {, one asset not deleted as it's currently used} other {, {inUse} assets not deleted as they're currently used}
   }`,
   'editor.upload.copy.success': `Asset URL successfully copied to clipboard!`,
