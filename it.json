@@ -1501,6 +1501,7 @@
   "travis.webhookDescription": "Aggiungi le seguenti linee di codice al tuo file <code>.travis.yml</code>:",
   "unaccessiblePage.subtitle": "Non hai il permesso di visualizzare il contenuto",
   "unaccessiblePage.title": "Contenuto non accessibile",
+  "upload.batchAddTags.modalTitle": "Aggiungi tag agli asset",
   "upload.categorization.hint": "Organizza i tuoi asset con etichette e note per renderli ricercabili più facilmente dal tuo team.",
   "upload.defaultFieldMetadata.hint": "Quando utilizzi questo asset senza specificare dei metadati, i seguenti valori veranno utilizzati come fallback.",
   "upload.defaultFieldMetadata.title": "Metadata standard",
