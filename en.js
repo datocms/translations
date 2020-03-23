@@ -1104,6 +1104,7 @@ module.exports = {
   'filter.saved': `Saved Filters`,
   'filter.shared': `Shared filters`,
   'filter.name': `Filter name`,
+  'filter.noFiltersSet': `No filters set`,
   'filter.sharingInfo': `Share this filter with every other user`,
   'filter.button.default': `Save filter`,
   'filter.personal': `Personal filters`,
