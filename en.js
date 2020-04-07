@@ -306,7 +306,7 @@ module.exports = {
   'deploymentEnvironments.options': `Options`,
   'deploymentEnvironments.production': `Production`,
   'deploymentEnvironments.staging': `Staging`,
-  'deploymentEnvironments.status.clean': `Deployed and up to date`,
+  'deploymentEnvironments.status.clean': `Last date of deploy: {date}`,
   'deploymentEnvironments.status.fail': `Last deploy failed.`,
   'deploymentEnvironments.status.log': `{link} to find out the cause.`,
   'deploymentEnvironments.status.log.link': `Inspect the logs`,
