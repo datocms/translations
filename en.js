@@ -1308,6 +1308,13 @@ module.exports = {
   'messages.confirm.destroySiteLocale.ok': `Yes, delete all content`,
   'messages.confirm.destroySiteLocale.question': `You are removing the following languages from the project: {locales}. By removing these languages you will delete ALL content associated with them. Are you REALLY sure you want to proceed?`,
   'messages.confirm.destroySiteLocale.title': `Delete locale`,
+  'messages.confirm.delocalizeField.question': `By disabling localization you will
+    delete ALL content associated with these languages: {locales}.
+    This field value will default to the main language content, {mainLocale}.
+    Are you sure you want to proceed?`,
+  'messages.confirm.delocalizeField.title': `Disable localization`,
+  'messages.confirm.delocalizeField.ok': `Yes, proceed`,
+  'messages.confirm.delocalizeField.cancel': `Cancel`,
   'messages.confirm.destroySsoGroup.cancel': `Cancel`,
   'messages.confirm.destroySsoGroup.ok': `Yes, delete`,
   'messages.confirm.destroySsoGroup.question': `Are you sure you want to delete this SSO Group?`,
