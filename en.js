@@ -1420,6 +1420,7 @@ module.exports = {
   'noAuth.signIn.logout.success': `Successfully logged out, bye!`,
   'noAuth.signIn.require2fa': `For security reasons, the owner of this project has requested that every member activates a two-factor authentication. Please enable it on your dashboard`,
   'noAuth.signIn.title': `Log in`,
+  'noAuth.signIn.tfaRequired': `Two-factor authentication required!`,
   'noMatch.body': `Sorry, but the page you've requested is not here. It is possible that it has been moved, or maybe it doesn't exist anymore.`,
   'noMatch.cta': `Go to Homepage`,
   'noMatch.title': `404?!`,
