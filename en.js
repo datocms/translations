@@ -967,7 +967,7 @@ module.exports = {
   'imageMetadata.iso': `ISO`,
   'imageMetadata.model': `Camera Model`,
   'imageMetadata.flash_mode': `Flash mode`,
-  'imageMetadata.focal_length': `Aperture`,
+  'imageMetadata.focal_length': `Focal length`,
   'imageMetadata.exposure_time': `Exposure time`,
   'imageMetadata.linksToItems.blank': `This asset is not used.`,
   'instructions.deployment': `<p>The job of building and deploying your static website is not performed directly by DatoCMS, but is delegated to an external Continuous Deployment service. <a target="_blank" href="https://www.datocms.com/docs/general-concepts/deployment">Read more in our docs</a>.</p>`,
