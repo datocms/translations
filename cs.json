@@ -801,7 +801,7 @@
   "form.webhook.custom_payload.hint": "Vložte vlastní payload. Můžete ho udělat dynamickým použitím <a href=\"http://mustache.github.io/mustache.5.html\">Mustache</a> proměnných.",
   "form.webhook.custom_payload.label": "Šablona payloadu",
   "form.webhook.entityOptions": "Entita",
-  "form.webhook.entityTypeIds.deployment_environment": "OD prostředí pro deployment (oddělené čárkami)",
+  "form.webhook.entityTypeIds.deployment_environment": "ID prostředí pro deployment (oddělené čárkami)",
   "form.webhook.entityTypeIds.item": "ID položek (oddělené čárkami)",
   "form.webhook.entityTypeIds.item_type": "ID modelů (oddělené čárkami)",
   "form.webhook.entityTypeIds.placeholder": "123, 33",
