@@ -1076,7 +1076,6 @@
   "limits.users.none": "Keine Mitarbeiter einladbar",
   "limits.users.unlimited": "Unbegrenzte Anzahl von Mitarbeitern",
   "limits.users.usage": "{unformattedValue, plural, one { eingeladener Kollaborateur } other { {value} Kollaborateure } }",
-  "limits.version_history": "Revisionshistorie",
   "localesInput.add": "Neue Sprache hinzufügen...",
   "localesInput.switch": "Wechseln zu...",
   "markdownEditor.toolbar": "Schaltflächen in der Symbolleiste",

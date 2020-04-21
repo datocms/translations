@@ -1100,7 +1100,6 @@
   "limits.users.none": "Ningún colaborador invitable",
   "limits.users.unlimited": "Colaboradores ilimitados",
   "limits.users.usage": "{unformattedValue, plural, one { colaborador invitable } other { {value} colaboradores } }",
-  "limits.version_history": "Revisión histórica",
   "localesInput.add": "Agregar nueva traducción...",
   "localesInput.switch": "Cambiar a...",
   "markdownEditor.toolbar": "Botones de la barra de herramientas",

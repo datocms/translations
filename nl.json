@@ -996,7 +996,6 @@
   "limits.users.none": "Teamleden uitnodigen niet mogelijk",
   "limits.users.unlimited": "Onbeperkt aantal teamleden",
   "limits.users.usage": "{unformattedValue, plural, one { 1 teamlid } other { {value} teamleden } }",
-  "limits.version_history": "Revisiegeschiedenis",
   "localesInput.add": "Voeg een nieuwe lokalisatie toe...",
   "localesInput.switch": "Schakel naar...",
   "markdownEditor.toolbar": "Toolbar knoppen",
