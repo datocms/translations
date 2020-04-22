@@ -1470,7 +1470,7 @@
   "site.deployAdapters.other": "Andere deployment Methoden",
   "site.deployAdapters.semaphore": "Semaphor",
   "site.deployAdapters.travis": "Travis",
-  "site.deployAdapters.zeit": "ZEIT",
+  "site.deployAdapters.zeit": "Vercel",
   "site.locales.docs": "Lesen Sie mehr über die Lokalisierung in unserer Dokumentation",
   "site.locales.hint": "Bitte wählen Sie in diesem Verwaltungsbereich die Sprachen aus, die Sie aktivieren möchten",
   "site.locales.label": "Unterstützte Sprachen",
