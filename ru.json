@@ -381,7 +381,6 @@
   "form.newWebhookForm.title": "Создайте новый вебхук!",
   "form.webhook.button.default": "Подтвердить",
   "form.webhook.entityOptions": "Сущность",
-  "form.webhook.entityTypeIds.deployment_environment": "ID Окружений развертывания (разделенные запятыми)",
   "form.webhook.entityTypeIds.item": "ID Записей (разделенные запятыми)",
   "form.webhook.entityTypeIds.item_type": "ID Моделей (разделенные запятыми)",
   "form.webhook.eventTypes": "События",
