@@ -68,8 +68,6 @@
   "planUpgradeRequired.mux_encoding_seconds.description": "Atingiste o limite máximo de codificação de vídeo no teu projeto atual.",
   "recordInfo.cancelScheduledPublication": "Cancelar",
   "recordInfo.changePosition": "Alterar",
-  "site.deployAdapters.other": "Outros métodos de deployment",
-  "site.deployAdapters.recommended": "Recomendado para sites JAMstack ",
   "upload.batchAddTags.hint": "Por favor especifique as tags para adicionar aos assets selecionados:",
   "upload.batchAddTags.modalTitle": "Adicionar tags aos assets",
   "uploadTable._created_at": "Criado em",
