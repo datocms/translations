@@ -203,7 +203,6 @@
   "buildEvent.type.request_failed": "Ein neuer Build konnte nicht angefordert werden",
   "buildEvent.type.request_failure": "Ein neuer Build konnte nicht angefordert werden",
   "buildEvent.type.request_success": "Ich habe einen neuen Build angefordert",
-  "buildEvent.type.request_unprocessable": "Sie haben einen ungültigen Webhook erhalten",
   "buildEvent.type.response_failure": "Build fehlgeschlagen",
   "buildEvent.type.response_success": "Bauen mit Erfolg abgeschlossen",
   "buildEvent.type.response_timeout": "Der Bau dauerte zu lange",

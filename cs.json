@@ -203,7 +203,6 @@
   "buildEvent.type.request_failed": "Požadavek o nové sestavení selhal.",
   "buildEvent.type.request_failure": "Požadavek o nové sestavení selhal.",
   "buildEvent.type.request_success": "Požádat o nové sestavení",
-  "buildEvent.type.request_unprocessable": "Přijat chybný webhook",
   "buildEvent.type.response_failure": "Sestavení selhalo",
   "buildEvent.type.response_success": "Sestavení dokončeno úspěšně",
   "buildEvent.type.response_timeout": "Sestavení trvalo moc dlouho",

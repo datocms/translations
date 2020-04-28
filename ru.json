@@ -117,7 +117,6 @@
   "buildEvent.type.request_failed": "Не удалось создать запрос на новую публикацию",
   "buildEvent.type.request_failure": "Не удалось создать запрос на новую публикацию",
   "buildEvent.type.request_success": "Запрошена новая сборка",
-  "buildEvent.type.request_unprocessable": "Получен неправильный вебхук",
   "buildEvent.type.response_failure": "Сборка не удалась",
   "buildEvent.type.response_success": "Сборка успешно завершена",
   "buildEvent.type.response_timeout": "Сборка заняла слишком много времени",

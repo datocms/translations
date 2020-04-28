@@ -203,7 +203,6 @@
   "buildEvent.type.request_failed": "Fallita la richiesta di una nuova build",
   "buildEvent.type.request_failure": "Fallita la richiesta di una nuova build",
   "buildEvent.type.request_success": "Richiesta una nuova build",
-  "buildEvent.type.request_unprocessable": "Ricevuto un webhook non valido",
   "buildEvent.type.response_failure": "Build fallita",
   "buildEvent.type.response_success": "Build completata con successo",
   "buildEvent.type.response_timeout": "La build ha impiegato troppo tempo per completare",

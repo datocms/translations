@@ -203,7 +203,6 @@
   "buildEvent.type.request_failed": "Nieuwe build aanvragen mislukt",
   "buildEvent.type.request_failure": "Nieuwe build aanvragen mislukt",
   "buildEvent.type.request_success": "Nieuwe build aangevraagd",
-  "buildEvent.type.request_unprocessable": "Ongeldige webhook ontvangen",
   "buildEvent.type.response_failure": "Build mislukt",
   "buildEvent.type.response_success": "Build succesvol afgerond",
   "buildEvent.type.response_timeout": "Build duurde te lang om af te ronden",

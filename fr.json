@@ -203,7 +203,6 @@
   "buildEvent.type.request_failed": "Impossible de demander une nouvelle construction",
   "buildEvent.type.request_failure": "Impossible de demander une nouvelle construction",
   "buildEvent.type.request_success": "A demandé une nouvelle construction",
-  "buildEvent.type.request_unprocessable": "Récéption d'un webhook invalide",
   "buildEvent.type.response_failure": "Construction échouée",
   "buildEvent.type.response_success": "Construction terminée avec succès",
   "buildEvent.type.response_timeout": "La construction prends trop de temps",
