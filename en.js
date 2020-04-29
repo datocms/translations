@@ -1259,6 +1259,7 @@ module.exports = {
   'limits.title': `Project usage and plan limits`,
   'limits.traffic_bytes': `Traffic (per month)`,
   'limits.uploadable_bytes': `File storage`,
+  'limits.history_retention_days': `History retention days`,
   'limits.users': `Collaborators`,
   'limits.users.none': `No collaborators invitable`,
   'limits.users.unlimited': `Unlimited collaborators`,
