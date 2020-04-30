@@ -1459,6 +1459,12 @@ module.exports = {
   'messages.confirm.takeOver.ok': `Yes, take control of this record`,
   'messages.confirm.takeOver.question': `If you proceed, { user } will be kicked out from his editing session, and you will be able to make changes to this record instead.`,
   'messages.confirm.takeOver.title': `Take over this record?`,
+  'messages.confirm.changeLinkValidations.cancel': `Cancel`,
+  'messages.confirm.changeLinkValidations.ok': `Yes, save and remove all links`,
+  'messages.confirm.changeLinkValidations.question': `You are removing the following accepted models
+    for this field: {deletedLinks}. If you proceed ALL links to these models will
+    be removed from your records and cannot be recovered.`,
+  'messages.confirm.changeLinkValidations.title': `Removing accepted models from link field`,
   'messages.dataRecovered': `Data has been successfully recovered!`,
   'messages.notsaved': `Changes`,
   'messages.notsaved.cancel': `Cancel`,
