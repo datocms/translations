@@ -617,8 +617,6 @@
   "role.canManageWebhooks": "Может управлять Вебхуками",
   "role.canPerformSiteSearch": "Может осуществлять вызовы API Поиска Сайта",
   "role.canPublishRecords": "Может публиковать записи",
-  "role.canPublishToProduction": "Может публиковать в Production окружение",
-  "role.canPublishToStaging": "Может публиковать в Staging окружение",
   "role.name": "Имя",
   "section.managePreferences": "Управление глобальными настройками сайта",
   "semaphore.authenticationToken": "Шаг 1: Найдите ваш ключ аутентификации",
