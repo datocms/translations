@@ -440,8 +440,6 @@
   "form.webhook.entityTypeIds.item": "ID Записей (разделенные запятыми)",
   "form.webhook.entityTypeIds.item_type": "ID Моделей (разделенные запятыми)",
   "form.webhook.eventTypes": "События",
-  "form.webhook.events.label": "Триггеры вебхука",
-  "form.webhook.filter": "Фильтр",
   "form.webhook.headers": "Пользовательские заголовки",
   "form.webhook.httpBasic": "HTTP basic auth",
   "form.webhook.httpBasicPassword": "Пароль",

@@ -408,7 +408,6 @@
   "form.webhook.entityOptions": "Entidade",
   "form.webhook.entityTypeIds.item": "IDs dos registos (separados por vírgulas)",
   "form.webhook.eventTypes": "Eventos",
-  "form.webhook.filter": "Filtro",
   "form.webhook.httpBasicPassword": "Palavra-passe",
   "form.webhook.httpBasicUser": "Utilizador",
   "form.webhook.name": "Nome",

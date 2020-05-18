@@ -1932,8 +1932,10 @@ module.exports = {
   'wysiwygEditor.toolbar.table': `Add table`,
   'wysiwygEditor.toolbar.undo': `Undo`,
   'wysiwygEditor.toolbar.unordered_list': `Unordered list`,
-  'zeitSettings.branch': `Specify here which GitHub branch you want to link to this build trigger. When triggering a deploy the selected branch will be used by Vercel to create a new build`,
-  'zeitSettings.branch.hint': `If not specified, the project's 'master' branch will be used`,
+  'zeitSettings.branch': `Vercel will create a new deployment hook using the selected branch,
+    be sure that your Vercel project is linked to a repository before going further.
+    If the specified branch does not exist or it is deleted you will have to create a new DatoCMS build trigger.`,
+  'zeitSettings.branch.hint': `Specify here the name of the branch (master, staging..)`,
   'zeitSettings.branch.placeholder': `master`,
   'zeitSettings.changeLink': `Want to link to a different Vercel project?`,
   'zeitSettings.createProject': `Create a new Vercel project`,
@@ -1947,7 +1949,7 @@ module.exports = {
   'zeitSettings.loadingProjects': `Loading your Vercel projects...`,
   'zeitSettings.noLink': `This DatoCMS project is currently linked to this Vercel project:`,
   'zeitSettings.noProjects': `The Vercel account you selected does not have any projects!`,
-  'zeitSettings.notLinkable': `Missing GitHub link - Please link this Vercel project to a GitHub repository to integrate it with DatoCMS`,
   'zeitSettings.projectCreated': `I've created a new project, refresh the list`,
   'zeitSettings.projectSelect': `Select the Vercel project you want to link to this DatoCMS project:`,
+  'zeitSettings.notLinkable': `Missing repository link - Please link this Vercel project to a Git repository to integrate it with DatoCMS`,
 };
