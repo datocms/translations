@@ -1200,6 +1200,7 @@ module.exports = {
   'itemType.editItemType': `Edit Model`,
   'itemType.editModularBlock': `Edit Modular Content block`,
   'itemType.id': `Model ID`,
+  'itemType.modularBlocks': `Modular blocks:`,
   'itemType.modularBlock.add': `New block`,
   'itemType.name': `Name`,
   'itemType.name.hint': `Please write it down in singular form (ie. "Article", not "Articles")`,
