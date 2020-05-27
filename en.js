@@ -1001,10 +1001,11 @@ module.exports = {
   'gitlab.triggerUrl': `Trigger URL`,
   'gitlab.webhook': `Step 2: Create Webhook`,
   'gitlab.webhookDescription': `Copy the following URL and use it to create a Webhook of type "Pipeline events":`,
-  'globalError.NOT_FOUND.title': `Resource not found!`,
+  'globalError.uuid': `Error ID:`,
+  'globalError.NOT_FOUND.title': `Resource not found (404)`,
   'globalError.NOT_FOUND.body': `
-    <p>Sorry but some of the requested resources do not exist.<p>
-    <p>If you think that's a mistake, you can always contact us via our <a href='https://www.datocms.com/support?topics=technical-support/ive-found-a-bug#form' target='_blank'>Support form</a>.</p>
+    <p>Sorry but some of the resources you requested do not exist.<p>
+    <p>If you think that's a mistake, you can always contact us via our <a href='{supportUrl}' target='_blank'>Support form</a>.</p>
   `,
   'globalError.DEACTIVATED_SITE.title': `Project deactivated!`,
   'globalError.DEACTIVATED_SITE.body': `
@@ -1013,20 +1014,20 @@ module.exports = {
   'globalError.INSUFFICIENT_PERMISSIONS.title': `Permission denied!`,
   'globalError.INSUFFICIENT_PERMISSIONS.body': `
     <p>Sorry, but the action you're trying to perform requires some priviledges you don't have.</p>
-    <p>If you think that's a mistake, you can always contact us via our <a href='https://www.datocms.com/support?topics=technical-support/ive-found-a-bug#form' target='_blank'>Support form</a>.</p>
+    <p>If you think that's a mistake, you can always contact us via our <a href='{supportUrl}' target='_blank'>Support form</a>.</p>
   `,
   'globalError.INVALID_SITE.body': `
     <p>Sorry, but no DatoCMS project exists under this domain.</p>
-    <p>If you think this is an error, please contact us via our <a href='https://www.datocms.com/support?topics=technical-support/ive-found-a-bug#form' target='_blank'>Support form</a>.</p>`,
+    <p>If you think this is an error, please contact us via our <a href='{supportUrl}' target='_blank'>Support form</a>.</p>`,
   'globalError.INVALID_SITE.title': `This project doesn't exist!`,
   'globalError.UNDER_MAINTENANCE.body': `
     <p>Sorry for the inconvenience but we're performing some maintenance at the moment.</p>
-    <p>You always can check our <a href='https://status.datocms.com' target='_blank'>Status page</a> to follow progress or contact us on <a href='https://www.datocms.com/support?topics=technical-support/ive-found-a-bug#form' target='_blank'>Support form</a>.</p>`,
+    <p>You always can check our <a href='https://status.datocms.com' target='_blank'>Status page</a> to follow progress or contact us on <a href='{supportUrl}' target='_blank'>Support form</a>.</p>`,
   'globalError.UNDER_MAINTENANCE.title': `We'll be back soon!`,
   'globalError.UNHANDLED_CLIENT_SIDE_ERROR.title': `Something went wrong!`,
   'globalError.UNHANDLED_CLIENT_SIDE_ERROR.body': `
     <p>We're very sorry, but it seems that you've just found a bug. We've already been notified about this issue, and we'll work on it as soon as possibile.</p>
-    <p>If you want, you can always contact us via our <a href='https://www.datocms.com/support?topics=technical-support/ive-found-a-bug#form' target='_blank'>Support page</a>.</p>
+    <p>If you want more info, you can always contact us via our <a href='{supportUrl}' target='_blank'>Support page</a>.</p>
   `,
   'globalSeo.button.default': `Update SEO fields`,
   'globalSeo.description': `Fallback description (if not specified)`,
