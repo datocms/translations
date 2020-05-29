@@ -972,7 +972,7 @@
   "imageMetadata.saveAsDefaultMetadata.hint": "Použít název, alt and vlastní metadata jako výchozí pro všechny výskyty tohoto souboru. Později můžete toto nastavení změnit.",
   "imageMetadata.smartTags": "Inteligentní tagy",
   "imageMetadata.tags": "Ručně zadané tagy",
-  "imageMetadata.title": "Nadpis",
+  "imageMetadata.title": "Popis",
   "imageMetadata.uploadInProgress": "{percent, plural, =0 {Nahrává se...} one {Nahrává se ({percent}%)...} other {Nahrává se ({percent}%)...}}",
   "indexingFailureReason.MISSING_FRONTEND_URL": "Žádné frontend URL není konfigurováno pro toto prostředí!",
   "instructions.deployment": "<p>Nasazení statického webu nevykonává přímo DatoCMS, ale je delegováno na externí službu Continuous Deployment. <a target=\"_blank\" href=\"https://www.datocms.com/docs/general-concepts/deployment\">Více v naší dokumentaci</a>.</p>",
