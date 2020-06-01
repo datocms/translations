@@ -2076,16 +2076,20 @@ module.exports = {
   'environment.maintenanceMode.failure': `We couldn't perform the operation!`,
 
   'messages.confirm.activateMaintenanceMode.title': `Turn on Maintenance mode?`,
-  'messages.confirm.activateMaintenanceMode.question': `
-    {count, plural,
-      =0 { No one is currently editing any record, so it's a safe moment to proceed. }
-      one { {names} is currently editing some records: if you proceed its changes will be lost. }
-      other { {names} are currently editing some records: if you proceed their changes will be lost. }
-    }
-    Writes on the primary environment will be disabled, and a warning will be shown to any collaborator browsing the project. Are you sure you want to proceed?
-  `,
+  'messages.confirm.activateMaintenanceMode.question': `Writes on the primary environment will be disabled, and a warning will be shown to any collaborator browsing the project. Are you sure you want to proceed?`,
   'messages.confirm.activateMaintenanceMode.cancel': `Cancel`,
   'messages.confirm.activateMaintenanceMode.ok': `Yes, turn on`,
+
+  'messages.confirm.activateMaintenanceMode.activeSessions.title': `Some collaborators are currently working!`,
+  'messages.confirm.activateMaintenanceMode.activeSessions.question': `
+    {count, plural,
+      one { {names} is currently editing some records: its changes will be lost. }
+      other { {names} are currently editing some records: their changes will be lost. }
+    }
+    Do you want to proceed with the activation of maintenance mode?
+  `,
+  'messages.confirm.activateMaintenanceMode.activeSessions.cancel': `Cancel`,
+  'messages.confirm.activateMaintenanceMode.activeSessions.ok': `Yes, turn on`,
 
   'maintenanceMode.active': `<strong>The project is undergoing scheduled maintenance</strong> and is currently in read-only mode. For more info, contact <a href="mailto:{email}">your system administrator</a>!`,
 };
