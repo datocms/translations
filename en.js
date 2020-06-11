@@ -847,6 +847,7 @@ module.exports = {
 
   'filter.shared': `Shared filters`,
   'filter.sharingInfo': `Share this filter with every other user`,
+  'filter.sharingInfo.shared': `This filter is shared with all project collaborators, you cannot change this setting`,
   'filter.size.operator.eq': `exactly`,
   'filter.size.operator.gt': `bigger than`,
   'filter.size.operator.gte': `bigger or equal`,
