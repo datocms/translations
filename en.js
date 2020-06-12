@@ -290,7 +290,7 @@ module.exports = {
   'custom.headers': `Custom headers`,
   'custom.payload': `Specify the JSON payload to send with the request`,
   'custom.trigger': `Step 1: Trigger URL`,
-  'custom.triggerDescription': `DatoCMS will send a POST request to the specified endpoint on every publish request.`,
+  'custom.triggerDescription': `DatoCMS will send a POST request to the specified endpoint on every build request.`,
   'custom.triggerUrl': `Specify the URL of the trigger endpoint:`,
   'custom.triggerUrlPlaceholder': `https://api.yourapp.com/request_build`,
   'custom.webhook': `Step 2: Status notifications`,
