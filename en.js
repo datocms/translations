@@ -2096,4 +2096,15 @@ module.exports = {
   'messages.confirm.activateMaintenanceMode.activeSessions.ok': `Yes, turn on`,
 
   'maintenanceMode.active': `<strong>The project is undergoing scheduled maintenance</strong> and is currently in read-only mode. For more info, contact <a href="mailto:{email}">your system administrator</a>!`,
+
+  'usageCounter.assets_path_bytes': `Top requested assets`,
+  'usageCounter.assets_referrer_bytes': `Top referrers for assets`,
+  'usageCounter.cda_access_token_id_bytes': `Top API tokens for CDA requests`,
+  'usageCounter.cda_access_token_id_requests': `Top API tokens for CDA requests`,
+  'usageCounter.cda_referrer_bytes': `Top referrers for CDA requests`,
+  'usageCounter.cda_referrer_requests': `Top referrers for CDA requests`,
+  'usageCounter.cma_endpoint_bytes': `Top CMA endpoints`,
+  'usageCounter.cma_endpoint_requests': `Top CMA endpoints`,
+  'usageCounter.cma_user_bytes': `Top users for CMA`,
+  'usageCounter.cma_user_requests': `Top users for CMA by number of request`,
 };
