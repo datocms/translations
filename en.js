@@ -2111,4 +2111,8 @@ module.exports = {
   'usageCounter.period.today': `Today`,
   'usageCounter.period.current_month': `This month`,
   'usageCounter.period.last_month': `Last month`,
+  'usageCounter.info': `
+    Counters are updated every minute and can help you to better identify the source of the incoming requests. They’re not to be considered 100%
+    accurate, and serve for qualitative analysis.
+  `,
 };
