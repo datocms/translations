@@ -2107,4 +2107,8 @@ module.exports = {
   'usageCounter.cma_endpoint_requests': `Top CMA endpoints`,
   'usageCounter.cma_user_bytes': `Top users for CMA`,
   'usageCounter.cma_user_requests': `Top users for CMA by number of request`,
+
+  'usageCounter.period.today': `Today`,
+  'usageCounter.period.current_month': `This month`,
+  'usageCounter.period.last_month': `Last month`,
 };
