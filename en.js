@@ -1705,8 +1705,8 @@ module.exports = {
   'role.records.negative': `Role CANNOT perform these actions on records:`,
   'role.records.noRules': `Role cannot perform any action on records.`,
 
-  'role.addPositive': `Add whitelist rule`,
-  'role.addNegative': `Add blacklist rule`,
+  'role.addPositive': `Add allow rule`,
+  'role.addNegative': `Add block rule`,
 
   'role.recordsPermissionsOnEnvironment': `Permissions on {environment}`,
 
