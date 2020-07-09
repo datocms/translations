@@ -1231,7 +1231,7 @@
   "messages.confirm.regenerateAccessToken.question": "Sei sicuro di voler rigenerare questo API token?",
   "messages.confirm.regenerateAccessToken.title": "Rigenera token API",
   "messages.confirm.removeReferences.cancel": "Torna indietro",
-  "messages.confirm.removeReferences.ok": "Sì, cancellalo e rimuovi i collegamenti",
+  "messages.confirm.removeReferences.ok": "Sì, procedi e rimuovi i collegamenti",
   "messages.confirm.removeReferences.question": "Questo record è usato in un campo \"link\" dei seguenti record in stato \"pubblicato\". Se procedi i collegamenti verranno eliminati.",
   "messages.confirm.removeReferences.title": "Rimuovi i collegamenti?",
   "messages.confirm.takeOver.cancel": "Annulla",
