@@ -219,7 +219,6 @@
   "buildTrigger.schedule.label": "Automatisch een build starten voor geplande publicaties",
   "buildTrigger.spidering.guide": "Leer hoe je DatoCMS Search in je site kunt integreren in onze documentatie",
   "buildTrigger.spidering.hint": "Na elke build, respideren we je site om de laatste content te krijgen",
-  "buildTrigger.spidering.hintWithLimit": "Na elke deploy, respideren we je site om de laatste content te krijgen. Je abonnement voor deze site heeft een limiet van {limit} indexeerbare pagina's",
   "buildTrigger.spidering.label": "Site Search mogelijk maken",
   "buildTriggers.buildMethod": "Build methode",
   "buildTriggers.options": "Opties",

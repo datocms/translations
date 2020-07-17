@@ -220,7 +220,6 @@
   "buildTrigger.schedule.label": "Esegui automaticamente una build alla pubblicazione schedulata di un record",
   "buildTrigger.spidering.guide": "Impara a integrare DatoCMS Search nel tuo sito nelle nostre docs",
   "buildTrigger.spidering.hint": "Ogni volta che il sito verrà pubblicato, tutto il contenuto verrà indicizzato",
-  "buildTrigger.spidering.hintWithLimit": "Ogni volta che il sito verrà pubblicato, tutto il contenuto verrà indicizzato. Il limite di pagine indicizzabili nel tuo piano è {limit}.",
   "buildTrigger.spidering.label": "Abilita Site Search",
   "buildTriggers.buildMethod": "Tipologia di build",
   "buildTriggers.options": "Opzioni",

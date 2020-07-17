@@ -219,7 +219,6 @@
   "buildTrigger.schedule.label": "Desencadenar despliegue automáticamente en publicaciones programadas",
   "buildTrigger.spidering.guide": "Aprenda a integrar DatoCMS Search en su sitio en nuestra documentación",
   "buildTrigger.spidering.hint": "Cada vez que se crea su sitio, lo revisaremos para obtener contenido actualizado",
-  "buildTrigger.spidering.hintWithLimit": "Cada vez que se despliega su sitio, lo revisaremos para obtener contenido actualizado. Su plan para este sitio limita el número de páginas indexables a {limit}.",
   "buildTrigger.spidering.label": "Habilitar Búsqueda en la Sitio Web",
   "buildTriggers.buildMethod": "Método de despliegue",
   "buildTriggers.options": "Opciones",

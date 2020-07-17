@@ -220,7 +220,6 @@
   "buildTrigger.schedule.label": "Automaticky spouštět build na naplánovaných publikacích",
   "buildTrigger.spidering.guide": "Zjistěte, jak integrovat DatoCMS vyhledávání do vaší stránky, v naší dokumentaci",
   "buildTrigger.spidering.hint": "Pokaždé, když je vaše stránka sestavena, respiderujeme ji, aby získala upravený obsah",
-  "buildTrigger.spidering.hintWithLimit": "Pokaždé, když je vaše stránka nasazena, respiderujeme ji, aby získala upravený obsah. Váš tarif pro tuto stránku omezuje počet indexovatelných stránek na {limit}.",
   "buildTrigger.spidering.label": "Povolit prohledávání stránky",
   "buildTriggers.buildMethod": "Metoda sestavení",
   "buildTriggers.options": "Možnosti",

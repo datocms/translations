@@ -224,7 +224,6 @@
   "buildTrigger.schedule.label": "Déclencher une construction du site automatiquement sur des publications planifiées",
   "buildTrigger.spidering.guide": "Apprenez comment intégrer DatoCMS search and votre site web avec notre documentation",
   "buildTrigger.spidering.hint": "Chaque fois que votre site est construit, nous ré-indexons votre site pour mettre à jour son contenu",
-  "buildTrigger.spidering.hintWithLimit": "Chaque fois que votre site est construit, nous ré-indexons votre site pour mettre à jour son contenu. Votre plan actuel pour ce site limite le nombre de pages indexables à {limit}.",
   "buildTrigger.spidering.label": "Activer la recherche site",
   "buildTriggers.buildMethod": "Méthode de build",
   "buildTriggers.options": "Options",

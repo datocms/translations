@@ -130,7 +130,6 @@
   "buildTrigger.name.label": "Имя",
   "buildTrigger.spidering.guide": "Узнайте в нашей документации, как интегрировать поиск DatoCMS на вашем сайте",
   "buildTrigger.spidering.hint": "После каждого деплоя вашего сайта, мы переиндексируем его для того, чтобы получить обновленный контент",
-  "buildTrigger.spidering.hintWithLimit": "После каждого деплоя вашего сайта, мы переиндексируем его для того, чтобы получить обновленный контент. На вашем текущем тарифе максимальное количество индексируемых страниц ограничено до {limit}.",
   "buildTrigger.spidering.label": "Включить Поиск на сайте (beta)",
   "buildTriggers.production": "Production",
   "buildTriggers.staging": "Staging",
