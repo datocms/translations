@@ -950,7 +950,7 @@ module.exports = {
   'form.webhook.entityTypeIds.item_type.placeholder': `blog_post, author`,
   'form.webhook.entityTypeIds.item_type.hint': `Specify the API key or ID of the models (delimited with commas)`,
   'form.webhook.entityTypeIds.environment.hint': `Specify the name of the environments (delimited with commas)`,
-  'form.webhook.entityTypeIds.environment.placeholder': `master, sandbox1`,
+  'form.webhook.entityTypeIds.environment.placeholder': `primary, sandbox1`,
   'form.webhook.entityTypeIds.environment_type.placeholder': `Select the type of environment`,
   'form.webhook.eventTypes': `Events`,
   'form.webhook.filterType': `Condition`,
@@ -2071,7 +2071,7 @@ module.exports = {
   'webhookCalls.event.environment.promote': 'Environment promotion',
 
   'form.webhook.environments': 'Trigger only on specific environments',
-  'form.webhook.environments.placeholder': `master, sandbox1`,
+  'form.webhook.environments.placeholder': `primary, sandbox1`,
   'form.webhook.conditions.add': `Add a condition`,
   'form.webhook.environmentType.primary': 'Primary',
   'form.webhook.environmentType.sandbox': 'Sandbox',
