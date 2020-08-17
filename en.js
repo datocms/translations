@@ -647,8 +647,8 @@ module.exports = {
     max_min_multiple_of { Insert between {min} and {max} items in multiple of {multiple_of}}
     eq { Number of items must be exactly {eq} } }`,
 
-  'fieldError.VALIDATION_UNIQUE': `Field must contain an unique value`,
-  'fieldError.VALIDATION_UNIQUENESS': `Field must contain an unique value`,
+  'fieldError.VALIDATION_UNIQUE': `Field must contain a unique value`,
+  'fieldError.VALIDATION_UNIQUENESS': `Field must contain a unique value`,
   'fieldError.WEAK_PASSWORD': `The password must be at least 8 characters long, have a lowercase letter, an uppercase letter and a number`,
   'fieldForm.appearance.editor': `Field editor`,
   'fieldForm.appearance.editor.hint': `Choose how this field should be displayed`,
