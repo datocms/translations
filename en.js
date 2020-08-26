@@ -871,6 +871,7 @@ module.exports = {
   'form.editPlugin.info': `Plugin info`,
   'form.editPlugin.installableOn': `<strong>Installable on:</strong> {fieldTypes} fields`,
   'form.editPlugin.newVersion': `A new version of <strong>{pluginName}</strong> is now available!`,
+  'form.editPlugin.newVersionCannotUpdate': `Version {version} of the <strong>{pluginName}</strong> plugin is available. Since the new version has different settings than your current one, to upgrade you have to uninstall and re-install the plugin.`,
   'form.editPlugin.noFieldsUsing': `No field is using this plugin yet!`,
   'form.editPlugin.pluginType': `Plugin type:`,
   'form.editPlugin.settings': `Plugin settings`,
