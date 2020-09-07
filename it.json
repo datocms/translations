@@ -391,7 +391,7 @@
   "editor.item.destroyScheduledPublication.failure": "Non è stato possibile cancellare la pubblicazione automatica",
   "editor.item.destroyScheduledPublication.success": "Pubblicazione automatica disattivata!",
   "editor.item.duplicate.failure": "Non è stato possibile duplicare il record",
-  "editor.item.duplicate.success": "Il record è sttato duplicato correttamente!",
+  "editor.item.duplicate.success": "Il record è stato duplicato correttamente!",
   "editor.item.filterClear": "Svuota",
   "editor.item.new": "Nuovo record",
   "editor.item.noItems.button": "Crea nuovo record",
