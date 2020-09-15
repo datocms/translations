@@ -180,6 +180,7 @@ module.exports = {
   'adminArea.splitPane.sso': `Single sign-on`,
   'adminArea.splitPane.ssoGroups': `Groups`,
   'adminArea.splitPane.ssoSettings': `Settings`,
+  'adminArea.splitPane.whiteLabelSettings': `White-label`,
   'adminArea.splitPane.ssoUsers': `Provisioned users`,
   'adminArea.splitPane.structure': `Structure`,
   'adminArea.splitPane.usage': `Project usages`,
@@ -1262,7 +1263,7 @@ module.exports = {
   'itemType.singleton.guide': `Read more about single-instance models vs collections in our docs`,
   'itemType.singleton.hint': `Do you need to manage a collection of records of this kind, or just a single one?`,
   'itemType.titleField': `Title field`,
-  'itemType.toContent': `Go to content`,
+  'itemType.toContent': `Go to content editing`,
   'itemType.validator.placeholder': `Select one (or more) model(s)...`,
   'itemTypeForm.tab.basic': `Basic info`,
   'itemTypeForm.tab.extra': `Additional settings`,
@@ -2125,4 +2126,41 @@ module.exports = {
     Reports are updated every minute and can help you to better identify the source of the incoming requests. They’re not to be considered 100%
     accurate, and serve for qualitative analysis.
   `,
+
+  'itemType.fieldset.add': `Add new fieldset`,
+  'fieldset.edit': `Edit fieldset`,
+  'fieldset.title': `Title`,
+  'fieldset.title.hint': `The title for this fieldset`,
+  'fieldset.hint': `Hint`,
+  'fieldset.hint.hint': `This help text will show up below the title`,
+  'fieldset.button.default': `Save fieldset`,
+  'fieldset.collapsible': `Collapsible?`,
+  'fieldset.startCollapsed': `Display fieldset as collapsed initially?`,
+
+  'messages.confirm.destroyFieldset.cancel': `Cancel`,
+  'messages.confirm.destroyFieldset.ok': `Yes, delete`,
+  'messages.confirm.destroyFieldset.question': `Are you sure you want to delete this fieldset? All the fields it contains will not be lost, and will simply be put at the top level.`,
+  'messages.confirm.destroyFieldset.title': `Delete fieldset`,
+
+  'admin.fieldset.create.failure': `Couldn't create fieldset!`,
+  'admin.fieldset.create.success': `Fieldset created successfully!`,
+  'admin.fieldset.update.failure': `Couldn't update fieldset!`,
+  'admin.fieldset.update.success': `Fieldset updated successfully!`,
+
+  'admin.itemType.destroyFieldset.failure': `Couldn't remove the fieldset!`,
+  'admin.itemType.destroyFieldset.success': `Fieldset successfully removed`,
+
+  'admin.whiteLabelSettings.title': `White-label settings`,
+  'admin.whiteLabelSettings.instructions': `
+<p>Here you can specify a template URL that will be used to download custom I18n messages JSONs. The template must contain the <code>:locale</code> placeholder.</p>
+<p>Here's an example of the JSON structure expected:</p>
+<pre>{
+  "items.form.&lt;MODEL_API_KEY&gt;.name": "...",
+  "items.form.&lt;MODEL_API_KEY&gt;.fields.&lt;FIELD_API_KEY&gt;.label": "...",
+  "menuItems.&lt;MENU_ITEM_LABEL&gt;.label": "...",
+}</pre>`,
+  'admin.whiteLabelSettings.customI18nMessagesTemplateUrl': `Custom I18n messages template URL`,
+  'admin.whiteLabelSettings.button.default': `Save white-label settings`,
+  'admin.whiteLabelSettings.update.failure': `Could not save settings!`,
+  'admin.whiteLabelSettings.update.success': `Settings successfully saved, please reload the page to see the changes applied!`,
 };
