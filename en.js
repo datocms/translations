@@ -379,6 +379,8 @@ module.exports = {
   'editor.editor.create.success': `Invitation successfully sent!`,
   'editor.editor.deactivateUser.failure': `Couldn't deactivate the user!`,
   'editor.editor.deactivateUser.success': `User deactivated!`,
+  'editor.editor.reactivateUser.failure': `Couldn't reactivate the user!`,
+  'editor.editor.reactivateUser.success': `User reactivated!`,
   'editor.editor.destroy.failure': `Couldn't remove user!`,
 
   'editor.editor.destroy.newCreator.description': `
