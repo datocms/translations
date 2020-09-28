@@ -2159,6 +2159,9 @@ module.exports = {
 <pre>{
   "items.form.&lt;MODEL_API_KEY&gt;.name": "...",
   "items.form.&lt;MODEL_API_KEY&gt;.fields.&lt;FIELD_API_KEY&gt;.label": "...",
+  "items.form.&lt;MODEL_API_KEY&gt;.fields.&lt;FIELD_API_KEY&gt;.hint": "...",
+  "items.form.&lt;MODEL_API_KEY&gt;.fieldsets.&lt;FIELDSET_TITLE&gt;.title": "...",
+  "items.form.&lt;MODEL_API_KEY&gt;.fieldsets.&lt;FIELDSET_TITLE&gt;.hint": "...",
   "menuItems.&lt;MENU_ITEM_LABEL&gt;.label": "...",
 }</pre>`,
   'admin.whiteLabelSettings.customI18nMessagesTemplateUrl': `Custom I18n messages template URL`,
