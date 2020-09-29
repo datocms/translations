@@ -1133,7 +1133,7 @@ module.exports = {
   'imageMetadata.renameInProgress': `Renaming asset...`,
   'imageMetadata.replace': `Replace asset`,
   'imageMetadata.saveAsDefaultMetadata': `Set values as the asset's default for {language}`,
-  'imageMetadata.saveAsDefaultMetadata.hint': `Use this title, alt and custom data as the default metadata to use in any other occurence of this asset around your project. You can always change this setting in the Media Area.`,
+  'imageMetadata.saveAsDefaultMetadata.hint': `Will be used in any other occurence of this asset around your project.`,
   'imageMetadata.smartTags': `Smart tags`,
   'imageMetadata.tags': `Manual tags`,
   'imageMetadata.title': `Title/Caption`,
