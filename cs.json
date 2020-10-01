@@ -504,7 +504,7 @@
   "fieldError.VALIDATION_JSON": "Pole musí být platný JSON",
   "fieldError.VALIDATION_LENGTH": "{ valorizedKeys, select, min { Pole musí být alespoň {min} znaků dlouhé } max { Pole nemůže být více než {max} znaků dlouhé } max_min { Délka pole musí být mezi {min} a {max} znaky } eq { Pole musí být {eq} znaků dlouhé } }",
   "fieldError.VALIDATION_MUSTACHE": "Pole musí být validní Mustache šablona",
-  "fieldError.VALIDATION_NUMBER_RANGE": "{ valorizedKeys, select, min { Pole musí být větší nebo rovno {min} } max { Hodnota pole nemůže být menší nebo rovna {max} } max_min { Hodnota pole musí být mezi {min} a {max} } }",
+  "fieldError.VALIDATION_NUMBER_RANGE": "{ valorizedKeys, select, min { Hodnota pole musí být větší nebo rovna {min} } max { Hodnota pole musí být menší nebo rovna {max} } max_min { Hodnota pole musí být mezi {min} a {max} } }",
   "fieldError.VALIDATION_PLURAL": "API identifier musí být vyjádřen v jednotné formě (např. článek, ne články)",
   "fieldError.VALIDATION_REQUIRED": "Pole je vyžadováno",
   "fieldError.VALIDATION_REQUIRED_ALT_TITLE": "{valorizedKeys, select,\n      alt { Pole musí obsahovat alternativní text souboru }\n      title { Pole musí obsahovat název souboru }\n      alt_title { Pole musí obsahovat název a alternativní text souboru }\n    }",
