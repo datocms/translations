@@ -378,7 +378,7 @@ module.exports = {
   'editor.item.batch.publish.result': `{successful, plural, =0 {No record published} one {One record successfully published!} other {{successful} records successfully published!} }`,
   'editor.item.batch.unpublish.failure': `Couldn't unpublish the records!`,
   'editor.item.batch.unpublish.result': `{successful, plural, =0 {No record unpublished} one {One record successfully unpublished!} other {{successful} records successfully unpublished!} }`,
-  'editor.item.changeCreator.description': `Please select the users that will become the new creator for this record:`,
+  'editor.item.changeCreator.description': `Please select the user that will become the new creator for this record:`,
   'editor.item.changeCreator.failure': `Coudn't change creator!`,
   'editor.item.changeCreator.field': `New creator`,
   'editor.item.changeCreator.submit.default': `Set as new creator`,
@@ -1681,7 +1681,7 @@ module.exports = {
   'role.records.noRules': `Role cannot perform any action on records.`,
 
   'role.addPositive': `Add allow rule`,
-  'role.addNegative': `Add block rule`,
+  'role.addNegative': `Add deny rule`,
 
   'role.recordsPermissionsOnEnvironment': `Permissions on {environment}`,
 
