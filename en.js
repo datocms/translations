@@ -912,7 +912,7 @@ module.exports = {
   'form.webhook.entityOptions': `Entity`,
   'form.webhook.entityTypeIds.build_trigger': `Only for these build triggers`,
   'form.webhook.entityTypeIds.item': `Only if the record is one of the following`,
-  'form.webhook.entityTypeIds.item_type': `Only if the record's model is one of the following`,
+  'form.webhook.entityTypeIds.item_type': `Only if the model is one of the following`,
   'form.webhook.entityTypeIds.environment': `Only if the environment is one of the following`,
   'form.webhook.entityTypeIds.environment_type': `Only if environment is marked as`,
   'form.webhook.entityTypeIds.item.placeholder': `123, 33`,
