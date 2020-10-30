@@ -344,7 +344,6 @@
   "editor.isAdmin": "Admin?",
   "editor.item.batch.destroy.failure": "Nepodařilo se odstranit položky",
   "editor.item.batch.destroy.result": "{successful, plural, =0 {Žádná položka nebyla smazána} one {Jedna položka úspěšně smazána!} few {{successful} položky úspěšně smazány!} other {{successful} položek úspěšně smazáno!} }",
-  "editor.item.batch.limitReached": "Pardon, nejvyšší počet položek, které můžete naráz upravit je {limit}! Vyberte méně položek a zkuste to znovu.",
   "editor.item.batch.publish.failure": "Položky se nepodařilo publikovat!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Žádná položka nebyla vypublikována} one {Jedna položka byla úspěšně vypublikována!} few {{successful} položy byly úspěšně vypublikovány!} other {{successful} položek bylo úspěšně vypublikováno!} }",
   "editor.item.batch.unpublish.failure": "Položky se nepodařilo odpublikovat!",

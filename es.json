@@ -341,7 +341,6 @@
   "editor.inviteNew": "Invitar a un nuevo colaborador",
   "editor.invited": "Invitado",
   "editor.isAdmin": "Admin?",
-  "editor.item.batch.limitReached": "Lo sentimos, ¡los registros máximos que puede actualizar al mismo tiempo son {limit}! Seleccione una lista más corta de registros y vuelva a intentar.",
   "editor.item.batch.publish.failure": "¡No se pudieron publicar los registros!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Ningún registro publicado} one {¡Un registro publicado con éxito!} other {¡{successful} registros publicados con éxito!} }",
   "editor.item.batch.unpublish.failure": "¡No se pudo anular la publicación de los registros!",

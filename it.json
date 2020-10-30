@@ -376,7 +376,6 @@
   "editor.isAdmin": "Amministratore?",
   "editor.item.batch.destroy.failure": "Non è stato possibile eliminare i record!",
   "editor.item.batch.destroy.result": "{successful, plural, =0 {Nessun record eliminato} one {Un record eliminato con successo!} other {{successful} record eliminati con successo!} }",
-  "editor.item.batch.limitReached": "Il limite massimo di record modificabili in gruppo è di {limit}! Crea una lista più corta e riprova.",
   "editor.item.batch.publish.failure": "Non è stato possibile pubblicare i record!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Nessun record pubblicato} one {Un record pubblicato con successo!} other {{successful} record pubblicati con successo!}}",
   "editor.item.batch.unpublish.failure": "Non è stato possibile pubblicare i record!",

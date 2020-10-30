@@ -341,7 +341,6 @@
   "editor.inviteNew": "Lade neuen Mitarbeiter ein",
   "editor.invited": "Eingeladen",
   "editor.isAdmin": "Admin?",
-  "editor.item.batch.limitReached": "Sorry, die maximalen Datensätze, die Sie gleichzeitig aktualisieren können, sind {limit}! Wählen Sie weniger Datensätze aus und versuchen Sie es erneut.",
   "editor.item.batch.publish.failure": "Einträge konnten nicht veröffentlicht werden!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Kein Eintrag veröffentlicht} one {Ein Eintrag erfolgreich veröffentlicht!} other {{successful} Einträge erfolgreich veröffentlicht!} }",
   "editor.item.batch.unpublish.failure": "Einträge konnten nicht veröffentlicht werden!",

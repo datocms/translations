@@ -374,7 +374,6 @@
   "editor.isAdmin": "Admin?",
   "editor.item.batch.destroy.failure": "Não foi possível destruir os registos!",
   "editor.item.batch.destroy.result": "{successful, plural, =0 {Nenhum registo eliminado} one {Um registo eliminado com sucesso!} other {{successful} registos eliminados com sucesso!} }",
-  "editor.item.batch.limitReached": "Pedimos desculpa, o número máximo de registo que pode atualizar ao mesmo tempo é {limit}! Selecione uma lista mais pequena de registo e tente novamente!",
   "editor.item.batch.publish.failure": "Não foi possível publicar os registos!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Nenhum registo publicado} one {Um registo publicado com sucesso!} other {{successful} registos publicados com sucesso!} }",
   "editor.item.batch.unpublish.failure": "Não foi possível cancelar a publicação dos registos!",

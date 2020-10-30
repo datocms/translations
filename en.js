@@ -373,7 +373,6 @@ module.exports = {
   'editor.isAdmin': `Admin?`,
   'editor.item.batch.destroy.failure': `Couldn't destroy the records!`,
   'editor.item.batch.destroy.result': `{successful, plural, =0 {No record deleted} one {One record successfully deleted!} other {{successful} records successfully deleted!} }`,
-  'editor.item.batch.limitReached': `Sorry, the maximimum records you can update at the same time is {limit}! Select a shorter list of records and retry.`,
   'editor.item.batch.publish.failure': `Couldn't publish the records!`,
   'editor.item.batch.publish.result': `{successful, plural, =0 {No record published} one {One record successfully published!} other {{successful} records successfully published!} }`,
   'editor.item.batch.unpublish.failure': `Couldn't unpublish the records!`,
@@ -441,7 +440,7 @@ module.exports = {
   'editor.upload.batchDestroy.failure': `Couldn't delete the assets`,
 
   'editor.upload.batchDestroy.result': `{
-    deleted, plural, =0 {No asset deleted} one {One asset} other {{deleted} assets}} deleted
+    deleted, plural, =0 {No asset} one {One asset} other {{deleted} assets}} deleted
     {inUse, plural, =0 {} one {, one asset not deleted as it's currently used} other {, {inUse} assets not deleted as they're currently used}
   }`,
 

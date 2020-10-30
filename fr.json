@@ -376,7 +376,6 @@
   "editor.isAdmin": "Admin?",
   "editor.item.batch.destroy.failure": "Impossible de supprimer les entités !",
   "editor.item.batch.destroy.result": "{successful, plural, =0 {Aucune entité supprimée} one {Une entité supprimée avec succès !} other {{successful} entités supprimées avec succès !} }",
-  "editor.item.batch.limitReached": "Désolé, le nombre maximum d'entités que vous pouvez éditer en même temps est de {limit} ! Sélectionnez moins d'entités dans votre liste et réessayez.",
   "editor.item.batch.publish.failure": "Impossible de publier les entités !",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Pas d'entité publiée} one {Une entité publiée !} other {{successful} entités publiées !} }",
   "editor.item.batch.unpublish.failure": "Impossible de dépublier les entités !",

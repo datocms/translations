@@ -334,7 +334,6 @@
   "editor.invite.new": "Nodig iemand uit om mee te werken",
   "editor.invited": "Uitgenodigd",
   "editor.isAdmin": "Beheerder?",
-  "editor.item.batch.limitReached": "Sorry! Je kunt maximaal {limit} items tegelijk updaten. Selecteer er minder en probeer het opnieuw.",
   "editor.item.batch.publish.failure": "Items publiceren mislukt!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Geen item gepubliceerd} one {Een item gepubliceerd!} other {{successful} items gepubliceerd!} }",
   "editor.item.batch.unpublish.failure": "Items depubliceren mislukt!",
