@@ -389,7 +389,7 @@ module.exports = {
   'editor.upload.changeCreator.field': `New creator`,
   'editor.upload.changeCreator.submit.default': `Set as new creator`,
   'editor.upload.changeCreator.success': `Creator changed successfully!`,
-  'editor.upload.changeCreator.title': `Change record's creator`,
+  'editor.upload.changeCreator.title': `Change asset's creator`,
 
   'editor.item.create.failure': `Couldn't create the record!`,
   'editor.item.create.success': `Record successfully created`,
@@ -1701,8 +1701,6 @@ module.exports = {
   'role.upload.select.creator.negativeSelf': `Created by users different than itself`,
   'role.upload.select.creator.role': `Created by users with same role`,
   'role.upload.select.creator.self': `Created by the user itself`,
-  'role.upload.select.model.all': `All records`,
-  'role.upload.select.model.none': `Any record`,
 
   'role.buildTriggers.positive': `Role CAN trigger:`,
   'role.buildTriggers.negative': `Role CANNOT trigger:`,
