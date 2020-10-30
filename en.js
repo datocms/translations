@@ -383,6 +383,14 @@ module.exports = {
   'editor.item.changeCreator.submit.default': `Set as new creator`,
   'editor.item.changeCreator.success': `Creator changed successfully!`,
   'editor.item.changeCreator.title': `Change record's creator`,
+
+  'editor.upload.changeCreator.description': `Please select the user that will become the new creator for this asset:`,
+  'editor.upload.changeCreator.failure': `Coudn't change creator!`,
+  'editor.upload.changeCreator.field': `New creator`,
+  'editor.upload.changeCreator.submit.default': `Set as new creator`,
+  'editor.upload.changeCreator.success': `Creator changed successfully!`,
+  'editor.upload.changeCreator.title': `Change record's creator`,
+
   'editor.item.create.failure': `Couldn't create the record!`,
   'editor.item.create.success': `Record successfully created`,
   'editor.item.destroy.failure': `Couldn't delete record!`,
@@ -433,7 +441,7 @@ module.exports = {
 
   'editor.upload.batchAddTags.result': `{
     updated, plural, =0 {No asset} one {One asset} other {{updated} assets}} updated
-    {failed, plural, =0 {} one {, could not update one asset} other {, could not update {failed} assets}
+    {failed, plural, =0 {} one {, could not update one asset as you don't have enough permissions} other {, could not update {failed} assets as you don't have enough permissions}
   }`,
 
   'editor.upload.batchAddTags.success': `Tags added successfully`,
@@ -441,7 +449,7 @@ module.exports = {
 
   'editor.upload.batchDestroy.result': `{
     deleted, plural, =0 {No asset} one {One asset} other {{deleted} assets}} deleted
-    {inUse, plural, =0 {} one {, one asset not deleted as it's currently used} other {, {inUse} assets not deleted as they're currently used}
+    {inUse, plural, =0 {} one {, one asset not deleted as it's currently used or you don't have enough permissions} other {, {inUse} assets not deleted as they're currently used or you don't have enough permissions}
   }`,
 
   'editor.upload.changeMetadata.failure': `We could not change the default metadata`,
@@ -861,12 +869,12 @@ module.exports = {
   'form.fileGalleryInput.noFile': `No files present`,
   'form.fileGalleryInput.openMediaGallery': `From Media Area`,
   'form.fileGalleryInput.removeImage': `Remove`,
+  'form.fileInput.noFile': `No file present`,
   'form.fileInput.buttonLabel': `Upload new file`,
   'form.fileInput.cancelButton': `Cancel upload`,
   'form.fileInput.dragHere': `Drag a file here`,
   'form.fileInput.emptyButtonLabel': `Upload new`,
   'form.fileInput.hint': `Max size 150MB`,
-  'form.fileInput.noFiles': `No file specified`,
   'form.fileInput.openMediaGallery': `From Media Area`,
   'form.fileInput.removeImage': `Remove`,
   'form.globalSeoInput.edit': `Edit`,
@@ -1066,13 +1074,14 @@ module.exports = {
   'imageMetadata.date': `Upload date`,
   'imageMetadata.language': `Language`,
   'imageMetadata.delete': `Remove or replace`,
+  'imageMetadata.deleteOnly': `Remove`,
   'imageMetadata.deleteMultiple': `Remove`,
   'imageMetadata.description': `Description`,
   'imageMetadata.destroy': `Delete`,
   'imageMetadata.dimensions': `Dimensions`,
   'imageMetadata.download': `Download`,
   'imageMetadata.duration': `Video duration`,
-  'imageMetadata.edit': `Edit metadata`,
+  'imageMetadata.edit': `Edit`,
   'imageMetadata.editImage': `Edit image`,
   'imageMetadata.exposure_time': `Exposure time`,
   'imageMetadata.f_number': `Aperture`,
@@ -1367,8 +1376,16 @@ module.exports = {
   'messages.confirm.assets.batch.destroy.title': `Delete {count, plural, one { the asset? } other { {count} assets?} }`,
   'messages.confirm.assets.duplicateAsset.cancel': `No, replace the current asset`,
   'messages.confirm.assets.duplicateAsset.ok': `Yes, create a copy`,
-  'messages.confirm.assets.duplicateAsset.question': `Do you want to create a new asset with this edited version?`,
+  'messages.confirm.assets.duplicateAsset.question': `Do you want to create a new asset with this edited version, or replace the existing asset?`,
   'messages.confirm.assets.duplicateAsset.title': `Make a copy`,
+  'messages.confirm.assets.editAsset.cancel': `Cancel`,
+  'messages.confirm.assets.editAsset.ok': `Yes, replace the current asset`,
+  'messages.confirm.assets.editAsset.question': `Do you really want to replace the current asset with this edited version?`,
+  'messages.confirm.assets.editAsset.title': `Replace asset`,
+  'messages.confirm.assets.makeCopy.cancel': `Cancel`,
+  'messages.confirm.assets.makeCopy.ok': `Yes, make a copy`,
+  'messages.confirm.assets.makeCopy.question': `Do you really want to make a copy of the current asset with this edited version?`,
+  'messages.confirm.assets.makeCopy.title': `Make a copy`,
   'messages.confirm.batch.destroy.cancel': `Cancel`,
   'messages.confirm.batch.destroy.ok': `Yes, delete {count, plural, one { this record } other { {count} records} }`,
   'messages.confirm.batch.destroy.question': `Are you sure you want to delete {count, plural, one { this record } other { {count} records} }? This operation is not reversible!`,
@@ -1671,6 +1688,22 @@ module.exports = {
   'role.select.model.all': `All records`,
   'role.select.model.none': `Any record`,
 
+  'role.upload.select.action.all': `Perform all actions on assets`,
+  'role.upload.select.action.delete': `Delete assets`,
+  'role.upload.select.action.create': `Create new assets`,
+  'role.upload.select.action.editCreator': `Edit creator on assets`,
+  'role.upload.select.action.none': `Perform any action on assets`,
+  'role.upload.select.action.read': `View assets`,
+  'role.upload.select.action.update': `Edit metadata/replace assets`,
+  'role.upload.select.creator.anyone': `Created by anyone`,
+  'role.upload.select.creator.negativeAnyone': `Created by anyone`,
+  'role.upload.select.creator.negativeRole': `Created by users with different role`,
+  'role.upload.select.creator.negativeSelf': `Created by users different than itself`,
+  'role.upload.select.creator.role': `Created by users with same role`,
+  'role.upload.select.creator.self': `Created by the user itself`,
+  'role.upload.select.model.all': `All records`,
+  'role.upload.select.model.none': `Any record`,
+
   'role.buildTriggers.positive': `Role CAN trigger:`,
   'role.buildTriggers.negative': `Role CANNOT trigger:`,
   'role.buildTriggers.noRules': `Role cannot trigger any build.`,
@@ -1678,6 +1711,10 @@ module.exports = {
   'role.records.positive': `Role CAN perform these actions on records:`,
   'role.records.negative': `Role CANNOT perform these actions on records:`,
   'role.records.noRules': `Role cannot perform any action on records.`,
+
+  'role.uploads.positive': `Role CAN perform these actions on Media Area assets:`,
+  'role.uploads.negative': `Role CANNOT perform these actions on Media Area assets:`,
+  'role.uploads.noRules': `Role cannot perform any action on assets.`,
 
   'role.addPositive': `Add allow rule`,
   'role.addNegative': `Add deny rule`,
@@ -1796,6 +1833,7 @@ module.exports = {
   'upload.defaultFieldMetadata.hint': `When you reference this asset inside a record without providing any specific metadata, these values will be used as a fallback.`,
   'upload.defaultFieldMetadata.title': `Default metadata`,
   'upload.info': `Asset info`,
+  'upload.creator.title': `Creator`,
   'uploadTable._created_at': `Created at`,
   'uploadTable._updated_at': `Updated at`,
   'uploadTable.author': `Author`,

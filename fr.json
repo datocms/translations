@@ -831,7 +831,6 @@
   "form.fileInput.dragHere": "Déposer un fichier ici",
   "form.fileInput.emptyButtonLabel": "Envoyer un nouveau fichier",
   "form.fileInput.hint": "Taille maximale de 150MB",
-  "form.fileInput.noFiles": "Aucun fichier spécifié",
   "form.fileInput.openMediaGallery": "Depuis la librairie",
   "form.fileInput.removeImage": "Retirer",
   "form.globalSeoInput.edit": "Éditer",
