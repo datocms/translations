@@ -1324,7 +1324,7 @@
   "messages.confirm.assets.makeCopy.question": "Vuoi veramente creare una copia dell'asset corrente utilizzando questa versione modificata?",
   "messages.confirm.assets.makeCopy.title": "Crea copia",
   "messages.confirm.batch.destroy.cancel": "Annulla",
-  "messages.confirm.batch.destroy.ok": "Yes, elimina {count, plural, one { questo record } other { {count} record} }",
+  "messages.confirm.batch.destroy.ok": "Sì, elimina {count, plural, one { questo record } other { {count} record} }",
   "messages.confirm.batch.destroy.question": "Confermi di voler eliminare {count, plural, one { questo record } other { {count} record} }? L'operazione non è reversibile!",
   "messages.confirm.batch.destroy.title": "Elimina {count, plural, one { il record } other { {count} record?} }",
   "messages.confirm.batch.publish.cancel": "Torna indietro",

@@ -64,6 +64,7 @@ module.exports = {
   'admin.itemType.reorderField.success': `Fields successfully reordered`,
   'admin.itemType.update.failure': `Couldn't update the model!`,
   'admin.itemType.update.success': `Model successfully updated`,
+  'switchFieldType.multiText.failure': `Couldn't convert the field because it is required by the slug field: "{field}". Remove validation to proceed`,
   'admin.itemType.updateField.failure': `Couldn't update the field!`,
   'admin.itemType.updateField.success': `Field successfully updated`,
   'admin.itemTypes.noItemTypes.description': `Articles, products, categories, team members... what kind of content is your website made of? Create a new "model" for every type of object that you want to make editable!`,
