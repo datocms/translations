@@ -629,6 +629,9 @@ module.exports = {
   'fieldError.VALIDATION_UNIQUE': `Field must contain a unique value`,
   'fieldError.VALIDATION_UNIQUENESS': `Field must contain a unique value`,
   'fieldError.WEAK_PASSWORD': `The password must be at least 8 characters long, have a lowercase letter, an uppercase letter and a number`,
+
+  'fieldError.DRAFT_MODE_NOT_COMPATIBLE_WITH_SORTABLE_OR_TREE': `Draft mode is incompatible with tree and sortable organization of records`,
+
   'fieldForm.appearance.editor': `Field editor`,
   'fieldForm.appearance.editor.hint': `Choose how this field should be displayed`,
   'fieldForm.tab.basic': `Settings`,
@@ -1436,10 +1439,15 @@ module.exports = {
   'messages.confirm.destroyBuildTrigger.ok': `Yes, delete`,
   'messages.confirm.destroyBuildTrigger.question': `Are you sure you want to delete this build trigger?`,
   'messages.confirm.destroyBuildTrigger.title': `Delete build trigger`,
+  'messages.confirm.destroyField.title': `Delete field "{name}"?`,
   'messages.confirm.destroyField.cancel': `Cancel`,
   'messages.confirm.destroyField.ok': `Yes, delete this field`,
   'messages.confirm.destroyField.question': `By removing this field you will delete ALL content associated with it. Are you sure you want to proceed?`,
-  'messages.confirm.destroyField.title': `Delete field "{name}"`,
+
+  'messages.confirm.destroyField.modular.title': `Delete the field "{name}" from all "{blockName}" modular blocks?`,
+  'messages.confirm.destroyField.modular.cancel': `Cancel`,
+  'messages.confirm.destroyField.modular.ok': `Yes, delete this field`,
+  'messages.confirm.destroyField.modular.question': `If you remove this field you will delete ALL content associated with it AND, if this modular block ("{blockName}") is used in another model, the changes will apply to them as well. Are you sure you want to proceed?`,
   'messages.confirm.destroyFilter.cancel': `Cancel`,
   'messages.confirm.destroyFilter.ok': `Yes, delete`,
   'messages.confirm.destroyFilter.question': `Are you sure you want to delete this filter?`,
