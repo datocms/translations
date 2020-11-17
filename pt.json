@@ -1073,7 +1073,6 @@
   "item.remove": "Eliminar",
   "item.save": "Guardar",
   "item.saving": "A guardar...",
-  "item.scheduled": "agendado em",
   "item.shortStatus.availableVersions": "{number, plural, one {Outra versão} other {Outras {number} versões}} disponíveis",
   "item.shortStatus.draft": "Rascunho",
   "item.shortStatus.published": "Publicado",

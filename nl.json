@@ -850,7 +850,6 @@
   "item.remove": "Verwijderen",
   "item.save": "Opslaan",
   "item.saving": "Opslaan...",
-  "item.scheduled": "Gepland voor",
   "item.shortStatus.availableVersions": "{number, plural, one {Nog 1 andere versie} other {{number} versies}} beschikbaar",
   "item.shortStatus.draft": "Concept",
   "item.shortStatus.published": "Gepubliceerd",

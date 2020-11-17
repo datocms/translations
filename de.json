@@ -927,7 +927,6 @@
   "item.remove": "Löschen",
   "item.save": "Speichern",
   "item.saving": "Speichert...",
-  "item.scheduled": "geplant am",
   "item.shortStatus.availableVersions": "{number, plural, one {Andere Version} other {Andere {number} Versionen}} verfügbar",
   "item.shortStatus.draft": "Entwurf",
   "item.shortStatus.published": "Veröffentlicht",

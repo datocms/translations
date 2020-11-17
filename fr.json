@@ -1075,7 +1075,6 @@
   "item.remove": "Supprimer",
   "item.save": "Sauvegarder",
   "item.saving": "Enregistrement...",
-  "item.scheduled": "prévue pour",
   "item.shortStatus.availableVersions": "{number, plural, one {Une autre version est disponible} other {{number} nouvelles versions sont disponibles}}",
   "item.shortStatus.draft": "Brouillon",
   "item.shortStatus.published": "Publié",

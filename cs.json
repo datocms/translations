@@ -966,7 +966,6 @@
   "item.remove": "Odstranit",
   "item.save": "Uložit",
   "item.saving": "Ukládám...",
-  "item.scheduled": "naplánováno na",
   "item.shortStatus.availableVersions": "{number, plural, one {Dostupná jiná verze} few {Další {number} verze dostupné} other {Dalších {number} verzí dostupných}}",
   "item.shortStatus.draft": "Draft",
   "item.shortStatus.published": "Publikováno",
