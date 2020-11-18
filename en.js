@@ -566,7 +566,9 @@ module.exports = {
     max_unit_max_value_min_unit_min_value { File size must be between {min_value}{min_unit} and {max_value}{max_unit} }
   }`,
 
-  'fieldError.VALIDATION_FORMAT': `{ valorizedKeys, select, custom_pattern { Field must respect a specific format } predefined_pattern { Field must be a valid { predefined_pattern, select, email { email address} url { URL } } } }`,
+  'fieldError.VALIDATION_FORMAT': `{ valorizedKeys, select, custom_pattern { Field must respect a specific regexp format: /{custom_pattern}/ } predefined_pattern { Field must be a valid { predefined_pattern, select, email { email address} url { URL } } } }`,
+
+  'fieldError.VALIDATION_SLUG_FORMAT': `{ valorizedKeys, select, custom_pattern { Field must respect a specific regexp format: /{custom_pattern}/ } predefined_pattern { Field must contain { predefined_pattern, select, webpage_slug { only numbers, letters or the characters "-" and "_" } } } }`,
 
   'fieldError.VALIDATION_IMAGE_DIMENSIONS': `{ valorizedKeys, select,
     height_min_value_width_min_value { Image must be at least {width_min_value}x{height_min_value}px }
@@ -621,6 +623,18 @@ module.exports = {
   }`,
 
   'fieldError.VALIDATION_RESERVED': `This specified value is reserved and cannot be used`,
+
+  'fieldError.VALIDATION_TITLE_LENGTH': `{ valorizedKeys, select,
+    min { Title must be longer than {min} characters}
+    max { Title cannot be longer than {max} characters}
+    max_min { Title must be between {min} and {max} characters} }`,
+
+  'fieldError.VALIDATION_DESCRIPTION_LENGTH': `{ valorizedKeys, select,
+    min { Description must be longer than {min} characters }
+    max { Description cannot be longer than {max} characters }
+    max_min { Description must be between {min} and {max} characters } }`,
+
+  // 'fieldError.VALIDATION_DESCRIPTION_LENGTH': `Description must be 320 characters maximum`,
 
   'fieldError.VALIDATION_SIZE': `{ valorizedKeys, select,
     min { There must be at least {min} items }
@@ -1888,6 +1902,8 @@ module.exports = {
   'validator.file_size.title': `Accept only specified file size`,
   'validator.format.hint': `Make this field match a pattern: e-mail address, URI, or a custom regular expression`,
   'validator.format.title': `Match a specific pattern`,
+  'validator.slug_format.hint': `Make this field match a pattern: webpage or a custom regular expression`,
+  'validator.slug_format.title': `Match a specific pattern`,
   'validator.image_dimensions.hint': `Specify a minimum and/or maximum width and height for images`,
   'validator.image_dimensions.title': `Accept only specified image dimensions`,
   'validator.item_item_type.hint': `Make this field only accept records from specified model(s)<br/><a href="https://www.datocms.com/docs/content-modelling/links" target="_blank">Read more about Link fields in our docs</a>`,
@@ -1895,6 +1911,10 @@ module.exports = {
   'validator.items_item_type.title': `Accept only specified models`,
   'validator.length.hint': `Specify a minimum and/or maximum allowed number of characters`,
   'validator.length.title': `Limit character count`,
+  'validator.description_length.hint': `Specify a minimum and/or maximum allowed number of characters`,
+  'validator.description_length.title': `Limit character count`,
+  'validator.title_length.hint': `Specify a minimum and/or maximum allowed number of characters`,
+  'validator.title_length.title': `Limit character count`,
   'validator.links.items_item_type.hint': `Make this field only accept records from specified model(s)<br/><a href="https://www.datocms.com/docs/content-modelling/links" target="_blank">Read more about Link fields in our docs</a>`,
   'validator.links.items_item_type.title': `Accept only specified model`,
   'validator.number_range.hint': `Specify a minimum and/or maximum value`,
@@ -1946,6 +1966,7 @@ module.exports = {
   'validators.file_size.unit.mib': `MB`,
   'validators.format.custom': `Custom format`,
   'validators.format.email': `Email`,
+  'validators.format.webpage_slug': `Webpage slug`,
   'validators.format.hint': `Please insert a regular expression`,
   'validators.format.placeholder': `^(foo|bar)$`,
   'validators.format.url': `URL`,
