@@ -987,7 +987,7 @@ module.exports = {
   'genericError.PLAN_UPGRADE_REQUIRED': `Cannot proceed, please upgrade plan!`,
   'genericError.PUBLISHED_CHILDREN': `Couldn't unpublish the record, as the following children records are still published:`,
   'genericError.REQUIRED_2FA_SETUP': `This project requires every user to turn on 2-factor authentication! Please go to your <a href="https://dashboard.datocms.com/account/setup-2fa">Dashboard</a>.`,
-  'genericError.REQUIRED_BY_ASSOCIATION': `Cannot delete the record, as it's required by other records:`,
+  'genericError.REQUIRED_BY_ASSOCIATION': `Cannot delete/unpublish the record, as it's required by other records:`,
   'genericError.STALE_ITEM_VERSION': `Someone else made a change while you were editing this record, please refresh the page!`,
   'genericError.TITLE_ALREADY_PRESENT': `There can only be one Title field per model`,
   'genericError.UNPUBLISHED_LINK': `Couldn't publish the record, as it links the following unpublished records:`,
