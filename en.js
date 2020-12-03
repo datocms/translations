@@ -1441,15 +1441,21 @@ module.exports = {
   'messages.confirm.deleteScheduledUnpublishing.ok': `Yes, stop automatic unpublishing`,
   'messages.confirm.deleteScheduledUnpublishing.question': `This record will no longer be automatically unpublished. Do you want to proceed?`,
   'messages.confirm.deleteScheduledUnpublishing.title': `Cancel scheduled unpublishing?`,
-  'messages.confirm.delocalizeField.cancel': `Cancel`,
-  'messages.confirm.delocalizeField.ok': `Yes, proceed`,
-
-  'messages.confirm.delocalizeField.question': `By disabling localization you will
+  'messages.confirm.delocalizeFieldAllLocalesRequired.cancel': `Cancel`,
+  'messages.confirm.delocalizeFieldAllLocalesRequired.ok': `Yes, proceed`,
+  'messages.confirm.delocalizeFieldAllLocalesRequired.question': `By disabling localization you will
     delete ALL content associated with these languages: {locales}.
-    This field value will default to the main language content, {mainLocale}.
+    This field values will default to the main language content: {mainLocale}.
     Are you sure you want to proceed?`,
-
-  'messages.confirm.delocalizeField.title': `Disable localization`,
+  'messages.confirm.delocalizeFieldAllLocalesRequired.title': `Disable localization`,
+  'messages.confirm.delocalizeFieldNotAllLocalesRequired.cancel': `Cancel`,
+  'messages.confirm.delocalizeFieldNotAllLocalesRequired.ok': `Yes, proceed`,
+  'messages.confirm.delocalizeFieldNotAllLocalesRequired.question': `By disabling localization this field
+    values will default to the first language present on the record.
+    The content associated with the other languages will be deleted.
+    Site languages are currently sorted like this: {locales}.
+    Are you sure you want to proceed?`,
+  'messages.confirm.delocalizeFieldNotAllLocalesRequired.title': `Disable localization`,
   'messages.confirm.destroyAccessToken.cancel': `Cancel`,
   'messages.confirm.destroyAccessToken.ok': `Yes, delete`,
   'messages.confirm.destroyAccessToken.question': `Are you sure you want to delete this API token?`,
@@ -1815,7 +1821,8 @@ module.exports = {
   'site.color.light': `Light color`,
   'site.color.primary': `Primary color`,
   'site.locales.docs': `Read more about localization in our docs`,
-  'site.locales.hint': `Please select the languages you want to enable in this administrative area`,
+  'site.locales.hint': `Please select the languages you want to enable for your content.
+    They are sorted by importance and the first is the main language.`,
   'site.locales.label': `Supported languages`,
   'site.logo.label': `Logo`,
   'site.name.label': `Administrative area title`,
