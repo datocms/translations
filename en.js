@@ -1699,7 +1699,7 @@ module.exports = {
   'role.canEditSchema': `Create/edit models, plugins and customize content navigation bar`,
   'role.canEditSite': `Change project name and 2FA settings`,
   'role.canEditEnvironment': `Change locales, timezone and UI theme`,
-  'role.canManageEnvironments': `Create/delete sandbox environments and promote them to primary environment`,
+  'role.canManageEnvironments': `Create/delete sandbox environments`,
   'role.canPromoteEnvironments': `Promote sandbox environments to primary and manage maintenance mode`,
   'role.canManageAccessTokens': `Create/edit API tokens`,
   'role.canManageSso': `Manage Single Sign-On settings`,
