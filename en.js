@@ -634,8 +634,6 @@ module.exports = {
     max { Description cannot be longer than {max} characters }
     max_min { Description must be between {min} and {max} characters } }`,
 
-  // 'fieldError.VALIDATION_DESCRIPTION_LENGTH': `Description must be 320 characters maximum`,
-
   'fieldError.VALIDATION_SIZE': `{ valorizedKeys, select,
     min { There must be at least {min} items }
     min_multiple_of { Insert at least {min} items in multiple of {multiple_of}}
