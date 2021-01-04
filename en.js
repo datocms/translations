@@ -1197,7 +1197,7 @@ module.exports = {
   'itemLocking.currentlyEditing': `is currently working on this record, which means you cannot make changes, unless you take over.`,
   'itemLocking.disabled': `Record editing is disabled!`,
   'itemLocking.getOtherUserData1': `You now have control over this record. Would you like to recover `,
-  'itemLocking.getOtherUserData2': `&rsquo;s unsaved changes?`,
+  'itemLocking.getOtherUserData2': `'s unsaved changes?`,
   'itemLocking.locked': `You are currently editing this record from another tab: you cannot make changes, unless you take over from here.`,
   'itemLocking.recover': `Recover`,
   'itemLocking.recoverFrom': `Recover the work started by`,
