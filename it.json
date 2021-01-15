@@ -464,7 +464,7 @@
   "embedsManyInput.add": "Aggiungi record {name}",
   "embedsManyInput.add.multiple": "Aggiungi nuovo",
   "embedsManyInput.add.single": "Aggiungi nuovo {itemType}",
-  "embedsManyInput.advancedSearch": "Ricerca avanzata",
+  "embedsManyInput.advancedSearch": "Da libreria",
   "embedsManyInput.duplicate": "Duplica",
   "embedsManyInput.edit": "Modifica",
   "embedsManyInput.modal.addTitle": "Aggiungi e assegna {name}",
