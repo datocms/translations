@@ -146,6 +146,7 @@ module.exports = {
   'admin.ssoUsers.status.synced': `Synced`,
   'admin.ssoUsers.title': `Provisioned users`,
   'admin.users.title': `Collaborators`,
+  'admin.version.restore.INVALID_PARENT': `Cannot restore version that has current parent record as child`,
   'admin.version.restore.failure': `Couldn't restore revision!`,
   'admin.version.restore.success': `Previous revision successfully restored!`,
   'admin.webhook.create.failure': `Couldn't create webhook!`,
