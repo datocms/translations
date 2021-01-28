@@ -1198,6 +1198,8 @@ module.exports = {
   'item.status.updated.pristine': `Updated`,
   'item.unpublish': `Unpublish`,
   'item.untitled': `No title`,
+  'item.errorsPerLocale.message': `Validation errors!`,
+  'item.errorsPerLocale.description': `The following locales are failing some validations: {locales}`,
   'itemLocking.currentlyEditing': `is currently working on this record, which means you cannot make changes, unless you take over.`,
   'itemLocking.disabled': `Record editing is disabled!`,
   'itemLocking.getOtherUserData1': `You now have control over this record. Would you like to recover `,
