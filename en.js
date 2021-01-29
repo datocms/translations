@@ -2281,6 +2281,29 @@ module.exports = {
   'slate.toolbarButton.code': 'Mark as code',
   'slate.toolbarButton.highlight': 'Highlight',
 
+  'structuredTextEditor.allowedNodeTypes': 'Allowed blocks',
+  'structuredTextEditor.allowedNodeTypes.hint':
+    'Configure which block options will be provided to editors',
+
+  'structuredTextEditor.allowedNodeTypes.blockquote': 'Blockquote',
+  'structuredTextEditor.allowedNodeTypes.code': 'Code snippet',
+  'structuredTextEditor.allowedNodeTypes.heading': 'Heading',
+  'structuredTextEditor.allowedNodeTypes.link': 'Link',
+  'structuredTextEditor.allowedNodeTypes.list': 'List',
+
+  'structuredTextEditor.allowedMarks': 'Allowed formatting',
+  'structuredTextEditor.allowedMarks.hint':
+    'Configure which formatting options will be provided to editors',
+
+  'structuredText.allowedMarks.strong': 'Bold',
+  'structuredText.allowedMarks.emphasis': 'Italic',
+  'structuredText.allowedMarks.underline': 'Underline',
+  'structuredText.allowedMarks.strikethrough': 'Strike-through',
+  'structuredText.allowedMarks.code': 'Code',
+  'structuredText.allowedMarks.highlight': 'Highlight',
+
+  'structuredTextEditor.blocksStartCollapsed': `Show blocks as collapsed by default`,
+
   'fieldType.structured_text': 'Structured text',
   'fieldGroup.structured_text.title': `Structured text`,
   'fieldGroup.structured_text.description': `Text formatting with links and media`,
