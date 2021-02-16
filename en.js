@@ -2312,4 +2312,6 @@ module.exports = {
     'Allow links and inline records for these models',
   'validator.structured_text_links.hint':
     'Make this field accept links and inline records from specified model(s)',
+
+  'dropdown.search': 'Search...',
 };
