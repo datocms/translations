@@ -2239,6 +2239,8 @@ module.exports = {
   'slate.slash.group.inlineItems': 'Add Inline record',
   'slate.slash.group.formatting': 'Convert to',
 
+  'slate.slash.thematicBreak.title': 'Horizontal rule',
+
   'slate.slash.heading1.title': 'Heading 1',
   'slate.slash.heading2.title': 'Heading 2',
   'slate.slash.heading3.title': 'Heading 3',
@@ -2265,9 +2267,9 @@ module.exports = {
   'slate.emojis.category.flags': 'Flags',
 
   'slate.link.edit': 'Edit link',
-  'slate.link.type': 'Point link to',
-  'slate.link.type.url': 'URL',
-  'slate.link.type.record': 'Record',
+  'slate.link.type': 'Type',
+  'slate.link.type.url': 'Link to URL',
+  'slate.link.type.record': 'Link to DatoCMS record',
   'slate.link.url': 'URL',
   'slate.link.record': 'Linked record',
   'slate.link.url.placeholder': 'http://www.example.org/',
@@ -2290,6 +2292,7 @@ module.exports = {
   'structuredTextEditor.allowedNodeTypes.heading': 'Heading',
   'structuredTextEditor.allowedNodeTypes.link': 'Link',
   'structuredTextEditor.allowedNodeTypes.list': 'List',
+  'structuredTextEditor.allowedNodeTypes.thematicBreak': 'Horizontal rule',
 
   'structuredTextEditor.allowedMarks': 'Allowed formatting',
   'structuredTextEditor.allowedMarks.hint':
@@ -2302,7 +2305,16 @@ module.exports = {
   'structuredText.allowedMarks.code': 'Code',
   'structuredText.allowedMarks.highlight': 'Highlight',
 
+  'structuredText.linkMeta': `Custom meta`,
+  'structuredText.linkMeta.add': `Add new meta`,
+  'structuredText.linkMeta.key': `Meta name`,
+  'structuredText.linkMeta.value': `Value`,
+
+  'slate.link.openInNewWindow': `Open link in new window?`,
+
   'structuredTextEditor.blocksStartCollapsed': `Show blocks as collapsed by default`,
+  'structuredTextEditor.showTargetBlank': `Show "Open link in new window" option for links`,
+  'structuredTextEditor.showMeta': `Show advanced Meta editor for links`,
 
   'fieldType.structured_text': 'Structured text',
   'fieldGroup.structured_text.title': `Structured text`,
