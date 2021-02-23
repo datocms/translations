@@ -931,9 +931,9 @@ module.exports = {
   'form.replaceAsset.dragHere': `Drag a new version here`,
   'form.replaceAsset.emptyButtonLabel': `Browse...`,
   'form.replaceAsset.hint': `Max size 150MB`,
-  'form.schedulePublishing.button.default': `Set publication date`,
+  'form.schedulePublishing.button.default': `Save`,
   'form.schedulePublishing.date': `Publish this record at`,
-  'form.scheduleUnpublishing.button.default': `Set unpublishing date`,
+  'form.scheduleUnpublishing.button.default': `Save`,
   'form.scheduleUnpublishing.date': `Unpublish this record at`,
   'form.slugField.placeholder': `Select one field...`,
   'form.webhook.basicAuth': `HTTP basic auth`,
@@ -1675,6 +1675,7 @@ module.exports = {
   'recordInfo.nextUnpublishing': `Next unpublishing`,
   'recordInfo.position': `Position in collection`,
   'recordInfo.title': `Record info`,
+  'recordInfo.save': `Save`,
   'richText.add': `Add new`,
   'richText.add.multiple': `Create new...`,
   'richText.add.single': `New {itemType}`,
@@ -2326,4 +2327,8 @@ module.exports = {
     'Make this field accept links and inline records from specified model(s)',
 
   'dropdown.search': 'Search...',
+
+  'dateSelector.button.label': `Change date to`,
+  'dateSelector.button.default': `Save`,
+  'dateSelector.button.loading': `Please wait`,
 };
