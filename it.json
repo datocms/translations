@@ -1937,7 +1937,7 @@
   "validator.required_alt_title.title": "Richiedi i campi alt e/o titolo",
   "validator.required_seo_fields.hint": "Indica quali meta informazioni sono obbligatorie",
   "validator.required_seo_fields.title": "Obbligatorio",
-  "validator.rich_text_blocks.hint": "Il blocco modulare è pensato per dare agli editor la possibilità di comporre il contenuto alternando un numero arbitrario di modelli di base che si potranno usare come \"blocchi di base\". Gli autori potranno scegliere, popolare e riordinare i blocchi come preferiscono. a href=\"https://www.datocms.com/blog/rich-content-editing/\" target=\"_blank\">Dai un'occhiata a questa guida per più informazioni.</a>",
+  "validator.rich_text_blocks.hint": "Il blocco modulare è pensato per dare agli editor la possibilità di comporre il contenuto alternando un numero arbitrario di modelli di base che si potranno usare come \"blocchi di base\". Gli autori potranno scegliere, popolare e riordinare i blocchi come preferiscono. <a href=\"https://www.datocms.com/blog/rich-content-editing/\" target=\"_blank\">Dai un'occhiata a questa guida per più informazioni.</a>",
   "validator.rich_text_blocks.title": "Specifica i modelli che verranno usati come \"blocchi di base\" per questo campo",
   "validator.size.hint": "Specifica un numero minimo e/o massimo di elementi permessi",
   "validator.size.title": "Numero di item",
