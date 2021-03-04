@@ -556,7 +556,7 @@ module.exports = {
   'fieldError.MULTIPLE_INSTANCES_OF_SINGLETON': `Cannot convert to single instance as currently there is more than one record of this kind!`,
   'fieldError.REQUIRED_FIELD': `Field is required`,
   'fieldError.ALL_MATCH': `{value} is not an acceptable value`,
-  'fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE': `Cannot convert to single instance as this model is currently referenced in some Link, Links or Modular content field!`,
+  'fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE': `Cannot convert to single instance as this model is currently referenced in some field!`,
   'fieldError.SQUARE_IMAGE': `Image must be square`,
   'fieldError.VALIDATION_DATE_RANGE': `{ valorizedKeys, select, min { Date must be greater or equal to {min} } max { Date cannot be less or equal to {max} } max_min { Date must be between {min} and {max} } }`,
   'fieldError.VALIDATION_DATE_TIME_RANGE': `{ valorizedKeys, select, min { Date must be greater or equal to {min} } max { Date cannot be less or equal to {max} } max_min { Date must be between {min} and {max} } }`,
