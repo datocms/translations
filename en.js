@@ -1262,7 +1262,7 @@ module.exports = {
   'itemType.name.hint': `Please write it down in singular form (ie. "Article", not "Articles")`,
   'itemType.name.placeholder': `Article`,
   'itemType.hint': `Help text`,
-  'itemType.hint.hint': `Human friendly description for the field, useful as an explanation for editors. When the value starts with a URL to an image, the image is used as a preview.`,
+  'itemType.hint.hint': `Description of the block to be shown to editors. If it starts with an image URL, the image will be shown as a preview`,
   'itemType.hint.placeholder': `https://www.datocms-assets.com/.../some-image.jpg\nA short explanation of when to use this block`,
   'itemType.orderingDirection': `Ordering direction`,
   'itemType.orderingField': `Select the ordering field`,
