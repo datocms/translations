@@ -70,7 +70,7 @@ module.exports = {
   'admin.itemType.updateField.failure': `Couldn't update the field!`,
   'admin.itemType.updateField.success': `Field successfully updated`,
   'admin.itemTypes.overviewPage.title': `Models`,
-  'admin.itemTypes.overviewPage.description': `<p>The way you define the kind of content you can edit inside each different administrative area passes through the concept of models, which are much like database tables.</p><p>Each administrative area can specify a number of different models, and they represent blueprints upon which users will store the website content. For example, a site can define different models for articles, products, categories, and so on.</p><p><a href="https://www.datocms.com/docs/content-modelling">Read more about Models</a></p>`,
+  'admin.itemTypes.overviewPage.description': `<p>The way you define the kind of content you can edit inside a DatoCMS project passes through the concept of models, which are much like database tables.</p><p>Each project can specify a number of different models, and they represent blueprints upon which users will store the website content. For example, a site can define different models for articles, products, categories, and so on.</p><p><a href="https://www.datocms.com/docs/content-modelling">Read more about Models</a></p>`,
   'admin.itemTypes.noItemTypes.description': `Articles, products, categories, team members... what kind of content is your website made of? Create a new "model" for every type of object that you want to make editable!`,
   'admin.itemTypes.noItemTypes.docs': `Read more in our docs`,
   'admin.itemTypes.noItemTypes.title': `Welcome! Let's give a shape to this backend!`,
@@ -86,10 +86,6 @@ module.exports = {
   'admin.modularBlock.add.success': `Block added successfully!`,
   'admin.modularBlock.create.failure': `Couldn't create block!`,
   'admin.modularBlock.create.success': `Block created successfully!`,
-  'admin.modularBlock.destroyConfirm.cancel': `Keep it, I'll use it later`,
-  'admin.modularBlock.destroyConfirm.ok': `Yes, delete it`,
-  'admin.modularBlock.destroyConfirm.question': `This block is not used in any other field, do you want to completely remove it from the administrative area?`,
-  'admin.modularBlock.destroyConfirm.title': `Delete block`,
   'admin.modularBlock.noFields.description': `What kind of information needs to be editable for a block of type "{name}"? A title? Some textual content? Maybe an image? Define the different fields we should present to editors of this site.`,
   'admin.modularBlock.noFields.title': `Add some fields to this block!`,
   'admin.modularBlock.removed.failure': `Couldn't remove block!`,
@@ -1172,7 +1168,7 @@ module.exports = {
   `,
 
   'instructions.plugins': `
-    <p>Plugins allow developers to extend the basic functionality of the DatoCMS administrative area. You, the developer, are in charge of writing and hosting the plugin.</p>
+    <p>Plugins allow developers to extend the basic functionality of a DatoCMS project. You, the developer, are in charge of writing and hosting the plugin.</p>
     <p>Technically speaking Plugins are small HTML5 applications that exist in a sandboxed <code>&#x3C;iframe></code> and interact with the main DatoCMS webapp through a JS library you need to include — <a href="https://www.datocms.com/docs/guides/building-plugins/sdk-reference">the Plugins SDK</a>.</p>
     <p>You can write them with basic HTML and JavaScript, or using more advanced client-side frameworks such as React, Angular or Vue.</p>
     <p>Want to know more? Read how to install, develop and share plugins to the community in <a target="_blank" href="https://www.datocms.com/docs/guides/building-plugins">our guide</a>!</p>
@@ -1845,7 +1841,7 @@ module.exports = {
   'site.ssg.guide': `Learn how to integrate your static website with DatoCMS in our docs`,
   'site.ssg.hint': `DatoCMS supports every static website generator, offering a simple, agnostic CLI integration tool`,
   'site.ssg.label': `Your project static website generator`,
-  'site.themeHue.hint': `Feel free to change the primary color of this administrative area to better match your project identity`,
+  'site.themeHue.hint': `Feel free to change the primary color of this DatoCMS project to better match your identity`,
   'site.themeHue.label': `Theme color`,
   'site.timezone': `Timezone`,
   'size.large': `Large`,
