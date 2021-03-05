@@ -2333,6 +2333,7 @@ module.exports = {
   'dateSelector.button.default': `Save`,
   'dateSelector.button.loading': `Please wait`,
 
+  'fieldRow.edit': 'Edit',
   'fieldRow.link.referencedItems': 'References',
   'fieldRow.structuredText.referencedBlocks': 'Blocks',
   'fieldRow.structuredText.referencedItems': 'References',
