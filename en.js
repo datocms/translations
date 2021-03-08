@@ -547,6 +547,7 @@ module.exports = {
   'fieldError.MIN_IMAGE_WIDTH': `Image width must be at least { min_width }px`,
   'fieldError.MIN_LENGTH': `Field must be at least { min_length } characters long`,
   'fieldError.MULTIPLE_INSTANCES_OF_SINGLETON': `Cannot convert to single instance as currently there is more than one record of this kind!`,
+  'fieldError.NO_LOCALES_LEFT_FOR_ITEM': `Cannot remove following locale(s): { locales_to_remove }. The following records would remain without any locale: { item_ids }`,
   'fieldError.REQUIRED_FIELD': `Field is required`,
   'fieldError.ALL_MATCH': `{value} is not an acceptable value`,
   'fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE': `Cannot convert to single instance as this model is currently referenced in some field!`,
