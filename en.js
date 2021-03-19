@@ -2314,6 +2314,7 @@ module.exports = {
   'structuredTextEditor.blocksStartCollapsed': `Show blocks as collapsed by default`,
   'structuredTextEditor.showTargetBlank': `Show "Open link in new window" option for links`,
   'structuredTextEditor.showMeta': `Show advanced Meta editor for links`,
+  'structuredTextEditor.blockWithoutFields': `There are no fields associated with this block`,
 
   'fieldType.structured_text': 'Structured text',
   'fieldGroup.structured_text.title': `Structured text`,
