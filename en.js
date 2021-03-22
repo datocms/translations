@@ -93,6 +93,8 @@ module.exports = {
   'admin.modularBlock.removed.success': `Block removed successfully!`,
   'admin.modularBlock.update.failure': `Couldn't update block!`,
   'admin.modularBlock.update.success': `Block updated successfully!`,
+  'admin.plugin.create.notFound': `We couldn't find this plugin, please contact the plugin creator.`,
+  'admin.plugin.create.alreadyInstalled': `This plugin is already installed`,
   'admin.plugin.create.failure': `Couldn't create plugin!`,
   'admin.plugin.create.success': `Plugin installed successfully!`,
   'admin.plugin.destroy.failure': `Couldn't delete plugin!`,
