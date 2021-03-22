@@ -2092,8 +2092,8 @@
   "zeitSettings.branch": "Vercel creerà un nuovo deployment hook utilizzando il branch selezionato, assicurati che il tuo progetto Vercel sia linkato al un repository prima di proseguire. Se il branch specificato non esiste o verrà eliminato in futuro dovrai creare un nuovo build trigger su DatoCMS.",
   "zeitSettings.branch.hint": "Specifica il nome del branch (master, staging...)",
   "zeitSettings.branch.placeholder": "master",
-  "zeitSettings.changeLink": "Vuoi collegare un altro progetto ZEIT?",
-  "zeitSettings.createProject": "Crea un nuovo progetto ZEIT",
+  "zeitSettings.changeLink": "Vuoi collegare un altro progetto Vercel?",
+  "zeitSettings.createProject": "Crea un nuovo progetto Vercel",
   "zeitSettings.deployToZeit": "Autorizza Vercel",
   "zeitSettings.hooks.build": "Imposto gli hook di build...",
   "zeitSettings.hooks.creation": "Imposto gli hook di deployment...",
@@ -2103,8 +2103,8 @@
   "zeitSettings.link": "Progetto linkato a {value}",
   "zeitSettings.loadingProjects": "Caricamento dei tuoi progetti Vercel...",
   "zeitSettings.noLink": "Questo progetto DatoCMS è attualmente linkato a questo progetto Vercel:",
-  "zeitSettings.noProjects": "L'account ZEIT selezionato non contiene nessun progetto!",
+  "zeitSettings.noProjects": "L'account Vercel selezionato non contiene nessun progetto!",
   "zeitSettings.notLinkable": "Link al repository mancante - Collega il tuo progetto Vercel ad una repository Github per procedere con l'integrazione",
   "zeitSettings.projectCreated": "Ho creato un nuovo progetto, aggiorna la lista",
-  "zeitSettings.projectSelect": "Seleziona il progetto ZEIT che vuoi collegare a questo progetto DatoCMS:"
+  "zeitSettings.projectSelect": "Seleziona il progetto Vercel che vuoi collegare a questo progetto DatoCMS:"
 }
