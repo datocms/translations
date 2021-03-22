@@ -1960,7 +1960,7 @@ module.exports = {
   'validators.date_time_range.minValue': `min`,
   'validators.dimensions.height': `height`,
   'validators.dimensions.width': `width`,
-  'validators.enum.hint': `Separate each value with a comma`,
+  'validators.enum.hint': `Separate each value with a comma. Use backslash (\\) character to escape the comma.`,
   'validators.enum.valuePlaceholder': `foo, bar, qux`,
   'validators.extension.csv': `Custom`,
   'validators.extension.document': `Document`,
