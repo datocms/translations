@@ -890,7 +890,7 @@
   "form.replaceAsset.dragHere": "Trascina qui una nuova versione",
   "form.replaceAsset.emptyButtonLabel": "Cerca...",
   "form.replaceAsset.hint": "Dimensione massima 150MB",
-  "form.schedulePublishing.button.default": "Sala",
+  "form.schedulePublishing.button.default": "Salva",
   "form.schedulePublishing.date": "Pubblica questo record il",
   "form.scheduleUnpublishing.button.default": "Salva",
   "form.scheduleUnpublishing.date": "Effettua unpublish del record il",
