@@ -1541,8 +1541,20 @@ module.exports = {
   'messages.confirm.regenerateAccessToken.title': `Regenerate API token`,
   'messages.confirm.removeReferences.cancel': `Cancel`,
   'messages.confirm.removeReferences.ok': `Yes, remove references and proceed`,
-  'messages.confirm.removeReferences.question': `This records is referenced in a number of other published records. If you proceed, those references will be removed.`,
+  'messages.confirm.removeReferences.question': `This record is referenced in a number of other published records. If you proceed, those references will be removed.`,
   'messages.confirm.removeReferences.title': `Remove references?`,
+
+  'messages.confirm.askForUnpublishMethod.cancel': `Cancel`,
+  'messages.confirm.askForUnpublishMethod.deleteReferences': `Delete references`,
+  'messages.confirm.askForUnpublishMethod.unpublishRecursively': `Unpublish recursively`,
+  'messages.confirm.askForUnpublishMethod.question': `This record is referenced in a number of other published records. How do you want to proceed?`,
+  'messages.confirm.askForUnpublishMethod.title': `Referenced in published records!`,
+
+  'messages.confirm.askForRecursivePublish.cancel': `Cancel`,
+  'messages.confirm.askForRecursivePublish.ok': `Publish recursively`,
+  'messages.confirm.askForRecursivePublish.question': `This record references a number of other unpublished records. How do you want to proceed?`,
+  'messages.confirm.askForRecursivePublish.title': `References to unpublished records!`,
+
   'messages.confirm.takeOver.cancel': `Cancel`,
   'messages.confirm.takeOver.ok': `Yes, take control of this record`,
   'messages.confirm.takeOver.question': `If you proceed, { user } will be kicked out from his editing session, and you will be able to make changes to this record instead.`,
