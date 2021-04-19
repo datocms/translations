@@ -1545,7 +1545,7 @@ module.exports = {
   'messages.confirm.removeReferences.title': `Remove references?`,
 
   'messages.confirm.askForUnpublishMethod.cancel': `Cancel`,
-  'messages.confirm.askForUnpublishMethod.deleteReferences': `Delete references`,
+  'messages.confirm.askForUnpublishMethod.deleteReferences': `Try deleting references`,
   'messages.confirm.askForUnpublishMethod.unpublishRecursively': `Unpublish recursively`,
   'messages.confirm.askForUnpublishMethod.question': `This record is referenced in a number of other published records. How do you want to proceed?`,
   'messages.confirm.askForUnpublishMethod.title': `Referenced in published records!`,
