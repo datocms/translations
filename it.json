@@ -381,7 +381,7 @@
   "editor.item.batch.destroy.result": "{successful, plural, =0 {Nessun record eliminato} one {Un record eliminato con successo!} other {{successful} record eliminati con successo!} }",
   "editor.item.batch.publish.failure": "Non è stato possibile pubblicare i record!",
   "editor.item.batch.publish.result": "{successful, plural, =0 {Nessun record pubblicato} one {Un record pubblicato con successo!} other {{successful} record pubblicati con successo!}}",
-  "editor.item.batch.unpublish.failure": "Non è stato possibile pubblicare i record!",
+  "editor.item.batch.unpublish.failure": "Non è stato possibile effettuare l'unpublish dei record!",
   "editor.item.batch.unpublish.result": "{successful, plural, =0 {Nessun record in bozza} one {Un record impostato a bozza con successo!} other {{successful} record impostati a bozza con successo!}}",
   "editor.item.changeCreator.description": "Scegli l'utente che diventerà il nuovo creatore per questo record:",
   "editor.item.changeCreator.failure": "Non posso cambiare il creatore!",
