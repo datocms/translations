@@ -1541,7 +1541,7 @@ module.exports = {
   'messages.confirm.regenerateAccessToken.title': `Regenerate API token`,
   'messages.confirm.removeReferences.cancel': `Cancel`,
   'messages.confirm.removeReferences.ok': `Yes, remove references and proceed`,
-  'messages.confirm.removeReferences.question': `This record is referenced in a number of other published records. If you proceed, those references will be removed.`,
+  'messages.confirm.removeReferences.question': `This record is referenced in a number of other records. If you proceed, those references will be removed.`,
   'messages.confirm.removeReferences.title': `Remove references?`,
 
   'messages.confirm.askForUnpublishMethod.cancel': `Cancel`,
