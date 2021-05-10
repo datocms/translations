@@ -490,6 +490,7 @@ module.exports = {
   'event.deploy_failed': `Deploy failed`,
   'event.deploy_started': `Deploy started`,
   'event.deploy_succeeded': `Deploy succeeded`,
+  'event.maintenance_mode': `Maintenance mode`,
 
   'event.build_trigger': `Build trigger`,
   'event.item_type': `Model`,
@@ -497,6 +498,7 @@ module.exports = {
   'event.upload': `Asset`,
   'event.environment': `Environment`,
   'event.sso_user': `SSO user`,
+  'event.change': `Change`,
 
   'event.only.build_trigger': `Trigger only with specific build triggers`,
   'event.only.environment': `Trigger only on specific environments`,
@@ -2050,6 +2052,7 @@ module.exports = {
   'webhookCall.detailsTitle': `Event details`,
   'webhookCall.resendWebhook': `Resend`,
   'webhookCalls.event.sso_user.create': `SSO user created`,
+  'webhookCalls.event.site.maintenance_mode': `Maintenance mode`,
   'webhookCalls.event.build_trigger.deploy_failed': `Deploy failed`,
   'webhookCalls.event.build_trigger.deploy_started': `Deploy started`,
   'webhookCalls.event.build_trigger.deploy_succeeded': `Deploy succeeded`,
