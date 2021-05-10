@@ -2067,6 +2067,7 @@ module.exports = {
   'webhookCalls.event.upload.create': `Asset creation`,
   'webhookCalls.event.upload.delete': `Asset deletion`,
   'webhookCalls.event.upload.update': `Asset update`,
+  'webhookCalls.event.maintenance_mode.change': `Maintenance mode change`,
   'wysiwygEditor.toolbar': `Toolbar buttons`,
   'wysiwygEditor.toolbar.align_center': `Align center`,
   'wysiwygEditor.toolbar.align_justify': `Align justify`,
