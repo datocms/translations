@@ -1666,7 +1666,6 @@
   "richText.validator.placeholder": "Seleziona i modelli che verranno utilizzati come blocchi...",
   "role.accessLevel": "Permessi di accesso agli environment",
   "role.addItemType.multiple": "Per modello",
-  "role.addItemType.single": "Per modello",
   "role.addNegative": "Regola sottrattiva",
   "role.addPositive": "Regola positiva",
   "role.admin": "Permessi project-wide",
