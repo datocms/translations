@@ -1760,7 +1760,7 @@ module.exports = {
   'role.select.action.delete': `Delete`,
   'role.select.action.duplicate': `Create/duplicate`,
   'role.select.action.editCreator': `Edit creator`,
-  'role.select.action.none': `Perform any action`,
+  'role.select.action.none': `Do anything`,
   'role.select.action.read': `View`,
   'role.select.action.takeOver': `Take over`,
   'role.select.action.unpublish': `Publish/unpublish`,
@@ -2168,6 +2168,7 @@ module.exports = {
   'messages.confirm.destroyEnvironment.title': `Delete sandbox environment?`,
   'environment.destroy.success': `Deletion of environment started successfully!`,
   'environment.destroy.failure': `We couldn't delete the environment!`,
+  'environment.destroy.successful': `The environment was successfully deleted!`,
 
   'messages.confirm.promoteEnvironment.cancel': `Cancel`,
   'messages.confirm.promoteEnvironment.ok': `Yes, promote`,
