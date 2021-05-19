@@ -3,6 +3,7 @@ module.exports = {
   'admin.contentLevelPermissions.role': `In this section you can specify the permissions to apply to the role "{role}" for the content present in the {environment} environment. You can change the general settings of this role from the {link} section, or switch environment to change the content permissions for a different environment.`,
   'form.contentPermissions.title': `Content permissions for {name}`,
   'form.recordsPermissions.title': `Record permissions`,
+  'form.recordsPermissions.inheritedFrom': `This rule is inherited from the following ruleset: {name}`,
 
   'form.uploadsPermissions.title': `Asset permissions`,
   'form.recordsPermissions.newRuleset.add': `Add ruleset for`,
