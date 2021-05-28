@@ -567,7 +567,6 @@
   "fieldError.GREATER_DATE_THAN": "La data deve essere successiva a quella precedente",
   "fieldError.GREATER_THAN": "Il campo deve avere con un valore superiore rispetto al precedente",
   "fieldError.INTEGER": "Il campo deve essere un intero positivo",
-  "fieldError.INVALID_DEFAULT_VALUE_FORMAT": "Formato non valido",
   "fieldError.INVALID_EMAIL": "Email non valida",
   "fieldError.INVALID_FORMAT": "Formato invalido",
   "fieldError.INVALID_FOR_CURRENT_PLAN": "Il campo non è valido in questo piano",

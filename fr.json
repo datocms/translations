@@ -535,7 +535,6 @@
   "fieldError.GREATER_DATE_THAN": "La date doit être supérieur à la date précédente",
   "fieldError.GREATER_THAN": "Le champ doit être plus gros que le précédent",
   "fieldError.INTEGER": "Le champ doit être un nombre entier positif",
-  "fieldError.INVALID_DEFAULT_VALUE_FORMAT": "Le format n'est pas valide",
   "fieldError.INVALID_EMAIL": "Email invalide",
   "fieldError.INVALID_FORMAT": "Format invalide",
   "fieldError.INVALID_FOR_CURRENT_PLAN": "Ce champ est invalide avec l'offre actuelle",

@@ -448,7 +448,6 @@
   "fieldError.GREATER_DATE_THAN": "Das Datum muss größer sein als das vorherige",
   "fieldError.GREATER_THAN": "Das Feld muss größer sein als das vorherige",
   "fieldError.INTEGER": "Feld muss eine positive ganze Zahl sein",
-  "fieldError.INVALID_DEFAULT_VALUE_FORMAT": "Ungültiges Format",
   "fieldError.INVALID_EMAIL": "E-Mail nicht gültig",
   "fieldError.INVALID_FORMAT": "Format nicht gültig",
   "fieldError.INVALID_FOR_CURRENT_PLAN": "Feld ist unter dem aktuellen Plan nicht gültig",

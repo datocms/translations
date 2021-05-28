@@ -467,7 +467,6 @@
   "fieldError.GREATER_DATE_THAN": "Datum musí být větší, než předchozí",
   "fieldError.GREATER_THAN": "Pole musí být větší, než předchozí",
   "fieldError.INTEGER": "Pole musí být kladný integer",
-  "fieldError.INVALID_DEFAULT_VALUE_FORMAT": "Neplatný formát",
   "fieldError.INVALID_EMAIL": "Email není platný",
   "fieldError.INVALID_FORMAT": "Formát není platný",
   "fieldError.INVALID_FOR_CURRENT_PLAN": "Pole není platné pod nynějším plánem",
