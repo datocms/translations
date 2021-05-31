@@ -1877,6 +1877,8 @@ module.exports = {
   'site.name.label': `Administrative area title`,
   'site.require2fa.hint': `If enabled, users of this project will be required to insert a one-time-password to sign in.`,
   'site.require2fa.label': `Two-factor authentication`,
+  'site.ipTrackingEnabled.hint': `If enabled, information about IPs making requests to the API will be recorded and shown in the "Project usages" section.`,
+  'site.ipTrackingEnabled.label': `Track IPs in API calls`,
   'site.ssg.guide': `Learn how to integrate your static website with DatoCMS in our docs`,
   'site.ssg.hint': `DatoCMS supports every static website generator, offering a simple, agnostic CLI integration tool`,
   'site.ssg.label': `Your project static website generator`,
@@ -2230,11 +2232,18 @@ module.exports = {
   'usageCounter.cma_ip_bytes': `Top IPs for CMA`,
   'usageCounter.cma_ip_requests': `Top IPs for CMA`,
 
+  'usageCounter.video_path_seconds': `Top assets by streaming time`,
+
   'usageCounter.period.today': `Today`,
   'usageCounter.period.current_month': `This month`,
   'usageCounter.period.last_month': `Last month`,
   'usageCounter.info': `
     Reports are updated every minute and can help you to better identify the source of the incoming requests. They’re not to be considered 100%
+    accurate, and serve for qualitative analysis.
+  `,
+
+  'usageCounter.video.info': `
+    Reports are updated daily at 2:00 PM UTC and can help you to better identify the source of the incoming requests. They’re not to be considered 100%
     accurate, and serve for qualitative analysis.
   `,
 
