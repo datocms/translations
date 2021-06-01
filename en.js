@@ -15,6 +15,8 @@ module.exports = {
   'role.addItemType.multiple': `Model`,
   'role.addWorkflow.multiple': `Workflow`,
 
+  'admin.workflow.info': `Workflows allow your team to explicitly define an editorial state machine to bring your draft content up to the final publication through a series of intermediate, fully customizable approval steps. <a target="_blank" href="https://www.datocms.com/docs/general-concepts/workflows">Read the docs &raquo;</a>`,
+
   'role.select.stage.any': `— Any stage`,
   'role.contentLevelPermissions': `Records and assets permissions`,
 
