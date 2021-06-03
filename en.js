@@ -17,6 +17,11 @@ module.exports = {
 
   'admin.workflow.info': `Workflows allow your team to explicitly define an editorial state machine to bring your draft content up to the final publication through a series of intermediate, fully customizable approval steps. <a target="_blank" href="https://www.datocms.com/docs/general-concepts/workflows">Read the docs &raquo;</a>`,
 
+  'admin.workflow.enableTry.title': `Enable Workflows in playground mode?`,
+  'admin.workflow.enableTry.question': `Workflows is a feature enabled only for Enterprise customers. If you enable Workflows in playground mode, you will be able to create and configure workflows to see if they solve your needs, but you won't be able to actually associate them with any model. For that you'll need to contact Sales. Do you want to proceed?`,
+  'admin.workflow.enableTry.cancel': `Cancel`,
+  'admin.workflow.enableTry.ok': `Ok, let me play with Workflows!`,
+
   'role.select.stage.any': `— Any stage`,
   'role.contentLevelPermissions': `Records and assets permissions`,
 
