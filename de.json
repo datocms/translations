@@ -1333,7 +1333,7 @@
   "role.button.default": "Rolle speichern",
   "role.canEditFavicon": "Kann das Favicon des Projekts, globale SEO-Einstellungen und die Richtlinie zur Indexierung von Websites ändern",
   "role.canEditItemsCreatedBy": "Kann Datensätze bearbeiten, die von",
-  "role.canEditSchema": "Kann Model, Felder und Navigationsleiste ändern",
+  "role.canEditSchema": "Kann Model, Felder und Plugins",
   "role.canEditSite": "Kann die Sprachen, Deployment, die Zeitzonen und die SSO-Einstellungen des Projekts ändern",
   "role.canManageAccessTokens": "Kann API-Token verwalten",
   "role.canManageBuildTriggers": "Kann Einsatzumgebungen verwalten",

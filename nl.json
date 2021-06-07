@@ -1239,7 +1239,7 @@
   "role.button.default": "Rol opslaan",
   "role.canEditFavicon": "Kan het favicon, globale SEO instellingen en het site indexeringsbeleid wijzigen",
   "role.canEditItemsCreatedBy": "Kan items wijzigen die gemaakt zijn door",
-  "role.canEditSchema": "Kan modellen, velden en navigatiebalk aanpassen",
+  "role.canEditSchema": "Kan modellen, velden en plugins",
   "role.canEditSite": "Kan talen, deployment, tijdzones en SSO-instellingen van dit project aanpassen",
   "role.canManageAccessTokens": "Kan API tokens managen",
   "role.canManageBuildTriggers": "Kan deployment omgevingen managen",

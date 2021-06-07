@@ -1574,7 +1574,7 @@
   "role.canEditEnvironment": "Modifier la locale, le fuseau horaire et le thème d'interface",
   "role.canEditFavicon": "Modifier la favicon, les paramètres de référencement naturel (SEO) et la politique de no-index.",
   "role.canEditItemsCreatedBy": "Peut éditer les entités créées par",
-  "role.canEditSchema": "Peut créer/modifier les modèles, plugins et personnaliser le contenu de la barre de navigation",
+  "role.canEditSchema": "Peut créer/modifier les modèles et plugins",
   "role.canEditSite": "Peut modifier le nom du projet et les paramètre de double authentification",
   "role.canManageAccessTokens": "Peut créer/modifier les tokens d'API",
   "role.canManageBuildTriggers": "Peut créer/éditer des environnements de déploiement",

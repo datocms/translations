@@ -1551,7 +1551,7 @@
   "role.canEditEnvironment": "Alterar locales, fuso horário e tema da UI",
   "role.canEditFavicon": "Editar favicon, configurações globais de SEO e a política de não indexação",
   "role.canEditItemsCreatedBy": "Editar registos criados por",
-  "role.canEditSchema": "Criar/editar os modelos, plugins e customizar a barra de navegação",
+  "role.canEditSchema": "Criar/editar os modelos e plugins",
   "role.canEditSite": "Mudar o nome do projeto e definições de autenticação de dois fatores",
   "role.canManageAccessTokens": "Criar/editar tokens da API",
   "role.canManageBuildTriggers": "Criar/editar build triggers",

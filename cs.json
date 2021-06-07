@@ -1431,7 +1431,7 @@
   "role.button.default": "Uložit roli",
   "role.canEditFavicon": "Může upravovat ikonu stránky, globální nastavení SEO a politiku indexování stránky",
   "role.canEditItemsCreatedBy": "Může upravovat položky vytvořené",
-  "role.canEditSchema": "Může upravovat modely, pole a navigační lištu",
+  "role.canEditSchema": "Může upravovat modely, pole a pluginy",
   "role.canEditSite": "Může upravovat jazyky stránky, nastavení deploye a časové zóny",
   "role.canManageAccessTokens": "Může spravovat API tokeny",
   "role.canManageBuildTriggers": "Může spravovat prostředí vystavení",
