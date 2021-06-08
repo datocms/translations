@@ -789,7 +789,7 @@ module.exports = {
   'fieldType.link': `Single link`,
   'fieldType.links': `Multiple links`,
   'fieldType.options.orderByField': `Order records by one of its fields`,
-  'fieldType.options.orderByTime': `Order records by update time`,
+  'fieldType.options.orderByTime': `Default ordering (last updated first)`,
   'fieldType.options.orderDnd': `Records can be sorted by editors via drag & drop`,
   'fieldType.options.orderTree': `Records can be organized in a tree by editors`,
   'fieldType.options.sorting.ascendant': `Ascendent`,
