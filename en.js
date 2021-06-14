@@ -158,7 +158,12 @@ module.exports = {
   'admin.itemType.updateField.failure': `Couldn't update the field!`,
   'admin.itemType.updateField.success': `Field successfully updated`,
   'admin.itemTypes.overviewPage.title': `Models`,
-  'admin.itemTypes.overviewPage.description': `<p>The way you define the kind of content you can edit inside a DatoCMS project passes through the concept of models, which are much like database tables.</p><p>Each project can specify a number of different models, and they represent blueprints upon which users will store the website content. For example, a site can define different models for articles, products, categories, and so on.</p><p><a href="https://www.datocms.com/docs/content-modelling">Read more about Models</a></p>`,
+  'admin.itemTypes.overviewPage.description': `
+    <p>Models are how you define the type of content your editors can store. Models work like a stencil, defining the structure of records which can be created within a project.</p>
+    <p>You can specify a number of different models: for example, a site can define different models for articles, products, categories, and so on.</p>
+    <p>Each model is composition of custom fields. You can also group fields into logical sets within the editing interface with fieldsets.</p>
+    <p><a href="https://www.datocms.com/docs/content-modelling">Read more about Models</a></p>
+  `,
   'admin.itemTypes.noItemTypes.description': `Create your first model to populate this project with content!`,
   'admin.itemTypes.noItemTypes.title': `No models present`,
   'admin.itemTypes.noBlocks.description': `Create your first block from here!`,
@@ -2478,7 +2483,12 @@ module.exports = {
   'validator.structured_text_blocks.hint': `Structured text allows your editors to compose their content with a visual text editor which allows to choose, populate and reorder these blocks as needed. <a href="https://www.datocms.com/docs/content-modelling/structured-text" target="_blank">Read more in our docs</a>`,
   'validator.structured_text_blocks.title': `Specify the blocks allowed in this field`,
   'admin.blocksLibrary.overviewPage.title': `Blocks Library`,
-  'admin.blocksLibrary.overviewPage.description': `<p>Blocks are a composition of fields, just like ordinary models.</p><p>Once you have set up the different blocks you can reuse them across different <a href="https://www.datocms.com/docs/content-modelling/modular-content" target="_blank">Modular Content</a> and <a href="https://www.datocms.com/docs/content-modelling/structured-text" target="_blank">Structured Text</a> fields.</p>`,
+  'admin.blocksLibrary.overviewPage.description': `
+    <p>Blocks are dynamic, flexible and repeatable structures that you can embed inside your records in different ways. Quotes, sliders, call-to-actions... these are all great examples of blocks!</p>
+    <p>You can intersperse text and blocks with the <a href="https://www.datocms.com/docs/content-modelling/structured-text" target="_blank">Structured Text</a> field, or give content creators the freedom to compose the layout for any page design by combining blocks in a <a href="https://www.datocms.com/docs/content-modelling/modular-content" target="_blank">Modular Content</a> field.</p>
+    <p>Blocks don't count towards your plan records limit, and as soon as you delete a record, any embedded block gets deleted as well, leaving no orphaned structures around.</p>
+    <p><a href="https://www.datocms.com/docs/content-modelling/blocks">Read more about Blocks</a></p>
+  `,
   'dropdown.search': 'Search...',
 
   'dateSelector.button.label': `Change date to`,
