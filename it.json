@@ -913,7 +913,7 @@
   "form.imageInput.cancelButton": "Annulla upload",
   "form.imageInput.dragHere": "Trascina qui un'immagine",
   "form.imageInput.emptyButtonLabel": "Sfoglia",
-  "form.imageInput.hint": "Dimensione Massima 1GB",
+  "form.imageInput.hint": "Dimensione massima 1GB",
   "form.imageInput.noFile": "Nessuna immagine selezionata",
   "form.imageInput.openMediaGallery": "Apri la galleria",
   "form.imageInput.removeImage": "Elimina",
