@@ -1,4 +1,35 @@
 module.exports = {
+  'adminArea.splitPane.auditLog': 'Audit log',
+  'admin.auditLog.title': 'Audit log',
+  'admin.auditLog.filterDocs': 'Learn how you can filter the audit data',
+  'admin.auditLog.info':
+    'Audit logs provide a record of changes and usage that help keep your org secure and protect against misuse. Send data to a SIEM tool, watch for potential security issues, or build custom apps for better insight into how your company uses DatoCMS. <a target="_blank" href="https://www.datocms.com/docs/general-concepts/audit-logs">Read the docs &raquo;</a>',
+
+  'admin.auditLog.period.hour': 'Last hour',
+  'admin.auditLog.period.day': 'Last 24 hours',
+  'admin.auditLog.period.week': 'Last 7 days',
+  'admin.auditLog.period.month': 'Last 30 days',
+  'admin.auditLog.period.allTime': 'All time',
+
+  'admin.auditLog.filter': 'Filter results...',
+
+  'admin.auditLog.event.date': 'Date',
+  'admin.auditLog.event.actor': 'Actor',
+  'admin.auditLog.event.action': 'Action',
+  'admin.auditLog.event.path': 'Path',
+  'admin.auditLog.event.openDetails': 'Details',
+  'admin.auditLog.event.closeDetails': 'Close',
+
+  'admin.auditLog.loading': 'Loading...',
+  'admin.auditLog.loadMore': 'Load more events',
+
+  'admin.auditLog.noResults.title': 'No audit data found',
+  'admin.auditLog.noResults.description':
+    'No results were found. Please check your query or try broadening your search for better results.',
+
+  'auditLog.search.default': 'Search',
+  'role.canAccessAuditLog': 'Access to Audit log events',
+
   'admin.workflow.transitions': `Each role can specify which actions are allowed on a record at any particular stage, and to which stages a record can be moved. You can configure these settings by accessing the {link} area.`,
   'admin.workflow.transitions.cta': `Configure permissions/transitions between stages`,
 
@@ -213,7 +244,7 @@ module.exports = {
   'admin.ssoSettings.generateNewToken': `Generate API token`,
   'admin.ssoSettings.generateNewToken.info': `<p><strong>Be careful!</strong> For security reasons, you will only be able to see your API token once. Be sure to copy and paste it in your IdP now.</p>`,
   'admin.ssoSettings.idpSamlMetadataUrl': `Identity Provider Metadata URL`,
-  'admin.ssoSettings.instructions': `<p>Single Sign-on (SSO) allows users to log in to DatoCMS directly via a third-party application. Any identity provider (IdP) compliant with SAML 2.0 + SCIM 2.0 protocol is supported, including Okta, OneLogin and Azure Active Directory.</p><p>To properly configure SSO, please refer to <a target="_blank" href="https://www.datocms.com/docs/guides/single-sign-on">our docs</a>.</p>`,
+  'admin.ssoSettings.instructions': `<p>Single Sign-on (SSO) allows users to log in to DatoCMS directly via a third-party application. Any identity provider (IdP) compliant with SAML 2.0 + SCIM 2.0 protocol is supported, including Okta, OneLogin and Azure Active Directory. To properly configure SSO, please refer to <a target="_blank" href="https://www.datocms.com/docs/guides/single-sign-on">our docs</a>.</p>`,
   'admin.ssoSettings.samlAcsUrl': `Assertion Consumer Service URL`,
   'admin.ssoSettings.samlSettings.title': `SAML Settings`,
   'admin.ssoSettings.samlToken': `SAML Token`,
