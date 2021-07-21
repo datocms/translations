@@ -1976,6 +1976,8 @@ module.exports = {
   'settings.noIndex': `Prevent your site from being indexed by search engines?`,
   'sidebar.actions': `Actions`,
   'sidebar.revisionHistory': `Revision history`,
+  'sidebar.links': `Links`,
+  'sidebar.noLinks': `No other records link to this record.`,
   'signin.button.default': `Login`,
   'signin.email': `Email`,
   'signin.otp': `Authentication code`,
