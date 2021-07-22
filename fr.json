@@ -772,7 +772,6 @@
   "filter.saveCurrent": "Sauvegarder le filtre actuel en tant que filtre...",
   "filter.saved": "Filtres enregistrés",
   "filter.search": "Recherche",
-  "filter.search.tip": "Seuls les champs de type Chaîne de caractères ou Slug seront pris en compte lorsque vous utilisez la recherche générique. Utilisez des filtres si vous souhaitez filtrer par contenu enregistré dans d'autres types de champs",
   "filter.shared": "Filtres partagés",
   "filter.sharingInfo": "Partagez ce filtre avec tous les autres utilisateurs",
   "filter.sharingInfo.shared": "Ce filtre est partagé avec tous les collaborateurs du projet, vous ne pouvez pas modifier ce paramètre",

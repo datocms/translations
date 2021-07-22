@@ -978,10 +978,6 @@ module.exports = {
   'filter.saveCurrent': `Save current search as filter...`,
   'filter.saved': `Saved Filters`,
   'filter.search': `Search`,
-
-  'filter.search.tip': `Only fields of type String or Slug will be taken into consideration
-          when using the generic search. Use filters if you want to filter by content stored in other field types`,
-
   'filter.shared': `Shared filters`,
   'filter.sharingInfo': `Share this filter with every other user`,
   'filter.sharingInfo.shared': `This filter is shared with all project collaborators, you cannot change this setting`,

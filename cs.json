@@ -702,7 +702,6 @@
   "filter.saveCurrent": "Uložit aktuální hledání jako filtr...",
   "filter.saved": "Uložené filtry",
   "filter.search": "Hledat",
-  "filter.search.tip": "Při použití hledání se berou se v potaz pouze pole typů Jednořádkový text a Slug. Použijte filtry pokud chcete filtrovat dle obsahu ostatních polí.",
   "filter.shared": "Sdílené filtry",
   "filter.sharingInfo": "Sdílejte tento filtr s ostatními",
   "filter.size.operator.eq": "přesne",

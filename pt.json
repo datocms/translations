@@ -764,7 +764,6 @@
   "filter.saveCurrent": "Guardar pesquisa atual como um filtro...",
   "filter.saved": "Filtros guardados",
   "filter.search": "Pesquisa",
-  "filter.search.tip": "Apenas campos do tipo String ou Slug serão levados em consideração\n          ao usar a pesquisa genérica. Use filtros se quiser filtrar por conteúdo armazenado noutros tipos de campo",
   "filter.shared": "Filtros partilhados",
   "filter.sharingInfo": "Partilhar este filtro com os restantes utilizadores",
   "filter.sharingInfo.shared": "Este filtro é partilhado com todos os colaboradores, não pode alterar esta configuração",

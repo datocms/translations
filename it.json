@@ -842,7 +842,6 @@
   "filter.saveCurrent": "Salva la ricerca come filtro...",
   "filter.saved": "Filtri salvati",
   "filter.search": "Ricerca",
-  "filter.search.tip": "Solo i campi di tipo Testo o Slug vengono considerati quando\n         si usa la ricerca generica. Usa i filtri se vuoi filtrare in base al contenuto salvato in altri tipi di campo",
   "filter.shared": "Filtri condivisi",
   "filter.sharingInfo": "Condividi questo filtro con gli altri utenti",
   "filter.sharingInfo.shared": "Questo filtro è condiviso con tutti i collaboratori del progetto, non puoi modificare questa impostazione",
