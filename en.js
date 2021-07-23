@@ -2552,7 +2552,7 @@ module.exports = {
   'links.deleteStrategy.delete_references': `Try to remove the reference to the deleted record`,
 
   'quickSearch.placeholder': 'Type something to find matching records...',
-  'quickSearch.noResults': 'No records found!',
+  'quickSearch.noResults': 'No records found! Maybe you spelled it wrong?',
   'quickSearch.noSearch': 'Type at least 2 letters to search',
   'quickSearch.shortcuts.navigate': 'to navigate',
   'quickSearch.shortcuts.open': 'to open',
