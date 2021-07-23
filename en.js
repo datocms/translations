@@ -1063,6 +1063,7 @@ module.exports = {
   'form.scheduleUnpublishing.button.default': `Save`,
   'form.scheduleUnpublishing.date': `Unpublish this record at`,
   'form.slugField.placeholder': `Select one field...`,
+  'form.webhook.enabled': `Enabled?`,
   'form.webhook.basicAuth': `HTTP basic auth`,
   'form.webhook.body': `HTTP Body`,
   'form.webhook.button.default': `Submit`,
