@@ -2549,4 +2549,12 @@ module.exports = {
   'links.deleteStrategy.label': `When deletion is requested for a record referenced by this field:`,
   'links.deleteStrategy.fail': `Fail the operation and notify the user`,
   'links.deleteStrategy.delete_references': `Try to remove the reference to the deleted record`,
+
+  'quickSearch.placeholder': 'Type something to find matching records...',
+  'quickSearch.noResults': 'No records found!',
+  'quickSearch.noSearch': 'Type at least 2 letters to search',
+  'quickSearch.shortcuts.navigate': 'to navigate',
+  'quickSearch.shortcuts.open': 'to open',
+  'quickSearch.shortcuts.openNewTab': 'to open in new tab',
+  'quickSearch.shortcuts.close': 'to close',
 };
