@@ -53,8 +53,14 @@ module.exports = {
   'admin.workflow.enableTry.cancel': `Cancel`,
   'admin.workflow.enableTry.ok': `Ok, let me play with Workflows!`,
 
+  'role.translatorRole': `The ability to specify which locales a role can edit is reserved to Enterprise plans! If you're interested, please contact our Sales team.`,
+
   'role.select.stage.any': `— Any stage`,
   'role.contentLevelPermissions': `Records and assets permissions`,
+
+  'role.select.locale.any': `— Any content`,
+  'role.select.locale.notLocalized': `Non-localized content`,
+  'role.select.locale.locale': `{locale} content`,
 
   'form.recordsPermissions.rulesetTitle.any': `On any record`,
   'form.recordsPermissions.rulesetTitle.itemType': `On records of model {name}`,
@@ -683,6 +689,7 @@ module.exports = {
   'fieldError.MIN_LENGTH': `Field must be at least { min_length } characters long`,
   'fieldError.MULTIPLE_INSTANCES_OF_SINGLETON': `Cannot convert to single instance as currently there is more than one record of this kind!`,
   'fieldError.NO_LOCALES_LEFT_FOR_ITEM': `Cannot remove following locale(s): { locales_to_remove }. The following records would remain without any locale: { item_ids }`,
+  'fieldError.CANNOT_REMOVE_LOCALES_USED_IN_PERMISSIONS': `Cannot remove following locale(s): { locales_to_remove }. Some content permissions are still referencing them. Please update your permissions accordingly and try again!`,
   'fieldError.REQUIRED_FIELD': `Field is required`,
   'fieldError.ALL_MATCH': `{value} is not an acceptable value`,
   'fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE': `Cannot convert to single instance as this model is currently referenced in some field!`,
@@ -1930,6 +1937,8 @@ module.exports = {
   'role.records.fromStage': `From stage:`,
   'role.records.toStage': `To stage:`,
   'role.records.moveToStage': `Move to stage:`,
+  'role.records.content': `Content/locales:`,
+  'role.records.editableContent': `Editable content/locales:`,
 
   'role.uploads.positive': `Role CAN:`,
   'role.uploads.negative': `Role CANNOT:`,
@@ -2192,6 +2201,7 @@ module.exports = {
   'versions.restore.action': `Restore this revision`,
   'versions.restore.description': `You're viewing the revision {user} made {date}.`,
   'versions.restore.disabled': `You cannot rollback right now as someone is editing this record`,
+  'versions.restore.disabledDueToPermissions': `You don't have enough permissions to rollback this record`,
   'versions.restore.title': `Restore this version?`,
   'versions.title': `Record history`,
   'videoInput.hint': `Copy and paste the address of the page containing a YouTube, Vimeo or Facebook video here:`,
