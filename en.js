@@ -2568,5 +2568,4 @@ module.exports = {
   'quickSearch.shortcuts.open': 'to open',
   'quickSearch.shortcuts.openNewTab': 'to open in new tab',
   'quickSearch.shortcuts.close': 'to close',
-  'pluginInput.itemTypeNotFound': `Couldn't find a model with this ID`,
 };
