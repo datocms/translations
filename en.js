@@ -1692,9 +1692,14 @@ module.exports = {
   'messages.confirm.removeReferences.question': `This record is referenced in a number of other records. If you proceed, those references will be removed.`,
   'messages.confirm.removeReferences.title': `Remove references?`,
 
-  'messages.confirm.uploadPossibleDuplicate.ok': `Abort upload, it's a duplicate`,
-  'messages.confirm.uploadPossibleDuplicate.cancel': `Keep uploading the new file`,
   'messages.confirm.uploadPossibleDuplicate.title': `Found possible duplicate asset!`,
+  'messages.confirm.uploadPossibleDuplicate.ok': `Skip upload, it's a duplicate`,
+  'messages.confirm.uploadPossibleDuplicate.cancel': `Keep uploading the new file`,
+
+  'messages.confirm.uploadPossibleDuplicateInput.title': `Use existing asset instead?`,
+  'messages.confirm.uploadPossibleDuplicateInput.ok': `Skip upload, use existing asset`,
+  'messages.confirm.uploadPossibleDuplicateInput.cancel': `Keep uploading the new file`,
+
   'messages.confirm.uploadPossibleDuplicate.description': `In your Media Area there is already an asset with the exact same MD5 signature of the file you want to upload. Would you rather proceed with the upload anyway, or abort the upload?`,
   'messages.confirm.uploadPossibleDuplicate.newFile': `New file you want to upload`,
   'messages.confirm.uploadPossibleDuplicate.existingAssets': `Asset found in Media Area`,
