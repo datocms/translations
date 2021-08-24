@@ -1413,7 +1413,6 @@
   "site.buildTriggerAdapters.other": "Andere deployment Methoden",
   "site.buildTriggerAdapters.semaphore": "Semaphor",
   "site.buildTriggerAdapters.travis": "Travis",
-  "site.buildTriggerAdapters.zeit": "Vercel",
   "site.button.default": "Einstellungen speichern",
   "site.color.accent": "Akzentfarbe",
   "site.color.dark": "Dunkle Farbe",

@@ -2016,7 +2016,7 @@ module.exports = {
   'site.buildTriggerAdapters.recommendedSub': `One-click setup, handles site building + CDN hosting`,
   'site.buildTriggerAdapters.semaphore': `Semaphore`,
   'site.buildTriggerAdapters.travis': `Travis`,
-  'site.buildTriggerAdapters.zeit': `Vercel`,
+  'site.buildTriggerAdapters.vercel': `Vercel`,
   'site.button.default': `Save Settings`,
   'site.color.accent': `Accent color`,
   'site.color.dark': `Dark color`,
@@ -2291,7 +2291,7 @@ module.exports = {
   'zeitSettings.noProjects': `The Vercel account you selected does not have any projects!`,
   'zeitSettings.projectCreated': `I've created a new project, refresh the list`,
   'zeitSettings.projectSelect': `Select the Vercel project you want to link to this DatoCMS project:`,
-  'zeitSettings.notLinkable': `Missing repository link - Please link this Vercel project to a Git repository to integrate it with DatoCMS`,
+  'zeitSettings.notLinkable': `Missing Git repository`,
 
   'environment.fork': 'Fork',
   'environment.delete': 'Delete',

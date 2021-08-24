@@ -1513,7 +1513,6 @@
   "site.buildTriggerAdapters.recommendedSub": "Nastavení jedním klikem, řeší sestavení i CDN hosting",
   "site.buildTriggerAdapters.semaphore": "Semaphore",
   "site.buildTriggerAdapters.travis": "Travis",
-  "site.buildTriggerAdapters.zeit": "ZEIT",
   "site.button.default": "Uložit nastavení",
   "site.color.accent": "Barva zvýraznění",
   "site.color.dark": "Tmavá barva",

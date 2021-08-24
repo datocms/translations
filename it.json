@@ -1851,7 +1851,6 @@
   "site.buildTriggerAdapters.recommendedSub": "Setup one-click, gestiscono build del sito + hosting CDN",
   "site.buildTriggerAdapters.semaphore": "Semaphore",
   "site.buildTriggerAdapters.travis": "Travis",
-  "site.buildTriggerAdapters.zeit": "Vercel",
   "site.button.default": "Salva Impostazioni",
   "site.color.accent": "Variante vivace",
   "site.color.dark": "Colore scuro",

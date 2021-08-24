@@ -1645,7 +1645,6 @@
   "site.buildTriggerAdapters.recommendedSub": "Configuração com um clique, lida com construção de sites + hospedagem CDN",
   "site.buildTriggerAdapters.semaphore": "Semáforo",
   "site.buildTriggerAdapters.travis": "Travis",
-  "site.buildTriggerAdapters.zeit": "Vercel",
   "site.button.default": "Guardar definições",
   "site.color.accent": "Cor de destaque",
   "site.color.dark": "Cor escura",

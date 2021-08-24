@@ -1669,7 +1669,6 @@
   "site.buildTriggerAdapters.recommendedSub": "Configuration en un click, gère le build du site + l'hébergement dur un CDN",
   "site.buildTriggerAdapters.semaphore": "Semaphore",
   "site.buildTriggerAdapters.travis": "Travis",
-  "site.buildTriggerAdapters.zeit": "ZEIT",
   "site.button.default": "Sauvegarder les paramètres",
   "site.color.accent": "Couleur d'accentuation",
   "site.color.dark": "Couleur sombre",
