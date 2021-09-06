@@ -1892,6 +1892,7 @@ module.exports = {
   'role.canPerformSiteSearch': `Perform Site Search API calls`,
   'role.canPublish.all': `All build triggers`,
   'role.canPublishRecords': `Publish records`,
+  'role.canAccessActivityLog': `Access deployment activity log`,
   'role.content': `Content`,
   'role.form.addRule': `Add new rule`,
   'role.name': `Name`,
