@@ -2314,6 +2314,7 @@ module.exports = {
 
   'environment.fork.success': `Fork of environment started successfully!`,
   'environment.fork.failure': `We couldn't fork the environment!`,
+  'environment.fork.failure.nameTaken': `We couldn't fork the environment, because the name was already taken. Use an unique name and try again!`,
 
   'messages.confirm.destroyEnvironment.cancel': `Cancel`,
   'messages.confirm.destroyEnvironment.ok': `Yes, delete`,
