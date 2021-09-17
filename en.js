@@ -2519,6 +2519,7 @@ module.exports = {
   'structuredText.linkMeta.add': `Add new meta`,
   'structuredText.linkMeta.key': `Meta name`,
   'structuredText.linkMeta.value': `Value`,
+  'structuredText.copy': `Copy content from {locale}`,
 
   'slate.link.openInNewWindow': `Open link in new window?`,
 
