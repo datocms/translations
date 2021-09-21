@@ -1583,7 +1583,7 @@ module.exports = {
   'messages.confirm.convertField.title': `Convert field`,
   'messages.confirm.deactivateUser.cancel': `Cancel`,
   'messages.confirm.deactivateUser.ok': `Yes, deactivate user`,
-  'messages.confirm.deactivateUser.question': `The user will be immediately logged out, and won't be able to log in until you re-activate him.`,
+  'messages.confirm.deactivateUser.question': `The user will be immediately logged out, and won't be able to log in until an admin re-activates their account.`,
   'messages.confirm.deactivateUser.title': `Deactivate user?`,
   'messages.confirm.deleteScheduledPublication.cancel': `Cancel`,
   'messages.confirm.deleteScheduledPublication.ok': `Yes, stop automatic publication`,
