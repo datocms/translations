@@ -1689,6 +1689,7 @@ module.exports = {
   'messages.confirm.removeReferences.ok': `Try removing references and destroy`,
   'messages.confirm.removeReferences.question': `This record is referenced in a number of other records. If you proceed, those references will be removed.`,
   'messages.confirm.removeReferences.title': `Remove references?`,
+  'removeReferences.published': `(Published version)`,
 
   'messages.confirm.uploadPossibleDuplicate.title': `Found possible duplicate asset!`,
   'messages.confirm.uploadPossibleDuplicate.ok': `Skip upload, it's a duplicate`,
