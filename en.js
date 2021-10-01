@@ -506,8 +506,10 @@ module.exports = {
   'editor.item.batch.publish.result': `{successful, plural, =0 {No record published} one {One record successfully published!} other {{successful} records successfully published!} }`,
   'editor.item.batch.unpublish.failure': `Couldn't unpublish the records!`,
   'editor.item.batch.unpublish.result': `{successful, plural, =0 {No record unpublished} one {One record successfully unpublished!} other {{successful} records successfully unpublished!} }`,
+
   'editor.item.batch.move_to_stage.failure': `Couldn't change stage for the records!`,
   'editor.item.batch.move_to_stage.result': `{successful, plural, =0 {No records moved to stage} one {One record successfully moved to stage!} other {{successful} records successfully moved to stage!} }`,
+
   'editor.item.changeCreator.description': `Please select the user that will become the new creator for this record:`,
   'editor.item.changeCreator.failure': `Couldn't change creator!`,
   'editor.item.changeCreator.field': `New creator`,
@@ -1566,17 +1568,22 @@ module.exports = {
   'messages.confirm.batch.destroy.ok': `Yes, delete {count, plural, one { this record } other { {count} records} }`,
   'messages.confirm.batch.destroy.question': `Are you sure you want to delete {count, plural, one { this record } other { {count} records} }? This operation is not reversible!`,
   'messages.confirm.batch.destroy.title': `Delete {count, plural, one { the record } other { {count} records?} }`,
+
   'messages.confirm.batch.publish.cancel': `Cancel`,
   'messages.confirm.batch.publish.ok': `Yes, publish {count, plural, one { this record } other { {count} records} }`,
   'messages.confirm.batch.publish.question': `Are you sure you want to publish {count, plural, one { this record } other { {count} records} }?`,
   'messages.confirm.batch.publish.title': `Publish {count, plural, one { the record } other { {count} records} }`,
+
   'messages.confirm.batch.unpublish.cancel': `Cancel`,
   'messages.confirm.batch.unpublish.ok': `Yes, unpublish {count, plural, one { this record } other { {count} records} }`,
   'messages.confirm.batch.unpublish.question': `Are you sure you want to unpublish {count, plural, one { this record } other { {count} records} }?`,
   'messages.confirm.batch.unpublish.title': `Unpublish {count, plural, one { the record } other { {count} records} }`,
-  'messages.confirm.batch.move_to_stage.ok': `Yes, move {count, plural, one { this record } other { {count} records} to stage }`,
+
+  'messages.confirm.batch.move_to_stage.cancel': `Cancel`,
+  'messages.confirm.batch.move_to_stage.ok': `Yes, move {count, plural, one { this record } other { {count} records} } to stage`,
   'messages.confirm.batch.move_to_stage.question': `Are you sure you want to move to stage {count, plural, one { this record } other { {count} records} }?`,
   'messages.confirm.batch.move_to_stage.title': `Move to stage {count, plural, one { the record } other { {count} records} }`,
+
   'messages.confirm.convertField.cancel': `Cancel`,
   'messages.confirm.convertField.ok': `Yes, convert`,
   'messages.confirm.convertField.question': `Are you sure you want to convert this field? This operation is not reversible.`,
