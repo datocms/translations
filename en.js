@@ -2448,6 +2448,7 @@ module.exports = {
   "items.form.&lt;MODEL_API_KEY&gt;.fieldsets.&lt;FIELDSET_TITLE&gt;.title": "...",
   "items.form.&lt;MODEL_API_KEY&gt;.fieldsets.&lt;FIELDSET_TITLE&gt;.hint": "...",
   "menuItems.&lt;MENU_ITEM_LABEL&gt;.label": "...",
+  "locales.&lt;LOCALE_CODE&gt;.label": "...",
 }</pre>`,
   'admin.whiteLabelSettings.customI18nMessagesTemplateUrl': `Custom I18n messages template URL`,
   'admin.whiteLabelSettings.button.default': `Save white-label settings`,
