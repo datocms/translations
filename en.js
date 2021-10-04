@@ -1429,6 +1429,9 @@ module.exports = {
   'latLonInput.button.clear': `Clear position`,
   'latLonInput.latitude': `Latitude:`,
   'latLonInput.longitude': `Longitude:`,
+  'limits.blocks_per_item': `Blocks per item`,
+  'limits.blocks_depth': `Blocks depth`,
+  'limits.workflows_count': `Workflows`,
   'limits.access_tokens': `Custom API tokens`,
   'limits.build_triggers': `Build triggers`,
   'limits.apiRequests': `API requests`,
@@ -1813,6 +1816,7 @@ module.exports = {
   'planUpgradeRequired.users.description': `You've reached the <strong>maximum number of collaborators</strong> your plan allows to invite to the project. If you're the project owner, please head over to your <a href="https://dashboard.datocms.com/">account dashboard</a> to upgrade the plan or, if no publicly available plan suits your needs, contact our <a href="https://www.datocms.com/contact" target="_blank">Sales team</a> to get a custom quote!`,
   'planUpgradeRequired.access_tokens.description': `You've reached the <strong>maximum number of API tokens</strong> your plan allows to create. If you're the project owner, please head over to your <a href="https://dashboard.datocms.com/">account dashboard</a> to upgrade the plan or, if no publicly available plan suits your needs, contact our <a href="https://www.datocms.com/contact" target="_blank">Sales team</a> to get a custom quote!`,
   'planUpgradeRequired.blocks_per_item.description': `You've reached the <strong>maximum number of blocks per item</strong> your plan allows to create. If you're the project owner, please contact our <a href="https://www.datocms.com/contact" target="_blank">Sales team</a> to get a custom quote!`,
+  'planUpgradeRequired.blocks_depth.description': `You've reached the <strong>maximum depth for blocks</strong> your plan allows. If you're the project owner, please contact our <a href="https://www.datocms.com/contact" target="_blank">Sales team</a> to get a custom quote!`,
   'plugin.button.default': `Save plugin settings`,
   'plugin.createPrivate': `Create private plugin`,
   'plugin.description': `Small description`,
@@ -2528,7 +2532,7 @@ module.exports = {
   'structuredText.linkMeta.add': `Add new meta`,
   'structuredText.linkMeta.key': `Meta name`,
   'structuredText.linkMeta.value': `Value`,
-  'structuredText.copy': `Copy content from {locale}`,
+  'structuredText.copy': `Copy from {locale}`,
 
   'slate.link.openInNewWindow': `Open link in new window?`,
 
