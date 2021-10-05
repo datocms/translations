@@ -45,6 +45,7 @@ module.exports = {
   'form.recordsPermissions.newRuleset.add': `Add ruleset for`,
   'role.addItemType.multiple': `Model`,
   'role.addWorkflow.multiple': `Workflow`,
+  'role.inheritsPermissionsFrom': `Inherits permissions from`,
 
   'admin.workflow.info': `Workflows allow your team to explicitly define an editorial state machine to bring your draft content up to the final publication through a series of intermediate, fully customizable approval steps. <a target="_blank" href="https://www.datocms.com/docs/general-concepts/workflows">Read the docs &raquo;</a>`,
 
@@ -61,6 +62,8 @@ module.exports = {
   'role.select.locale.any': `— Any content`,
   'role.select.locale.notLocalized': `Non-localized content`,
   'role.select.locale.locale': `{locale} content`,
+
+  'form.recordsPermissions.inheritsFrom': `This role inherits permissions from the following roles:`,
 
   'form.recordsPermissions.rulesetTitle.any': `On any record`,
   'form.recordsPermissions.rulesetTitle.itemType': `On records of model {name}`,
@@ -1113,6 +1116,7 @@ module.exports = {
   'gallery.noFile': `No file available.`,
   'gallery.noFiles': `No files present`,
   'gallery.noImage': `No image available.`,
+  'genericError.CIRCULAR_DEPENDENCY': `Circular dependency between roles detected!`,
   'genericError.INVALID_ID': `Only letters, numbers and _ are allowed in API key`,
   'genericError.BATCH_DATA_VALIDATION_IN_PROGRESS': `The schema of this model changed, we're re-running validations over every record in background. Please retry with this operation in a few seconds!`,
   'genericError.INSUFFICIENT_PERMISSIONS': `Your role does not permit this action`,
@@ -1955,7 +1959,7 @@ module.exports = {
 
   'role.records.positive': `Role CAN:`,
   'role.records.negative': `Role CANNOT:`,
-  'role.records.noRules': `Role cannot perform any action on records.`,
+  'role.records.noRules': `No permissions specified for records.`,
   'role.records.createdBy': `If created by:`,
   'role.records.inStage': `In stage:`,
   'role.records.fromStage': `From stage:`,
@@ -1966,7 +1970,7 @@ module.exports = {
 
   'role.uploads.positive': `Role CAN:`,
   'role.uploads.negative': `Role CANNOT:`,
-  'role.uploads.noRules': `Role cannot perform any action on assets.`,
+  'role.uploads.noRules': `No permissions specified for assets.`,
   'role.uploads.createdBy': `If created by:`,
 
   'role.addPositive': `Allow rule`,
