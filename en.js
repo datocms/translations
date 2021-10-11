@@ -1480,6 +1480,7 @@ module.exports = {
   'limits.users.none': `No collaborators invitable`,
   'limits.users.unlimited': `Unlimited collaborators`,
   'limits.users.usage': `{unformattedValue, plural, one { invitable collaborator } other { {value} collaborators } }`,
+  'limits.webhooks': `Webhooks`,
   'localesInput.add': `Add new locale...`,
   'localesInput.switch': `Switch to...`,
   'markdownEditor.toolbar': `Toolbar buttons`,
