@@ -207,7 +207,6 @@
   "editor.item.destroy.success": "Запись успешно удалена",
   "editor.item.duplicate.failure": "Не удалось создать копию записи!",
   "editor.item.duplicate.success": "Копия записи была успешно создана!",
-  "editor.item.noItems.description": "Начните заполнять ее новыми записями типа \"{name}\" прямо сейчас!",
   "editor.item.noItems.title": "Эта коллекция пуста",
   "editor.item.publish.failure": "Не удалось опубликовать запись!",
   "editor.item.publish.success": "Запись успешно опубликована!",

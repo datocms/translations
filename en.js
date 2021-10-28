@@ -536,7 +536,8 @@ module.exports = {
   'editor.item.filterClear': `Clear`,
   'editor.item.new': `New record`,
   'editor.item.noItems.button': `Create a new record`,
-  'editor.item.noItems.description': `Start filling it with new "{name}" records right away!`,
+  'editor.item.noItems.descriptionNeutral': `You might not have the necessary permissions to find what you are looking for, or maybe you're looking for something too specific?`,
+  'editor.item.noItems.descriptionCreate': `Either way, you can always go ahead and create new records!`,
   'editor.item.noItems.title': `This collection is empty`,
   'editor.item.publish.failure': `Couldn't publish the record!`,
   'editor.item.publish.success': `Record successfully published!`,
@@ -675,7 +676,7 @@ module.exports = {
   'field.charactersHint': `Characters left: {counter}`,
   'field.dateHint': `Expressed in {format} timezone`,
 
-  'fieldError.API_KEY_FORMAT_INVALID': `Only letters, numbers and _ are allowed`,
+  'fieldError.API_KEY_FORMAT_INVALID': `Only letters, numbers and underscores are allowed. Underscores followed by a number are not allowed.`,
   'fieldError.FLOAT': `Field must be a floating point number`,
   'fieldError.GREATER_DATE_THAN': `Date must be greater than the previous one`,
   'fieldError.GREATER_THAN': `Field must be bigger than the previous one`,

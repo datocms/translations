@@ -381,7 +381,6 @@
   "editor.item.filterClear": "Limpar",
   "editor.item.new": "Novo registo",
   "editor.item.noItems.button": "Criar um novo registo",
-  "editor.item.noItems.description": "Comece a preenchê-lo com novos registos \"{name}\" imediatamente!",
   "editor.item.noItems.title": "Esta coleção está vazia",
   "editor.item.publish.failure": "Não foi possível publicar o registo!",
   "editor.item.publish.success": "Registo publicado com sucesso!",

@@ -385,7 +385,6 @@
   "editor.item.filterClear": "Effacer",
   "editor.item.new": "Nouvelle entité",
   "editor.item.noItems.button": "Créer une nouvelle entité",
-  "editor.item.noItems.description": "Commencez à le remplir avec une nouvelle \"{name}\" entité",
   "editor.item.noItems.title": "Cette collection est vide",
   "editor.item.publish.failure": "Impossible de publier l'entité !",
   "editor.item.publish.success": "Entité publiée avec succès !",

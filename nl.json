@@ -341,7 +341,6 @@
   "editor.item.filterClear": "Wissen",
   "editor.item.new": "Nieuw item",
   "editor.item.noItems.button": "Nieuw item aanmaken",
-  "editor.item.noItems.description": "Vul het direct met nieuwe \"{name}\" items!",
   "editor.item.noItems.title": "Deze collectie is leeg...",
   "editor.item.publish.failure": "Item publiceren mislukt!",
   "editor.item.publish.success": "Item publiceren gelukt!",

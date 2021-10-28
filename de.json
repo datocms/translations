@@ -348,7 +348,6 @@
   "editor.item.filterClear": "Leeren",
   "editor.item.new": "Neuer Datensatz",
   "editor.item.noItems.button": "Erstellen Sie einen neuen Datensatz",
-  "editor.item.noItems.description": "Fang sofort an, es mit neuen Datensätzen zu füllen!",
   "editor.item.noItems.title": "Diese Sammlung ist leer",
   "editor.item.publish.failure": "Ich konnte die Platte nicht veröffentlichen!",
   "editor.item.publish.success": "Datensatz erfolgreich veröffentlicht",
