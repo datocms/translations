@@ -280,6 +280,7 @@ module.exports = {
   'admin.ssoUsers.status.synced': `Synced`,
   'admin.ssoUsers.title': `Provisioned users`,
   'admin.users.title': `Collaborators`,
+  'admin.users.noAccess': `Never accessed`,
   'admin.version.restore.INVALID_PARENT': `Cannot restore version that has current parent record as child`,
   'admin.version.restore.failure': `Couldn't restore revision!`,
   'admin.version.restore.success': `Previous revision successfully restored!`,
@@ -578,6 +579,7 @@ module.exports = {
   'editor.table.status': `Status`,
   'editor.table.user': `User`,
   'editor.textarea': `Simple textarea`,
+  'editor.table.lastActive': `Last active`,
   'editor.upload.batchAddTags.failure': `We could not add new tags`,
 
   'editor.upload.batchAddTags.result': `{
