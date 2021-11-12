@@ -1441,7 +1441,6 @@
   "role.name": "Jméno",
   "role.publishing": "Publikování",
   "role.select.action.all": "Provádět všechny akce na",
-  "role.select.action.create": "Vytvářet",
   "role.select.action.delete": "Odstranit",
   "role.select.action.duplicate": "Duplikovat",
   "role.select.action.editCreator": "Upravit autora",

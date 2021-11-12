@@ -1378,7 +1378,6 @@
   "role.name": "Name",
   "role.publishing": "Publicación",
   "role.select.action.all": "Realizar todas las acciones en",
-  "role.select.action.create": "Crear",
   "role.select.action.delete": "Eliminar",
   "role.select.action.duplicate": "Duplicar",
   "role.select.action.editCreator": "Editar creador",

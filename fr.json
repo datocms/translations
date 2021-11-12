@@ -1597,7 +1597,6 @@
   "role.records.positive": "Le rôle PEUT effectuer ces actions sur les entités :",
   "role.recordsPermissionsOnEnvironment": "Permissions sur {environment}",
   "role.select.action.all": "Exécuter toutes les actions sur",
-  "role.select.action.create": "Créer",
   "role.select.action.delete": "Supprimer",
   "role.select.action.duplicate": "Dupliquer",
   "role.select.action.editCreator": "Modifier le créateur",

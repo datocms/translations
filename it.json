@@ -1822,7 +1822,6 @@
   "role.records.toStage": "Verso lo stage:",
   "role.recordsPermissionsOnEnvironment": "Permessi su {environment}",
   "role.select.action.all": "Fare tutto",
-  "role.select.action.create": "Creare",
   "role.select.action.delete": "Eliminare",
   "role.select.action.duplicate": "Duplicare",
   "role.select.action.editCreator": "Modificare il creatore",

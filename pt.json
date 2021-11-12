@@ -1573,7 +1573,6 @@
   "role.records.positive": "A função PODE realizar estas acções nos registos:",
   "role.recordsPermissionsOnEnvironment": "Permissões para {environment}",
   "role.select.action.all": "Executar todas as ações em",
-  "role.select.action.create": "Criar",
   "role.select.action.delete": "Eliminar",
   "role.select.action.duplicate": "Duplicar",
   "role.select.action.editCreator": "Editar criador",
