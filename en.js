@@ -1922,11 +1922,11 @@ module.exports = {
 
   'role.select.action.all': `Do anything`,
   'role.select.action.delete': `Delete`,
-  'role.select.action.duplicate': `Create/duplicate`,
+  'role.select.action.create': `Create`,
+  'role.select.action.duplicate': `Duplicate`,
   'role.select.action.editCreator': `Edit creator`,
   'role.select.action.none': `Do anything`,
   'role.select.action.read': `View`,
-  'role.select.action.create': `Create`,
   'role.select.action.takeOver': `Take over`,
   'role.select.action.unpublish': `Publish/unpublish`,
   'role.select.action.update': `Edit`,
