@@ -1119,6 +1119,7 @@ module.exports = {
   'gallery.noFile': `No file available.`,
   'gallery.noFiles': `No files present`,
   'gallery.noImage': `No image available.`,
+  'genericError.MISSING_LOCALES': `This model contains some localized field, but no locale is present!`,
   'genericError.CIRCULAR_DEPENDENCY': `Circular dependency between roles detected!`,
   'genericError.INVALID_ID': `Only letters, numbers and underscores are allowed in API keys. Underscores followed by a number are not allowed.`,
   'genericError.BATCH_DATA_VALIDATION_IN_PROGRESS': `The schema of this model changed, we're re-running validations over every record in background. Please retry with this operation in a few seconds!`,
