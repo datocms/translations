@@ -1344,6 +1344,7 @@
   "role.name": "Name",
   "role.publishing": "Veröffentlichung",
   "role.select.action.all": "Führen Sie alle Aktionen aus",
+  "role.select.action.create": "Erschaffen",
   "role.select.action.delete": "Löschen",
   "role.select.action.duplicate": "Duplizieren",
   "role.select.action.editCreator": "Ersteller bearbeiten",

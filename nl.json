@@ -1250,6 +1250,7 @@
   "role.name": "Naam",
   "role.publishing": "Publiceren",
   "role.select.action.all": "Alle acties toepassen op",
+  "role.select.action.create": "Creëren",
   "role.select.action.delete": "Verwijderen",
   "role.select.action.duplicate": "Dupliceren",
   "role.select.action.editCreator": "Wijzig maker",
