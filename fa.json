@@ -25,7 +25,6 @@
   "quickSearch.shortcuts.open": "برای بازکردن",
   "quickSearch.shortcuts.openNewTab": "برای بازکردن در یک برگۀ جدید",
   "role.records.content": "محتوای محلی:",
-  "role.records.editableContent": "محتوای محلی قابل ویرایش:",
   "role.select.locale.any": "— هر محتوایی",
   "role.select.locale.locale": "{locale} محتوا",
   "role.select.locale.notLocalized": "محتوای غیر محلی",

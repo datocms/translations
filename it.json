@@ -1812,7 +1812,6 @@
   "role.publishing": "Permessi sulle build",
   "role.records.content": "Contenuto/locales:",
   "role.records.createdBy": "Se creato da:",
-  "role.records.editableContent": "Contenuto/locales modificabili:",
   "role.records.fromStage": "Dallo stage:",
   "role.records.inStage": "Nello stage:",
   "role.records.moveToStage": "Stage di destinazione:",

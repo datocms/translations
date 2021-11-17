@@ -427,7 +427,6 @@
   "role.environmentsAccess.sandboxOnly": "Tylko dla środowisk-piaskownic",
   "role.records.content": "Zawartość/ustawienia regionalne:",
   "role.records.createdBy": "Jeśli utworzony/utworzona/utworzone przez:",
-  "role.records.editableContent": "Edytowalna zawartość/ustawienia regionalne:",
   "role.records.fromStage": "Z etapu:",
   "role.records.inStage": "W etapie:",
   "role.records.moveToStage": "Przenieś do etapu:",

@@ -1972,7 +1972,6 @@ module.exports = {
   'role.records.toStage': `To stage:`,
   'role.records.moveToStage': `Move to stage:`,
   'role.records.content': `Content/locales:`,
-  'role.records.editableContent': `Editable content/locales:`,
 
   'role.uploads.positive': `Role CAN:`,
   'role.uploads.negative': `Role CANNOT:`,
