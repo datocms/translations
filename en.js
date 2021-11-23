@@ -147,14 +147,14 @@ module.exports = {
   'admin.accessToken.destroy.failure': `Couldn't delete API token!`,
 
   'admin.accessToken.destroy.newCreator.description': `
-    Before removing the { user } API token from this project,
-    please specify to which user the ownership of its records will be
-    transferred to:
+    Before removing the "{ user }" API token from this project,
+    please specify to which user, or API token, the ownership of its records
+    and uploads will be transferred to.
   `,
   'alert.genericFailure': `We couldn't perform the operation!`,
-  'admin.accessToken.destroy.newCreator.field': `Destination user`,
-  'admin.accessToken.destroy.newCreator.submit.default': `Transfer records to this user`,
-  'admin.accessToken.destroy.newCreator.title': `Transfer records`,
+  'admin.accessToken.destroy.newCreator.field': `Destination user or API token`,
+  'admin.accessToken.destroy.newCreator.submit.default': `Transfer ownership and delete API token`,
+  'admin.accessToken.destroy.newCreator.title': `Transfer ownership`,
   'admin.accessToken.destroy.success': `API token deleted successfully!`,
   'admin.accessToken.regenerateToken.failure': `Couldn't update API token!`,
   'admin.accessToken.regenerateToken.success': `API token regenerated successfully!`,
@@ -486,13 +486,13 @@ module.exports = {
 
   'editor.editor.destroy.newCreator.description': `
     Before removing { user } from this project,
-    please specify to which user the ownership of its records will be
-    transferred to:
+    please specify to which user, or API token, the ownership of their records
+    and uploads will be transferred to.
   `,
 
-  'editor.editor.destroy.newCreator.field': `Destination user`,
-  'editor.editor.destroy.newCreator.submit.default': `Transfer records to this user`,
-  'editor.editor.destroy.newCreator.title': `Transfer records`,
+  'editor.editor.destroy.newCreator.field': `Destination user or API token`,
+  'editor.editor.destroy.newCreator.submit.default': `Transfer ownership and delete user`,
+  'editor.editor.destroy.newCreator.title': `Transfer ownership`,
   'editor.editor.destroy.success': `User successfully removed`,
   'editor.editor.update.failure': `Couldn't update user settings!`,
   'editor.editor.update.success': `User successfully updated`,
