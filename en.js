@@ -1125,7 +1125,7 @@ module.exports = {
   'genericError.CIRCULAR_DEPENDENCY': `Circular dependency between roles detected!`,
   'genericError.INVALID_ID': `Only letters, numbers and underscores are allowed in API keys. Underscores followed by a number are not allowed.`,
   'genericError.BATCH_DATA_VALIDATION_IN_PROGRESS': `The schema of this model changed, we're re-running validations over every record in background. Please retry with this operation in a few seconds!`,
-  'genericError.INSUFFICIENT_PERMISSIONS': `Your role does not permit this action`,
+  'genericError.INSUFFICIENT_PERMISSIONS': `Sorry, but you don't have appropriate permission to perform this operation!`,
   'genericError.MAINTENANCE_MODE': `The project is currently in maintenance mode!`,
   'genericError.DELETE_RESTRICTION': `Sorry, but you cannot delete this resource, as it's currently used/referenced elsewhere!`,
   'genericError.INVALID_CREDENTIALS': `Credentials are incorrect!`,
