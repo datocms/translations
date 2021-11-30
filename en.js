@@ -138,7 +138,7 @@ module.exports = {
   'accessToken.canAccessCma.hint': `REST Endpoint: https://site-api.datocms.com/*`,
   'accessToken.info': `This API token is present in every DatoCMS space and cannot be edited or deleted.`,
   'accessToken.name': `Name`,
-  'accessToken.notEditable': `Non editable`,
+  'accessToken.notEditable': `Not editable`,
   'accessToken.permissions': `Permissions`,
   'accessToken.role': `Role associated with this API token`,
   'accessToken.token': `API Token`,
@@ -1015,15 +1015,17 @@ module.exports = {
   'form.editPlugin.fieldsUsing': `Fields using this plugin`,
   'form.editPlugin.info': `Plugin info`,
   'form.editPlugin.installableOn': `<strong>Installable on:</strong> {fieldTypes} fields`,
-  'form.editPlugin.newVersion': `A new version of <strong>{pluginName}</strong> is now available!`,
+  'form.editPlugin.newVersion': `A new version of <strong>{pluginName}</strong> is now available in the Marketplace!`,
   'form.editPlugin.newVersionCannotUpdate': `Version {version} of the <strong>{pluginName}</strong> plugin is available. Since the new version has different settings than your current one, to upgrade you have to uninstall and re-install the plugin.`,
-  'form.editPlugin.noFieldsUsing': `No field is using this plugin yet!`,
+  'form.editPlugin.noFieldsUsing': `This plugin is not hooked to any field at the moment! If you want, you can manually associate it to some of your fields by editing their Presentation settings.`,
   'form.editPlugin.pluginType': `Plugin type:`,
   'form.editPlugin.settings': `Plugin settings`,
   'form.editPlugin.title': `Edit Plugin`,
   'form.editPlugin.uninstall': `Uninstall`,
   'form.editPlugin.update': `Update to v{version}`,
-  'form.editPlugin.visit': `Visit plugin homepage for instructions »`,
+  'form.editPlugin.noSettings': `This plugin offers no settings.`,
+  'form.editPlugin.visitMarketplace': `View in Marketplace`,
+  'form.editPlugin.noDescription': `No description available for this plugin.`,
   'form.editRoleForm.delete': `Delete`,
   'form.editRoleForm.title': `Edit role`,
   'form.editWebhookForm.delete': `Delete`,
@@ -1297,29 +1299,8 @@ module.exports = {
     <p>If something goes wrong during the publishing process, this is the first place to look for hints.</p>
   `,
 
-  'instructions.pluginTypes.field_addon': `
-    <p>Now that this field add-on is installed, you can use it in any of your <strong>{ fieldTypes }</strong> fields!</p>
-    <p>In the <em>Presentation</em> tab of your field settings, you'll be able to add (and configure) this add-on:</p>
-    <p><img class="with-zoom" src="/assets/images/plugins/field_addon.gif" /></p>
-  `,
-
-  'instructions.pluginTypes.field_editor': `
-    <p>Now that this field editor is installed, you can use it in any of your <strong>{ fieldTypes }</strong> fields!</p>
-    <p>In the <em>Presentation</em> tab of your field settings, you'll be able choose this plugin as the field editor, and configure its settings:</p>
-    <p><img class="with-zoom" src="/assets/images/plugins/field_editor.gif" /></p>
-  `,
-
-  'instructions.pluginTypes.sidebar': `
-    <p>Now that this sidebar widget is installed, you can add it to in any of your model!</p>
-    <p>In one of your models create a new <strong>{ orFieldTypes }</strong> field, and in the <em>Presentation</em> tab choose this plugin as its field editor:</p>
-    <p><img class="with-zoom" src="/assets/images/plugins/sidebar.gif" /></p>
-  `,
-
   'instructions.plugins': `
-    <p>Plugins allow developers to extend the basic functionality of a DatoCMS project. You, the developer, are in charge of writing and hosting the plugin.</p>
-    <p>Technically speaking Plugins are small HTML5 applications that exist in a sandboxed <code>&#x3C;iframe></code> and interact with the main DatoCMS webapp through a JS library you need to include — <a href="https://www.datocms.com/docs/guides/building-plugins/sdk-reference">the Plugins SDK</a>.</p>
-    <p>You can write them with basic HTML and JavaScript, or using more advanced client-side frameworks such as React, Angular or Vue.</p>
-    <p>Want to know more? Read how to install, develop and share plugins to the community in <a target="_blank" href="https://www.datocms.com/docs/guides/building-plugins">our guide</a>!</p>
+    <p>Plugins are custom webapps that expand the regular interface of DatoCMS. Read how to develop and share plugins with the community in <a target="_blank" href="https://www.datocms.com/docs/plugin-sdk">our docs</a>!</p>
   `,
 
   'integration.step1.success': `Command received, hurray!`,
@@ -1835,19 +1816,26 @@ module.exports = {
   'plugin.fromUrl': `Insert the name of a DatoCMS NPM module, or paste a public GitHub link to the plugin's <code>package.json</code>:`,
   'plugin.fromUrl.hint': `You can browse some extensions in our <a href="https://github.com/datocms/plugins">GitHub repository</a>`,
   'plugin.install': `Install plugin`,
+  'plugin.upgrade': `Update plugin`,
   'plugin.name': `Plugin name`,
   'plugin.parameter_definitions': `Parameter definitions`,
   'plugin.parameter_definitions.hint': `Read more about parameter definitions <a href="https://www.datocms.com/docs/guides/building-plugins/creating-a-new-plugin#configuration-parameters">in our guide</a>`,
   'plugin.pluginType': `Type of plugin`,
   'plugin.pluginType.hint': `DatoCMS supports different types of plugins. For more info, please read our <a href="https://www.datocms.com/docs/guides/building-plugins#types-of-plugins">documentation</a>`,
   'plugin.url': `Entry point URL`,
+  'plugin.legacy': `Legacy plugin?`,
   'plugin.url.hint': `Read more about plugins entry point <a href="https://www.datocms.com/docs/guides/building-plugins/entry-point">in our guide</a>`,
 
   'pluginLibrary.createMore': `Want to create more plugins?
   <a target="_blank" rel="noopener noreferrer" href="https://www.datocms.com/docs/guides/building-plugins" >
   Learn how to publish them </a> or just`,
 
-  'pluginLibrary.createPrivate': `create a private one`,
+  'pluginLibrary.createPrivate.title': `Create new Plugin`,
+  'pluginLibrary.createPrivate.description': `Develop a new private plugin from scratch using our plugin SDK`,
+
+  'pluginLibrary.installFromMarketplace.title': `From Marketplace`,
+  'pluginLibrary.installFromMarketplace.description': `Install one of the 100+ existing plugins present in our marketplace`,
+
   'pluginLibrary.homepage': `Project homepage`,
   'pluginLibrary.install': `Install`,
   'pluginLibrary.installed': `Installed`,
@@ -1855,7 +1843,7 @@ module.exports = {
   'pluginLibrary.search': `Search`,
   'pluginLibrary.search.multiple.placeholder': `Search {total} plugins...`,
   'pluginLibrary.search.single.placeholder': `Find a plugin...`,
-  'pluginLibrary.title': `DatoCMS Plugins`,
+  'pluginLibrary.title': `Add new plugin`,
   'pluginType.field_addon': `Field add-on`,
   'pluginType.field_editor': `Field editor`,
   'pluginType.sidebar': `Sidebar widget`,
@@ -2604,4 +2592,34 @@ module.exports = {
   'quickSearch.shortcuts.open': 'to open',
   'quickSearch.shortcuts.openNewTab': 'to open in new tab',
   'quickSearch.shortcuts.close': 'to close',
+
+  'form.editPlugin.noCapabilities':
+    'This plugin does not offer any functionality.',
+
+  'pluginCapability.pages': 'Adds custom pages to the interface',
+  'pluginCapability.itemFormSidebarPanels':
+    'Adds custom sidebar panels on records',
+  'pluginCapability.manualFieldExtensions':
+    'Adds new editors/addons that can be manually set on fields',
+  'pluginCapability.forcedFieldExtensions':
+    'Automatically forces editors/addons on some fields',
+  'pluginCapability.accessToken': 'Can perform actions on behalf of the user',
+
+  'form.editPlugin.editPrivate': 'Edit private plugin',
+  'plugin.permissions': 'Permissions',
+  'plugin.permissions.hint':
+    'Additional permissions you want to grant to the plugin',
+
+  'form.install.loading': 'Loading plugin information...',
+  'form.install.installingThePlugin': 'Installing the plugin...',
+  'form.install.requiresPermissions.title':
+    'Grant special permissions to this plugin?',
+  'form.install.requiresPermissions':
+    'The plugin requires a number of special permissions. Please review them carefully, and make sure you can trust the plugin:',
+  'form.install.requiredPermissions': 'Required permissions',
+  'form.install.requiresPermissions.post':
+    ' Once authorized, it will have complete access to the specified scopes, potentially harming your project.',
+  'form.install.permission.currentUserAccessToken':
+    'Perform actions and API calls in behalf of the logged-in user',
+  'form.install.proceed': 'Yes, authorize and install',
 };
