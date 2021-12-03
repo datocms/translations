@@ -562,6 +562,9 @@ module.exports = {
   'editor.links_embed': `Expanded view`,
   'editor.links_select': `Compact view`,
   'editor.boolean': `Switch`,
+  'editor.single_line': `Text input`,
+  'editor.string_radio_group': `Radio group`,
+  'editor.string_select': `Select input`,
   'editor.boolean_radio_group': `Radio group`,
   'editor.markdown': `Markdown editor`,
   'editor.password': `Password`,
@@ -2629,4 +2632,14 @@ module.exports = {
   'BooleanRadioGroupParameters.positiveRadioHint': 'Positive radio help text',
   'BooleanRadioGroupParameters.negativeRadioLabel': 'Negative radio label',
   'BooleanRadioGroupParameters.negativeRadioHint': 'Negative radio help text',
+
+  'StringRadioGroupParametersForm.radio.label': 'Label',
+  'StringRadioGroupParametersForm.radio.value': 'Value',
+  'StringRadioGroupParametersForm.radio.hint': 'Help text',
+  'StringRadioGroupParametersForm.addRadio': 'Add new option',
+
+  'StringSelectParametersForm.option.label': 'Label',
+  'StringSelectParametersForm.option.value': 'Value',
+  'StringSelectParametersForm.option.hint': 'Help text',
+  'StringSelectParametersForm.addOption': 'Add new option',
 };
