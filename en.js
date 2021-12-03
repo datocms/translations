@@ -561,6 +561,8 @@ module.exports = {
   'editor.link_select': `Compact view`,
   'editor.links_embed': `Expanded view`,
   'editor.links_select': `Compact view`,
+  'editor.boolean': `Switch`,
+  'editor.boolean_radio_group': `Radio group`,
   'editor.markdown': `Markdown editor`,
   'editor.password': `Password`,
   'editor.passwordHint': `Fill this field only if you want to change your current password, and remember that it should be at least 8 characters long, have a lowercase letter, an uppercase letter and a number`,
@@ -2622,4 +2624,9 @@ module.exports = {
   'form.install.permission.currentUserAccessToken':
     'Perform actions and API calls in behalf of the logged-in user',
   'form.install.proceed': 'Yes, authorize and install',
+
+  'BooleanRadioGroupParameters.positiveRadioLabel': 'Positive radio label',
+  'BooleanRadioGroupParameters.positiveRadioHint': 'Positive radio help text',
+  'BooleanRadioGroupParameters.negativeRadioLabel': 'Negative radio label',
+  'BooleanRadioGroupParameters.negativeRadioHint': 'Negative radio help text',
 };
