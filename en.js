@@ -2642,4 +2642,12 @@ module.exports = {
   'StringSelectParametersForm.option.value': 'Value',
   'StringSelectParametersForm.option.hint': 'Help text',
   'StringSelectParametersForm.addOption': 'Add new option',
+
+  'deployNotice.in_progress': `Publication in progress!`,
+  'deployNotice.request_success': `Requested a new publication!`,
+  'deployNotice.request_aborted': `Publication aborted!`,
+  'deployNotice.request_failure': `Failed to request a new publication!`,
+  'deployNotice.response_failure': `Publication failed!`,
+  'deployNotice.response_success': `Publication completed with success!`,
+  'deployNotice.indexing_success': `Scraping of the website completed with success!`,
 };
