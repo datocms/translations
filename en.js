@@ -2650,4 +2650,8 @@ module.exports = {
   'deployNotice.response_failure': `Publication failed!`,
   'deployNotice.response_success': `Publication completed with success!`,
   'deployNotice.indexing_success': `Scraping of the website completed with success!`,
+
+  'form.editPlugin.developerZone.title': `Developer zone`,
+  'form.editPlugin.developerZone.testLocalVersion': `Test a locally developed new version`,
+  'form.editPlugin.developerZone.upgradeToCanary': `Upgrade to canary release`,
 };
