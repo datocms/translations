@@ -2602,6 +2602,7 @@ module.exports = {
     'This plugin does not offer any functionality.',
 
   'pluginCapability.pages': 'Adds custom pages to the interface',
+  'pluginCapability.assetSources': 'Provides additional asset sources',
   'pluginCapability.itemFormSidebarPanels':
     'Adds custom sidebar panels on records',
   'pluginCapability.manualFieldExtensions':
@@ -2654,4 +2655,6 @@ module.exports = {
   'form.editPlugin.developerZone.title': `Developer zone`,
   'form.editPlugin.developerZone.testLocalVersion': `Test a locally developed new version`,
   'form.editPlugin.developerZone.upgradeToCanary': `Upgrade to canary release`,
+
+  pickAssetFrom: `Upload asset using {source}`,
 };
