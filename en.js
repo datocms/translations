@@ -1017,6 +1017,8 @@ module.exports = {
   'form.editBuildTriggerForm.title': `Edit Build trigger`,
   'form.editEditorForm.delete': `Delete`,
   'form.editEditorForm.title': `Edit user`,
+  'form.editPlugin.loading': `Loading the plugin...`,
+  'form.editPlugin.error': `The plugin at {url} is not responding correctly after 20 seconds.`,
   'form.editPlugin.fieldsUsing': `Fields using this plugin`,
   'form.editPlugin.info': `Plugin info`,
   'form.editPlugin.installableOn': `<strong>Installable on:</strong> {fieldTypes} fields`,
