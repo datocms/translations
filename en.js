@@ -2386,7 +2386,12 @@ module.exports = {
 
   'maintenanceMode.active': `<strong>The project is undergoing scheduled maintenance</strong> and is currently in read-only mode. For more info, contact <a href="mailto:{email}">your system administrator</a>!`,
 
-  'usageCounter.assets_path_bytes': `Top requested assets`,
+  'usageCounter.assets_path_bytes': `Top assets by traffic`,
+  'usageCounter.assets_path_requests': `Top requested assets`,
+
+  'usageCounter.assets_full_path_bytes': `Top transformations by traffic`,
+  'usageCounter.assets_full_path_requests': `Top requested transformations`,
+
   'usageCounter.assets_referrer_bytes': `Top referrers for assets`,
   'usageCounter.cda_access_token_id_bytes': `Top API tokens for CDA`,
   'usageCounter.cda_access_token_id_requests': `Top API tokens for CDA`,
