@@ -241,7 +241,6 @@
   "buildTriggers.options": "Options",
   "buildTriggers.production": "Production",
   "buildTriggers.staging": "Environnement de simulation",
-  "buildTriggers.status.clean": "Déployé et à jour",
   "buildTriggers.status.fail": "Le dernier déploiement a échoué.",
   "buildTriggers.status.log": "{link} pour trouver la cause.",
   "buildTriggers.status.log.link": "Inspecter les logs",

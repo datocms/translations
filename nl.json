@@ -211,7 +211,6 @@
   "buildTriggers.options": "Opties",
   "buildTriggers.production": "Productie",
   "buildTriggers.staging": "Staging",
-  "buildTriggers.status.clean": "Deployed en up to date!",
   "buildTriggers.status.fail": "Laatste deploy is mislukt.",
   "buildTriggers.status.log": "{link} om de oorzaak te vinden.",
   "buildTriggers.status.log.link": "Inspecteer de logs",

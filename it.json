@@ -286,7 +286,7 @@
   "buildTriggers.options": "Opzioni",
   "buildTriggers.production": "Produzione",
   "buildTriggers.staging": "Staging",
-  "buildTriggers.status.clean": "Aggiornato all'ultimo deploy",
+  "buildTriggers.status.clean": "Ultimo deploy: {date}",
   "buildTriggers.status.fail": "Ultimo deploy fallito",
   "buildTriggers.status.log": "{link} per saperne di più.",
   "buildTriggers.status.log.link": "Ispeziona i log",

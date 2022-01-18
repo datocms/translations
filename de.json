@@ -213,7 +213,6 @@
   "buildTriggers.options": "Optionen",
   "buildTriggers.production": "Produktion",
   "buildTriggers.staging": "Inszenierung",
-  "buildTriggers.status.clean": "Eingesetzt und auf dem neuesten Stand",
   "buildTriggers.status.fail": "Letzter Einsatz fehlgeschlagen...",
   "buildTriggers.status.log": "um die Ursache herauszufinden...",
   "buildTriggers.status.log.link": "Überprüfen Sie die Protokolle",

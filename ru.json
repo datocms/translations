@@ -124,7 +124,6 @@
   "buildTrigger.spidering.label": "Включить Поиск на сайте (beta)",
   "buildTriggers.production": "Production",
   "buildTriggers.staging": "Staging",
-  "buildTriggers.status.clean": "Развернуто, данные актуализированы",
   "buildTriggers.status.fail": "Последнее развертывание не удалось",
   "buildTriggers.status.neverDeployed": "Никогда не развертывалось",
   "buildTriggers.status.pending": "Сборка в процессе...",

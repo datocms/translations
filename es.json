@@ -237,7 +237,6 @@
   "buildTriggers.options": "Opciones",
   "buildTriggers.production": "Producción",
   "buildTriggers.staging": "Staging",
-  "buildTriggers.status.clean": "Desplegado y actualizado",
   "buildTriggers.status.fail": "Último despliegue fallido.",
   "buildTriggers.status.log": "{link} para averiguar la causa",
   "buildTriggers.status.log.link": "Inspeccionar los registros",
