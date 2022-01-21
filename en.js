@@ -2613,6 +2613,7 @@ module.exports = {
   'pluginCapability.assetSources': 'Provides additional asset sources',
   'pluginCapability.itemFormSidebarPanels':
     'Adds custom sidebar panels on records',
+  'pluginCapability.itemForm': 'Tweaks the form on records',
   'pluginCapability.manualFieldExtensions':
     'Adds new editors/addons that can be manually set on fields',
   'pluginCapability.forcedFieldExtensions':
