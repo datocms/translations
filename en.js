@@ -2481,6 +2481,7 @@ module.exports = {
   'slate.slash.heading4.title': 'Heading 4',
   'slate.slash.heading5.title': 'Heading 5',
   'slate.slash.heading6.title': 'Heading 6',
+  'slate.slash.heading.title': 'Heading',
   'slate.slash.paragraph.title': 'Paragraph',
   'slate.slash.inlineItem.title': 'Inline record',
   'slate.slash.numberedList.title': 'Numbered list',
@@ -2617,6 +2618,8 @@ module.exports = {
   'pluginCapability.forcedFieldExtensions':
     'Automatically forces editors/addons on some fields',
   'pluginCapability.accessToken': 'Can perform actions on behalf of the user',
+  'pluginCapability.structuredText':
+    'Can add custom formatting options to Structured Text fields',
 
   'form.editPlugin.editPrivate': 'Edit private plugin',
   'plugin.permissions': 'Permissions',
