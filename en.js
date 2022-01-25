@@ -563,6 +563,8 @@ module.exports = {
   'editor.links_select': `Compact view`,
   'editor.boolean': `Switch`,
   'editor.single_line': `Text input`,
+  'editor.string_multi_select': `Multi-select input`,
+  'editor.json': `Custom JSON Editor`,
   'editor.string_radio_group': `Radio group`,
   'editor.string_select': `Select input`,
   'editor.boolean_radio_group': `Radio group`,
