@@ -1890,6 +1890,7 @@ module.exports = {
   'richText.dropdown.moveDown': `Move down`,
   'richText.dropdown.moveUp': `Move up`,
   'richText.dropdown.removeBlock': `Remove block`,
+  'richText.dropdown.duplicateBlock': `Duplicate block`,
   'richText.start_collapsed': `Show blocks as collapsed by default`,
   'richText.validator.placeholder': `Select the models that will be used as blocks...`,
   'role.environmentsAccess.primaryOnly': `On primary environment only`,
