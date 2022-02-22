@@ -1508,7 +1508,7 @@
   "messages.confirm.batch.destroy.question": "Confermi di voler eliminare {count, plural, one { questo record } other { {count} record} }? L'operazione non è reversibile!",
   "messages.confirm.batch.destroy.title": "Elimina {count, plural, one { il record } other { {count} record?} }",
   "messages.confirm.batch.move_to_stage.cancel": "Annulla",
-  "messages.confirm.batch.move_to_stage.ok": "Si, sposta {count, plural, one { questo record } other { {count} record } nello stage",
+  "messages.confirm.batch.move_to_stage.ok": "Si, sposta {count, plural, one { questo record } other { {count} record } } nello stage",
   "messages.confirm.batch.move_to_stage.question": "Sei sicuro di voler spostare {count, plural, one { questo record } other { {count} record } nello stage?",
   "messages.confirm.batch.move_to_stage.title": "Sposta {count, plural, one { questo record } other { {count} record }",
   "messages.confirm.batch.publish.cancel": "Torna indietro",
