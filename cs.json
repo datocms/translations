@@ -282,7 +282,6 @@
   "dashboard.description": "V levém panelu vyberte obsah, který chcete upravit, ",
   "dashboard.title": "Vítejte v DatoCMS",
   "dateSelector.button.default": "Uložit",
-  "dateSelector.button.label": "Změnit datum na",
   "dateSelector.button.loading": "Počkejte prosím",
   "dateTimeInput.insertDate": "Vyberte datum",
   "dateTimeInput.insertDateTime": "Vložte datum a čas",

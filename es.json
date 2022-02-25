@@ -298,7 +298,6 @@
   "dashboard.description": "Por favor, selecciona el contenido que te gustaria editar en el sidebar izquierdo",
   "dashboard.title": "Hola {name}!",
   "dateSelector.button.default": "Guardar",
-  "dateSelector.button.label": "Cambiar fecha a",
   "dateSelector.button.loading": "Espere por favor",
   "dateTimeInput.insertDate": "Insertar fecha",
   "dateTimeInput.insertDateTime": "Insertar fecha y hora",

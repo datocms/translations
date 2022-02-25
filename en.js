@@ -684,7 +684,6 @@ module.exports = {
   'field.validators': `Validations`,
   'field.validatorsHint': `Specify any integrity rule to enforce on this field`,
   'field.charactersHint': `Characters left: {counter}`,
-  'field.dateHint': `Expressed in {format} timezone`,
 
   'fieldError.API_KEY_FORMAT_INVALID': `Only letters, numbers and underscores are allowed. Underscores followed by a number are not allowed.`,
   'fieldError.FLOAT': `Field must be a floating point number`,
@@ -2583,7 +2582,7 @@ module.exports = {
   `,
   'dropdown.search': 'Search...',
 
-  'dateSelector.button.label': `Change date to`,
+  'dateSelector.date': `Change date to`,
   'dateSelector.button.default': `Save`,
   'dateSelector.button.loading': `Please wait`,
 
@@ -2679,4 +2678,8 @@ module.exports = {
   'form.editPlugin.developerZone.upgradeToCanary': `Upgrade to canary release`,
 
   pickAssetFrom: `Upload asset using {source}`,
+
+  'fieldError.IN_FUTURE': 'Must be a date in the future',
+
+  'localizationSettings.timezone': 'Date preferred timezone',
 };
