@@ -1877,6 +1877,8 @@ module.exports = {
   'recordInfo.position': `Position in collection`,
   'recordInfo.title': `Record info`,
   'recordInfo.save': `Save`,
+  'recordInfo.blocksCount': `Currently used blocks`,
+
   'richText.add': `Add new`,
   'richText.add.multiple': `Create new...`,
   'richText.add.single': `New {itemType}`,
