@@ -2235,8 +2235,8 @@ module.exports = {
   'validators.size_range.eq': `Exactly`,
   'validators.size_range.max': `No more than`,
   'validators.size_range.min': `At least`,
-  'versions.restore.action': `Restore this revision`,
-  'versions.restore.description': `You're viewing the revision {user} made {date}.`,
+  'versions.restore.action': `Restore this version`,
+  'versions.restore.description': `Version at {date}`,
   'versions.restore.disabled': `You cannot rollback right now as someone is editing this record`,
   'versions.restore.disabledDueToPermissions': `You don't have enough permissions to rollback this record`,
   'versions.restore.title': `Restore this version?`,
@@ -2684,4 +2684,5 @@ module.exports = {
   'fieldError.IN_FUTURE': 'Must be a date in the future',
 
   'localizationSettings.timezone': 'Date preferred timezone',
+  'recordInfo.parent': 'Record parent ID',
 };
