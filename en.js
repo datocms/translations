@@ -2305,6 +2305,7 @@ module.exports = {
   'zeitSettings.changeLink': `Want to link to a different Vercel project?`,
   'zeitSettings.createProject': `Create a new Vercel project`,
   'zeitSettings.deployToZeit': `Authorize Vercel`,
+  'zeitSettings.linkToProject': `Link to Vercel project`,
   'zeitSettings.hooks.build': `Creating build hook...`,
   'zeitSettings.hooks.creation': `Setting up deployment hooks...`,
   'zeitSettings.hooks.done': `Done!`,
