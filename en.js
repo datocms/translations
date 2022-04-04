@@ -1893,7 +1893,7 @@ module.exports = {
   'richText.dropdown.removeBlock': `Remove block`,
   'richText.dropdown.duplicateBlock': `Duplicate block`,
   'richText.dropdown.copyBlock': `Copy block`,
-  'richText.dropdown.pasteBlock': `Paste block`,
+  'richText.dropdown.pasteBlock': `Paste block above`,
   'richText.start_collapsed': `Show blocks as collapsed by default`,
   'richText.validator.placeholder': `Select the models that will be used as blocks...`,
   'role.environmentsAccess.primaryOnly': `On primary environment only`,
