@@ -2688,4 +2688,9 @@ module.exports = {
 
   'localizationSettings.timezone': 'Date preferred timezone',
   'recordInfo.parent': 'Record parent ID',
+
+  'messages.confirm.copyFromMainLocale.cancel': `No, start from scratch`,
+  'messages.confirm.copyFromMainLocale.ok': `Yes, copy content`,
+  'messages.confirm.copyFromMainLocale.question': `Do you want to copy the content currently present in {sourceLocale} into the new {destinationLocale} locale?`,
+  'messages.confirm.copyFromMainLocale.title': `Copy content from {sourceLocale}?`,
 };
