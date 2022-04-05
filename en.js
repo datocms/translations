@@ -479,6 +479,8 @@ module.exports = {
   'editor.changeRole': `Change role`,
   'editor.editor.create.failure': `Couldn't invite collaborator!`,
   'editor.editor.create.success': `Invitation successfully sent!`,
+  'editor.editor.resendInvitation.success': `Invitation successfully resent!`,
+  'editor.editor.resendInvitation.failure': `Couldn't resend the email invitation!`,
   'editor.editor.deactivateUser.failure': `Couldn't deactivate the user!`,
   'editor.editor.deactivateUser.success': `User deactivated!`,
   'editor.editor.reactivateUser.failure': `Couldn't reactivate the user!`,
