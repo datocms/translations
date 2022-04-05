@@ -191,6 +191,7 @@ module.exports = {
   'admin.itemType.noFields.description': `What kind of information needs to be editable for a record of type "{name}"? A title? Some textual content? Maybe an image? Define the different fields we should present to editors of this site.`,
   'admin.itemType.noFields.title': `Add some fields to this model!`,
   'admin.itemType.reorderField.failure': `Couldn't reorder fields!`,
+  'admin.itemType.reorderField.failureSameLabel': `Invalid position: another field with the same label is already present in the group!`,
   'admin.itemType.reorderField.success': `Fields successfully reordered`,
   'admin.itemType.update.failure': `Couldn't update the model!`,
   'admin.itemType.update.success': `Model successfully updated`,
