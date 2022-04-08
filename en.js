@@ -2696,4 +2696,12 @@ module.exports = {
   'messages.confirm.copyFromMainLocale.ok': `Yes, copy content`,
   'messages.confirm.copyFromMainLocale.question': `Do you want to copy the content currently present in {sourceLocale} into the new {destinationLocale} locale?`,
   'messages.confirm.copyFromMainLocale.title': `Copy content from {sourceLocale}?`,
+
+  'hotkeys.closeConfirmDialog': `Close confirmation dialog panel`,
+  'hotkeys.closeModal': `Close modal panel`,
+  'hotkeys.toggleKeyboardShortcuts': `Show/hide available keyboard shortcuts`,
+  'hotkeys.saveRecord': `Save record`,
+  'hotkeys.publishRecord': `Publish the record`,
+  'hotkeys.toggleQuickFind': `Show/hide Quick Find panel`,
+  'hotkeys.closeQuickFind': `Close Quick Find panel`,
 };
