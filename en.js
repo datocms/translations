@@ -1382,7 +1382,7 @@ module.exports = {
   'itemType.addField': `Add {fieldType} field`,
   'itemType.addModularBlock': `Add Modular Content block`,
   'itemType.allLocalesRequired': `All locales required?`,
-  'itemType.allLocalesRequired.hint': `Records must define values for all the project's locales`,
+  'itemType.allLocalesRequired.hint': `Records must define values for all the project's locales. <br/>IMPORTANT. If switching from non-active to active, all missing locales will be added to records.`,
   'itemType.api_key': `Model ID`,
   'itemType.api_key.hint': `It is generated automatically based on the name and will appear in the API responses`,
   'itemType.api_key.placeholder': `article`,
