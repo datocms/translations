@@ -537,6 +537,7 @@ module.exports = {
   'editor.item.destroy.success': `Record successfully removed`,
   'editor.item.duplicate.failure': `Couldn't duplicate record!`,
   'editor.item.duplicate.success': `Record has been successfully duplicated!`,
+  'editor.item.duplicate.cta': `Go to duplicate record`,
   'editor.item.filterClear': `Clear`,
   'editor.item.new': `New record`,
   'editor.item.noItems.button': `Create a new record`,
