@@ -1676,7 +1676,6 @@
   "site.ssg.label": "Votre générateur de site web statique",
   "site.themeHue.hint": "Vous pouvez changer le couleur primaire de l'espace administratif afin de refléter l'identité du projet",
   "site.themeHue.label": "Couleur du thème",
-  "site.timezone": "Timezone",
   "size.large": "Grand",
   "size.normal": "Moyen",
   "size.small": "Petit",
