@@ -990,6 +990,7 @@ module.exports = {
   'filter.meta.smart_tags': `Smart tags`,
   'filter.meta.stage': `Workflow stage`,
   'filter.meta.status': `Status`,
+  'filter.meta.is_valid': `Is valid`,
   'filter.meta.tags': `Manual tags`,
   'filter.meta.title': `Title`,
   'filter.meta.type': `Type`,
