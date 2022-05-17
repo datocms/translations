@@ -859,7 +859,6 @@
   "filter.meta.height": "Altezza",
   "filter.meta.id": "ID",
   "filter.meta.in_use": "In uso",
-  "filter.meta.is_valid": "È valido",
   "filter.meta.md5": "MD5",
   "filter.meta.mime_type": "MIME type",
   "filter.meta.notes": "Note",
