@@ -792,12 +792,13 @@ module.exports = {
 
   'fieldError.VALIDATION_SIZE': `{ valorizedKeys, select,
     min { There must be at least {min} items }
-    min_multiple_of { Insert at least {min} items in multiple of {multiple_of}}
+    min_multiple_of { Insert at least {min} items in multiple of {multiple_of} }
     max { It is not possible to add more than {max} items }
-    max_multiple_of { Insert no more than {max} items and in multiple of {multiple_of}}
-    max_min { There must be a number of items between {min} and {max}}
-    max_min_multiple_of { Insert between {min} and {max} items in multiple of {multiple_of}}
-    eq { Number of items must be exactly {eq} } }`,
+    max_multiple_of { Insert no more than {max} items and in multiple of {multiple_of} }
+    max_min { There must be a number of items between {min} and {max} }
+    max_min_multiple_of { Insert between {min} and {max} items in multiple of {multiple_of} }
+    eq { Number of items must be exactly {eq} }
+  }`,
 
   'fieldError.VALIDATION_SLUG_FORMAT': `{ valorizedKeys, select, custom_pattern { Field must respect a specific regexp format: /{custom_pattern}/ } predefined_pattern { Field must contain { predefined_pattern, select, webpage_slug { only numbers, letters or the characters "-" and "_" } } } }`,
 
