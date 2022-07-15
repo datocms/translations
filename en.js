@@ -55,6 +55,7 @@ module.exports = {
   'admin.auditLog.info': `Audit logs provide a record of changes and usage that help keep your organization secure and protect against misuse. Send data to a SIEM tool, watch for potential security issues, or build custom apps for better insight into how your company uses DatoCMS. <a target="_blank" href="https://www.datocms.com/docs/general-concepts/audit-logs">Read the docs &raquo;</a>`,
   'admin.auditLog.loadMore': `Load more events`,
   'admin.auditLog.loading': `Loading...`,
+  'admin.ssoUsers.loading': `Loading...`,
   'admin.auditLog.noResults.description': `No results were found. Please check your query or try broadening your search for better results.`,
   'admin.auditLog.noResults.title': `No audit data found`,
   'admin.auditLog.period.allTime': `All time`,
