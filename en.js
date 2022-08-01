@@ -709,7 +709,7 @@ module.exports = {
   'fieldError.IN_FUTURE': `Must be a date in the future`,
   'fieldError.JSON': `Field must be valid JSON`,
   'fieldError.MAX_LENGTH': `Field cannot be more than { max_length } characters long`,
-  'fieldError.MIN_ARRAY_LENGTH': `Field must contain at least { min_length } values`,
+  'fieldError.MIN_ARRAY_LENGTH': `Field must contain at least {min_length, plural, one {one value} other {{min_length} values}}`,
   'fieldError.MIN_IMAGE_HEIGHT': `Image height must be at least { min_height }px`,
   'fieldError.MIN_IMAGE_WIDTH': `Image width must be at least { min_width }px`,
   'fieldError.MIN_LENGTH': `Field must be at least { min_length } characters long`,
