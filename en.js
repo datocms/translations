@@ -762,7 +762,7 @@ module.exports = {
     max_min { Field value must be between {min} and {max} }
   }`,
 
-  'fieldError.VALIDATION_PLURAL': `The API identifier must expressed in singular form (ie. article, not articles). If it's already in a singular form that we don't recognize, you can add a suffix (ie. "_page")`,
+  'fieldError.VALIDATION_PLURAL': `The API identifier must expressed in singular form (ie. article, not articles). As a workaround, you can add a suffix (ie. "articles_model")`,
   'fieldError.VALIDATION_REQUIRED': `Field is required`,
 
   'fieldError.VALIDATION_REQUIRED_ALT_TITLE': `{valorizedKeys, select,
