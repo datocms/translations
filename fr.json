@@ -770,7 +770,6 @@
   "filter.search": "Recherche",
   "filter.shared": "Filtres partagés",
   "filter.sharingInfo": "Partagez ce filtre avec tous les autres utilisateurs",
-  "filter.sharingInfo.shared": "Ce filtre est partagé avec tous les collaborateurs du projet, vous ne pouvez pas modifier ce paramètre",
   "filter.size.operator.eq": "exactement",
   "filter.size.operator.gt": "plus grand que",
   "filter.size.operator.gte": "plus grand ou égal",

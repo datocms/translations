@@ -763,7 +763,6 @@
   "filter.search": "Pesquisa",
   "filter.shared": "Filtros partilhados",
   "filter.sharingInfo": "Partilhar este filtro com os restantes utilizadores",
-  "filter.sharingInfo.shared": "Este filtro é partilhado com todos os colaboradores, não pode alterar esta configuração",
   "filter.size.operator.eq": "exatamente",
   "filter.size.operator.gt": "maior que",
   "filter.size.operator.gte": "maior ou igual",

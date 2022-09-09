@@ -210,7 +210,6 @@
   "filter.meta.stage": "Etap cyklu pracy",
   "filter.meta.unpublishing_scheduled_at": "Zaplanowano cofnięcie publikacji o",
   "filter.operator.is_blank": "jest pusty/pusta/puste",
-  "filter.sharingInfo.shared": "Ten filtr jest współdzielony z wszystkimi kolaboratorami projektu, nie możesz zmienić tego ustawienia",
   "form.contentPermissions.title": "Uprawnienia zawartości dla {name}",
   "form.editPlugin.newVersionCannotUpdate": "Wersja {version} wtyczki <strong>{pluginName}</strong> jest dostępna. Ponieważ nowa wersja posiada ustawienia różne od obecnych, musisz dokonać reinstalacji wtyczki w celu jej aktualizacji.",
   "form.editWorkflow.delete": "Usuń",
