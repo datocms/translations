@@ -647,7 +647,6 @@
   "fieldset.title": "Titre",
   "fieldset.title.hint": "Le titre de ce groupe de champs",
   "fileInput.error.notAnImage": "l'extension doit être d'un de ces types PNG, GIF, JPG, SVG",
-  "fileInput.invalidFile": "Fichier invalide : {error}!",
   "fileInput.uploadError": "Impossible d'envoyer le fichier",
   "filter.add": "Créer un nouveau filtre",
   "filter.apply": "Appliquer",

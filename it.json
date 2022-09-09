@@ -775,7 +775,6 @@
   "fieldset.title": "Titolo",
   "fieldset.title.hint": "Il titolo di questo fieldset",
   "fileInput.error.notAnImage": "l'estensione deve essere una tra PNG, GIF, JPG o SVG",
-  "fileInput.invalidFile": "File non valido: {error}!",
   "fileInput.uploadError": "Non è stato possibile uploadare il file",
   "filter.add": "Aggiungi nuovo filtro",
   "filter.apply": "Applica",

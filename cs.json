@@ -578,7 +578,6 @@
   "fieldTypeHint.text": "Pro Markdown, HTML nebo plain text",
   "fieldTypeHint.video": "Embedovat YouTube/Vimeo videa pomocí URL adresy",
   "fileInput.error.notAnImage": "Rozšíření musí být jedno z PNG, GIF, JPG, SVG",
-  "fileInput.invalidFile": "Soubor není platný: {error}!",
   "fileInput.uploadError": "Nepodařilo se nahrát soubor",
   "filter.add": "Přidat nový filtr",
   "filter.apply": "Použít",

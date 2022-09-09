@@ -538,7 +538,6 @@
   "fieldTypeHint.text": "Voor Markdown, HTML of platte tekst",
   "fieldTypeHint.video": "Ondersteunt YouTube/Vimeo URLs",
   "fileInput.error.notAnImage": "Extensie moet een PNG, GIF, JPG of SVG zijn",
-  "fileInput.invalidFile": "Bestand ongeldig: {error}!",
   "fileInput.uploadError": "Kon bestand niet uploaden",
   "filter.add": "Voeg nieuw filter toe",
   "filter.apply": "Toepassen",

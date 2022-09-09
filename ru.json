@@ -361,7 +361,6 @@
   "fieldTypeHint.text": "Для Markdown, HTML, либо plain text редакторов",
   "fieldTypeHint.video": "Поддерживает YouTube/Vimeo URL-адреса",
   "fileInput.error.notAnImage": "поддерживаются следующие расширения файлов: PNG, GIF, JPG, SVG",
-  "fileInput.invalidFile": "Неверный файл: {error}!",
   "fileInput.uploadError": "Не удалось загрузить файл",
   "form.editAccessToken.title": "Редактировать Ключа доступа API",
   "form.editAccessTokenForm.refreshToken": "Сгенерировать заново ключ API",

@@ -596,7 +596,6 @@
   "fieldTypeHint.text": "Para Markdown, HTML o texto sin formato",
   "fieldTypeHint.video": "Incrustar videos existentes de YouTube/Vimeo/Facebook por URL",
   "fileInput.error.notAnImage": "la extensión debe ser PNG, GIF, JPG, SVG",
-  "fileInput.invalidFile": "Fichero no válido: {error}!",
   "fileInput.uploadError": "No se pudo cargar el fichero",
   "filter.add": "Agregar nuevo filtro",
   "filter.apply": "Aplicar",
