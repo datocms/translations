@@ -1481,7 +1481,7 @@
   "menuItem.externalUrl.hint": "http://www.example.com/",
   "menuItem.filter": "Filters",
   "menuItem.itemType": "Connected model",
-  "menuItem.itemTypeFilter": "Apply saved filter",
+  "menuItem.itemTypeFilter": "Apply saved shared filter",
   "menuItem.label": "Label",
   "menuItem.linkType": "Point this to",
   "menuItem.openInNewTab": "Open in new tab",
