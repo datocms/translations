@@ -2104,6 +2104,7 @@
   "ssg.metalsmith": "Metalsmith",
   "ssg.middleman": "Middleman",
   "ssg.other": "Other",
+
   "structuredText.allowedMarks.code": "Code",
   "structuredText.allowedMarks.emphasis": "Italic",
   "structuredText.allowedMarks.highlight": "Highlight",
@@ -2115,6 +2116,10 @@
   "structuredText.linkMeta.add": "Add new meta",
   "structuredText.linkMeta.key": "Meta name",
   "structuredText.linkMeta.value": "Value",
+  "structuredTextEditor.allowedHeadingLevels": "Allowed heading levels",
+  "structuredTextEditor.allowedHeadingLevels.hint": "Configure which headings be provided to editors",
+  "structuredText.allowedLevel": "Level {level}",
+
   "structuredTextEditor.allowedMarks": "Allowed formatting",
   "structuredTextEditor.allowedMarks.hint": "Configure which formatting options will be provided to editors",
   "structuredTextEditor.allowedNodeTypes": "Allowed blocks",
