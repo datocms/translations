@@ -1266,23 +1266,21 @@
   "itemLocking.takeOver": "Take over",
   "itemTable.columns.available": "Available columns",
   "itemTable.columns.displayed": "Displayed columns",
-
-  "itemTable.metaCol.id": "ID",
-  "itemTable.metaCol._preview": "Preview",
+  "itemTable.hide": "Hide selected records",
+  "itemTable.insertRecords": "Add selected records",
   "itemTable.metaCol._created_at": "Created at",
-  "itemTable.metaCol._updated_at": "Last update",
   "itemTable.metaCol._creator": "Creator",
   "itemTable.metaCol._editor": "Editor",
   "itemTable.metaCol._first_published_at": "First published at",
+  "itemTable.metaCol._preview": "Preview",
   "itemTable.metaCol._publication_scheduled_at": "Scheduled publishing at",
   "itemTable.metaCol._published_at": "Last published at",
   "itemTable.metaCol._stage": "Workflow stage",
   "itemTable.metaCol._status": "Status",
   "itemTable.metaCol._unpublishing_scheduled_at": "Scheduled unpublishing at",
+  "itemTable.metaCol._updated_at": "Last update",
+  "itemTable.metaCol.id": "ID",
   "itemTable.metaCol.position": "Position",
-
-  "itemTable.hide": "Hide selected records",
-  "itemTable.insertRecords": "Add selected records",
   "itemTable.publishAtSpecificDate": "Publish at a specific date/time...",
   "itemTable.records.add": "Add {length} records",
   "itemTable.records.count": "{count, plural, =0 {No records present} one {1 record} other {{count} records}}",
@@ -2104,7 +2102,7 @@
   "ssg.metalsmith": "Metalsmith",
   "ssg.middleman": "Middleman",
   "ssg.other": "Other",
-
+  "structuredText.allowedLevel": "Level {level}",
   "structuredText.allowedMarks.code": "Code",
   "structuredText.allowedMarks.emphasis": "Italic",
   "structuredText.allowedMarks.highlight": "Highlight",
@@ -2118,8 +2116,6 @@
   "structuredText.linkMeta.value": "Value",
   "structuredTextEditor.allowedHeadingLevels": "Allowed heading levels",
   "structuredTextEditor.allowedHeadingLevels.hint": "Configure which headings be provided to editors",
-  "structuredText.allowedLevel": "Level {level}",
-
   "structuredTextEditor.allowedMarks": "Allowed formatting",
   "structuredTextEditor.allowedMarks.hint": "Configure which formatting options will be provided to editors",
   "structuredTextEditor.allowedNodeTypes": "Allowed blocks",
@@ -2135,6 +2131,7 @@
   "structuredTextEditor.showMeta": "Show advanced Meta editor for links",
   "structuredTextEditor.showTargetBlank": "Show \"Open link in new window\" option for links",
   "switchFieldType.multiText.failure": "Couldn't convert the field because it is required by the slug field: \"{field}\". Remove validation to proceed",
+  "tabularItemsList.row.sortingDisabled": "You cannot reorder elements if the collection is filtered or is not sorted by position!",
   "textWithFallback.fallback": "Type something to overwrite the default value for this asset",
   "textWithFallback.noValue": "No value specified",
   "travis.branch": "Specify the Git branch you want to build:",
@@ -2420,7 +2417,5 @@
   "zeitSettings.noProjects": "The Vercel account you selected does not have any projects!",
   "zeitSettings.notLinkable": "Missing Git repository",
   "zeitSettings.projectCreated": "I've created a new project, refresh the list",
-  "zeitSettings.projectSelect": "Select the Vercel project you want to link to this DatoCMS project:",
-
-  "tabularItemsList.row.sortingDisabled": "You cannot reorder elements if the collection is filtered or is not sorted by position!"
+  "zeitSettings.projectSelect": "Select the Vercel project you want to link to this DatoCMS project:"
 }
