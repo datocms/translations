@@ -93,6 +93,7 @@
   "admin.itemType.destroyField.success": "Field successfully removed",
   "admin.itemType.destroyFieldset.failure": "Couldn't remove the fieldset!",
   "admin.itemType.destroyFieldset.success": "Fieldset successfully removed",
+  "admin.itemType.destroyFieldset.failure.clashingLabels": "Couldn't remove the fieldset! Another field with the same label is already present.",
   "admin.itemType.duplicateField.failure": "Couldn't duplicate field!",
   "admin.itemType.duplicateField.success": "Field successfully duplicated",
   "admin.itemType.duplicateItemType.failure": "Couldn't duplicate the model",
