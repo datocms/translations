@@ -976,7 +976,7 @@
   "itemType.editItemType": "Model bearbeiten",
   "itemType.editModularBlock": "Modularen Inhaltsblock bearbeiten",
   "itemType.id": "Model-ID",
-  "itemType.modularBlock.add": "Neuer Block",
+  "itemType.modularBlock.add": "Hinzufügen Block",
   "itemType.name": "Name",
   "itemType.name.hint": "Bitte im Singular schreiben (d.h. \"Eintrag\", nicht \"Einträge\")",
   "itemType.name.placeholder": "Artikel",
