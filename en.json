@@ -51,7 +51,7 @@
   "admin.auditLog.loading": "Loading...",
   "admin.auditLog.noResults.description": "No results were found. Please check your query or try broadening your search for better results.",
   "admin.auditLog.noResults.title": "No audit data found",
-  "admin.auditLog.period.allTime": "All time",
+  "admin.auditLog.period.allTime": "All available data",
   "admin.auditLog.period.day": "Last 24 hours",
   "admin.auditLog.period.hour": "Last hour",
   "admin.auditLog.period.month": "Last 30 days",
