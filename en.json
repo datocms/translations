@@ -1328,6 +1328,8 @@
   "itemType.draftMode": "Enable draft/published system?",
   "itemType.draftMode.guide": "Read more about draft/published system in our docs",
   "itemType.draftMode.hint": "If enabled, changes made to records won't be immediately published but instead put in draft",
+  "itemType.inverseRelationshipsEnabled": "Enable inverse relationships fields in GraphQL?",
+  "itemType.inverseRelationshipsEnabled.hint": "If enabled, you will be able to fetch this model records from within its linking models in GraphQL",
   "itemType.duplicate": "Duplicate",
   "itemType.editField": "Edit field",
   "itemType.editItemType": "Edit model",
