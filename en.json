@@ -448,6 +448,7 @@
   "editor.inviteNew.hint": "The invitation link is not tied to a specific e-mail address — it can be redeemed by any existing DatoCMS account or by new people not yet registered to DatoCMS. \n It will expire in 24 hours, after which a new one must be sent.",
   "editor.invited": "Invited",
   "editor.isAdmin": "Admin?",
+  "editor.item.batch.tooManyOperations": "You exceeded the maximum number of 200 operations per batch action",
   "editor.item.batch.destroy.failure": "Couldn't destroy the records!",
   "editor.item.batch.destroy.result": "{successful, plural, =0 {No record deleted} one {One record successfully deleted!} other {{successful} records successfully deleted!} }",
   "editor.item.batch.move_to_stage.failure": "Couldn't change stage for the records!",
