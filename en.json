@@ -2460,5 +2460,6 @@
   "zeitSettings.noProjects": "The Vercel account you selected does not have any projects!",
   "zeitSettings.notLinkable": "Missing Git repository",
   "zeitSettings.projectCreated": "I've created a new project, refresh the list",
-  "zeitSettings.projectSelect": "Select the Vercel project you want to link to this DatoCMS project:"
+  "zeitSettings.projectSelect": "Select the Vercel project you want to link to this DatoCMS project:",
+  "zeitSettings.integrationError": "Error fetching sites: {message}"
 }
