@@ -392,7 +392,7 @@
   "editor.item.noItems.descriptionCreate": "De todas formas, ¡Siempre podrás crear nuevos registros más adelante!",
   "editor.item.noItems.title": "Esta colección está vacía",
   "editor.item.publish.failure": "¡No se pudo publicar el registro!",
-  "editor.item.publish.success": "¡No se pudo publicar el registro!",
+  "editor.item.publish.success": "¡Registro publicado con éxito!",
   "editor.item.reorder.failure": "¡No se pudieron reordenar los registros!",
   "editor.item.reorder.success": "Registros ordenados con éxito",
   "editor.item.scheduledPublish.failure": "¡No se pudo programar el registro para su publicación!",
