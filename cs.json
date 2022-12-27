@@ -842,7 +842,7 @@
   "globalError.DEACTIVATED_SITE.title": "Projekt deaktivován!",
   "globalError.INVALID_SITE.body": "Omlouváme se, ale žádný DatoCMS projekt pod touto doménou neexistuje. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši technickou podporu na <a href='mailto:support@datocms.com'>support@datocms.com</a>.",
   "globalError.INVALID_SITE.title": "Tento projekt neexistuje!",
-  "globalError.UNDER_MAINTENANCE.body": "Omlouváme se za nepříjemnosti, ale v současné době provádíme údržbu. Můžete se podívat na naši <a href='https://status.datocms.com' target='_blank'>Stavovou stránku</a>, kde můžete sledovat pokrok řešení, nebo kontaktujte naši technickou podporu na <a href='mailto:support@datocms.com'>support@datocms.com</a>.",
+  "globalError.UNDER_MAINTENANCE.body": "Omlouváme se za nepříjemnosti, ale v současné době provádíme údržbu. Můžete se podívat na naši <a href=\"https://status.datocms.com\" target=\"_blank\">Stavovou stránku</a>, kde můžete sledovat pokrok řešení, nebo kontaktujte naši technickou podporu na <a href=\"mailto:support@datocms.com\">support@datocms.com</a>.",
   "globalError.UNDER_MAINTENANCE.title": "Brzy budeme zpět!",
   "globalSeo.button.default": "upravit SEO pole",
   "globalSeo.description": "Fallback popisek (pokud není specifikováno)",
