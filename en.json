@@ -907,7 +907,7 @@
   "filter.operator.any_in": "contains any of",
   "filter.operator.contains": "contains",
   "filter.operator.eq": "is",
-  "filter.operator.exists": "is defined",
+  "filter.operator.exists": "is not null",
   "filter.operator.gt": "greater than",
   "filter.operator.gte": "greater or equal",
   "filter.operator.in": "is one of",
