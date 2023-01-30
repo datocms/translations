@@ -1115,8 +1115,6 @@
   "nav.mediaArea": "Media",
   "nav.new": "What's new?",
   "nav.support": "Vraag om hulp van support",
-  "navigationBar.dashboard.account": "Profiel",
-  "navigationBar.dashboard.billing": "Betalingen",
   "navigationBar.visitEnvSite": "Bekijk {env} site",
   "navigationBar.visitSite": "Site bekijken",
   "netlify.branch": "Git branch om te builden:",

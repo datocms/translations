@@ -1365,8 +1365,6 @@
   "nav.mediaArea": "Multimedia",
   "nav.new": "Novedades",
   "nav.support": "Pedir soporte",
-  "navigationBar.dashboard.account": "Perfil",
-  "navigationBar.dashboard.billing": "Facturación",
   "navigationBar.visitEnvSite": "Visitar sitio {env}",
   "navigationBar.visitSite": "Visitar sitio",
   "netlify.branch": "Git branch a construir:",

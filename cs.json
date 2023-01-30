@@ -1298,8 +1298,6 @@
   "nav.mediaArea": "Média",
   "nav.new": "Co je nového",
   "nav.support": "Požádat o pomoc",
-  "navigationBar.dashboard.account": "Profil",
-  "navigationBar.dashboard.billing": "Fakturace",
   "navigationBar.visitEnvSite": "Navštívit web {env}",
   "navigationBar.visitSite": "Navštívit web",
   "netlify.branch": "Git branch pro sestavení:",

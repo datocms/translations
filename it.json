@@ -1742,8 +1742,6 @@
   "nav.mediaArea": "Media",
   "nav.new": "Novità",
   "nav.support": "Chiedi aiuto",
-  "navigationBar.dashboard.account": "Profilo",
-  "navigationBar.dashboard.billing": "Fatturazione",
   "navigationBar.visitEnvSite": "Visita il sito {env}",
   "navigationBar.visitSite": "Visita il sito",
   "netlify.branch": "Branch da buildare",

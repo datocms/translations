@@ -1228,8 +1228,6 @@
   "nav.mediaArea": "Medien",
   "nav.new": "Was gibt's neues",
   "nav.support": "Nach Hilfe fragen",
-  "navigationBar.dashboard.account": "Profil",
-  "navigationBar.dashboard.billing": "Zahlungen",
   "navigationBar.visitEnvSite": "{env} Seite besuchen",
   "navigationBar.visitSite": "Seite besuchen",
   "netlify.branch": "Git Zweig zu bauen:",
