@@ -913,6 +913,7 @@
   "filter.operator.gte": "greater or equal",
   "filter.operator.in": "is one of",
   "filter.operator.is_blank": "is blank",
+  "filter.operator.is_present": "is present",
   "filter.operator.lt": "less than",
   "filter.operator.lte": "less or equal",
   "filter.operator.matches": "contains",
