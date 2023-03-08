@@ -1529,7 +1529,7 @@
   "menuitem.link.nothing": "Nothing",
   "messages.confirm.activateMaintenanceMode.activeSessions.cancel": "Cancel",
   "messages.confirm.activateMaintenanceMode.activeSessions.ok": "Yes, turn on",
-  "messages.confirm.activateMaintenanceMode.activeSessions.question": "\n    {count, plural,\n      one { {names} is currently editing some records: its changes will be lost. }\n      other { {names} are currently editing some records: their changes will be lost. }\n    }\n    Do you want to proceed with the activation of maintenance mode?\n  ",
+  "messages.confirm.activateMaintenanceMode.activeSessions.question": "\n    {count, plural,\n      one { {names} is currently editing some records: their changes will be lost. }\n      other { {names} are currently editing some records: their changes will be lost. }\n    }\n    Do you want to proceed with the activation of maintenance mode?\n  ",
   "messages.confirm.activateMaintenanceMode.activeSessions.title": "Some collaborators are currently working!",
   "messages.confirm.activateMaintenanceMode.cancel": "Cancel",
   "messages.confirm.activateMaintenanceMode.ok": "Yes, turn on",
