@@ -304,6 +304,8 @@
   "buildTrigger.spidering.guide": "Learn how to integrate DatoCMS Search into your site in our docs",
   "buildTrigger.spidering.hint": "Everytime your site is built, we'll respider it to get updated content",
   "buildTrigger.spidering.label": "Enable Site Search",
+  "buildTrigger.buildCache.label": "Enable <a href=\"https://vercel.com/docs/concepts/deployments/deploy-hooks#build-cache\" target=\"_blank\">Vercel build cache</a>",
+  "buildTrigger.buildCache.hint": "Disable this if you are using Turborepo",
   "buildTriggerVariablesInput.add": "Add new build trigger variable",
   "buildTriggers.buildMethod": "Build method",
   "buildTriggers.options": "Options",
