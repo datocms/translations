@@ -305,7 +305,7 @@
   "buildTrigger.spidering.hint": "Everytime your site is built, we'll respider it to get updated content",
   "buildTrigger.spidering.label": "Enable Site Search",
   "buildTrigger.buildCache.label": "Enable <a href=\"https://vercel.com/docs/concepts/deployments/deploy-hooks#build-cache\" target=\"_blank\">Vercel build cache</a>",
-  "buildTrigger.buildCache.hint": "Disable this if you are using Turborepo",
+  "buildTrigger.buildCache.hint": "While caching can improve build times, it may cause issues (ie. in a Turborepo project)",
   "buildTriggerVariablesInput.add": "Add new build trigger variable",
   "buildTriggers.buildMethod": "Build method",
   "buildTriggers.options": "Options",
