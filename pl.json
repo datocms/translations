@@ -186,7 +186,6 @@
   "fieldError.CANNOT_REMOVE_LOCALES_USED_IN_PERMISSIONS": "Nie można usunąć następujących ustawień regionalnych: { locales_to_remove }. Niektóre uprawnienia wciąż zawierają do nich odniesienia. Zaktualizuj uprawnienia i spróbuj ponownie!",
   "fieldError.DRAFT_MODE_NOT_COMPATIBLE_WITH_SORTABLE_OR_TREE": "Tryb wersji roboczej jest niekompatybilny z drzewem i sortowalną organizacją rekordów",
   "fieldError.INVALID_DEFAULT_VALUE": "Niewłaściwy format",
-  "fieldError.NO_LOCALES_LEFT_FOR_ITEM": "Nie udało się usunąć następujących ustawień regionalnych: { locales_to_remove }. Następujące rekordy pozostaną bez ustawień regionalnych: { item_ids }",
   "fieldError.VALIDATION_DESCRIPTION_LENGTH": "{ valorizedKeys, select,\n    min { Opis musi zawierać więcej niż {min} znaków }\n    max { Opis musi zawierać mniej niż {max} znaków }\n    max_min { Opis musi zmieścić się w przedziale od {min} do {max} znaków } }",
   "fieldError.VALIDATION_SLUG_FORMAT": "{\n  valorizedKeys, select, \n    custom_pattern { Pole musi przestrzegać konkretnego wyrażenia zwyczajnego: /{custom_pattern}/ }\n    predefined_pattern { Pole musi zawierać { predefined_pattern, select, webpage_slug { tylko cyfry, litery lub znaki \"-\" oraz \"_\" } } }\n}",
   "fieldError.VALIDATION_TITLE_LENGTH": "{ valorizedKeys, select,\n    min { Tytuł musi zawierać więcej niż {min} znaków }\n    max { Tytuł musi zawierać mniej niż {max} znaków }\n    max_min { Tytuł musi zmieścić się w przedziale od {min} do {max} znaków } }",

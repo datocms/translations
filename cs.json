@@ -475,7 +475,6 @@
   "fieldError.MIN_IMAGE_WIDTH": "Šířka obrázku musí být alespoň { min_width }px",
   "fieldError.MIN_LENGTH": "Pole musí být alespoň { min_length } znaků dlouhé",
   "fieldError.MULTIPLE_INSTANCES_OF_SINGLETON": "Nepodařilo se konvertovat na jednu instanci, protože už existuje více než jedna položka tohoto typu!",
-  "fieldError.NO_LOCALES_LEFT_FOR_ITEM": "Nelze odstranit tyto jazyky: { locales_to_remove }. U následující položky by nezbyl žádný jazyk: { item_ids }",
   "fieldError.REQUIRED_FIELD": "Pole je vyžadováno",
   "fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE": "Nepodařilo se konvertovat na jedinou instanci, protože je tento model právě referencován v nějakém odkazu, odkazech nebo Modular content poli!",
   "fieldError.SQUARE_IMAGE": "Obrázek musí být čtvercový",

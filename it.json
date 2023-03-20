@@ -671,7 +671,6 @@
   "fieldError.MIN_IMAGE_WIDTH": "L'immagine deve essere larga almeno { min_width }px",
   "fieldError.MIN_LENGTH": "Il campo deve essere di almeno { min_length } caratteri",
   "fieldError.MULTIPLE_INSTANCES_OF_SINGLETON": "Cannot convert to single instance as currently there is more than one item of this kind!",
-  "fieldError.NO_LOCALES_LEFT_FOR_ITEM": "Non posso rimuovere i seguenti locali: { locales_to_remove } perchè alcuni record rimarrebbero senza locale: { item_ids }",
   "fieldError.REQUIRED_FIELD": "Il campo è obbligatorio",
   "fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE": "Non posso convertire a singola istanza perché questo modello è referenziato da qualche campo!",
   "fieldError.SQUARE_IMAGE": "L'immagine deve essere quadrata",

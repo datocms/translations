@@ -510,7 +510,6 @@
   "fieldError.MIN_IMAGE_WIDTH": "El ancho de la imagen debe ser al menos { min_width }px",
   "fieldError.MIN_LENGTH": "El campo debe tener al menos { min_length } caracteres",
   "fieldError.MULTIPLE_INSTANCES_OF_SINGLETON": "¡No se puede convertir a una instancia única ya que actualmente hay más de un registro de este tipo!",
-  "fieldError.NO_LOCALES_LEFT_FOR_ITEM": "No es posible borrar las siguientes regiones: { locales_to_remove }. Los siguientes registros permanecerían sin ninguna configuración regional: { item_ids }",
   "fieldError.REQUIRED_FIELD": "Campo requerido",
   "fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE": "¡No se puede convertir a una sola instancia ya que este modelo está referenciado actualmente en algún campo de Enlace, Enlaces o Contenido modular!",
   "fieldError.SQUARE_IMAGE": "La imagen debe ser cuadrada",
