@@ -497,6 +497,7 @@
   "editor.item.noItems.title": "This collection is empty",
   "editor.item.publish.failure": "Couldn't publish the record!",
   "editor.item.publish.success": "Record successfully published!",
+  "editor.waitForPluginResult": "<p>The operation is taking longer then usual due to some plugins: {plugins}.</p><p>If you continue to experience extended wait times, consider uninstalling them, or checking their <code>{hook}</code> hook.</p>",
   "editor.item.reorder.failure": "Couldn't reorder the records!",
   "editor.item.reorder.success": "Records successfully reordered",
   "editor.item.scheduleUnpublishing.failure": "Couldn't schedule the record for unpublishing!",
