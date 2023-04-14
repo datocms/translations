@@ -89,7 +89,6 @@
   "editor.workflow.update.failure": "Kunde inte uppdatera arbetsflöde!",
   "editor.workflow.update.success": "Arbetsflöde uppdateras framgångsrikt!",
   "environment.destroy.successful": "Miljön togs bort framgångsrikt!",
-  "environment.fork.failure.nameTaken": "Vi kunde inte kopiera miljön för namnet är redan upptaget. Använd ett unikt namn och försök igen!",
   "field.charactersHint": "Tecken kvar: {counter}",
   "fieldError.CANNOT_REMOVE_LOCALES_USED_IN_PERMISSIONS": "Det går inte att ta bort följande språk: { locales_to_remove }. Vissa innehållsbehörigheter hänvisar fortfarande till dem. Uppdatera dina behörigheter och försök igen!",
   "fieldError.INVALID_DEFAULT_VALUE": "Format inte giltigt",

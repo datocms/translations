@@ -142,7 +142,6 @@
   "environment.fork": "Sklonuj",
   "environment.fork.button.default": "Stwórz nowe środowisko",
   "environment.fork.button.submitting": "Proszę czekać",
-  "environment.fork.failure": "Nie udało się sklonować środowiska",
   "environment.fork.newId": "Nazwij nowe środowisko-piaskownicę:",
   "environment.fork.newId.hint": "Nazwa środowiska może zawierać małe litery, cyfry i myślniki",
   "environment.fork.success": "Pomyślnie rozpoczęto klonowanie środowiska!",

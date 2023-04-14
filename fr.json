@@ -453,7 +453,6 @@
   "environment.fork": "Créer un fork",
   "environment.fork.button.default": "Créer un nouvel environement",
   "environment.fork.button.submitting": "Merci de patienter",
-  "environment.fork.failure": "Impossible de créer un fork de cet environnement !",
   "environment.fork.newId": "Donner un nom au nouvel environnement sandbox :",
   "environment.fork.newId.hint": "Les noms d'environnements peuvent contenir des lettres minuscules, des nombres et des tirets courts (-)",
   "environment.fork.success": "Le fork de l'environnement a démarré avec succès !",

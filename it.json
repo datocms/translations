@@ -572,8 +572,6 @@
   "environment.fork": "Forka",
   "environment.fork.button.default": "Crea nuovo environment",
   "environment.fork.button.submitting": "Attendere prego",
-  "environment.fork.failure": "Non è stato possibile forkare l'environment!",
-  "environment.fork.failure.nameTaken": "Non è stato possibile eseguire il fork dell'environment perchè il nome è già utilizzato. Scegli un nome univoco e riprova!",
   "environment.fork.newId": "Dai un nome al nuovo sandbox environment:",
   "environment.fork.newId.hint": "I nomi degli environment possono contenere solo lettere minuscole, numeri e dashes \"-\"",
   "environment.fork.success": "Il fork dell'environment è partito con successo!",

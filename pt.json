@@ -454,7 +454,6 @@
   "environment.fork": "Dar fork",
   "environment.fork.button.default": "Criar novo ambiente",
   "environment.fork.button.submitting": "Por favor aguarde",
-  "environment.fork.failure": "Não foi possível fazer fork do ambiente!",
   "environment.fork.newId": "Dê um nome ao novo ambiente de sandbox:",
   "environment.fork.newId.hint": "Os nomes de ambiente podem conter letras minúsculas, números e travessões",
   "environment.fork.success": "Fork do ambiente começado com sucesso!",

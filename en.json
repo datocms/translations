@@ -587,8 +587,6 @@
   "environment.fork": "Fork",
   "environment.fork.button.default": "Create new environment",
   "environment.fork.button.submitting": "Please wait",
-  "environment.fork.failure": "We couldn't fork the environment!",
-  "environment.fork.failure.nameTaken": "We couldn't fork the environment, because the name was already taken. Use an unique name and try again!",
   "environment.fork.fastFork": "Perform a fast fork?",
   "environment.fork.fastFork.hint": "A fast fork reduces processing time, but it also prevents writing to the source environment during the process",
   "environment.fork.newId": "Give a name to the new sandbox environment:",
