@@ -2052,7 +2052,7 @@
   "signin.button.default": "Login",
   "signin.email": "Email",
   "signin.otp": "Authentication code",
-  "signin.otp.hint": "Open the two-factor authentication app on your device and enter your authentication code to verify your identity",
+  "signin.otp.hint": "Open the two-factor authentication app on the device and enter the code to verify your identity. Or, use one of the backup codes.",
   "signin.otp.placeholder": "123 456",
   "signin.password": "Password",
   "signin.resetPassword": "Forgot password?",
