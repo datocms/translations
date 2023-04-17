@@ -1333,7 +1333,7 @@
   "itemType.imagePreviewField": "Campo immagine di preview",
   "itemType.imagePreviewField.hint": "Verrà usato per rappresentare il record all'interno della dashboard, e come immagine di fallback per fini SEO",
   "itemType.inverseRelationshipsEnabled": "Abilitare i campi delle relazioni inverse in GraphQL?",
-  "itemType.inverseRelationshipsEnabled.hint": "Se abilitato, sarà possibile recuperare i record di questo modello dai suoi modelli di collegamento in GraphQL.",
+  "itemType.inverseRelationshipsEnabled.hint": "Rende disponibili le query <code>_allReferencingXXX</code> su questo modello nella Content Delivery API",
   "itemType.modularBlock.add": "Add new block",
   "itemType.modularBlock.select": "Seleziona blocco",
   "itemType.modularBlocks": "Blocchi",
