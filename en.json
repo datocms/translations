@@ -1766,7 +1766,7 @@
   "modularBlock.existing": "Pick existing",
   "modularBlock.new": "Create new",
   "nav.adminArea": "Settings",
-  "nav.cdaExplorer": "API Explorer",
+  "nav.cdaExplorer": "CDA Playground",
   "nav.contentTabHint.content": "Inside this tab you (and your collaborators) can manage the content of the website.",
   "nav.contentTabHint.title": "Great, now it's time write some content!",
   "nav.docs": "Docs",
