@@ -839,7 +839,7 @@
   "gitlab.webhookDescription": "Zkopírujte následující URL a použijte ji k vytvoření Webhooku typu \"Pipeline events\":",
   "globalError.DEACTIVATED_SITE.body": "Omlouváme se, ale kvůli fakturačním problémům byl tento projekt dočasně deaktivován. Kontaktujte prosím vaše administrátory pro vyřešení problému.",
   "globalError.DEACTIVATED_SITE.title": "Projekt deaktivován!",
-  "globalError.INVALID_SITE.body": "Omlouváme se, ale žádný DatoCMS projekt pod touto doménou neexistuje. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši technickou podporu na <a href='mailto:support@datocms.com'>support@datocms.com</a>.",
+  "globalError.INVALID_SITE.body": "Omlouváme se, ale žádný DatoCMS projekt pod touto doménou neexistuje. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši technickou podporu na <a href=\"mailto:support@datocms.com\">support@datocms.com</a>.",
   "globalError.INVALID_SITE.title": "Tento projekt neexistuje!",
   "globalError.UNDER_MAINTENANCE.body": "Omlouváme se za nepříjemnosti, ale v současné době provádíme údržbu. Můžete se podívat na naši <a href=\"https://status.datocms.com\" target=\"_blank\">Stavovou stránku</a>, kde můžete sledovat pokrok řešení, nebo kontaktujte naši technickou podporu na <a href=\"mailto:support@datocms.com\">support@datocms.com</a>.",
   "globalError.UNDER_MAINTENANCE.title": "Brzy budeme zpět!",
