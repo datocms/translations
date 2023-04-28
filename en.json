@@ -1510,6 +1510,8 @@
   "mediaArea.title": "Media Area",
   "mediaArea.type": "Type",
   "menu.settings": "Settings",
+  "menuItem.delete": "Delete",
+  "menuItem.edit": "Edit",
   "menuItem.button.default": "Save Menu item",
   "menuItem.externalUrl": "External URL",
   "menuItem.externalUrl.hint": "http://www.example.com/",
