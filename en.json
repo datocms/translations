@@ -1868,6 +1868,7 @@
   "pluginCapability.forcedFieldExtensions": "Automatically forces editors/addons on some fields",
   "pluginCapability.itemForm": "Tweaks the form on records",
   "pluginCapability.itemFormSidebarPanels": "Adds custom sidebar panels on records",
+  "pluginCapability.itemFormSidebars": "Adds custom sidebars records",
   "pluginCapability.manualFieldExtensions": "Adds new editors/addons that can be manually set on fields",
   "pluginCapability.pages": "Adds custom pages to the interface",
   "pluginCapability.structuredText": "Can add custom formatting options to Structured Text fields",
