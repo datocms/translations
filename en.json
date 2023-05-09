@@ -940,6 +940,7 @@
   "filter.size.operator.neq": "not",
   "filter.update.failure": "Couldn't update filter!",
   "filter.update.success": "Filter updated successfully!",
+  "filter.locale.all": "All locales",
   "filterForm.addFilter": "Add Filter",
   "form.chooseFromGallery": "Choose from Media Area",
   "form.contentPermissions.title": "Content permissions for {name}",
