@@ -1036,7 +1036,7 @@
   "form.recordsPermissions.rulesetTitle.itemType": "On records of model {name}",
   "form.recordsPermissions.rulesetTitle.workflow": "On records under workflow {name}",
   "form.recordsPermissions.title": "Record permissions",
-  "form.replaceAsset.dragHere": "Drag a new version here",
+  "form.replaceAsset.dragHere": "Drag a new file here",
   "form.replaceAsset.emptyButtonLabel": "Browse...",
   "form.replaceAsset.hint": "Max size {formattedBytes}",
   "form.schedulePublishing.button.default": "Save",
