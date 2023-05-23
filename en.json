@@ -592,6 +592,7 @@
   "environment.fork.newId": "Give a name to the new sandbox environment:",
   "environment.fork.newId.hint": "Environment names can contain lowercase letters, numbers and dashes",
   "environment.fork.success": "Fork of environment started successfully!",
+  "environment.fork.failure": "We couldn't fork the environment!",
   "environment.forkTitle": "Fork environment",
   "environment.maintenanceMode.activate.success": "Maintenance mode successfully turned on!",
   "environment.maintenanceMode.deactivate.success": "Maintenance mode successfully turned off!",
