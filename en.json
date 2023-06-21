@@ -1457,7 +1457,7 @@
   "localizationSettings.timezone": "Date preferred timezone",
   "localizationSettings.twentyFourHour": "24-hour time format",
   "maintenanceMode.active": "<strong>The project is undergoing scheduled maintenance</strong> and is currently in read-only mode. For more info, contact your project owner(s)!",
-  "editingUrlWarning.active": "<strong>Since the query includes <code>_edigingUrl</code> field, we added the <code>X-Base-Editing-Url</code> header. <a href=\"https://www.datocms.com/docs/content-delivery-api/api-endpoints#visual-editing\" target=\"_blank\">Remember to add it on your frontend too.</a></strong>",
+  "editingUrlWarning.active": "<strong>Since the query includes <code>_editingUrl</code> field, we added the <code>X-Base-Editing-Url</code> header. <a href=\"https://www.datocms.com/docs/content-delivery-api/api-endpoints#visual-editing\" target=\"_blank\">Remember to add it on your frontend too.</a></strong>",
   "markdownEditor.toolbar": "Toolbar buttons",
   "markdownEditor.toolbar.bold": "Bold",
   "markdownEditor.toolbar.code": "Code",
