@@ -659,6 +659,8 @@
   "field.defaultValueHint": "The field will be pre-filled with this value",
   "field.defaultValueLanguage": "Language",
   "field.defaultValuePlaceholder": "Please insert a default value here",
+  "field.defaultValue.copy": "Copy the {locale} default value to all other locales",
+  "field.defaultValue.copy.success": "Default value successfully copied",
   "field.field_type": "Field type",
   "field.hint": "Help text",
   "field.hintHint": "This help text will appear below the field",
