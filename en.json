@@ -328,6 +328,10 @@
   "cdaExplorer.queryComplexity.hint.maxComplexity": "Maximum allowed cost",
   "cdaExplorer.queryComplexity.hint.links": "<a href=\"https://www.datocms.com/docs/content-delivery-api/complexity\">Learn more</a> or <a href=\"https://www.datocms.com/support?topics=business-partnerships/high-volume-pricing\">Upgrade plan</a>",
   "cdaExplorer.queryComplexity": "Query complexity",
+  "cdaExplorer.queryComplexity.low": "Low",
+  "cdaExplorer.queryComplexity.warning": "Warning",
+  "cdaExplorer.queryComplexity.exceeded": "Exceeded",
+  "cdaExplorer.queryComplexity.invalid": "Invalid",
   "changePosition.button.default": "Move to new position",
   "changePosition.newPosition": "New position",
   "changePosition.title": "Change position",
@@ -1393,6 +1397,7 @@
   "itemTypeForm.tab.extra": "Settings",
   "itemTypeForm.tab.presentation": "Presentation",
   "itemVersion.current": "Current",
+  "itemVersion.currentAndPublished": "Current & Published",
   "itemsCollection.title": "{name} collection",
   "latLonInput.button.clear": "Clear position",
   "latLonInput.latitude": "Latitude:",
@@ -1926,6 +1931,7 @@
   "recordInfo.position": "Position in collection",
   "recordInfo.save": "Save",
   "recordInfo.title": "Record info",
+  "recordInfo.publishingStatus": "Publishing status",
   "removeReferences.published": "(Published version)",
   "richText.add": "Add new",
   "richText.add.multiple": "Create new...",
@@ -2538,5 +2544,8 @@
   "notEnoughPermissionsToPublishWholeItem": "You do not have enough permissions to publish all the changes made to the record!",
   "notEnoughPermissionsOnLocales": "You don't have enough permissions to perform this operation on {locales}!",
   "item.nonLocalizedContent": "Non-localized content",
-  "item.localesCount": "{count} locales"
+  "item.localesCount": "{count} locales",
+  "validityTriangle.invalidVersion": "This version is not valid",
+  "validityTriangle.current": "Current version not valid",
+  "validityTriangle.published": "Published version not valid"
 }
