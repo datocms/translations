@@ -466,7 +466,7 @@
   "editor.invite.new": "Convidar novo colaborador",
   "editor.inviteNew": "Convidar novo colaborador",
   "editor.inviteNew.copyLink.button": "Copiar link de convite",
-  "editor.inviteNew.copyLink.hint": "Copie este link de convite para enviar manualmente ao usuário desejado. Ao fechar esta tela, o link não estará mais visível e, caso precise dele novamente, você terá que criar um novo convite para o usuário.",
+  "editor.inviteNew.copyLink.hint": "Copie este link de convite para enviar manualmente ao usuário desejado. ⚠️ Ao fechar esta tela, o link não estará mais visível e, caso precise dele novamente, você terá que criar um novo convite para o usuário. Este link irá expirar em 24 horas!",
   "editor.inviteNew.copyLink.success": "Link de convite foi copiado com sucesso para a área de transferência!",
   "editor.inviteNew.hint": "O link de convite não está vinculado a um endereço de e-mail específico - ele pode ser resgatado por qualquer conta existente do DatoCMS ou por novas pessoas ainda não registradas. \n  Ele expirará em 24 horas, então um novo convite deverá ser enviado, se necessário.",
   "editor.invited": "Convidado",
