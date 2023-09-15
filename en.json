@@ -2271,7 +2271,7 @@
   "structuredTextEditor.allowedNodeTypes.link": "Link",
   "structuredTextEditor.allowedNodeTypes.list": "List",
   "structuredTextEditor.allowedNodeTypes.thematicBreak": "Horizontal rule",
-  "structuredTextEditor.blockWithoutFields": "There are no fields associated with this block",
+  "structuredTextEditor.blockWithoutFields": "This block does not contain any editable fields",
   "structuredTextEditor.blocksStartCollapsed": "Show blocks as collapsed by default",
   "structuredTextEditor.showMeta": "Show advanced Meta editor for links",
   "structuredTextEditor.showTargetBlank": "Show \"Open link in new window\" option for links",
