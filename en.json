@@ -676,7 +676,7 @@
   "field.defaultValuePlaceholder": "Please insert a default value here",
   "field.field_type": "Field type",
   "field.hint": "Help text",
-  "field.hintHint": "This help text will appear below the field",
+  "field.hintHint": "This help text will appear below the field (can contain basic HTML tags)",
   "field.hintPlaceholder": "Insert your text help here",
   "field.insertAddon": "Insert add-on",
   "field.label": "Name",
