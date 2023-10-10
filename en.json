@@ -1363,6 +1363,7 @@
   "itemLocking.recover": "Recover",
   "itemLocking.recoverFrom": "Recover the work started by",
   "itemLocking.takeOver": "Take over",
+  "items.blankSlate.title": "This collection is empty",
   "itemTable.columns.available": "Available columns",
   "itemTable.columns.displayed": "Displayed columns",
   "itemTable.hide": "Hide selected records",
