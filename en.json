@@ -836,7 +836,7 @@
   "fieldType.options.view.compact": "Compact view",
   "fieldType.options.view.tabular": "Tabular view",
   "fieldType.rich_text": "Modular content",
-  "fieldType.seo": "SEO and Social Card",
+  "fieldType.seo": "SEO and Social",
   "fieldType.slug": "Slug",
   "fieldType.string": "Single-line string",
   "fieldType.structured_text": "Structured text",
