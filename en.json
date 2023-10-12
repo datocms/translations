@@ -457,9 +457,10 @@
   "dropdown.search": "Search...",
   "dropdown.selectOption": "Please, select an option below:",
   "editItem.title": "Edit {name}",
-  "editingUrlWarning.active": "<strong>Since the query includes <code>_editingUrl</code> field, we added the <code>X-Base-Editing-Url</code> header. <a href=\"https://www.datocms.com/docs/content-delivery-api/api-endpoints#visual-editing\" target=\"_blank\">Remember to add it on your frontend too.</a></strong>",
-  "videoWarning.active": "<strong>Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using <a href=\"https://www.datocms.com/docs/content-delivery-api/images-and-videos#videos\" target=\"_blank\">HSL video streaming (<code>streamingUrl</code>)</a> as a better alternative.</strong>",
-
+  "editingUrlWarning.active": "Since the query includes <code>_editingUrl</code> field, we added the <code>X-Base-Editing-Url</code> header. <a href=\"https://www.datocms.com/docs/content-delivery-api/api-endpoints#visual-editing\" target=\"_blank\">Remember to add it on your frontend too.</a>",
+  "videoWarning.active": "Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using <a href=\"https://www.datocms.com/docs/content-delivery-api/images-and-videos#videos\" target=\"_blank\">HSL video streaming (<code>streamingUrl</code>)</a> as a better alternative.",
+  "videoWarning.message": "Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using HSL video streaming (<code>streamingUrl</code>) as a better alternative.",
+  "videoWarning.cta": "Read more about HSL video streaming",
   "editor.activate": "Re-activate user",
   "editor.active": "Active",
   "editor.add": "Add collaborator",
