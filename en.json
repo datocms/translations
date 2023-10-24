@@ -982,7 +982,7 @@
   "selectiveUnpublishingForm.unpublishableLocales": "Select what you want to unpublish",
   "seo.button.default": "Save SEO settings",
   "seo.description": "Description",
-  "seo.description.hint": "This will be used as the page title on search results and social media platforms",
+  "seo.description.hint": "This will be used as the page description on search results and social media platforms",
   "seo.image": "Social card image",
   "seo.image.hint": "This image will display on social media platforms when you or someone else shares this content",
   "seo.title": "Title",
