@@ -652,8 +652,6 @@
   "modularBlock.edit": "Upravit modulární blok",
   "modularBlock.existing": "Vybrat existující",
   "modularBlock.new": "Vytvořit nový",
-  "nav.adminArea": "Nastavení",
-  "nav.cdaExplorer": "API",
   "nav.contentTabHint.content": "Uvnitř této karty můžete vy (a editoři stránky) spravovat obsah této webové stránky. Zkuste teď vytvořit nějaký nový obsah!",
   "nav.contentTabHint.title": "Skvěle, teď je čas napsat nějaký obsah!",
   "nav.docs": "Dokumentace",

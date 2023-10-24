@@ -682,8 +682,6 @@
   "modularBlock.edit": "Modifier le bloc",
   "modularBlock.existing": "Choisir existant",
   "modularBlock.new": "Créer nouveau",
-  "nav.adminArea": "Paramètres",
-  "nav.cdaExplorer": "API Explorer",
   "nav.contentTabHint.content": "Dans cet onglet, vous (et les éditeurs du site) pouvez gérer le contenu du site web.",
   "nav.contentTabHint.title": "Bien joué, il est temps d'écrire un peu de contenu !",
   "nav.docs": "Docs",

@@ -805,8 +805,6 @@
   "modularBlock.edit": "Modifica blocco",
   "modularBlock.existing": "Seleziona tra gli esistenti",
   "modularBlock.new": "Crea nuovo",
-  "nav.adminArea": "Amministrazione",
-  "nav.cdaExplorer": "CDA Playground",
   "nav.contentTabHint.content": "All'interno di questo tab tu (ed i tuoi editor) potete gestire il contenuto del sito. Prova a creare ora un nuovo contenuto!",
   "nav.contentTabHint.title": "Ottimo, è arrivato il momento di scrivere qualche contenuto!",
   "nav.docs": "Docs",
