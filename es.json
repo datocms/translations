@@ -605,7 +605,6 @@
   "messages.confirm.assets.duplicateAsset.question": "¿Desea crear un nuevo fichero con esta versión editada?",
   "messages.confirm.assets.duplicateAsset.title": "Crear una copia",
   "messages.confirm.assets.editAsset.cancel": "Cancelar",
-  "messages.confirm.assets.makeCopy.cancel": "Cancelar",
   "messages.confirm.batch.destroy.cancel": "Cancelar",
   "messages.confirm.batch.move_to_stage.cancel": "Cancelar",
   "messages.confirm.batch.publish.cancel": "Cancelar",
