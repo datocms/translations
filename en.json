@@ -380,6 +380,7 @@
   "filter.update.failure": "Couldn't update filter!",
   "filter.update.success": "Filter updated successfully!",
   "filterForm.addFilter": "Add Filter",
+  "form.localizedField": "The values for this field vary depending on the locale",
   "form.chooseFromGallery": "Choose from Media Area",
   "form.fileGalleryInput.buttonLabel": "Upload new file",
   "form.fileGalleryInput.cancelButton": "Cancel upload",
