@@ -36,7 +36,6 @@
   "buildEvent.type.response_timeout": "Der Bau dauerte zu lange",
   "button.default": "Senden",
   "button.submitting": "Bitte warten Sie",
-  "button.uploading": "Warten auf das Hochladen von mediendateien",
   "changePosition.button.default": "An neue Position verschieben",
   "changePosition.newPosition": "Neue Position",
   "changePosition.title": "Position ändern",

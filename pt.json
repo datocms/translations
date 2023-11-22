@@ -42,7 +42,6 @@
   "buildEvent.type.response_unprocessable": "Recebeu um webhook inválido",
   "button.default": "Enviar",
   "button.submitting": "Por favor aguarde",
-  "button.uploading": "A aguardar pelo upload do asset",
   "changePosition.button.default": "Mover para nova posição",
   "changePosition.newPosition": "Nova posição",
   "changePosition.title": "Alterar posição",

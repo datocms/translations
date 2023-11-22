@@ -36,7 +36,6 @@
   "buildEvent.type.response_timeout": "El build tomó demasiado tiempo para ser completado",
   "button.default": "Enviar",
   "button.submitting": "Por favor espere",
-  "button.uploading": "Esperando carga de ficheros",
   "changePosition.button.default": "Mover a la nueva posición",
   "changePosition.newPosition": "Nueva posición",
   "changePosition.title": "Cambiar de posición",
