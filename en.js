@@ -94,7 +94,7 @@ module.exports = {
   'admin.integration.success.title': `You did it!`,
   'admin.integration.waiting': `Waiting for the completion of the steps...`,
   'admin.item.noFields.button': `Edit the model`,
-  'admin.item.noFields.description': `This model currently has no fields: to start creating some records of this type, please head over to the Admin Area > Models section and add some!`,
+  'admin.item.noFields.description': `This model currently has no fields. To add records, please first edit this model in the <a href="/schema/item_types">Schema tab</a> and give it some fields.`,
   'admin.item.noFields.title': `Add some fields!`,
   'admin.itemType.create.failure': `Couldn't create the model!`,
   'admin.itemType.create.success': `Model successfully created`,
