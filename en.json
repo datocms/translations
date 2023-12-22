@@ -1010,6 +1010,8 @@
   "seoPreferences.save": "Save preferences",
   "seoPreferences.saving": "Saving...",
   "settings.backendLanguage": "Set your backend language",
+  "item.noFields.description": "This model currently has no fields. To add records, please first edit this model in the Schema tab, and give it some fields.",
+  "item.noFields.title": "Add some fields!",
   "settings.button.default": "Save settings",
   "settings.favicon": "Favicon image",
   "settings.favicon.hint": "Make your website easily recognizable by choosing a custom icon",
