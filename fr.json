@@ -811,6 +811,7 @@
   "settings.backendLanguage": "Choisissez la langue de l'interface",
   "settings.button.default": "Sauvegarder les paramètres",
   "settings.favicon": "Favicon",
+  "settings.favicon.hint": "Rendez votre site web facilement reconnaissable en choisissant une icône personnalisée",
   "settings.noIndex": "Prévenir l'indexation de votre site web par les moteurs de recherche ?",
   "sidebar.actions": "Actions",
   "sidebar.links": "Liens",
