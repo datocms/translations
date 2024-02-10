@@ -808,6 +808,8 @@
   "seoInput.modalTitle": "Éditer les paramètres SEO",
   "seoInput.remove": "Remettre à zéro",
   "seoInput.twitter": "Carte Twitter",
+  "seoPreferences.save": "Enregistrer les préférences",
+  "seoPreferences.saving": "Enregistrement...",
   "settings.backendLanguage": "Choisissez la langue de l'interface",
   "settings.button.default": "Sauvegarder les paramètres",
   "settings.favicon": "Favicon",
