@@ -458,6 +458,8 @@
   "genericError.referencedFrom": "referenced in",
   "globalError.DEACTIVATED_SITE.body": "\n    <p>Sorry but due to invoicing problems this project has been temporarly deactivated. Please contact your administrators to solve the issue.<p>\n  ",
   "globalError.DEACTIVATED_SITE.title": "Project deactivated!",
+  "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Sorry, but the environment you're attempting to access is either still being created or currently being deleted.</p>\n    <p>If you think this is an error, please contact us via our <a href='{supportUrl}' target=\"_blank\">Support form</a>.</p>",
+  "globalError.ENVIRONMENT_NOT_READY.title": "Environment not ready!",
   "globalError.INSUFFICIENT_PERMISSIONS.body": "\n    <p>Sorry, but the action you're trying to perform requires some privileges you don't have.</p>\n    <p>If you think that's a mistake, you can always contact us via our <a href='{supportUrl}'  target=\"_blank\">Support form</a>.</p>\n  ",
   "globalError.INSUFFICIENT_PERMISSIONS.title": "Permission denied!",
   "globalError.INVALID_SITE.body": "\n    <p>Sorry, but no DatoCMS project exists under this domain.</p>\n    <p>If you think this is an error, please contact us via our <a href='{supportUrl}' target=\"_blank\">Support form</a>.</p>",
