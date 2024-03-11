@@ -868,6 +868,7 @@
   "nav.new": "What's new",
   "nav.projectSettings": "Project settings",
   "nav.support": "Ask for support",
+  "nav.feature": "Request a feature",
   "navigationBar.dashboard.go": "Go to DatoCMS dashboard",
   "navigationBar.visitEnvSite": "Visit {env} site",
   "navigationBar.visitSite": "Visit site",
