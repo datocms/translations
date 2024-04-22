@@ -1031,6 +1031,7 @@
   "signin.otp.placeholder": "123 456",
   "signin.password": "Password",
   "signin.resetPassword": "Forgot password?",
+  "signin.lostTfaAccess": "Lost access to 2FA? <a href=\"https://dashboard.datocms.com/login\">Go to dashboard to recover it</a>",
   "signin.sso": "Login with Single Sign-On",
   "size.large": "Large",
   "size.normal": "Medium",
