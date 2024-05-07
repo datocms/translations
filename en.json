@@ -786,7 +786,7 @@
   "messages.confirm.assets.duplicateAsset.cancel": "No, replace the current asset",
   "messages.confirm.assets.duplicateAsset.ok": "Yes, create a copy",
   "messages.confirm.assets.duplicateAsset.question": "Do you want to create a new asset with this edited version, or replace the existing asset?",
-  "messages.confirm.assets.duplicateAsset.title": "Make a copy",
+  "messages.confirm.assets.duplicateAsset.title": "Make a copy?",
   "messages.confirm.assets.editAsset.ok": "Yes, replace the current asset",
   "messages.confirm.assets.editAsset.question": "Do you really want to replace the current asset with this edited version?",
   "messages.confirm.assets.editAsset.title": "Replace asset",
