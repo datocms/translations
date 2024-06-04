@@ -1165,5 +1165,10 @@
   "uploadTrack.generateSubtitles.description": "Please provide the necessary details to generate subtitles from the audio track of the video:",
   "uploadTrack.generateSubtitles.button.default": "Generate subtitles",
   "uploadTrack.generateSubtitles.success": "Generation started successfully!",
-  "uploadTrack.generateSubtitles.failure": "Could not generate subtitles track"
+  "uploadTrack.generateSubtitles.failure": "Could not generate subtitles track",
+  "tryTutorials.title": "Demo Walkthrough",
+  "tryTutorials.cta": "Want some more? {link}",
+  "tryTutorials.link": "Visit our User Guides",
+  "try.remainingType.title": "Demo Remaining Time",
+  "try.remainingType.description": "Demo projects live for a maximum of 2 hours, after which they are automatically deleted."
 }
