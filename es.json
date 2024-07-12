@@ -380,8 +380,6 @@
   "globalError.DEACTIVATED_SITE.title": "Proyecto desactivado!",
   "globalError.INVALID_SITE.body": "Lo sentimos, pero no existe ningún proyecto DatoCMS en este dominio. Si cree que se trata de un error, contáctenos en <a href=\"https://www.datocms.com/support\" target=\"_blank\">la página de soporte</a>.",
   "globalError.INVALID_SITE.title": "Este proyecto no existe!",
-  "globalError.UNDER_MAINTENANCE.body": "Disculpe las molestias, pero estamos realizando algunas tareas de mantenimiento en este momento. Puede consultar nuestra <a href=\"https://status.datocms.com\" target=\"_blank\">Página de Estado</a> para seguir el progreso o contactarnos en <a href=\"https://www.datocms.com/support\" target=\"_blank\">la página de soporte </a>.",
-  "globalError.UNDER_MAINTENANCE.title": "¡Volveremos pronto!",
   "globalSeo.button.default": "Actualizar campos de SEO",
   "globalSeo.description": "Descripción alternativa (si no se especifica)",
   "globalSeo.facebookPageUrl": "Dirección de la página de Facebook",
