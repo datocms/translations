@@ -521,6 +521,8 @@
   "hotkeys.saveSeoPreferences": "Save SEO preferences",
   "hotkeys.toggleKeyboardShortcuts": "Show/hide available keyboard shortcuts",
   "hotkeys.toggleQuickFind": "Quick Search",
+  "htmlInput.muchInvisibleContent.kicker": "Hidden unwanted data?",
+  "htmlInput.muchInvisibleContent.warning": "Your HTML contains hidden content that increases the text's size and is likely unnecessary. If this was not intentional, click the \"Source Code\" button to review and remove any needless data.",
   "imageEditor.labelButtonCancel": "Cancel",
   "imageEditor.labelButtonConfirm": "Save changes",
   "imageEditor.labelButtonCropAspectRatio": "Aspect ratio",
