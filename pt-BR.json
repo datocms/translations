@@ -683,7 +683,6 @@
   "mediaArea.assets.delete.unused": "Remover todos não utilizados?",
   "mediaArea.assets.deselect": "{count, plural, one {Desmarcar} other {Desmarcar todos}}",
   "mediaArea.assets.selected": "{count, plural, one {Um arquivo selecionado} other {{count} arquivos selecionados}}",
-  "mediaArea.assets.tag": "{count, plural, one {Marcador} other {Marcador em todos}}",
   "mediaArea.assets.upload": "Enviar novos arquivos",
   "mediaArea.bytesUsed": "{currentBytes} de {availableBytes} utilizados",
   "mediaArea.bytesUsed.unlimited": "{currentBytes} utilizados (espaço ilimitado)",

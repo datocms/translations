@@ -533,7 +533,6 @@
   "mediaArea.assets.delete.unused": "Smazat všechny nepoužívané?",
   "mediaArea.assets.deselect": "{count, plural, one {Odznačit} other {Odznačit vše}}",
   "mediaArea.assets.selected": "{count, plural, one {Zvolen jeden soubor} few {{count} soubory vybrány} other {{count} souborů vybráno}}",
-  "mediaArea.assets.tag": "{count, plural, one {Otagovat} other {Otagovat vše}}",
   "mediaArea.assets.upload": "Nahrát soubory",
   "mediaArea.bytesUsed": "{currentBytes} z {availableBytes} využito",
   "mediaArea.bytesUsed.unlimited": "{currentBytes} využito (neomezené místo k dispozici)",

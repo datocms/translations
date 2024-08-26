@@ -561,7 +561,6 @@
   "mediaArea.assets.delete.unused": "Supprimer tous ceux non-utilisés ?",
   "mediaArea.assets.deselect": "{count, plural, one {Désélectionner} other {Désélectionner tout}}",
   "mediaArea.assets.selected": "{count, plural, one {Un asset sélectionné} other {{count} assets sélectionnés}}",
-  "mediaArea.assets.tag": "{count, plural, one {Ajouter des tags} other {Ajouter des tags à la sélection}}",
   "mediaArea.assets.upload": "Importer de nouveaux assets",
   "mediaArea.bytesUsed": "{currentBytes} sur {availableBytes} utilisés",
   "mediaArea.bytesUsed.unlimited": "{currentBytes} utilisés (espace de stockage infini)",
