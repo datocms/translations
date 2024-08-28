@@ -1216,5 +1216,6 @@
   "try.remainingType.description": "Demo projects live for a maximum of 2 hours, after which they are automatically deleted.",
   "try.shareUrl.notice": "We've just copied the URL for this demo project to your clipboard. Share it with your team members and try collaborating on the same project together!",
   "try.shareUrl.cta": "Copy URL to clipboard",
-  "MultipleSelectionActionBar.deselectAll": "Clear selection"
+  "MultipleSelectionActionBar.deselectAll": "Clear selection",
+  "uploads.embedded.toggleUploadCollectionsTooltip": "Browse assets by collection"
 }
