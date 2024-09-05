@@ -619,7 +619,7 @@
   "imageMetadata.smartTags": "Smart tags",
   "imageMetadata.tags": "Manual tags",
   "imageMetadata.title": "Title/Caption",
-  "imageMetadata.uploadInProgress": "{percent, plural, =0 {Uploading...} one {Uploading ({percent}%)...} other {Uploading ({percent}%)...}}",
+  "imageMetadata.uploadInProgress": "{percent, plural, =0 {In queue...} one {Uploading ({percent}%)...} other {Uploading ({percent}%)...}}",
   "indexingFailureReason.MISSING_FRONTEND_URL": "No frontend URL is configured for this build trigger!",
   "integration.step1.success": "Command received, hurray!",
   "item.back": "Back",
