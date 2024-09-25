@@ -1217,5 +1217,6 @@
   "try.shareUrl.notice": "We've just copied the URL for this demo project to your clipboard. Share it with your team members and try collaborating on the same project together!",
   "try.shareUrl.cta": "Copy URL to clipboard",
   "MultipleSelectionActionBar.deselectAll": "Clear selection",
-  "uploads.embedded.toggleUploadCollectionsTooltip": "Browse assets by collection"
+  "uploads.embedded.toggleUploadCollectionsTooltip": "Browse assets by collection",
+  "itemForm.gotoField": "Go to {fieldApiKey} field"
 }
