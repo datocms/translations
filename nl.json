@@ -557,8 +557,6 @@
   "richText.copyStructureAndContent": "Tekststructuur en -content",
   "richText.dropdown.collapse": "Alles inklappen",
   "richText.dropdown.expand": "Alles uitklappen",
-  "richText.dropdown.moveDown": "Omlaag",
-  "richText.dropdown.moveUp": "Omhoog",
   "richText.dropdown.removeBlock": "Blok verwijderen",
   "section.managePreferences": "Manage wereldwijde instellingen",
   "seo.button.default": "SEO instellingen opslaan",

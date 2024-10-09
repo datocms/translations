@@ -695,8 +695,6 @@
   "richText.copyStructureAndContent": "Zkopírovat strukturu a obsah",
   "richText.dropdown.collapse": "Sbalit vše",
   "richText.dropdown.expand": "Rozbalit vše",
-  "richText.dropdown.moveDown": "Přesunout dolů",
-  "richText.dropdown.moveUp": "Přesunout nahoru",
   "richText.dropdown.removeBlock": "Odebrat blok",
   "section.managePreferences": "Globální nastavení",
   "seo.button.default": "Uložit nastavení SEO",

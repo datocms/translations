@@ -725,8 +725,6 @@
   "richText.copyStructureAndContent": "Copier la structure et le contenu",
   "richText.dropdown.collapse": "Tout réduire",
   "richText.dropdown.expand": "Tout agrandir",
-  "richText.dropdown.moveDown": "Déplacer vers le bas",
-  "richText.dropdown.moveUp": "Déplacer vers le haut",
   "richText.dropdown.removeBlock": "Retirer le bloc",
   "section.managePreferences": "Gérer les paramètres globaux du site",
   "seo.button.default": "Sauvegarder les paramètres SEO",
