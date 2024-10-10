@@ -688,7 +688,6 @@
   "recordInfo.title": "Detaily položky",
   "richText.add": "Přidat nový",
   "richText.add.multiple": "Vytvořit nový...",
-  "richText.add.single": "Nová položka: \"{itemType}\"",
   "richText.chooseItemType": "Žádné modely k dispozici",
   "richText.copy": "Zkopírovat z {locale}...",
   "richText.copyStructure": "Zkopírovat strukturu",

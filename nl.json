@@ -550,7 +550,6 @@
   "recordInfo.title": "Item info",
   "richText.add": "Nieuwe toevoegen...",
   "richText.add.multiple": "Nieuwe maken...",
-  "richText.add.single": "Nieuw {itemType}",
   "richText.chooseItemType": "Geen modellen beschikbaar, pas de instellingen van dit veld aan",
   "richText.copy": "Kopiëren van {locale}",
   "richText.copyStructure": "Tekst structuur",

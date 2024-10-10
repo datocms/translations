@@ -699,7 +699,6 @@
   "removeReferences.published": "(Versión publicada)",
   "richText.add": "Añadir nuevo",
   "richText.add.multiple": "Crear nuevo...",
-  "richText.add.single": "Nuevo {itemType}",
   "richText.chooseItemType": "No hay modelos disponibles",
   "richText.copy": "Copia de {locale}",
   "richText.copyStructure": "Copiar estructura",

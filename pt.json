@@ -745,7 +745,6 @@
   "recordInfo.title": "Informação do registo",
   "richText.add": "Adicionar novo",
   "richText.add.multiple": "Criar novo...",
-  "richText.add.single": "Novo {itemType}",
   "richText.chooseItemType": "Nenhum modelo disponível",
   "richText.copy": "Copiar de {locale}",
   "richText.copyStructure": "Copiar estrutura",

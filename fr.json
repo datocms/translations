@@ -718,7 +718,6 @@
   "recordInfo.title": "Informations sur l'entité",
   "richText.add": "Ajouter nouveau",
   "richText.add.multiple": "Créer nouveau...",
-  "richText.add.single": "Nouveau {itemType}",
   "richText.chooseItemType": "Aucun modèle disponible",
   "richText.copy": "Copier depuis {locale}",
   "richText.copyStructure": "Copier la structure",
