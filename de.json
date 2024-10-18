@@ -970,7 +970,7 @@
   "removeReferences.published": "(Veröffentlichte Version)",
   "richText.add": "Hinzufügen",
   "richText.add.multiple": "Neuen Block hinzufügen ...",
-  "richText.add.single": "Neues {itemType}",
+  "richText.add.single": "{itemType} hinzufügen",
   "richText.chooseItemType": "Keine Models verfügbar, bitte bearbeiten Sie diese Feldeinstellungen",
   "richText.collapseBlocks": "Einklappen",
   "richText.copy": "Kopiere von {locale}",
