@@ -995,6 +995,8 @@
   "richText.dropdown.move": "Move",
   "richText.dropdown.paste.up": "Paste above this block",
   "richText.dropdown.paste.down": "Paste below this block",
+  "richText.dropdown.paste.top": "Paste to the top",
+  "richText.dropdown.paste.bottom": "Paste to the bottom",
   "richText.dropdown.paste": "{count, plural, one {Paste 1 block} other {Paste {count} blocks} }",
   "richText.dropdown.removeBlock": "Remove block",
   "schedule.action.futurePublication": "Future publication",
