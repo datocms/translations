@@ -440,6 +440,7 @@
   "gallery.noFile": "No file available.",
   "gallery.noFiles": "No files present",
   "gallery.noImage": "No image available.",
+  "genericError.CANNOT_DESTROY_CURRENT_USER": "You cannot delete your own user account",
   "genericError.ACCOUNT_ALREADY_JOINED_SITE": "This account is already part of the project!",
   "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "The schema of this model changed, we're re-running validations over every record in background. Please retry with this operation in a few seconds!",
   "genericError.CIRCULAR_DEPENDENCY": "Circular dependency between roles detected!",
