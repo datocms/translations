@@ -464,7 +464,7 @@
   "genericError.referencedFrom": "referenziato in",
   "globalError.DEACTIVATED_SITE.body": "<p>Purtroppo a causa di problemi di fatturazione questo progetto è stato disattivato temporaneamente. Contatta i tuoi amministratori per risolvere il problema.</p>",
   "globalError.DEACTIVATED_SITE.title": "Progetto disattivato!",
-  "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Siamo spiacenti, ma l'ambiente a cui stai tentando di accedere è ancora in fase di creazione, o è in fase di eliminazione.</p>\n    <p>Se ritieni che si tratti di un errore, contattaci tramite il nostro <a href='{supportUrl}' target=\"_blank\">modulo di supporto</a>.</p>",
+  "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Siamo spiacenti, ma l'ambiente a cui stai tentando di accedere è ancora in fase di creazione, o è in fase di eliminazione.</p>\n    <p>Se ritieni che si tratti di un errore, contattaci tramite il nostro <a href=\"{supportUrl}\" target=\"_blank\">modulo di supporto</a>.</p>",
   "globalError.ENVIRONMENT_NOT_READY.title": "Environment non pronto!",
   "globalError.INSUFFICIENT_PERMISSIONS.body": "\n<p>Spiacente, ma l'azione che stai cercando di eseguire richiede dei permessi che il tuo utente non possiede.</p>\n<p>Se pensi che questo sia un errore, puoi sempre contattarci attraverso il nostro <a href=\"{supportUrl}\" target=\"_blank\">form di Supporto</a>.</p>\n  ",
   "globalError.INSUFFICIENT_PERMISSIONS.title": "Permesso negato!",

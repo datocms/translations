@@ -285,7 +285,7 @@
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Kon asset niet wijzigen omdat de volgende items niet geldig zijn:",
   "globalError.DEACTIVATED_SITE.body": "Sorry! Vanwege facturatieproblemen is dit project tijdelijk gedeactiveerd. Neem contact op met je beheerder om dit probleem op te lossen.",
   "globalError.DEACTIVATED_SITE.title": "Project gedeactiveerd!",
-  "globalError.INVALID_SITE.body": "Sorry, maar er bestaat geen DatoCMS project onder dit domein. Als je denkt dat er iets mis is, neem contact met ons op via: <a href=\"https://www.datocms.com/support\" target=\"_blank\">de support pagina</a>.",
+  "globalError.INVALID_SITE.body": "Sorry, maar er bestaat geen DatoCMS project onder dit domein. Als je denkt dat er iets mis is, neem contact met ons op via: <a href=\"{supportUrl}\" target=\"_blank\">de support pagina</a>.",
   "globalError.INVALID_SITE.title": "Dit project bestaat niet!",
   "globalSeo.button.default": "SEO-velden updaten",
   "globalSeo.description": "Fallback beschrijving (tenzij aangegeven)",

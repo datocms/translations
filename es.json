@@ -377,7 +377,7 @@
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "No se pudo actualizar este fichero ya que los siguientes registros no pueden pasar las validaciones:",
   "globalError.DEACTIVATED_SITE.body": "Lo sentimos, pero debido a problemas de facturación, este proyecto se ha desactivado temporalmente. Póngase en contacto con sus administradores para resolver el problema.",
   "globalError.DEACTIVATED_SITE.title": "Proyecto desactivado!",
-  "globalError.INVALID_SITE.body": "Lo sentimos, pero no existe ningún proyecto DatoCMS en este dominio. Si cree que se trata de un error, contáctenos en <a href=\"https://www.datocms.com/support\" target=\"_blank\">la página de soporte</a>.",
+  "globalError.INVALID_SITE.body": "Lo sentimos, pero no existe ningún proyecto DatoCMS en este dominio. Si cree que se trata de un error, contáctenos en <a href=\"{supportUrl}\" target=\"_blank\">la página de soporte</a>.",
   "globalError.INVALID_SITE.title": "Este proyecto no existe!",
   "globalSeo.button.default": "Actualizar campos de SEO",
   "globalSeo.description": "Descripción alternativa (si no se especifica)",

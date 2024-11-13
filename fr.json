@@ -389,7 +389,7 @@
   "globalError.INVALID_SITE.title": "Ce projet n'existe pas!",
   "globalError.NOT_FOUND.body": "\n    <p>Désolé, mais certaines des ressources demandées n'existent pas.<p>\n    <p>Si vous pensez que c'est une erreur, merci de nous contacter via notre <a href=\"{supportUrl}\" target=\"_blank\">Formulaire de support/a>.</p>\n  ",
   "globalError.NOT_FOUND.title": "Ressource introuvable (404)",
-  "globalError.UNHANDLED_CLIENT_SIDE_ERROR.body": "\n    <p>Nous sommes désolés, mais il semble que vous aillez trouvé un bug. Nous en avons déjà été informés, et nous travaillons à sa résolution au plus vite.</p>\n    <p>Si vous désirez plus d'informations, merci de nous contacter via notre <a href=\"{supportUrl}\" target=\"_blank\">Formulaire de support/a>.</p>\n\n\n",
+  "globalError.UNHANDLED_CLIENT_SIDE_ERROR.body": "<p>Nous sommes désolés, mais il semble que vous aillez trouvé un bug. Nous en avons déjà été informés, et nous travaillons à sa résolution au plus vite.</p>\n<p>Si vous désirez plus d'informations, merci de nous contacter via notre <a href=\"{supportUrl}\" target=\"_blank\">Formulaire de support/a>.</p>",
   "globalError.UNHANDLED_CLIENT_SIDE_ERROR.title": "Quelque chose s'est mal passé !",
   "globalError.uuid": "ID de l'erreur :",
   "globalSeo.button.default": "Mettre à jour les champs SEO",

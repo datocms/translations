@@ -366,7 +366,7 @@
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Tento upload se nepodařilo upravit, protože u následujících položek selhala validace:",
   "globalError.DEACTIVATED_SITE.body": "Omlouváme se, ale kvůli fakturačním problémům byl tento projekt dočasně deaktivován. Kontaktujte prosím vaše administrátory pro vyřešení problému.",
   "globalError.DEACTIVATED_SITE.title": "Projekt deaktivován!",
-  "globalError.INVALID_SITE.body": "Omlouváme se, ale žádný DatoCMS projekt pod touto doménou neexistuje. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši technickou podporu na <a href=\"mailto:support@datocms.com\">support@datocms.com</a>.",
+  "globalError.INVALID_SITE.body": "Omlouváme se, ale žádný DatoCMS projekt pod touto doménou neexistuje. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši technickou podporu na <a href=\"{supportUrl}\" target=\"_blank\">naše stránka podpory</a>.",
   "globalError.INVALID_SITE.title": "Tento projekt neexistuje!",
   "globalSeo.button.default": "upravit SEO pole",
   "globalSeo.description": "Fallback popisek (pokud není specifikováno)",

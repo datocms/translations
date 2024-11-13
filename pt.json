@@ -386,7 +386,7 @@
   "globalError.INVALID_SITE.title": "Este projeto não existe!",
   "globalError.NOT_FOUND.body": "\n    <p>Pedimos desculpa mas alguns dos recursos que pediu não existem.<p>\n    <p>Se achar que é uma falha, pode contactar-nos através da nossa <a href=\"{supportUrl}\" target=\"_blank\">página de suporte</a>.</p>\n  ",
   "globalError.NOT_FOUND.title": "Recurso não encontrado (404)",
-  "globalError.UNHANDLED_CLIENT_SIDE_ERROR.body": "\n    <p>Pedimos desculpa, mas parece que acabou de encontrar um problema. Nós já fomos notificados acerca deste problema e vamos resolvê-lo assim que possível.</p>\n    <p>Se quiser saber mais informação pode contactar-nos através da nossa <a href=\"{supportUrl}\" target=\"_blank\">página de suporte</a>.</p>\n  ",
+  "globalError.UNHANDLED_CLIENT_SIDE_ERROR.body": "<p>Pedimos desculpa, mas parece que acabou de encontrar um problema. Nós já fomos notificados acerca deste problema e vamos resolvê-lo assim que possível.</p>\n    <p>Se quiser saber mais informação pode contactar-nos através da nossa <a href=\"{supportUrl}\" target=\"_blank\">página de suporte</a>.</p>",
   "globalError.UNHANDLED_CLIENT_SIDE_ERROR.title": "Algo correu mal!",
   "globalError.uuid": "ID do erro:",
   "globalSeo.button.default": "Atualizar campos de SEO",
