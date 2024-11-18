@@ -571,6 +571,7 @@
   "imageMetadata.description": "Description",
   "imageMetadata.destroy": "Delete",
   "imageMetadata.dimensions": "Dimensions",
+  "imageMetadata.muxMaxResolution": "Mux max resolution",
   "imageMetadata.download": "Download",
   "imageMetadata.duration": "Video duration",
   "imageMetadata.edit": "Edit",
