@@ -481,6 +481,8 @@
   "globalError.NOT_FOUND.title": "Resource not found (404)",
   "globalError.UNHANDLED_CLIENT_SIDE_ERROR.body": "<p>Sorry, there's been an unexpected error. Please reload the page and try again. If this keeps happening, please let us know through our <a href=\"{supportUrl}\" target=\"_blank\">support form</a> and provide the following Error ID. (If you don't see an Error ID at all, try turning off adblock temporarily.)</p>",
   "globalError.UNHANDLED_CLIENT_SIDE_ERROR.title": "Something went wrong!",
+  "globalError.SERVICE_UNAVAILABLE.title": "Request taking longer than expected",
+  "globalError.SERVICE_UNAVAILABLE.body": "<p>Your request is taking longer to process than normal. This could be due to a complex query or temporary system load. Please wait a moment and try again. If the issue continues, you can report the problem through our <a href=\"{supportUrl}\" target=\"_blank\">support form</a> and provide the following Error ID. (If you don't see an Error ID at all, try turning off adblock temporarily.)</p>",
   "globalError.uuid": "Error ID:",
   "globalSeo.button.default": "Update SEO fields",
   "globalSeo.description": "Fallback description",
