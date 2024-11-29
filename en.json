@@ -459,6 +459,7 @@
   "genericError.PLAN_UPGRADE_REQUIRED": "Cannot proceed, please upgrade plan!",
   "genericError.PUBLISHED_CHILDREN": "Couldn't unpublish the record, as the following children records are still published:",
   "genericError.PUBLISHED_REFERENCES": "Couldn't unpublish the record, as other published records are referencing it:",
+  "genericError.QUERY_TIMEOUT": "Sorry, your search for \"{query}\" timed out. Please try again or contact support for help. {uuidMessage}",
   "genericError.REQUIRED_2FA_SETUP": "This project requires every user to turn on 2-factor authentication! Please go to your <a href=\"https://dashboard.datocms.com/account/setup-2fa\">Dashboard</a>.",
   "genericError.REQUIRED_BY_ASSOCIATION": "Cannot delete/unpublish the record, as it's required by other records:",
   "genericError.STALE_ITEM_VERSION": "Someone else made a change while you were editing this record, please refresh the page!",
