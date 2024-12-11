@@ -545,7 +545,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} usado (espacio ilimitado disponible)",
   "mediaArea.details": "Detalles de subida",
   "mediaArea.empty.sub": "¿Te gustaría subir algo?",
-  "mediaArea.empty.sub2": "Arrastre y suelte algunos archivos aquí o presione el botón de carga que se encuentra arriba.",
   "mediaArea.empty.title": "¡Nada que ver aqui!",
   "mediaArea.filterBy.all": "Todas",
   "mediaArea.filterBy.file": "Documentos",

@@ -536,7 +536,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} využito (neomezené místo k dispozici)",
   "mediaArea.details": "Detaily souboru",
   "mediaArea.empty.sub": "Chtěli byste něco nahrát?",
-  "mediaArea.empty.sub2": "Přesuňte sem nějaké soubory, nebo klikněte na tlačítko výše.",
   "mediaArea.empty.title": "Tady není nic k viděni!",
   "mediaArea.filterBy.all": "Vše",
   "mediaArea.filterBy.file": "Dokumenty",

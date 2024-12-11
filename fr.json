@@ -564,7 +564,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} utilisés (espace de stockage infini)",
   "mediaArea.details": "Détails de la mise en ligne",
   "mediaArea.empty.sub": "Voulez-vous envoyer quelque chose ?",
-  "mediaArea.empty.sub2": "Déposez des fichiers ici, ou cliquez sur le bouton \"Upload\" au-dessus.",
   "mediaArea.empty.title": "Rien à voir ici !",
   "mediaArea.filterBy.all": "Tous",
   "mediaArea.filterBy.file": "Documents",

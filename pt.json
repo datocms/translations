@@ -576,7 +576,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} usados (espaço ilimitado disponível)",
   "mediaArea.details": "Detalhes do asset",
   "mediaArea.empty.sub": "Quer fazer upload de algo?",
-  "mediaArea.empty.sub2": "Arraste ficheiros para aqui, ou pressione o botão de upload em cima.",
   "mediaArea.empty.title": "Nada para ver aqui!",
   "mediaArea.filterBy.all": "Todos",
   "mediaArea.filterBy.file": "Documentos",

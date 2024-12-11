@@ -724,7 +724,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} verwendet (unbegrenzter Speicherplatz verfügbar)",
   "mediaArea.details": "Mediendatei-Details",
   "mediaArea.empty.sub": "Möchtest du etwas hochladen",
-  "mediaArea.empty.sub2": "Legen Sie hier einige Dateien ab, oder klicken Sie auf den Upload-Button oben...",
   "mediaArea.empty.title": "Hier gibt es nichts zu sehen!..",
   "mediaArea.filterBy.all": "Alle",
   "mediaArea.filterBy.file": "Dokumente",

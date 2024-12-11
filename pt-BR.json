@@ -686,7 +686,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} utilizados (espaço ilimitado)",
   "mediaArea.details": "Detalhes do arquivo",
   "mediaArea.empty.sub": "Você gostaria de enviar algo?",
-  "mediaArea.empty.sub2": "Arraste e solte arquivos aqui ou então pressione o botão de envio na parte de cima.",
   "mediaArea.empty.title": "Nada para ver por aqui!",
   "mediaArea.filterBy.all": "Todos",
   "mediaArea.filterBy.file": "Documentos",

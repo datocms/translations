@@ -706,7 +706,6 @@
   "mediaArea.bytesUsed.unlimited": "{currentBytes} usati (spazio illimitato)",
   "mediaArea.details": "Dettagli asset",
   "mediaArea.empty.sub": "Vuoi caricare qualcosa?",
-  "mediaArea.empty.sub2": "Trascina qualche file qui, o premi il pulsante per aggiungere un file qua sopra.",
   "mediaArea.empty.title": "Non c'è ancora niente!",
   "mediaArea.filterBy.all": "Tutto",
   "mediaArea.filterBy.file": "Documenti",
