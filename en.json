@@ -23,6 +23,7 @@
   "buildEvent.details.invalidEvent": "Invalid event",
   "buildEvent.details.log": "Build log",
   "buildEvent.details.pages": "Indexed pages",
+  "buildEvent.details.crawler_log": "Crawler log",
   "buildEvent.details.pages_count": "Number of pages indexed",
   "buildEvent.details.reason": "Reason",
   "buildEvent.details.requestBody": "Request Body",
