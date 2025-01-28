@@ -361,7 +361,6 @@
   "gallery.noFile": "Pas de fichier disponible.",
   "gallery.noFiles": "Pas de fichiers présent",
   "gallery.noImage": "Pas d'image disponible.",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "Le schéma de ce modèle a été modifié récémment, nous sommes en train d'exécuter les validations sur les autres entités de ce modèle. SVP réessayez plus tard.",
   "genericError.DELETE_RESTRICTION": "Désolé, mais vous ne pouvez pas supprimer cette ressource. Elle est actuellement utilisée / mentionnées quelque-part !",
   "genericError.INSUFFICIENT_PERMISSIONS": "Vous ne pouvez pas faire cette action",
   "genericError.INVALID_CREDENTIALS": "Identifiants incorrects !",

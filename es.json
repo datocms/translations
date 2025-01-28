@@ -355,7 +355,6 @@
   "gallery.noFile": "Archivo no disponible.",
   "gallery.noFiles": "No hay archivos presentes",
   "gallery.noImage": "Imágen no disponible.",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "El esquema de este modelo cambió, estamos volviendo a ejecutar validaciones sobre cada registro en segundo plano. ¡Vuelva a intentar esta operación en unos segundos!",
   "genericError.CIRCULAR_DEPENDENCY": "¡Dependencia circular entre roles detectada!",
   "genericError.INSUFFICIENT_PERMISSIONS": "Lo sentimos, no tienes el permiso adecuado para completar esta acción.",
   "genericError.INVALID_CREDENTIALS": "¡Las credenciales son incorrectas!",

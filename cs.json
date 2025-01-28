@@ -346,7 +346,7 @@
   "gallery.noFile": "Nemáte žádné soubory na výběr.",
   "gallery.noFiles": "Nemáte žádné soubory",
   "gallery.noImage": "Nemáte žádné obrázky na výběr.",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "Schéma tohoto modelu se změnilo, provádíme validaci každé položky na pozadí. Operaci prosím opakujte za pár vteřin!",
+  "genericError.CONCURRENT_ITEM_TYPE_UPDATE": "Schéma tohoto modelu se změnilo, provádíme validaci každé položky na pozadí. Operaci prosím opakujte za pár vteřin!",
   "genericError.INSUFFICIENT_PERMISSIONS": "Vaše role neumožňuje tuto akci",
   "genericError.INVALID_CREDENTIALS": "Údaje nejsou správné!",
   "genericError.INVALID_EMAIL": "Emailová adresa není správná!",

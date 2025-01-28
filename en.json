@@ -446,7 +446,7 @@
   "gallery.noImage": "No image available.",
   "genericError.CANNOT_DESTROY_CURRENT_USER": "You cannot delete your own user account",
   "genericError.ACCOUNT_ALREADY_JOINED_SITE": "This account is already part of the project!",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "The schema of this model changed, we're re-running validations over every record in background. Please retry with this operation in a few seconds!",
+  "genericError.CONCURRENT_ITEM_TYPE_UPDATE": "The schema of this model changed, we're re-running validations over every record in background. Please retry with this operation in a few seconds!",
   "genericError.CIRCULAR_DEPENDENCY": "Circular dependency between roles detected!",
   "genericError.DELETE_RESTRICTION": "Sorry, but you cannot delete this resource, as it's currently used/referenced elsewhere!",
   "genericError.ENVIRONMENT_IN_READ_ONLY_MODE": "This environment is temporarily in read-only mode due to pending operations (such as an environment fast-fork).",

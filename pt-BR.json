@@ -426,7 +426,6 @@
   "gallery.noFiles": "Nenhum arquivo presente",
   "gallery.noImage": "Nenhuma imagem disponível.",
   "genericError.ACCOUNT_ALREADY_JOINED_SITE": "Esta conta já faz parte do projeto!",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "O esquema desse modelo foi alterado e estamos executando novamente as validações em todos os registros em segundo plano. Tente novamente essa operação em alguns segundos!",
   "genericError.CIRCULAR_DEPENDENCY": "Dependência circular entre funções detectada!",
   "genericError.DELETE_RESTRICTION": "Desculpe, mas você não pode remover esse recurso, pois ele está sendo usado ou referenciado em outro lugar!",
   "genericError.INSUFFICIENT_PERMISSIONS": "Desculpe, mas você não tem as permissões necessárias para realizar essa operação!",

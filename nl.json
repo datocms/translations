@@ -265,7 +265,6 @@
   "gallery.noFile": "Geen bestand beschikbaar.",
   "gallery.noFiles": "Geen bestanden aanwezig",
   "gallery.noImage": "Geen afbeelding beschikbaar.",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "De structuur van dit model is veranderd, we lopen nu ieder item na op de achtergrond. Probeer het over een paar seconden nog eens!",
   "genericError.INSUFFICIENT_PERMISSIONS": "Je rol staat deze actie niet toe",
   "genericError.INVALID_CREDENTIALS": "Gegevens kloppen niet!",
   "genericError.INVALID_EMAIL": "E-mailadres klopt niet!",

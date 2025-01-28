@@ -357,7 +357,6 @@
   "gallery.noFile": "Nenhum ficheiro disponível.",
   "gallery.noFiles": "Nenhum ficheiro presente",
   "gallery.noImage": "Nenhuma imagem disponível.",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "O schema deste modelo mudou, estamos a executar validações de todos os registos em segundo plano. Por favor tente novamente em alguns segundos! ",
   "genericError.DELETE_RESTRICTION": "Pedimos desculpa, mas não pode excluir este recurso, pois está a ser usado/referenciado noutro sítio!",
   "genericError.INSUFFICIENT_PERMISSIONS": "A sua função não lhe permite realizar esta ação",
   "genericError.INVALID_CREDENTIALS": "As credenciais estão incorretas!",

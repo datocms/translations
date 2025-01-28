@@ -440,7 +440,6 @@
   "gallery.noFiles": "Keine Dateien vorhanden",
   "gallery.noImage": "Kein Bild verfügbar.",
   "genericError.ACCOUNT_ALREADY_JOINED_SITE": "Dieses Konto gehört bereits zum Projekt!",
-  "genericError.BATCH_DATA_VALIDATION_IN_PROGRESS": "Das Schema dieses Modells hat sich geändert, wir führen im Hintergrund eine erneute Validierung für jeden Datensatz durch. Bitte versuche diese Aktion in ein paar Sekunden erneut!",
   "genericError.CANNOT_DESTROY_CURRENT_USER": "Du kannst deinen eigenen Account nicht löschen",
   "genericError.CIRCULAR_DEPENDENCY": "Zirkuläre Abhängigkeit zwischen Rollen erkannt!",
   "genericError.DELETE_RESTRICTION": "Entschuldigung, aber du kannst diese Ressource nicht löschen, da sie momentan verwendet oder an anderer Stelle referenziert wird!",
