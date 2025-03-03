@@ -955,6 +955,7 @@
   "quickSearch.noResults": "No records found! Maybe you spelled it wrong?",
   "quickSearch.noSearch": "Type at least 2 letters to search",
   "quickSearch.placeholder": "Type something to find matching records...",
+  "quickSearch.locale": "Find results in",
   "quickSearch.shortcuts.close": "to close",
   "quickSearch.shortcuts.navigate": "to navigate",
   "quickSearch.shortcuts.open": "to open",
