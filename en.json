@@ -1258,5 +1258,11 @@
   "videoWarning.active": "Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using <a href=\"https://www.datocms.com/docs/content-delivery-api/images-and-videos#videos\" target=\"_blank\">HSL video streaming (<code>streamingUrl</code>)</a> as a better alternative.",
   "videoWarning.cta": "Read more about HSL video streaming",
   "videoWarning.message": "Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using HSL video streaming (<code>streamingUrl</code>) as a better alternative.",
-  "videoWarning.vimeoDirectDownloadUrl": "You entered a Vimeo direct download URL. We converted it to a regular Vimeo URL for you (like <code>https://vimeo.com/1234567</code>)."
+  "videoWarning.vimeoDirectDownloadUrl": "You entered a Vimeo direct download URL. We converted it to a regular Vimeo URL for you (like <code>https://vimeo.com/1234567</code>).",
+  "buildEvents.createdAt": "Event date",
+  "buildEvents.buildTrigger": "Build trigger",
+  "buildEvents.eventType": "Event type",
+  "filter.meta.buildTrigger": "Build trigger",
+  "buildEvent.details.eventType": "Event type",
+  "buildEvent.details.buildTrigger": "Build trigger"
 }
