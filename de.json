@@ -1123,7 +1123,6 @@
   "slate.toolbarButton.strong": "Fett",
   "slate.toolbarButton.thematicBreak": "thematische Pause",
   "slate.toolbarButton.underline": "Unterstrichen",
-  "structuredText.copy": "Von {locale} kopieren",
   "structuredText.linkMeta": "Eigene Metadaten",
   "structuredText.linkMeta.add": "Metadaten hinzufügen",
   "structuredText.linkMeta.key": "Meta-Name",

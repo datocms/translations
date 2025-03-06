@@ -1068,7 +1068,6 @@
   "slate.toolbarButton.strikethrough": "Barrato",
   "slate.toolbarButton.strong": "Grassetto",
   "slate.toolbarButton.underline": "Sottolineato",
-  "structuredText.copy": "Copia da {locale}",
   "structuredText.linkMeta": "Custom meta",
   "structuredText.linkMeta.add": "Aggiungi nuovo meta",
   "structuredText.linkMeta.key": "Nome meta",

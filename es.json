@@ -731,7 +731,6 @@
   "size.normal": "Mediano",
   "size.small": "Pequeño",
   "slate.link.button.default": "Guardar",
-  "structuredText.copy": "Copiar de {locale}",
   "textWithFallback.fallback": "Escriba algo para sobrescribir el valor predeterminado para este fichero",
   "textWithFallback.noValue": "Ningún valor especificado",
   "unaccessiblePage.subtitle": "Esta página contiene datos inaccesibles",

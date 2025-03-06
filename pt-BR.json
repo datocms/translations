@@ -1032,7 +1032,6 @@
   "slate.toolbarButton.strikethrough": "Tachado",
   "slate.toolbarButton.strong": "Negrito",
   "slate.toolbarButton.underline": "Sublinhado",
-  "structuredText.copy": "Copiar do {locale}",
   "structuredText.linkMeta": "Meta personalizado",
   "structuredText.linkMeta.add": "Adicionar novo meta",
   "structuredText.linkMeta.key": "Nome do meta",

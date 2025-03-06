@@ -1146,7 +1146,6 @@
   "slate.toolbarButton.numberedList": "Numbered list",
   "slate.toolbarButton.bulletedList": "Bulleted list",
   "slate.toolbarButton.thematicBreak": "Thematic break",
-  "structuredText.copy": "Copy from {locale}",
   "structuredText.linkMeta": "Custom meta",
   "structuredText.linkMeta.add": "Add new meta",
   "structuredText.linkMeta.key": "Meta name",
