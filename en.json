@@ -452,6 +452,7 @@
   "genericError.ENVIRONMENT_IN_READ_ONLY_MODE": "This environment is temporarily in read-only mode due to pending operations (such as an environment fast-fork).",
   "genericError.INSUFFICIENT_PERMISSIONS": "Sorry, but you don't have appropriate permission to perform this operation!",
   "genericError.INVALID_CREDENTIALS": "Credentials are incorrect!",
+  "genericError.INVALID_DRAFT": "Record is not valid at the moment, so it's not possible to publish the requested changes",
   "genericError.INVALID_EMAIL": "Email address is incorrect!",
   "genericError.INVALID_FORMAT": "Whoops, this shouldn't happen... there's an error on our side :(",
   "genericError.INVALID_ID": "Only letters, numbers and underscores are allowed in API keys. Underscores followed by a number are not allowed.",
