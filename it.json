@@ -663,7 +663,7 @@
   "itemTable.records.count": "{count, plural, =0 {Nessun record} one { Un record presente } other { {count} record} }",
   "itemTable.records.deselect": "Deseleziona tutto",
   "itemTable.records.destroy": "Elimina",
-  "itemTable.records.hide": "Nascondi selezionati",
+  "itemTable.records.hide": "Mostra tutti",
   "itemTable.records.move_to_stage": "Cambia stage",
   "itemTable.records.publish": "Pubblica",
   "itemTable.records.select": "Seleziona record",
