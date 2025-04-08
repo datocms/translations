@@ -1070,7 +1070,7 @@
   "seoInput.telegram": "Telegram",
   "seoInput.twitter": "Twitter (X)",
   "seoInput.whatsapp": "WhatsApp",
-  "seoPreferences.save": "Save preferences",
+  "seoPreferences.save.default": "Save preferences",
   "seoPreferences.saving": "Saving...",
   "settings.backendLanguage": "Set your backend language",
   "settings.button.default": "Save settings",
