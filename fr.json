@@ -596,7 +596,7 @@
   "menuItem.label": "Label",
   "menuItem.linkType": "Pointer celui-ci vers",
   "menuItem.openInNewTab": "Ouvrir dans un nouvel onglet",
-  "menuItems.add": "Ajouter un élément...",
+  "menuItems.add": "Ajouter un élément",
   "menuItems.noMenuItems": "Votre barre de navigation est vide... laissez les éditeurs créer du nouveau contenu pour tous les modèles disponibles !",
   "menuItems.settings": "Paramètres",
   "menuPage.noItemType": "Pas de modèle",
