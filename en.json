@@ -961,6 +961,7 @@
   "planUpgradeRequired.workflows_count.description": "You've reached the <strong>maximum number of workflows</strong> your plan allows. If you're the project owner, please contact our <a href=\"https://www.datocms.com/contact\" target=\"_blank\">Sales team</a> to get a custom quote!",
   "publishedVersion.compare": "Compare published version with current",
   "publishedVersion.title": "Published version",
+  "quickSearch.title": "Search",
   "quickSearch.locale": "Find results in",
   "quickSearch.noResults": "No records found! Maybe you spelled it wrong?",
   "quickSearch.noSearch": "Type at least 2 letters to search",
