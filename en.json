@@ -471,6 +471,7 @@
   "genericError.NO_PRIMARY_AUDIO_TRACK": "The video does not contain any audio track!",
   "genericError.PLAN_UPGRADE_REQUIRED": "Cannot proceed, please upgrade plan!",
   "genericError.PLATFORM_SCHEDULED_MAINTENANCE": "All projects are in read-only mode due to scheduled platform maintenance. For more information, please visit <a target=\"_blank\" href=\"https://status.datocms.com\">our status page</a>.",
+  "genericError.PLUGIN_CANCELED_SUBMISSION": "A plugin blocked the action",
   "genericError.PUBLISHED_CHILDREN": "Couldn't unpublish the record, as the following children records are still published:",
   "genericError.PUBLISHED_REFERENCES": "Couldn't unpublish the record, as other published records are referencing it:",
   "genericError.QUERY_TIMEOUT": "Sorry, your search for \"{query}\" timed out. Please try again or contact support for help. {uuidMessage}",
