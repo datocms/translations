@@ -547,7 +547,6 @@
   "localesInput.switch": "Switcher vers...",
   "localizationSettings.dateFormat": "Format de date",
   "localizationSettings.locale": "Langue",
-  "localizationSettings.modal": "Paramètres de localisation",
   "localizationSettings.twentyFourHour": "Format 24 heures",
   "mediaArea.add": "Ajouter {length} images",
   "mediaArea.assets.count": "{count, plural, =0 {Pas d'asset présent} one {Un asset présent} other {{count} assets présents}}",

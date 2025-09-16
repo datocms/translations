@@ -700,7 +700,6 @@
   "localesInput.switch": "Wechseln zu...",
   "localizationSettings.dateFormat": "Datumsformat",
   "localizationSettings.locale": "Sprache",
-  "localizationSettings.modal": "Lokalisierungseinstellungen",
   "localizationSettings.timezone": "Präferierte Zeitzone",
   "localizationSettings.twentyFourHour": "24-Stunden-Zeitformat",
   "mediaArea.add": "{length} Bilder hinzufügen",

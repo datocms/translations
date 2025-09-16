@@ -668,7 +668,6 @@
   "localesInput.switch": "Mudar para...",
   "localizationSettings.dateFormat": "Formato das datas",
   "localizationSettings.locale": "Idioma",
-  "localizationSettings.modal": "Configurações de idioma",
   "localizationSettings.timezone": "Fuso horário",
   "localizationSettings.twentyFourHour": "Padrão de horas como \"24 horas\"",
   "mediaArea.add": "Adicionar {length} arquivos",
