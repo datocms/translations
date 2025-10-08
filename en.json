@@ -257,6 +257,7 @@
   "fieldError.VALIDATION_SLUG_FORMAT": "{ valorizedKeys, select, custom_pattern_description { {description} } custom_pattern { Field must respect a specific regexp format: /{custom_pattern}/ } predefined_pattern { Field must contain { predefined_pattern, select, webpage_slug { only numbers, letters or the characters \"-\" and \"_\" } } } }",
   "fieldError.VALIDATION_TITLE_LENGTH": "{ valorizedKeys, select,\n    min { Title must be longer than {min} characters}\n    max { Title cannot be longer than {max} characters}\n    max_min { Title must be between {min} and {max} characters} }",
   "fieldError.VALIDATION_UNIQUE": "Field must contain a unique value",
+  "fieldError.INSUFFICIENT_PERMISSIONS": "You do not have permission to set this value!",
   "fieldError.WEAK_PASSWORD": "The password must be at least 8 characters long, have a lowercase letter, an uppercase letter and a number",
   "fileInput.error.notAnImage": "extension must be one of PNG, GIF, JPG, SVG",
   "fileInput.uploadError": "Error: Couldn't upload file!",
