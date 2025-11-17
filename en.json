@@ -356,6 +356,7 @@
   "filter.meta.mime_type": "MIME type",
   "filter.meta.notes": "Notes",
   "filter.meta.orientation": "Orientation",
+  "filter.meta.path": "Path",
   "filter.meta.publication_scheduled_at": "Scheduled publishing at",
   "filter.meta.published_at": "Last published at",
   "filter.meta.resolution": "Resolution",
