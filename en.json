@@ -1285,5 +1285,21 @@
   "videoWarning.active": "Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using <a href=\"https://www.datocms.com/docs/content-delivery-api/images-and-videos#videos\" target=\"_blank\">HSL video streaming (<code>streamingUrl</code>)</a> as a better alternative.",
   "videoWarning.cta": "Read more about HSL video streaming",
   "videoWarning.message": "Using the direct URL of a video on your frontend can create a significant amount of traffic. We recommend using HSL video streaming (<code>streamingUrl</code>) as a better alternative.",
-  "videoWarning.vimeoDirectDownloadUrl": "You entered a Vimeo direct download URL. We converted it to a regular Vimeo URL for you (like <code>https://vimeo.com/1234567</code>)."
+  "videoWarning.vimeoDirectDownloadUrl": "You entered a Vimeo direct download URL. We converted it to a regular Vimeo URL for you (like <code>https://vimeo.com/1234567</code>).",
+  "videoError.facebook.notFound": "This Facebook video could not be found. Please check that the video exists and is publicly accessible.",
+  "videoError.facebook.privateOrRestricted": "This Facebook video is private or restricted. Please make sure the video is publicly accessible.",
+  "videoError.facebook.loadingError": "We couldn't load the Facebook video information. Please check your internet connection and try again.",
+  "videoError.facebook.missingInformation": "This Facebook video is missing required information. Please try a different video or check if the video is properly configured on the platform.",
+  "videoError.facebook.notAVideo": "The Facebook URL you provided doesn't appear to be a video. Please make sure you're using a valid Facebook video link.",
+  "videoError.facebook.retrievalFailed": "We couldn't retrieve information about this Facebook video. Please check that the video exists and is publicly accessible.",
+  "videoError.vimeo.loadingError": "We couldn't load this Vimeo video. {error}",
+  "videoError.vimeo.notAVideo": "The Vimeo URL you provided doesn't appear to be a video. Please make sure you're using a valid Vimeo video link.",
+  "videoError.vimeo.retrievalFailed": "We couldn't retrieve information about this Vimeo video. Please check that the video exists and is publicly accessible.",
+  "videoError.youtube.notFound": "This YouTube video could not be found. Please check that the video exists and is publicly accessible.",
+  "videoError.youtube.privateOrRestricted": "This YouTube video is private or restricted. Please make sure the video is publicly accessible.",
+  "videoError.youtube.loadingError": "We couldn't load this YouTube video. Please try again later.",
+  "videoError.youtube.loadingErrorWithDetail": "We couldn't load this YouTube video. {error}",
+  "videoError.youtube.notAVideo": "The YouTube URL you provided doesn't appear to be a video. Please make sure you're using a valid YouTube video link.",
+  "videoError.unsupportedPlatform": "This video platform is not supported. Please use a YouTube, Vimeo, or Facebook video URL.",
+  "videoError.unsupportedProvider": "This video provider ({provider}) is not supported. Please use a YouTube, Vimeo, or Facebook video."
 }
