@@ -467,6 +467,8 @@
   "genericError.ITEM_LOCKED": "The operation cannot be completed as some other user is currently editing this record!",
   "genericError.LINKED_FROM_PUBLISHED_ITEMS": "Couldn't unpublish the record, as some published records are linked to it!",
   "genericError.MAINTENANCE_MODE": "The primary environment is in read-only mode because the project is in maintenance mode.",
+  "genericError.MAX_FIELD_APPEARANCE_PLUGIN_DATA_BYTESIZE": "The field appearance plugin data is too large.",
+  "genericError.MAX_PLUGIN_PARAMETERS_BYTESIZE": "The plugin parameters are too large. Please reduce the amount of data stored in the plugin parameters.",
   "genericError.MISSING_LOCALES": "This model contains some localized field, but no locale is present!",
   "genericError.MUX_ERROR": "It was not possible to complete the operation. {message}",
   "genericError.NO_PRIMARY_AUDIO_TRACK": "The video does not contain any audio track!",
