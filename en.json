@@ -617,6 +617,7 @@
   "item.errorsPerLocale.message": "Validation errors!",
   "item.gotoModel": "Go to {model_api_key} model",
   "item.viewInContent": "View in Content",
+  "item.openInNewTab": "Open record in a new tab",
   "item.localesCount": "{count} locales",
   "item.noFields.description": "This model currently has no fields. To add records, please first edit this model in the Schema tab, and give it some fields.",
   "item.noFields.title": "Add some fields!",
