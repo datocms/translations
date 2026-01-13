@@ -806,7 +806,7 @@
   "messages.confirm.assets.editAsset.question": "Do you really want to replace the current asset with this edited version?",
   "messages.confirm.assets.editAsset.title": "Replace asset",
   "messages.confirm.assets.replaceAsset.cancel": "Cancel",
-  "messages.confirm.assets.replaceAsset.createNew": "Use a new URL",
+  "messages.confirm.assets.replaceAsset.createNew": "Create a new URL",
   "messages.confirm.assets.replaceAsset.maintainUrl": "Keep original URL",
   "messages.confirm.assets.replaceAsset.question": "You're replacing this asset. Choose your approach:<br/><br/><strong>Keep the original URL:</strong> Existing links work automatically, but changes take 5-10 minutes to appear everywhere (CDN/browser propagation). Some users may temporarily see the old version.<br/><br/><strong>Create new URL:</strong> The new asset is available immediately with a fresh URL. The existing URL will be purged from cache and will disappear after complete propagation.",
   "messages.confirm.assets.replaceAsset.title": "How should we handle the URL?",
