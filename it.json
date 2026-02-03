@@ -693,7 +693,7 @@
   "itemType.modularBlocks": "Blocchi",
   "itemType.row.edit": "Impostazioni",
   "itemVersion.current": "Corrente",
-  "itemVersion.currentAndPublished": "Ultima versione e pubblicata",
+  "itemVersion.currentAndPublished": "Ultima & pubblicata",
   "items.blankSlate.title": "Questa raccolta è vuota",
   "items.loadMore": "Carica altri {pageLength} elementi su {remainingItemCount} rimanenti",
   "itemsCollection.title": "Raccolta {name}",
