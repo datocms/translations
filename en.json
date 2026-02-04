@@ -206,6 +206,7 @@
   "embedsManyInput.modal.selectItem": "{multiple, plural, =0 { Select one {name} record } other { Select {name} records } }",
   "embedsManyInput.remove": "Remove",
   "environment.lastChangeTimeStamp": "Last change {timestamp}",
+  "environment.noOtherEnvironments": "No other environments available.",
   "environment.sections.currentEnvironment": "Current environment",
   "environment.sections.switchTo": "Switch to",
   "environment.switchTo": "Switch to {environment}",

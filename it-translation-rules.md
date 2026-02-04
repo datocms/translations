@@ -5,7 +5,7 @@ Questa guida definisce le regole per garantire coerenza nelle traduzioni italian
 ## Regole Fondamentali
 
 - **Informal "tu"** throughout (mai "Lei" o "Voi")
-- **Technical terms stay in English** (build, deploy, webhook, adapter, schema, hook, payload, environment)
+- **Technical terms stay in English** (build, build trigger, deploy, webhook, adapter, schema, hook, payload, environment)
 - **Past participles agree with noun gender** ("creata" for singular feminine, "create" for plural)
 - **"per favore"** sempre due parole (mai "perfavore")
 - **Elisione obbligatoria** prima di vocale: "l'asset", "l'environment"
