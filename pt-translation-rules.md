@@ -117,7 +117,7 @@ Para ações de expansão e recolhimento de elementos de UI:
 
 ### Listas (Bulleted/Numbered)
 
-- **Bulleted list** → **Lista com marcadores** (não "Lista de pontos")
+- **Bulleted list** → **Lista de pontos** (não "Lista com marcadores")
 - **Numbered list** → **Lista numérica** (não "Lista numerada")
 
 ### Delete vs Remove
