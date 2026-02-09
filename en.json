@@ -569,6 +569,7 @@
   "imageMetadata.duration": "Video duration",
   "imageMetadata.edit": "Edit",
   "imageMetadata.editImage": "Edit image",
+  "imageMetadata.editVideo": "Edit video",
   "imageMetadata.exposure_time": "Exposure time",
   "imageMetadata.f_number": "Aperture",
   "imageMetadata.fileExtension": "File extension",
