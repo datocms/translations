@@ -236,6 +236,7 @@
   "fieldError.MIN_IMAGE_WIDTH": "Image width must be at least { min_width }px",
   "fieldError.MIN_LENGTH": "Field must be at least { min_length } characters long",
   "fieldError.MULTIPLE_INSTANCES_OF_SINGLETON": "Cannot convert to single instance as currently there is more than one record of this kind!",
+  "fieldError.OWNER_2FA_NOT_ACTIVE": "The project owner must have 2FA enabled before it can be enforced on the project.",
   "fieldError.SINGLETONS_CANNOT_BE_USED_AS_REFERENCE": "Cannot convert to single instance as this model is currently referenced in some field!",
   "fieldError.SQUARE_IMAGE": "Image must be square",
   "fieldError.VALIDATION_DATE_RANGE": "{ valorizedKeys, select, min { Date must be greater or equal to {min} } max { Date cannot be less or equal to {max} } max_min { Date must be between {min} and {max} } }",
