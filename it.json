@@ -1224,7 +1224,7 @@
   "upload.info": "Informazioni sull'asset",
   "upload.notInCollection": "Non in una raccolta",
   "upload.selectUploadCollection": "Seleziona una raccolta asset",
-  "upload.threatDetected": "Minaccia rilevata",
+  "upload.threatDetected": "Minaccia rilevata!",
   "upload.uploadCollection": "Raccolta",
   "upload.uploadCollection.hint": "Lo sapevi? Puoi anche assegnare rapidamente gli asset trascinandoli direttamente nelle raccolte nella barra laterale! Prova entrambi i metodi per vedere quale funziona meglio per te!",
   "uploadCollection.add": "Aggiungi una nuova raccolta",
