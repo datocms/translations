@@ -28,6 +28,26 @@ Este guia define as regras para garantir consistência nas traduções em portug
 | Download   | Descarregar       |
 | Connection | Ligação           |
 
+## Linguagem sem género
+
+O português é uma língua com género gramatical. Quando o texto se dirige à pessoa que utiliza a interface (cujo género é desconhecido), evitar adjetivos e particípios que exijam concordância de género. Preferir reformulações neutras assentes em formas verbais.
+
+Estratégias:
+
+- **Preferir formas verbais** ("Pretende…?", "Quer…?", "Deseja…?", "Tem de…") em vez de adjetivos de estado ("Está seguro?", "Está ligado?", "Está autenticado?").
+- **Boas-vindas**: evitar "Bem-vindo" (masculino); usar a forma neutra "Boas-vindas".
+
+| ✅ Neutro                                          | ❌ Com marca de género                              |
+| ------------------------------------------------- | -------------------------------------------------- |
+| "Tem a certeza que quer eliminar este registo?"   | "Tem a certeza de que está seguro de o eliminar?"  |
+| "Boas-vindas!" / "Boas-vindas a bordo!"           | "Bem-vindo!" / "Bem-vindo a bordo!"                |
+| "Deseja continuar?" / "Como deseja proceder?"     | "Está pronto para continuar?"                      |
+| "Tem de iniciar sessão" / "É necessário autenticar-se" | "Tem de estar autenticado"                    |
+
+A construção dominante na interface já é neutra ("Tem a certeza que quer…?", "Deseja continuar?"); mantê-la. As boas-vindas com género são a exceção a corrigir: ver as chaves `completeRegistration.password`, `noAuth.completeRegistration.create.success` e `noAuth.signIn.create.success`, todas com "Bem-vindo".
+
+**IMPORTANTE**: esta regra aplica-se apenas a texto que se refere à pessoa utilizadora. Particípios e adjetivos que se referem a objetos (registo, asset, ambiente) mantêm a concordância gramatical normal com o substantivo: "Registo publicado", "Despublicação agendada", "Ambiente eliminado".
+
 ## Regras de Disambiguação
 
 ### Unpublish/Unpublishing
@@ -127,6 +147,60 @@ Para ações de expansão e recolhimento de elementos de UI:
 
 Manter consistência dentro do mesmo contexto.
 
+### Agendamento (Schedule / Scheduling)
+
+Para publicações e despublicações diferidas no tempo, usar **SEMPRE** uma única família coerente:
+
+- **agendar** (verbo)
+- **agendado / agendada** (adjetivo)
+- **agendamento** (substantivo: "a schedule")
+
+**PROIBIDAS** as variantes concorrentes **programar / programação / programado / programada** neste contexto. A interface mistura atualmente as duas famílias; o padrão a adotar é **agendar / agendamento / agendado**.
+
+Exceção: a colocação fixa "scheduled maintenance" mantém-se "manutenção programada" (ver glossário). Não faz parte da funcionalidade de agendamento de registos.
+
+Nunca traduzir "scheduled" como "automática" nem "futura". As palavras "automática" e "futura" só aparecem quando o inglês diz mesmo "automatic" (ex.: "stop automatic publication") ou "future" (ex.: "Future publication").
+
+Um único **agendamento** abrange **tanto a publicação como a despublicação**: títulos genéricos não devem assumir um contexto exclusivo de publicação.
+
+| Inglês                  | ✅ Correto                  | ❌ Evitar                   |
+| ----------------------- | -------------------------- | -------------------------- |
+| to schedule (verbo)     | Agendar                    | Programar                  |
+| scheduled (adjetivo)    | Agendado / Agendada        | Programado / Programada    |
+| a schedule (substantivo)| Agendamento                | Programação                |
+| Add new schedule        | Adicionar novo agendamento | Adicionar nova programação |
+| Scheduled publishing at | Publicação agendada em     | Publicação programada em   |
+| Scheduled unpublishing at| Despublicação agendada em | Despublicação programada em|
+| Publishing schedule     | Agendamento de publicação  | Programação de publicação  |
+
+**Cancelar um agendamento**: usar o mesmo verbo, **cancelar**, no título do diálogo, no toast de sucesso e no erro, para que a confirmação e o resultado final coincidam.
+
+| Inglês                                        | ✅ Português                                    |
+| --------------------------------------------- | ---------------------------------------------- |
+| Cancel scheduled publication?                 | Cancelar publicação agendada?                  |
+| Scheduled publication successfully cancelled! | Agendamento da publicação cancelado com sucesso! |
+| Couldn't cancel scheduled publication!        | Não foi possível cancelar a publicação agendada! |
+| Yes, stop automatic publication               | Sim, parar a publicação automática             |
+
+Exceções de espelhamento do inglês: o botão genérico "Cancel" continua "Cancelar"; "stop" traduz-se por "parar" quando o inglês diz mesmo stop; "automatic/automatically" traduz-se por "automática/automaticamente".
+
+As chaves que ainda usam a família errada (programar/programação/programada) e que devem passar para agendar/agendamento/agendada estão listadas em "Inconsistências Atuais a Corrigir", ponto 4.
+
+### Estados do registo (Record states)
+
+Os estados seguem o inglês **literalmente**; não interpretar. Em particular, "Not published" **NÃO** deve tornar-se "Rascunho": a regra de manter "draft/rascunho" só se aplica quando o inglês diz mesmo "draft".
+
+| Inglês                          | Português                                |
+| ------------------------------- | ---------------------------------------- |
+| Published                       | Publicado                                |
+| Published (unsaved changes)     | Publicado (alterações não guardadas)     |
+| Not published                   | Não publicado                            |
+| Not published (unsaved changes) | Não publicado (alterações não guardadas) |
+| New record                      | Novo registo                             |
+| Unpublished changes             | Alterações não publicadas                |
+
+Consistência nativa: "unsaved changes" surge traduzido de duas formas, "alterações por guardar" em `item.status.draft.dirty` e "alterações não guardadas" em `item.status.published.dirty` e `item.status.new.dirty`. Uniformizar em **"alterações não guardadas"**.
+
 ## Inconsistências Atuais a Corrigir
 
 As seguintes inconsistências foram identificadas nas traduções atuais:
@@ -154,6 +228,23 @@ As seguintes inconsistências foram identificadas nas traduções atuais:
 | ----- | ----- | ------- |
 | `tabularItemsList.row.sortingDisabled` | "Você não pode reordenar..." | "Não é possível reordenar..." |
 | `versions.restore.disabledCurrentVersion` | "Você não pode reverter..." | "Não é possível reverter..." |
+
+### 4. "programada/programação" em vez de "agendada/agendamento"
+
+A funcionalidade de agendamento mistura duas famílias de termos para "scheduled" (ver "Agendamento (Schedule / Scheduling)"). O padrão é **agendar / agendamento / agendado**; corrigir as chaves que ainda usam programar/programação/programada. Manter "manutenção programada" apenas para "scheduled maintenance".
+
+| Chave | Atual | Correto |
+| ----- | ----- | ------- |
+| `editor.item.destroyScheduledUnpublishing.success` | "Despublicação programada cancelada com sucesso!" | "Despublicação agendada cancelada com sucesso!" |
+| `editor.item.scheduleUnpublishing.success` | "Registo programado para despublicação com sucesso!" | "Registo agendado para despublicação com sucesso!" |
+| `form.scheduleUnpublishing.button.default` | "Programar despublicação" | "Agendar despublicação" |
+| `filter.meta.unpublishing_scheduled_at` | "Despublicação programada em" | "Despublicação agendada em" |
+| `itemTable.metaCol._publication_scheduled_at` | "Publicação programada em" | "Publicação agendada em" |
+| `itemTable.metaCol._unpublishing_scheduled_at` | "Despublicação programada em" | "Despublicação agendada em" |
+| `messages.confirm.deleteScheduledUnpublishing.title` | "Cancelar a despublicação programada?" | "Cancelar a despublicação agendada?" |
+| `newSchedule.title` | "Adicionar nova programação" | "Adicionar novo agendamento" |
+| `schedule.title` | "Programação de publicação" | "Agendamento de publicação" |
+| `schedule.noSchedule` | "Nenhuma programação de publicação definida" | "Nenhum agendamento de publicação definido" |
 
 ## Recomendações para SaaS em Português Europeu
 

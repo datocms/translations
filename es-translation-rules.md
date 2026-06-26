@@ -9,6 +9,24 @@ Esta guía define las reglas para garantizar consistencia en las traducciones al
 - **Concordancia verbal y de género** adecuada
 - **"por favor"** siempre dos palabras (nunca "porfavor")
 
+## Lenguaje sin género
+
+El español es un idioma con género gramatical. Cuando un texto **se dirige al usuario** (cuyo género se desconoce), evita adjetivos y participios que exijan concordancia de género. Reformula con construcciones verbales neutras.
+
+**IMPORTANTE**: Esta regla aplica **solo al texto que se refiere al usuario**. Los participios y adjetivos que se refieren a **objetos** (registro, asset, entorno, versión) mantienen la concordancia de género normal ("versión publicada", "publicación programada", "registro despublicado").
+
+Estrategias:
+
+- Prefiere formas verbales ("¿Quieres…?", "¿Confirmas…?", "Debes…") en lugar de adjetivos de estado ("¿Estás seguro?", "¿Estás listo?", "Estás conectado").
+- En mensajes de bienvenida, evita "Bienvenido" (con género); usa formas neutras como "¡Te damos la bienvenida!" o "¡Empecemos!".
+
+| ✅ Correcto (neutro)                          | ❌ Incorrecto (con género)                                  |
+| -------------------------------------------- | --------------------------------------------------------- |
+| ¿Quieres eliminar este registro?             | ¿Estás seguro de que quieres eliminar este registro?      |
+| ¿Confirmas que quieres salir de la página?   | ¿Estás seguro de que quieres salir de la página?          |
+| ¡Te damos la bienvenida! / ¡Empecemos!       | ¡Bienvenido! / ¡Bienvenido a bordo!                       |
+| Debes iniciar sesión                         | Tienes que estar conectado / logueado                     |
+
 ## Reglas de Disambiguación
 
 ### Unpublish/Unpublishing (IMPORTANTE)
@@ -145,6 +163,52 @@ El término **"environment"** se **traduce** como **"entorno"**:
 | Switch to           | Cambiar a                |
 | Sandbox environment | Entorno sandbox          |
 | Primary environment | Entorno principal        |
+
+### Programación (Schedule/Scheduling) (IMPORTANTE)
+
+Para publicaciones y despublicaciones diferidas en el tiempo, usar **SIEMPRE** una sola familia coherente: **programar** (verbo), **programado/programada** (adjetivo), **programación** (el plan). Están **prohibidas** las variantes concurrentes ("planificar", "agendar", "schedular", "prevista"). **Nunca traducir** "scheduled" como "automática" ni "futura".
+
+| Inglés                   | ✅ Correcto                     | ❌ Incorrecto                          |
+| ------------------------ | ------------------------------ | ------------------------------------- |
+| Schedule (verbo)         | Programar                      | Agendar / Planificar                  |
+| Scheduled (adjetivo)     | Programado / Programada        | Previsto / Automático / Futuro        |
+| Schedule (el plan)       | Programación                   | Planificación / Agenda                |
+| Add new schedule         | Agregar nueva programación     | Añadir nueva planificación            |
+| Scheduled publishing at  | Publicación programada el      | Publicación prevista / automática     |
+| Scheduled unpublishing at| Despublicación programada el   | Despublicación prevista               |
+
+Una **"programación"** (la regla diferida única) cubre **tanto la publicación como la despublicación**: los títulos genéricos no deben asumir un contexto exclusivo de publicación (ej. "Programación de publicación", "Registro completo").
+
+**Cancelar una programación**: usar **siempre el mismo verbo, "cancelar"**, en todas partes (título del diálogo, toast de éxito y error), de modo que el diálogo de confirmación y el toast final coincidan.
+
+| Inglés                                         | ✅ Español                                     |
+| ---------------------------------------------- | --------------------------------------------- |
+| Cancel scheduled publication?                  | ¿Cancelar la publicación programada?          |
+| Scheduled publication successfully cancelled!  | ¡La publicación programada se canceló con éxito! |
+| Couldn't cancel scheduled publication!         | ¡No se pudo cancelar la publicación programada! |
+
+Excepciones de espejo (donde **no** se usa "cancelar"):
+
+- Botón genérico "Cancel" → **"Cancelar"** (acción genérica, sin objeto).
+- "Stop" cuando el inglés realmente dice stop: "Yes, stop automatic publication" → **"Sí, detener la publicación automática"**.
+- "automatic/automatically" → **"automática/automáticamente"**.
+
+**Consistencia**: usar **"... programada el"** para las columnas y metadatos de fecha (evitar el uso aislado de "... programada para").
+
+### Estados del registro (Record states)
+
+Los estados del registro siguen el inglés **literalmente** (no interpretar). En particular, **"Not published" NO debe convertirse en "Borrador"**: la regla de "Borrador" solo aplica cuando el inglés dice realmente "Draft".
+
+| Inglés                        | ✅ Español                       |
+| ----------------------------- | ------------------------------- |
+| Published                     | Publicado                       |
+| Published (unsaved changes)   | Publicado (cambios no guardados) |
+| Not published                 | No publicado                    |
+| Not published (unsaved changes) | No publicado (cambios no guardados) |
+| New record                    | Nuevo registro                  |
+| Unpublished changes           | Cambios sin publicar            |
+
+Esta tabla es coherente con la sección **Estado "Updated"**: el estado interno "updated" se muestra como **"Cambios sin publicar"**, nunca "Actualizado".
 
 ## Glosario
 

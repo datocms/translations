@@ -11,6 +11,24 @@ Este guia define as regras para garantir consistência nas traduções em portug
 - **Gerúndio brasileiro**: Use "está fazendo" (não "está a fazer" do português europeu)
 - **Confirmações**: Use "Tem certeza" (não "Tem a certeza" do português europeu)
 
+## Linguagem sem gênero
+
+O português brasileiro tem flexão de gênero, mas quando um texto se dirige ao **usuário** (cujo gênero é desconhecido), evite particípios e adjetivos que exijam concordância de gênero (por exemplo "bem-vindo", "conectado", "logado", "pronto", "certo"). Prefira reformulações neutras, normalmente com formas verbais.
+
+Observação sobre "Tem certeza": em pt-BR "certeza" é um substantivo, então "Tem certeza de que deseja…?" **não** força gênero e continua aceitável (ver Regras Fundamentais). O problema de gênero só aparece com particípios e adjetivos que concordam com o usuário. Sempre que possível, ainda assim prefira a forma verbal direta ("Deseja…?", "Quer…?").
+
+| ✅ Neutro                            | ❌ Gênero forçado                     |
+| ----------------------------------- | ------------------------------------ |
+| "Boas-vindas!"                      | "Seja bem-vindo!"                    |
+| "Que bom ter você por aqui!"        | "Bem-vindo!"                         |
+| "Acesso realizado com sucesso!"     | "Conectado com sucesso, seja bem-vindo!" |
+| "Deseja continuar?"                 | "Você está certo de que quer continuar?" |
+| "Você precisa fazer login"          | "Você precisa estar logado"          |
+
+**Estratégias**: prefira formas verbais ("Deseja…?", "Quer…?", "Você precisa…") em vez de adjetivos de estado ("Você está pronto/conectado/certo"). Para mensagens de boas-vindas, evite "Bem-vindo" e use formas neutras ("Boas-vindas", "Que bom ter você por aqui").
+
+**IMPORTANTE**: esta regra vale **apenas** para texto que se refere ao usuário. Particípios e adjetivos que se referem a **objetos** (registro, arquivo, ambiente) mantêm a concordância de gênero normal: "registro publicado", "arquivo removido", "ambiente excluído".
+
 ## Regras de Disambiguação
 
 ### Unpublish/Unpublishing
@@ -22,6 +40,45 @@ O termo é **traduzido** para português:
 | Unpublish    | Despublicar                |
 | Unpublishing | Despublicação              |
 | Unpublished  | Despublicado/Não publicado |
+
+### Agendamento (Schedule / Scheduling) (IMPORTANTE)
+
+Para publicações e despublicações diferidas no tempo, use **sempre uma única família coerente**: **agendar / agendado / agendamento**. São **proibidas** as variantes concorrentes "programar / programado / programação" nesse contexto. **Nunca** traduza "scheduled" como "automática" ou "futura".
+
+Exceção: "scheduled maintenance" continua sendo "manutenção programada", pois é um termo fixo já estabelecido fora do contexto de agendamento de registros.
+
+| Inglês                  | ✅ Correto                     | ❌ Incorreto                    |
+| ----------------------- | ----------------------------- | ------------------------------ |
+| to schedule (verbo)     | agendar                       | programar                      |
+| scheduled (… para)      | agendada para                 | programada para                |
+| schedule (o plano)      | agendamento                   | programação                    |
+| Add new schedule        | Adicionar novo agendamento    | Adicionar nova programação     |
+| Scheduled publishing at | Publicação agendada para      | Publicação programada para     |
+| Scheduled unpublishing at | Despublicação agendada para | Despublicação programada para  |
+
+Um "agendamento" (a regra diferida única) cobre **tanto a publicação quanto a despublicação**: títulos genéricos não devem assumir um contexto exclusivo de publicação.
+
+**Cancelar um agendamento**: use **sempre o mesmo verbo "cancelar"** em todos os pontos (título do diálogo, toast de sucesso e erro), para que confirmação e mensagem final usem o mesmo verbo. Exceções de espelhamento: o botão genérico "Cancelar"; "parar" quando o inglês realmente diz "stop" (por exemplo "stop automatic publication"); "automática/automaticamente".
+
+| Inglês                                       | ✅ Correto                                       |
+| -------------------------------------------- | ---------------------------------------------- |
+| Cancel scheduled publication?                | Cancelar publicação agendada?                  |
+| Scheduled publication successfully cancelled! | Agendamento da publicação cancelada com sucesso! |
+| Couldn't cancel scheduled publication!       | Não foi possível cancelar o agendamento da publicação! |
+| Yes, stop automatic publication              | Sim, parar publicação automática               |
+
+### Estados do registro (Record states)
+
+Os estados seguem o inglês **literalmente** (não interprete):
+
+| Inglês                      | Português                       |
+| --------------------------- | ------------------------------- |
+| Published                   | Publicado                       |
+| Published (unsaved changes) | Publicado (alterações não salvas) |
+| Not published               | Não publicado                   |
+| Unpublished changes         | Alterações não publicadas       |
+
+**"Not published" não pode virar "Rascunho"**: a regra de manter "Rascunho" vale apenas quando o inglês realmente diz "Draft" (por exemplo "item.shortStatus.draft").
 
 ### Environment/Ambiente
 

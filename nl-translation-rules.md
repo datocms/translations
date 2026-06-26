@@ -127,6 +127,53 @@ Het Nederlandse woord "galerij" wordt geschreven met **één l**:
 | Media-galerij | Media-gallerij |
 | Uit galerij   | Uit gallerij   |
 
+### Plannen / Geplande publicatie (BELANGRIJK)
+
+Voor publicaties en depublicaties die in de tijd worden uitgesteld, gebruik **altijd** één consistente woordfamilie:
+
+- **werkwoord** ("to schedule") → **inplannen** / **ingepland**
+- **bijvoeglijk naamwoord** ("scheduled") → **gepland** / **geplande**
+- **zelfstandig naamwoord** ("a schedule", de geplande regel) → **planning** (samenstelling: **publicatieplanning**)
+
+Verboden concurrerende varianten: gebruik **nooit** "schema" als vertaling van "schedule" (reserveer "schema" voor het DatoCMS-schemabegrip), en gebruik **nooit** kale "plannen" zonder voorvoegsel. Vertaal "scheduled" **nooit** als "automatisch" of "toekomstig".
+
+Eén "planning" (de enkele uitgestelde regel) dekt **zowel** publicatie **als** depublicatie: generieke titels mogen niet uitgaan van een publicatie-only context.
+
+| Engels                  | ✅ Correct                  | ❌ Fout                            |
+| ----------------------- | -------------------------- | --------------------------------- |
+| To schedule (werkwoord) | Inplannen / ingepland      | Schema instellen, plannen         |
+| Scheduled (bijv. nw.)   | Gepland / geplande         | Automatisch, toekomstig           |
+| Schedule (de planning)  | Planning / publicatieplanning | Schema                         |
+| Set schedule            | Planning instellen         | Schema instellen                  |
+| Add new schedule        | Nieuwe planning toevoegen  | Nieuw schema toevoegen            |
+| Scheduled publishing at | Geplande publicatie op     | Publicatie gepland op             |
+| Scheduled unpublishing at | Geplande depublicatie op | Automatische depublicatie op      |
+
+**Een planning annuleren**: gebruik overal **hetzelfde werkwoord** ("annuleren"), zodat de bevestigingsdialoog, de succesmelding en de foutmelding hetzelfde werkwoord delen. Spiegeluitzonderingen: de generieke knop "Annuleren"; en "stop automatisch publiceren/depubliceren" daar waar het Engels echt "stop automatic" zegt.
+
+| Engels                                  | ✅ Correct                            |
+| --------------------------------------- | ------------------------------------ |
+| Cancel scheduled publication?           | Geplande publicatie annuleren?       |
+| Scheduled publication successfully cancelled! | Geplande publicatie geannuleerd! |
+| Couldn't cancel scheduled publication!  | Geplande publicatie annuleren mislukt! |
+| Yes, stop automatic publication         | Ja, stop automatisch publiceren      |
+
+### Recordstatussen (BELANGRIJK)
+
+De recordstatuslabels volgen het Engels **letterlijk** (niet interpreteren). Let op: "Not published" wordt **"Niet gepubliceerd"** en mag **nooit** "Concept" worden. De glossariumregel "Draft → Concept" geldt alleen voor de korte status-badge ("Draft" → "Concept"); het volledige statuslabel blijft "Niet gepubliceerd".
+
+| Engels                        | Nederlands                                  |
+| ----------------------------- | ------------------------------------------- |
+| Published                     | Gepubliceerd                                |
+| Published (unsaved changes)   | Gepubliceerd (niet-opgeslagen wijzigingen)  |
+| Not published                 | Niet gepubliceerd (NIET "Concept")          |
+| Not published (unsaved changes) | Niet gepubliceerd (niet-opgeslagen wijzigingen) |
+| Unpublished changes           | Niet-gepubliceerde wijzigingen              |
+| New record                    | Nieuw record                                |
+| New record (unsaved changes)  | Nieuw record (niet-opgeslagen wijzigingen)  |
+
+Voor "Unpublished changes" bestaat drift in de huidige vertalingen: gebruik consistent **"Niet-gepubliceerde wijzigingen"** (de meest voorkomende variant) en vermijd "Ongepubliceerde wijzigingen".
+
 ## Wat Natuurlijk Aanvoelt in een Nederlands SaaS-product
 
 ### Toon en Stijl

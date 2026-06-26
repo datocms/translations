@@ -8,6 +8,28 @@ Tento průvodce definuje pravidla pro zajištění konzistentních českých př
 - **Technické pojmy zůstávají v angličtině** (build, deploy, webhook, adapter, schema, hook, payload, API, URL, SEO)
 - **„prosím"** vždy malými písmeny, pokud není na začátku věty
 
+## Genderově neutrální jazyk
+
+Čeština je genderově podmíněný jazyk: slovesa v minulém čase a přísudková přídavná jména se shodují v rodě s podmětem. Když text **oslovuje uživatele** (jehož rod neznáme), vyhýbej se tvarům, které vyžadují rodovou shodu. Místo nich volej neutrální formulace: infinitivy, přítomný čas, neosobní a trpné konstrukce.
+
+**Toto pravidlo platí pouze pro text, který odkazuje na uživatele.** Příčestí a přídavná jména odkazující na **objekty** (položka, médium, prostředí) si normální rodovou shodu ponechávají: „Položka byla smazána", „Médium bylo nahráno", „Prostředí bylo vytvořeno" jsou správně.
+
+| ✅ Neutrální (oslovení uživatele)      | ❌ Rodově vázané                       |
+| ------------------------------------- | -------------------------------------- |
+| Opravdu chceš smazat tuto položku?    | Jsi si jistý, že chceš smazat položku? |
+| Přihlášení proběhlo úspěšně           | Úspěšně přihlášen                      |
+| Odhlášení proběhlo úspěšně            | Úspěšně odhlášen                       |
+| Pro pokračování se musíš přihlásit    | Musíš být přihlášen                    |
+| Byl dosažen maximální počet API tokenů | Dosáhl jsi maximálního počtu API tokenů |
+| Změnu provedl někdo jiný, obnov stránku | Změnil jsi to, obnov stránku          |
+
+**Strategie**:
+
+1. **Místo přísudkového přídavného jména volej sloveso v přítomném čase**: „Opravdu chceš…?" místo „Jsi si jistý/jistá, že chceš…?".
+2. **Místo minulého času volej neosobní nebo trpnou konstrukci**: „Přihlášení proběhlo" místo „Byl jsi přihlášen"; „Byl dosažen limit" místo „Dosáhl jsi limitu".
+3. **Místo rodového příčestí volej infinitiv**: „Musíš se přihlásit" místo „Musíš být přihlášen".
+4. **U uvítacích zpráv** dávej přednost tvarům bez rodové shody. Imperativ „Vítej" je neutrální; pozor na minulý čas typu „Byl jsi přidán".
+
 ## Pravidla pro disambiguaci
 
 ### Record/Item → Položka (DŮLEŽITÉ)
@@ -53,6 +75,51 @@ Pro publikování a odpublikování používejte tyto konzistentní tvary:
 | Zrušit odpublikování          | Zrušit de-publikaci            |
 
 **Nikdy** nepoužívejte „vypublikovat" pro publish — používejte pouze „publikovat".
+
+### Naplánování / Scheduling (DŮLEŽITÉ)
+
+Pro publikaci a odpublikování odložené v čase používej **vždy jednu konzistentní rodinu výrazů**:
+
+- **„to schedule"** (sloveso) → **„naplánovat"**
+- **„scheduled"** (přídavné jméno) → **„naplánovaný / naplánovaná / naplánované"**
+- **„schedule"** (ten samotný plán) → **„plán"**
+
+Zakázané jsou konkurenční varianty. „scheduled" **nikdy** nepřekládej jako **„automatický"** ani **„budoucí"**, a samotný plán **nikdy** jako „plánování" (drž se tvaru „plán").
+
+| Anglicky                  | ✅ Správně                  | ❌ Špatně                                   |
+| ------------------------- | -------------------------- | ------------------------------------------ |
+| to schedule (sloveso)     | naplánovat                 | plánovat, rozvrhnout                       |
+| scheduled (příd. jméno)   | naplánovaná publikace      | plánovaná / automatická / budoucí publikace |
+| schedule (plán)           | plán                       | plánování, rozvrh                          |
+| Add new schedule          | Přidat nový plán           | Přidat nové plánování                      |
+| Scheduled publishing at   | Naplánovaná publikace      | Plánovaná publikace                        |
+| Scheduled unpublishing at | Naplánované odpublikování  | Plánované odpublikování                    |
+
+Jeden „plán" (jedno odložené pravidlo) pokrývá **jak publikaci, tak odpublikování**. Obecné titulky (např. „Plán publikování") nesmí předpokládat pouze kontext publikace.
+
+**Zrušení plánu**: pro „cancel" používej napříč celým tokem **jediné konzistentní sloveso „zrušit"** (titulek dialogu, úspěšná hláška i chyba musí mít stejné sloveso).
+
+| Anglicky                                | ✅ Správně                                 |
+| --------------------------------------- | ----------------------------------------- |
+| Cancel scheduled publication?           | Zrušit naplánovanou publikaci?            |
+| Scheduled publication … cancelled!      | Naplánovaná publikace úspěšně zrušena!    |
+| Couldn't cancel scheduled publication!  | Nepodařilo se zrušit naplánovanou publikaci! |
+
+**Výjimky pro zrcadlení angličtiny**: obecné tlačítko „Cancel" zůstává „Zrušit"; „budoucí" je přípustné jen tam, kde angličtina opravdu říká „Future" (např. „Future publication" → „Budoucí publikace"); slovo „automatic/automatically" se překládá jako „automatický/automaticky" (např. „Yes, stop automatic publication" → „Ano, zrušit automatickou publikaci").
+
+### Stavy záznamu (Stavy položky)
+
+Stavy položky následují angličtinu **doslova** (neinterpretuj je):
+
+| Anglicky                       | ✅ Správně                       |
+| ------------------------------ | ------------------------------- |
+| Published                      | Publikováno                     |
+| Published (unsaved changes)    | Publikováno (neuložené změny)   |
+| Not published                  | Nepublikováno                   |
+| Not published (unsaved changes) | Nepublikováno (neuložené změny) |
+| Unpublished changes            | Nepublikované změny             |
+
+**„Not published" nikdy nepřekládej jako „Koncept" ani „Draft".** Pravidlo „draft zůstává jako Draft" platí pouze tehdy, když angličtina opravdu říká „Draft" (např. `filter.label.draft`, `item.shortStatus.draft`).
 
 ### Expand/Collapse (DŮLEŽITÉ)
 

@@ -8,6 +8,26 @@ Dieser Leitfaden definiert die Regeln für eine konsistente deutsche Übersetzun
 - **Technische Begriffe bleiben auf Englisch** (build, build trigger, deploy, webhook, adapter, schema, hook, payload, environment)
 - **"bitte"** immer klein, außer am Satzanfang
 
+## Geschlechtsneutrale Sprache
+
+Das Deutsche ist eine Sprache mit grammatischem Geschlecht, und das Geschlecht der angesprochenen Person ist unbekannt. Bei Texten, die sich **an die nutzende Person richten**, daher geschlechtsneutrale Formulierungen bevorzugen.
+
+**Strategien:**
+
+- **Direkte Ansprache mit "du"** ist der sicherste neutrale Weg: Prädikative Partizipien und Adjektive flektieren in der du-Form nicht ("Du bist angemeldet" gilt für jedes Geschlecht).
+- **Keine geschlechtsmarkierten Rollenbezeichnungen** für die angesprochene Person (Benutzer/Benutzerin, Administrator, Mitarbeiter). Stattdessen umformulieren oder direkt mit "du" ansprechen.
+- **Keine nominalisierten Partizipien** ("der Eingeladene", "ein Angemeldeter"); stattdessen verbale Formen verwenden ("Du wurdest eingeladen", "Du bist angemeldet").
+- **Keine Gendersonderzeichen** (Nutzer*innen, NutzerInnen, Nutzer:innen) in der Oberfläche; stattdessen echte neutrale Umformulierung.
+
+| ✅ Korrekt                          | ❌ Falsch                              |
+| ----------------------------------- | ------------------------------------- |
+| Du bist angemeldet                  | Du bist ein angemeldeter Benutzer     |
+| Du wurdest zum Projekt eingeladen   | Du bist der Eingeladene des Projekts  |
+| Du musst angemeldet sein            | Du musst ein angemeldeter Nutzer sein |
+| Willkommen an Bord!                 | Willkommen, lieber Nutzer!            |
+
+**WICHTIG:** Dies gilt **nur** für Texte, die sich auf die nutzende Person beziehen. Partizipien und Adjektive, die sich auf **Objekte** beziehen (Datensatz, Asset, Umgebung), behalten ihre normale grammatische Geschlechtsübereinstimmung: "Datensatz erfolgreich gelöscht", "Veröffentlicht", "diese Umgebung".
+
 ## Disambiguierungsregeln
 
 ### Record/Datensatz (WICHTIG)
@@ -35,6 +55,49 @@ Der Begriff wird **immer** als **"unveröffentlichen"** (Verb) oder **"Unveröff
 | unveröffentlicht            | Ent-Veröffentlichung          |
 
 **Niemals** "unpublizieren", "Unpublizierung", "Veröffentlichung zurückziehen", "aus der Veröffentlichung entfernen" oder "Ent-Veröffentlichung" verwenden.
+
+### Geplante Veröffentlichung (Schedule/Scheduling) (WICHTIG)
+
+Für zeitlich verschobene Veröffentlichungen und Unveröffentlichungen **immer** eine einzige konsistente Wortfamilie verwenden. Konkurrierende Varianten sind **verboten**.
+
+- **"to schedule"** (Verb) → **"planen"** ("zur Veröffentlichung planen", "für die Unveröffentlichung planen"). Niemals "terminieren", "schedulen" oder das alleinstehende "festlegen".
+- **"scheduled"** (Adjektiv) → **"geplant/geplante"**. **Niemals** "automatisch" oder "zukünftig" als Übersetzung für "scheduled".
+- **"a schedule"** (die Planung selbst) → **"Planung"**. Niemals "Zeitplan" oder "Terminplan".
+
+| Englisch                | ✅ Korrekt                              | ❌ Falsch                              |
+| ----------------------- | -------------------------------------- | ------------------------------------- |
+| to schedule (Verb)      | zur Veröffentlichung planen            | zur Veröffentlichung terminieren      |
+| scheduled (Adjektiv)    | Geplante Veröffentlichung              | Automatische Veröffentlichung         |
+| a schedule (Substantiv) | Planung                                | Zeitplan                              |
+| Add new schedule        | Neue Planung hinzufügen                | Neuen Zeitplan hinzufügen             |
+| Scheduled publishing at | Geplante Veröffentlichung am           | Zukünftige Veröffentlichung am        |
+| Scheduled unpublishing at | Geplante Unveröffentlichung am       | Automatische Unveröffentlichung am    |
+
+Eine "Planung" (die einzelne zeitversetzte Regel) umfasst **sowohl Veröffentlichung als auch Unveröffentlichung**: generische Titel dürfen keinen reinen Veröffentlichungskontext voraussetzen.
+
+**Abbrechen einer Planung:** durchgehend **denselben** Verbstamm **"abbrechen"** verwenden, damit Bestätigungsdialog, Erfolgsmeldung und Fehlermeldung übereinstimmen. **Niemals** "absagen" oder "stornieren" für diesen Vorgang verwenden.
+
+| Englisch                                      | ✅ Korrekt                                          |
+| --------------------------------------------- | -------------------------------------------------- |
+| Cancel scheduled publication?                 | Geplante Veröffentlichung abbrechen?               |
+| Scheduled publication successfully cancelled! | Geplante Veröffentlichung erfolgreich abgebrochen! |
+| Couldn't cancel scheduled publication!        | Geplante Veröffentlichung konnte nicht abgebrochen werden! |
+| Yes, stop automatic publication               | Ja, automatische Veröffentlichung stoppen          |
+
+**Spiegelungs-Ausnahmen:** Die generische Schaltfläche "Cancel" bleibt "Abbrechen"; wo das Englische tatsächlich "stop" sagt, wird "stoppen" verwendet ("automatische Veröffentlichung stoppen"); "automatic/automatically" wird zu "automatisch".
+
+### Datensatz-Status (Record states)
+
+Die Statusbezeichnungen folgen dem Englischen **wörtlich** (nicht interpretieren):
+
+| Englisch                    | Deutsch                                       |
+| --------------------------- | --------------------------------------------- |
+| Published                   | Veröffentlicht                                |
+| Published (unsaved changes) | Veröffentlicht (nicht gespeicherte Änderungen) |
+| Not published               | Nicht veröffentlicht                          |
+| Unpublished changes         | Unveröffentlichte Änderungen                  |
+
+**WICHTIG:** "Not published" darf **niemals** zu "Entwurf" (Draft) werden. Die Regel "Draft bleibt Entwurf" gilt **nur**, wenn das Englische wirklich "draft" sagt.
 
 ### Expand/Collapse (WICHTIG)
 

@@ -13,6 +13,26 @@ Ce guide définit les règles pour garantir la cohérence des traductions franç
 - **Masculin par défaut** : quand le contexte ne permet pas de déterminer le genre du nom qualifié, utiliser le masculin (ex. « Créé avec succès » et non « Créé(e) avec succès »)
 - **Capitalisation française** : seul le premier mot d'un titre prend la majuscule (ex. « Paramètres du projet », jamais « Paramètres Du Projet »)
 
+## Langage Non Genré (IMPORTANT)
+
+Le français est une langue genrée, mais le genre de la personne qui utilise l'interface est inconnu. Quand un texte **s'adresse à la personne** (toi), il faut éviter les adjectifs et participes passés qui imposent un accord de genre. On reformule avec des **tournures verbales neutres** (« Tu veux… ? », « Confirmes-tu… ? », « Tu dois… »), qui restent valables quel que soit le genre.
+
+| ✅ Correct (neutre)              | ❌ À éviter (genré)                  |
+| ------------------------------- | ----------------------------------- |
+| Tu veux vraiment supprimer… ?   | Es-tu sûr de vouloir supprimer… ?   |
+| Confirmes-tu cette opération ?  | Es-tu certain de cette opération ?  |
+| Tu dois te connecter            | Tu dois être connecté(e)            |
+| Tu n'es pas encore inscrit ?    | _(si reformulable)_ S'inscrire      |
+| Tout est prêt !                 | Te voilà prêt(e) !                  |
+
+Stratégies :
+
+- Préférer les **formes verbales** (« Tu veux… ? », « Confirmes-tu… ? », « Tu dois… ») aux **adjectifs d'état** (« Es-tu sûr/certain/prêt/connecté… ? »).
+- Pour les messages d'accueil, préférer une forme neutre invariable (« Bienvenue ! », « Tout est prêt ! ») plutôt qu'un adjectif accordé.
+- En dernier recours seulement, le doublet entre parenthèses (« connecté(e) ») reste acceptable, mais une reformulation verbale est toujours préférable.
+
+**IMPORTANT** : cette règle s'applique **uniquement** aux textes qui désignent la personne. Les participes passés et adjectifs qui qualifient un **objet** (élément, média, environnement) gardent l'accord grammatical normal (voir « Accord du Participe Passé »).
+
 ## Règles de Désambiguïsation
 
 ### Dépublier / Dépublication
@@ -25,6 +45,48 @@ Contrairement à l'anglais « unpublish », le français utilise **« dépublier
 | Unpublishing             | Dépublication           |
 | Couldn't unpublish       | Impossible de dépublier |
 | Successfully unpublished | Dépublié avec succès    |
+
+### Planification (Schedule / Scheduling) (IMPORTANT)
+
+Pour les publications et dépublications **différées dans le temps**, utiliser **toujours une seule famille cohérente** : **programmer** (verbe), **programmé(e)** (adjectif), **programmation** (le nom de la règle différée). Les variantes concurrentes **« planifier »**, **« prévoir / prévu »** et **« future »** sont **interdites** dans ce contexte. **Ne jamais** traduire « scheduled » par « automatique » ni par « futur ».
+
+| Anglais                  | ✅ Correct                       | ❌ Incorrect                                   |
+| ------------------------ | ------------------------------- | --------------------------------------------- |
+| to schedule (verbe)      | programmer                      | planifier, prévoir                            |
+| scheduled (adjectif)     | programmé(e)                    | planifié(e), prévu(e), automatique, futur(e)  |
+| a schedule (la règle)    | une programmation               | une planification, un programme               |
+| Add new schedule         | Ajouter une nouvelle programmation | Ajouter une nouvelle planification         |
+| Scheduled publishing at  | Publication programmée le       | Publication planifiée le                      |
+| Scheduled unpublishing at | Dépublication programmée le    | Dépublication prévue le                       |
+
+Une **« schedule »** (la règle différée unique) couvre **à la fois la publication et la dépublication** : les titres et libellés génériques ne doivent pas présupposer un contexte de publication uniquement.
+
+**Annulation d'une programmation** : « cancel » se traduit par **un seul et même verbe, « annuler »**, partout (titre du dialogue, message de succès, message d'erreur), pour que le dialogue de confirmation et le toast final emploient le même verbe.
+
+| Anglais                                  | ✅ Français                                         |
+| ---------------------------------------- | -------------------------------------------------- |
+| Cancel scheduled publication?            | Annuler la publication programmée ?                |
+| Scheduled publication successfully cancelled! | Publication programmée annulée avec succès !  |
+| Couldn't cancel scheduled publication!   | Impossible d'annuler la publication programmée !   |
+
+Exceptions au verbe « annuler » :
+
+- Le **bouton générique « Cancel »** reste **« Annuler »**.
+- Quand l'anglais dit réellement **« stop »** (bouton de confirmation « Yes, stop automatic publication »), on emploie **« arrêter »** et on reflète **« automatic / automatically »** par **« automatique / automatiquement »** : « Oui, arrêter la publication automatique », « Oui, arrêter la dépublication automatique ».
+
+### États du Record (Record states)
+
+Les états suivent l'anglais **littéralement** (ne pas interpréter). En particulier, **« Not published » ne devient jamais « Brouillon »** : la règle « draft reste Brouillon » s'applique uniquement quand l'anglais dit réellement « Draft » (ex. `item.shortStatus.draft`, `filter.label.draft`).
+
+| Anglais                     | ✅ Français                            |
+| --------------------------- | ------------------------------------- |
+| Published                   | Publié                                |
+| Published (unsaved changes) | Publié (modifications non enregistrées) |
+| Not published               | Non publié _(jamais « Brouillon »)_   |
+| Unpublished changes         | Modifications non publiées            |
+| New record                  | Nouvel élément                        |
+
+**Note d'accord** : « unsaved changes » → « modifications non enregistrées » (cohérent avec « Save » → « Enregistrer »). Les participes de ces états (« Publié », « Non publié ») qualifient un objet (l'élément, l'enregistrement) : l'accord en genre et en nombre reste donc grammatical, masculin par défaut pour « élément » / « enregistrement » (voir « Accord du Participe Passé »).
 
 ### Accord du Participe Passé (IMPORTANT)
 
