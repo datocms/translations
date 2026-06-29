@@ -198,6 +198,7 @@
   "editor.upload.destroy.failure.UPLOAD_IS_CURRENTLY_IN_USE": "Couldn't delete this asset, as it's currently used in the following records:",
   "editor.upload.destroy.success": "Asset deleted successfully!",
   "editor.upload.poster.frameAlt": "Current thumbnail frame",
+  "editor.upload.poster.label": "Video thumbnail",
   "editor.upload.poster.markerLabel": "Thumbnail at {time}",
   "editor.upload.poster.reset": "Reset thumbnail",
   "editor.upload.poster.useCurrentFrame": "Use current frame as thumbnail",
