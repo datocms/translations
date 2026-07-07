@@ -644,6 +644,7 @@
   "integration.step1.success": "Command received, hurray!",
   "item.back": "Back",
   "item.button.default": "Save record",
+  "item.createNew": "Create new {model_api_key}",
   "item.duplicate": "Duplicate",
   "item.edit": "Edit { itemType }",
   "item.errorsPerLocale.description": "The following locales are failing some validations: {locales}",
