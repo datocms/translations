@@ -1018,7 +1018,7 @@
   "quickSearch.shortcuts.openNewTab": "to open in new tab",
   "quickSearch.title": "Search",
   "readOnlyWarnings.reason.ENVIRONMENT_IN_READ_ONLY_MODE": "This <strong>environment is temporarily in read-only mode</strong> due to pending operations (such as an environment fast-fork).",
-  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>The project is undergoing scheduled maintenance</strong> and is currently in read-only mode. For more info, contact your project owner(s)!",
+  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>The project is undergoing scheduled maintenance</strong> and is currently in read-only mode, so no edits can be saved. <strong>This was enabled by your project owner(s):</strong> contact them for more info.",
   "recordInfo.blocksCount": "Currently used blocks",
   "recordInfo.blocksLimit.approachingLimitWarning": "You are approaching the maximum number of blocks allowed for your plan.",
   "recordInfo.blocksLimit.localeProjectionWarning": "The locale with the highest block count ({locale}) has {blockCount} blocks. If all {localesCount} locales reach a similar size, the total would exceed the limit.",

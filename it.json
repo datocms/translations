@@ -1015,7 +1015,7 @@
   "quickSearch.shortcuts.openNewTab": "per aprire in nuovo tab",
   "quickSearch.title": "Cerca",
   "readOnlyWarnings.reason.ENVIRONMENT_IN_READ_ONLY_MODE": "Questo <strong>environment è temporaneamente in modalità di sola lettura</strong> a causa di operazioni in sospeso (come un fast-fork dell'environment).",
-  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>Il progetto è in corso di manutenzione programmata</strong> e attualmente è in modalità di sola lettura. Per maggiori informazioni, contatta il proprietario del progetto!",
+  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>Il progetto è in corso di manutenzione programmata</strong> e attualmente è in modalità di sola lettura, quindi non è possibile salvare modifiche. <strong>È stata attivata dal proprietario del progetto:</strong> contattalo per maggiori informazioni.",
   "recordInfo.blocksCount": "Blocchi attualmente in uso",
   "recordInfo.blocksLimit.approachingLimitWarning": "Stai raggiungendo il numero massimo di blocchi consentito per il tuo piano.",
   "recordInfo.blocksLimit.localeProjectionWarning": "La lingua con il maggior numero di blocchi ({locale}) ne contiene {blockCount}. Se tutte le {localesCount} lingue raggiungessero una dimensione simile, il totale supererebbe il limite.",

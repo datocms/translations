@@ -1015,7 +1015,7 @@
   "quickSearch.shortcuts.openNewTab": "om te openen in nieuw tabblad",
   "quickSearch.title": "Zoeken",
   "readOnlyWarnings.reason.ENVIRONMENT_IN_READ_ONLY_MODE": "Deze <strong>environment is tijdelijk in alleen-lezen modus</strong> vanwege lopende operaties (zoals een environment fast-fork).",
-  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>Het project ondergaat geplande maintenance</strong> en is momenteel in alleen-lezen modus. Neem voor meer informatie contact op met de projecteigenaar(s)!",
+  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>Het project ondergaat geplande maintenance</strong> en is momenteel in alleen-lezen modus, dus er kunnen geen wijzigingen worden opgeslagen. <strong>Dit is ingeschakeld door de projecteigenaar(s):</strong> neem contact met hen op voor meer informatie.",
   "recordInfo.blocksCount": "Momenteel gebruikte blokken",
   "recordInfo.blocksLimit.approachingLimitWarning": "Je nadert het maximale aantal blokken dat is toegestaan voor je pakket.",
   "recordInfo.blocksLimit.localeProjectionWarning": "De taal met het hoogste aantal blokken ({locale}) heeft {blockCount} blokken. Als alle {localesCount} talen een vergelijkbare grootte bereiken, zou het totaal de limiet overschrijden.",

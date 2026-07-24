@@ -1015,7 +1015,7 @@
   "quickSearch.shortcuts.openNewTab": "otevřít v novém tabu",
   "quickSearch.title": "Hledat",
   "readOnlyWarnings.reason.ENVIRONMENT_IN_READ_ONLY_MODE": "Toto <strong>prostředí je dočasně v režimu pouze pro čtení</strong> kvůli probíhajícím operacím (např. fast-fork prostředí).",
-  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>Projekt prochází plánovanou údržbou</strong> a je momentálně v režimu pouze pro čtení. Pro více informací kontaktuj vlastníka projektu!",
+  "readOnlyWarnings.reason.MAINTENANCE_MODE": "<strong>Projekt prochází plánovanou údržbou</strong> a je momentálně v režimu pouze pro čtení, takže není možné ukládat žádné změny. <strong>Toto nastavení aktivoval vlastník projektu:</strong> kontaktuj ho pro více informací.",
   "recordInfo.blocksCount": "Aktuálně použité bloky",
   "recordInfo.blocksLimit.approachingLimitWarning": "Blížíš se maximálnímu počtu bloků povolených ve tvém plánu.",
   "recordInfo.blocksLimit.localeProjectionWarning": "Jazyk s nejvyšším počtem bloků ({locale}) má {blockCount} bloků. Pokud všech {localesCount} jazyků dosáhne podobné velikosti, celkový počet by překročil limit.",
