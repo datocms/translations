@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Der Datensatz konnte nicht veröffentlicht werden, da der übergeordnete Datensatz nicht veröffentlicht ist:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Dieses Asset konnte nicht gelöscht werden, da es derzeit in den folgenden Datensätzen verwendet wird:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Dieses Asset konnte nicht aktualisiert werden, da die folgenden Datensätze die Validierungen nicht bestehen:",
-  "genericError.referencedFrom": "referenziert in",
   "globalError.DEACTIVATED_SITE.body": "<p>Leider wurde dieses Projekt aufgrund von Rechnungsproblemen vorübergehend deaktiviert. Bitte kontaktiere deine Administratoren, um das Problem zu lösen.</p>",
   "globalError.DEACTIVATED_SITE.title": "Projekt deaktiviert!",
   "globalError.ENVIRONMENT_NOT_READY.body": "<p>Entschuldigung, aber die Umgebung, auf die du zugreifen möchtest, wird entweder noch erstellt oder wird gerade gelöscht.</p> <p>Falls du denkst, dass dies ein Fehler ist, kontaktiere uns bitte über unser <a href=\"{supportUrl}\" target=\"_blank\">Support-Formular</a>.</p>",

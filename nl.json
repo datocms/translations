@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Kon record niet publiceren omdat het bovenliggende record niet is gepubliceerd:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Kon asset niet verwijderen omdat het in de volgende records wordt gebruikt:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Kon asset niet bijwerken omdat de volgende records niet geldig zijn:",
-  "genericError.referencedFrom": "gerefereerd in",
   "globalError.DEACTIVATED_SITE.body": "<p>Sorry, maar vanwege facturatieproblemen is dit project tijdelijk gedeactiveerd. Neem contact op met je beheerders om dit probleem op te lossen.</p>",
   "globalError.DEACTIVATED_SITE.title": "Project gedeactiveerd!",
   "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Sorry, maar de environment waar je toegang toe probeert te krijgen wordt nog aangemaakt of is bezig met verwijderen.</p>\n    <p>Als je denkt dat dit een fout is, neem contact met ons op via ons <a href=\"{supportUrl}\" target=\"_blank\">supportformulier</a>.</p>",

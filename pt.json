@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Não foi possível publicar este registo porque o registo pai não está publicado:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Não foi possível eliminar este asset porque está a ser usado pelos seguintes registos:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Não foi possível atualizar este asset porque os seguintes registos não estão a passar nas validações:",
-  "genericError.referencedFrom": "referenciado em",
   "globalError.DEACTIVATED_SITE.body": "\n    <p>Pedimos desculpa, mas devido a problemas de faturação este projeto foi temporariamente desativado. Por favor, contacte os seus administradores para resolver o problema.<p>\n  ",
   "globalError.DEACTIVATED_SITE.title": "Projeto desativado!",
   "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Pedimos desculpa, mas o ambiente a que está a tentar aceder ainda está a ser criado ou está a ser eliminado.</p>\n    <p>Se achar que é um erro, por favor contacte-nos através do nosso <a href=\"{supportUrl}\" target=\"_blank\">formulário de suporte</a>.</p>",

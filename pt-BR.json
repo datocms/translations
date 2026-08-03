@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Não foi possível publicar este registro, pois o registro pai não está publicado:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Não foi possível remover este arquivo, pois ele é usado atualmente nos seguintes registros:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Não foi possível atualizar este arquivo porque os registros a seguir não estão passando nas validações:",
-  "genericError.referencedFrom": "referenciado em",
   "globalError.DEACTIVATED_SITE.body": "    <p>Desculpe, mas devido a problemas de faturamento, este projeto foi temporariamente desativado. Entre em contato com seus administradores para resolver o problema.<p>",
   "globalError.DEACTIVATED_SITE.title": "Projeto desativado!",
   "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Desculpe, mas o ambiente que você está tentando acessar ainda está sendo criado ou está sendo excluído no momento.</p>\n    <p>Se achar que isso é um erro, entre em contato conosco por meio do nosso <a href=\"{supportUrl}\" target=\"_blank\">formulário de suporte</a>.</p>",

@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Impossible de publier l'élément, car l'élément parent n'est pas publié :",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Impossible de supprimer ce média car il est actuellement utilisé dans les éléments suivants :",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Impossible de mettre à jour ce média car les éléments suivants ne passent pas les validations :",
-  "genericError.referencedFrom": "référencé dans",
   "globalError.DEACTIVATED_SITE.body": "<p>Désolé, suite à des problèmes de facturation, ce projet a été temporairement désactivé. Contacte tes administrateurs pour résoudre le problème.</p>",
   "globalError.DEACTIVATED_SITE.title": "Projet désactivé !",
   "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Désolé, mais l'environnement auquel tu tentes d'accéder est soit encore en cours de création, soit en cours de suppression.</p>\n    <p>Si tu penses que c'est une erreur, contacte-nous via notre <a href=\"{supportUrl}\" target=\"_blank\">formulaire de support</a>.</p>",

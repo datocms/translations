@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Non è stato possibile pubblicare il record perché il record padre non è pubblicato:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Non è stato possibile eliminare l'asset in quanto è in uso nei seguenti record:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Non è stato possibile modificare questo asset perché i seguenti record non superano le validazioni:",
-  "genericError.referencedFrom": "referenziato in",
   "globalError.DEACTIVATED_SITE.body": "<p>Purtroppo a causa di problemi di fatturazione questo progetto è stato disattivato temporaneamente. Contatta i tuoi amministratori per risolvere il problema.</p>",
   "globalError.DEACTIVATED_SITE.title": "Progetto disattivato!",
   "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Siamo spiacenti, ma l'environment a cui stai tentando di accedere è ancora in fase di creazione, o è in fase di eliminazione.</p>\n    <p>Se ritieni che si tratti di un errore, contattaci tramite il nostro <a href=\"{supportUrl}\" target=\"_blank\">modulo di supporto</a>.</p>",

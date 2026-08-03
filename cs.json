@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "Položku se nepodařilo publikovat, protože nadřazená položka není publikována:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "Nepodařilo se smazat toto médium, protože se používá v následujících položkách:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "Nepodařilo se aktualizovat toto médium, protože následující položky nesplňují validace:",
-  "genericError.referencedFrom": "referencováno v",
   "globalError.DEACTIVATED_SITE.body": "<p>Omlouváme se, ale kvůli fakturačním problémům byl tento projekt dočasně deaktivován. Kontaktuj prosím své administrátory pro vyřešení problému.</p>",
   "globalError.DEACTIVATED_SITE.title": "Projekt deaktivován!",
   "globalError.ENVIRONMENT_NOT_READY.body": "<p>Omlouváme se, ale prostředí, ke kterému se pokoušíš přistoupit, se teprve vytváří nebo se právě maže.</p><p>Pokud si myslíš, že jde o chybu, kontaktuj nás prosím prostřednictvím našeho <a href=\"{supportUrl}\" target=\"_blank\">formuláře podpory</a>.</p>",

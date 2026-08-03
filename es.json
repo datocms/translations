@@ -512,7 +512,6 @@
   "genericError.UNPUBLISHED_PARENT": "No se pudo publicar el registro, ya que tiene un registro padre no publicado:",
   "genericError.UPLOAD_IS_CURRENTLY_IN_USE": "No se pudo eliminar este asset, ya que actualmente se usa en los siguientes registros:",
   "genericError.UPLOAD_NOT_PASSING_FIELD_VALIDATIONS": "No se pudo actualizar este asset ya que los siguientes registros no pueden pasar las validaciones:",
-  "genericError.referencedFrom": "referenciado en",
   "globalError.DEACTIVATED_SITE.body": "<p>Lo sentimos, pero debido a problemas de facturación, este proyecto se ha desactivado temporalmente. Ponte en contacto con tus administradores para resolver el problema.</p>",
   "globalError.DEACTIVATED_SITE.title": "¡Proyecto desactivado!",
   "globalError.ENVIRONMENT_NOT_READY.body": "\n    <p>Lo sentimos, pero el entorno al que intentas acceder aún está siendo creado o actualmente está siendo eliminado.</p>\n    <p>Si crees que esto es un error, contáctanos a través de nuestro <a href=\"{supportUrl}\" target=\"_blank\">formulario de soporte</a>.</p>",
