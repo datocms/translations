@@ -632,7 +632,7 @@
   "imageMetadata.open": "Open",
   "imageMetadata.openInMediaArea": "Open in Media Area »",
   "imageMetadata.rename": "Rename",
-  "imageMetadata.renameHint": "Press Enter to confirm",
+  "imageMetadata.renameHint": "Edit the name and push Enter/Return to save.",
   "imageMetadata.renameInProgress": "Renaming asset…",
   "imageMetadata.replace": "Replace asset",
   "imageMetadata.saveAsDefaultMetadata": "Set values as the asset's default for {language}",
