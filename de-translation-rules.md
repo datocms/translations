@@ -5,7 +5,7 @@ Dieser Leitfaden definiert die Regeln für eine konsistente deutsche Übersetzun
 ## Grundregeln
 
 - **Informelles "du"** durchgehend verwenden (niemals "Sie")
-- **Technische Begriffe bleiben auf Englisch** (build, build trigger, deploy, webhook, adapter, schema, hook, payload, environment)
+- **Technische Begriffe bleiben auf Englisch** (build, build trigger, deploy, webhook, adapter, schema, hook, payload)
 - **"bitte"** immer klein, außer am Satzanfang
 
 ## Geschlechtsneutrale Sprache
@@ -26,7 +26,39 @@ Das Deutsche ist eine Sprache mit grammatischem Geschlecht, und das Geschlecht d
 | Du musst angemeldet sein            | Du musst ein angemeldeter Nutzer sein |
 | Willkommen an Bord!                 | Willkommen, lieber Nutzer!            |
 
-**WICHTIG:** Dies gilt **nur** für Texte, die sich auf die nutzende Person beziehen. Partizipien und Adjektive, die sich auf **Objekte** beziehen (Datensatz, Asset, Umgebung), behalten ihre normale grammatische Geschlechtsübereinstimmung: "Datensatz erfolgreich gelöscht", "Veröffentlicht", "diese Umgebung".
+**WICHTIG:** Dies gilt für **jede Person, deren Geschlecht wir nicht kennen** — nicht nur für die angesprochene, sondern auch für eine dritte (wer einen Datensatz bearbeitet hat, wer ins Projekt eingeladen wurde). Partizipien und Adjektive, die sich auf **Objekte** beziehen (Datensatz, Asset, Umgebung), behalten dagegen ihre normale grammatische Geschlechtsübereinstimmung: "Datensatz erfolgreich gelöscht", "Veröffentlicht", "diese Umgebung".
+
+## Interpolierte Substantive (WICHTIG)
+
+Ein Platzhalter, der einen von der Kundschaft vergebenen Namen enthält — Modell, Block, Feld, Umgebung oder Datentyp —, hat kein Genus, keinen Numerus und keinen Kasus, die wir vorhersagen könnten. **Kein Wort im Satz darf mit ihm kongruieren.**
+
+Das Problem ist konkret: heißt ein Modell "Anker", ergibt `Neues {itemType}` die Beschriftung "Neues Anker" statt "Neuer Anker".
+
+### Sichere Muster
+
+| Muster                                                                            | Beispiel                              | Schlüssel                                 |
+| --------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------- |
+| **Verb + bloßes Objekt** (kein Artikel, kein Adjektiv)                              | {name} hinzufügen                     | `newItem.title`                           |
+| **Ankersubstantiv** (ein von uns gewähltes Nomen: Datensatz, Modell, Block, Wert)   | Zum Modell {model_api_key} wechseln   | `item.gotoModel`                          |
+| **Anführungszeichen oder Code-Stil** für API-Keys und Bezeichner                    | Menüpunkt "{name}" löschen            | `messages.confirm.destroyMenuItem.title` |
+
+**Das Ankersubstantiv ist der entscheidende Kniff**: sobald der Satz ein Nomen enthält, das *wir* gewählt haben, richten sich Artikel, Adjektive und Kasus danach, und der Platzhalter steht als bloße Apposition daneben.
+
+### Niemals
+
+| ❌ Falsch                             | Warum                              | ✅ Richtig                                        |
+| ------------------------------------ | ---------------------------------- | ------------------------------------------------ |
+| Neuer {itemType} / Neues {itemType}  | Adjektiv vor dem Platzhalter       | {itemType} hinzufügen                            |
+| Neuen {model_api_key} erstellen      | Adjektiv vor dem Platzhalter       | Neuen Datensatz {model_api_key} erstellen        |
+| Füge einen {inputTypeName} ein       | Artikel vor dem Platzhalter        | Füge einen Wert vom Typ {inputTypeName} ein      |
+| {inputTypeName}s                     | Plural durch angehängtes Suffix    | Werte vom Typ {inputTypeName}                    |
+| Zur {environment} wechseln           | Artikel vor dem Platzhalter        | Zur Umgebung {environment} wechseln              |
+
+**Warnsignal**: brauchte derselbe Platzhalter jemals mehr als eine Adjektivform, ist keine davon richtig. In `de.json` standen `Neuer {itemType}`, `Neues {itemType}` und `Neuen {model_api_key}` nebeneinander — drei Formen für dasselbe Problem.
+
+**Gilt auch für eigene Strings**: `{inputTypeName}` stammt aus `filter.fieldType.*`, kommt also von uns, doch das Genus wechselt je nach Typ ("das Datum", "die Zeichenkette", "der Ersteller"). Kein Artikel passt zu allen.
+
+**Komposita**: steht ein Platzhalter in einer Zusammensetzung, gehört ein Bindestrich dazwischen: `{name}-Datensätze`, `{env}-Seite`.
 
 ## Disambiguierungsregeln
 

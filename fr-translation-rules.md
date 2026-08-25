@@ -31,7 +31,35 @@ Stratégies :
 - Pour les messages d'accueil, préférer une forme neutre invariable (« Bienvenue ! », « Tout est prêt ! ») plutôt qu'un adjectif accordé.
 - En dernier recours seulement, le doublet entre parenthèses (« connecté(e) ») reste acceptable, mais une reformulation verbale est toujours préférable.
 
-**IMPORTANT** : cette règle s'applique **uniquement** aux textes qui désignent la personne. Les participes passés et adjectifs qui qualifient un **objet** (élément, média, environnement) gardent l'accord grammatical normal (voir « Accord du Participe Passé »).
+**IMPORTANT** : cette règle s'applique à **toute personne dont le genre nous est inconnu**, pas seulement à celle qui lit mais aussi à une tierce personne (qui a modifié un élément, qui a été invitée au projet). Les participes passés et adjectifs qui qualifient un **objet** (élément, média, environnement) gardent en revanche l'accord grammatical normal (voir « Accord du Participe Passé »).
+
+## Noms Interpolés (IMPORTANT)
+
+Un placeholder qui contient un nom choisi par le client — modèle, bloc, champ, environnement, type de donnée — n'a ni genre ni nombre prévisibles. **Aucun mot de la phrase ne doit s'accorder avec lui.**
+
+Le problème est concret : si un modèle s'appelle « Page », `Nouveau {itemType}` affiche « Nouveau Page » au lieu de « Nouvelle page ».
+
+### Patterns sûrs
+
+| Pattern                                                                          | Exemple                              | Clé                                       |
+| -------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------------------- |
+| **Verbe + objet nu** (ni article, ni adjectif)                                    | Ajouter {name}                       | `newItem.title`                           |
+| **Nom d'ancrage** (un nom que nous choisissons : élément, modèle, bloc, valeur)   | Aller au modèle {model_api_key}      | `item.gotoModel`                          |
+| **Guillemets ou style code** pour les clés d'API et les identifiants              | Supprimer l'élément de menu “{name}” | `messages.confirm.destroyMenuItem.title` |
+
+**Le nom d'ancrage est l'astuce à retenir** : dès que la phrase contient un nom que *nous* avons choisi, articles, adjectifs et contractions s'accordent avec lui, et le placeholder reste une apposition nue à côté. Dans « Aller **au** modèle {model_api_key} », le « au » est légitime parce qu'il s'accorde avec *modèle*, pas avec le placeholder.
+
+### À ne jamais faire
+
+| ❌ Incorrect                                            | Pourquoi                                 | ✅ Correct                                                                |
+| ------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------------------ |
+| Nouveau {itemType}                                     | adjectif avant le placeholder            | Ajouter {itemType}                                                       |
+| Créer un nouveau {model_api_key}                       | article + adjectif avant le placeholder  | Créer un élément {model_api_key}                                         |
+| Insérer un {inputTypeName}                             | article avant le placeholder             | Insérer une valeur de type {inputTypeName}                               |
+| Insérer des {inputTypeName} séparés par des virgules   | participe accordé après le placeholder   | Insérer des valeurs de type {inputTypeName} séparées par des virgules    |
+| Passer à {environment}                                 | reste nu, sans ancrage                   | Passer à l'environnement {environment}                                   |
+
+**Vaut aussi pour nos propres chaînes** : `{inputTypeName}` vient de `filter.fieldType.*`, donc de nous, mais le genre change selon le type (« une date », « une chaîne de caractères », « un booléen »). Aucun article ne convient à tous.
 
 ## Règles de Désambiguïsation
 

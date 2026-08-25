@@ -13,7 +13,7 @@ Esta guía define las reglas para garantizar consistencia en las traducciones al
 
 El español es un idioma con género gramatical. Cuando un texto **se dirige al usuario** (cuyo género se desconoce), evita adjetivos y participios que exijan concordancia de género. Reformula con construcciones verbales neutras.
 
-**IMPORTANTE**: Esta regla aplica **solo al texto que se refiere al usuario**. Los participios y adjetivos que se refieren a **objetos** (registro, asset, entorno, versión) mantienen la concordancia de género normal ("versión publicada", "publicación programada", "registro despublicado").
+**IMPORTANTE**: Esta regla aplica a **cualquier persona cuyo género desconocemos**, no solo a quien lee sino también a una tercera persona (quien editó un registro, quien fue invitada al proyecto). Los participios y adjetivos que se refieren a **objetos** (registro, asset, entorno, versión) sí mantienen la concordancia de género normal ("versión publicada", "publicación programada", "registro despublicado").
 
 Estrategias:
 
@@ -26,6 +26,34 @@ Estrategias:
 | ¿Confirmas que quieres salir de la página?   | ¿Estás seguro de que quieres salir de la página?          |
 | ¡Te damos la bienvenida! / ¡Empecemos!       | ¡Bienvenido! / ¡Bienvenido a bordo!                       |
 | Debes iniciar sesión                         | Tienes que estar conectado / logueado                     |
+
+## Sustantivos Interpolados (IMPORTANTE)
+
+Un placeholder que contiene un nombre elegido por el cliente — modelo, bloque, campo, entorno, tipo de dato — no tiene género ni número predecibles. **Ninguna palabra de la frase debe concordar con él.**
+
+El problema es concreto: si un modelo se llama "Página", `Nuevo {itemType}` muestra "Nuevo Página" en lugar de "Nueva página".
+
+### Patrones seguros
+
+| Patrón                                                                             | Ejemplo                                | Clave                                     |
+| ---------------------------------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
+| **Verbo + objeto desnudo** (sin artículo ni adjetivo)                               | Añadir {name}                          | `newItem.title`                           |
+| **Sustantivo ancla** (un nombre que elegimos nosotros: registro, modelo, bloque, valor) | Ir al modelo {model_api_key}           | `item.gotoModel`                          |
+| **Comillas o estilo código** para API keys e identificadores                        | ¿Eliminar elemento de menú "{name}"?   | `messages.confirm.destroyMenuItem.title` |
+
+**El sustantivo ancla es el truco a recordar**: en cuanto la frase contiene un nombre que hemos elegido *nosotros*, artículos, adjetivos y contracciones concuerdan con él, y el placeholder queda como aposición desnuda al lado. En "Ir **al** modelo {model_api_key}", el "al" es legítimo porque concuerda con *modelo*, no con el placeholder.
+
+### Nunca
+
+| ❌ Incorrecto                                  | Por qué                                    | ✅ Correcto                                                     |
+| --------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------- |
+| Nuevo {itemType}                               | adjetivo antes del placeholder             | Añadir {itemType}                                               |
+| Crear nuevo {model_api_key}                    | adjetivo antes del placeholder             | Crear un registro {model_api_key}                               |
+| Inserta un {inputTypeName}                     | artículo antes del placeholder             | Inserta un valor de tipo {inputTypeName}                        |
+| Inserta {inputTypeName} separados por comas    | participio concordado tras el placeholder  | Inserta valores de tipo {inputTypeName} separados por comas     |
+| Cambiar a {environment}                        | queda desnudo, sin ancla                   | Cambiar al entorno {environment}                                |
+
+**También con nuestras propias cadenas**: `{inputTypeName}` viene de `filter.fieldType.*`, así que lo controlamos nosotros, pero el género cambia según el tipo ("una fecha", "un booleano", "un estado"). Ningún artículo sirve para todos.
 
 ## Reglas de Disambiguación
 

@@ -46,7 +46,35 @@ Estratégias:
 
 A construção dominante na interface já é neutra ("Tem a certeza que quer…?", "Deseja continuar?"); mantê-la. As boas-vindas com género são a exceção a corrigir: ver as chaves `completeRegistration.password`, `noAuth.completeRegistration.create.success` e `noAuth.signIn.create.success`, todas com "Bem-vindo".
 
-**IMPORTANTE**: esta regra aplica-se apenas a texto que se refere à pessoa utilizadora. Particípios e adjetivos que se referem a objetos (registo, asset, ambiente) mantêm a concordância gramatical normal com o substantivo: "Registo publicado", "Despublicação agendada", "Ambiente eliminado".
+**IMPORTANTE**: esta regra aplica-se a **qualquer pessoa cujo género desconhecemos**, não só a quem lê mas também a uma terceira pessoa (quem editou um registo, quem foi convidada para o projeto). Particípios e adjetivos que se referem a objetos (registo, asset, ambiente) mantêm a concordância gramatical normal com o substantivo: "Registo publicado", "Despublicação agendada", "Ambiente eliminado".
+
+## Substantivos Interpolados (IMPORTANTE)
+
+Um placeholder que contém um nome escolhido pelo cliente — modelo, bloco, campo, ambiente, tipo de dado — não tem género nem número previsíveis. **Nenhuma palavra da frase pode concordar com ele.**
+
+O problema é concreto: se um modelo se chamar "Galeria", `Novo {itemType}` mostra "Novo Galeria" em vez de "Nova galeria".
+
+### Padrões seguros
+
+| Padrão                                                                              | Exemplo                            | Chave                                     |
+| ----------------------------------------------------------------------------------- | ---------------------------------- | ----------------------------------------- |
+| **Verbo + objeto nu** (sem artigo nem adjetivo)                                      | Adicionar {name}                   | `newItem.title`                           |
+| **Substantivo de ancoragem** (um nome escolhido por nós: registo, modelo, bloco, valor) | Ir para o modelo {model_api_key}   | `item.gotoModel`                          |
+| **Aspas ou estilo código** para API keys e identificadores                           | Apagar item do menu "{name}"       | `messages.confirm.destroyMenuItem.title` |
+
+**O substantivo de ancoragem é o truque a reter**: assim que a frase contém um nome escolhido por *nós*, artigos, adjetivos e contrações concordam com ele, e o placeholder fica como aposto nu ao lado. Em "Ir para **o** modelo {model_api_key}", o "o" é legítimo porque concorda com *modelo*, não com o placeholder.
+
+### Nunca
+
+| ❌ Errado                                          | Porquê                                          | ✅ Correto                                                          |
+| ------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------ |
+| Novo {itemType}                                   | adjetivo antes do placeholder                   | Adicionar {itemType}                                               |
+| Criar novo {model_api_key}                        | adjetivo antes do placeholder                   | Criar um registo {model_api_key}                                   |
+| Inserir um {inputTypeName}                        | artigo antes do placeholder                     | Inserir um valor do tipo {inputTypeName}                           |
+| Inserir {inputTypeName}s separados por vírgula    | plural por sufixo + particípio concordado       | Inserir valores do tipo {inputTypeName} separados por vírgula      |
+| Mudar para {environment}                          | fica nu, sem ancoragem                          | Mudar para o ambiente {environment}                                |
+
+**Vale também para as nossas próprias cadeias**: `{inputTypeName}` vem de `filter.fieldType.*`, portanto é nosso, mas o género muda conforme o tipo ("uma data", "um booleano", "um estado"). Nenhum artigo serve para todos.
 
 ## Regras de Disambiguação
 

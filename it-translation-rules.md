@@ -28,7 +28,35 @@ Quando il testo si rivolge all'**utente** (di cui non conosciamo il genere), evi
 - Per i messaggi di benvenuto evitare "Benvenuto/Benvenuta": preferire forme neutre e naturali come "Iniziamo!", "Tutto pronto!", "Buon lavoro!", "Ci siamo!". "Ti diamo il benvenuto" è corretto ma più formale.
 - Riformulare attorno all'azione, non allo stato dell'utente.
 
-**Importante**: questa regola riguarda **solo** il testo riferito all'utente. I participi e gli aggettivi riferiti a **oggetti** (record, asset, environment) mantengono il normale accordo di genere grammaticale (vedi "Past participles agree with noun gender").
+**Importante**: questa regola vale per **qualsiasi persona di cui non conosciamo il genere**, non solo per chi legge ma anche per una terza persona (chi ha modificato un record, chi è stato invitato al progetto). I participi e gli aggettivi riferiti a **oggetti** (record, asset, environment) mantengono invece il normale accordo di genere grammaticale (vedi "Past participles agree with noun gender").
+
+## Nomi Interpolati (IMPORTANTE)
+
+Un placeholder che contiene un nome deciso dal cliente — un modello, un blocco, un campo, un environment, un tipo di dato — non ha genere, numero o forma prevedibili. **Nessuna parola della frase deve accordarsi con lui.**
+
+Il problema è concreto: se il cliente chiama un modello "Galleria", la stringa `Nuovo {itemType}` produce "Nuovo Galleria".
+
+### Pattern sicuri
+
+| Pattern                                                                        | Esempio                            | Chiave                                    |
+| ------------------------------------------------------------------------------ | ---------------------------------- | ----------------------------------------- |
+| **Verbo + oggetto nudo** (niente articolo, niente aggettivo)                    | Aggiungi {name}                    | `newItem.title`                           |
+| **Nome di ancoraggio** (un sostantivo scelto da noi: record, modello, blocco, valore) | Vai al modello {model_api_key}     | `item.gotoModel`                          |
+| **Virgolette o code style** per API key e identificatori                        | Eliminare la voce di menù "{name}"? | `messages.confirm.destroyMenuItem.title` |
+
+**Il nome di ancoraggio è il trucco da ricordare**: una volta che la frase contiene un sostantivo scelto da noi, articoli, aggettivi e preposizioni articolate si accordano con quello, e il placeholder resta un'apposizione nuda accanto. `Vai al modello {model_api_key}` è la dimostrazione più pulita: "al" è legittimo perché si accorda con *modello*, non con il placeholder.
+
+### Da non fare mai
+
+| ❌ Sbagliato                                   | Perché                                   | ✅ Corretto                                                     |
+| --------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
+| Nuovo {itemType}                               | aggettivo prima del placeholder          | Aggiungi {itemType}                                             |
+| Crea nuovo {model_api_key}                     | aggettivo prima del placeholder          | Crea un record {model_api_key}                                  |
+| Inserisci un {inputTypeName}                   | articolo prima del placeholder           | Inserisci un valore di tipo {inputTypeName}                     |
+| Inserisci {inputTypeName} separati da virgole  | participio accordato dopo il placeholder | Inserisci valori di tipo {inputTypeName} separati da virgole    |
+| Passa a {environment}                          | resta nudo, senza ancoraggio                | Passa all'environment {environment}                             |
+
+**Vale anche per le nostre stringhe**: `{inputTypeName}` arriva da `filter.fieldType.*`, quindi lo controlliamo noi, ma il genere cambia comunque da un tipo all'altro ("stringa" e "data" sono femminili, "booleano", "intero" e "stato" sono maschili). Nessun articolo funziona per tutti.
 
 ## Regole di Disambiguazione
 

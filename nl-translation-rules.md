@@ -11,6 +11,35 @@ Deze handleiding definieert de regels om consistentie te waarborgen in de Nederl
 - **Geen spatie voor leestekens** `!`, `?`, `:`, `;` (dit is correct Nederlands, anders dan Frans)
 - **Mannelijk standaard**: wanneer het geslacht niet duidelijk is, gebruik mannelijk ("Aangemaakt" niet "Aangemaakt(e)")
 
+## Geïnterpoleerde Zelfstandige Naamwoorden (BELANGRIJK)
+
+Een placeholder met een naam die de klant heeft gekozen — model, blok, veld, environment, datatype — heeft geen voorspelbaar geslacht (de/het) en geen voorspelbaar meervoud. **Geen enkel woord in de zin mag ermee congrueren.**
+
+Concreet: heet een model "Galerij", dan levert `Nieuw {itemType}` de knop "Nieuw Galerij" op in plaats van "Nieuwe galerij". Bijvoeglijke naamwoorden buigen mee met de/het, dus één vorm kan nooit voor alle modelnamen kloppen.
+
+### Veilige patronen
+
+| Patroon                                                                        | Voorbeeld                          | Sleutel                                   |
+| ------------------------------------------------------------------------------ | ---------------------------------- | ----------------------------------------- |
+| **Werkwoord + kaal object** (geen lidwoord, geen bijvoeglijk naamwoord)         | {name} toevoegen                   | `newItem.title`                           |
+| **Ankerwoord** (een woord dat wij kiezen: record, model, blok, waarde)          | Ga naar model {model_api_key}      | `item.gotoModel`                          |
+| **Aanhalingstekens of code-stijl** voor API-keys en identifiers                 | Menu-item "{name}" verwijderen     | `messages.confirm.destroyMenuItem.title` |
+
+**Het ankerwoord is de truc**: zodra de zin een woord bevat dat *wij* gekozen hebben, congrueert alles daarmee en staat de placeholder er als kale bijstelling naast. "record", "model" en "blok" zijn het-woorden, dus "Nieuw record {model_api_key} aanmaken" klopt altijd.
+
+### Nooit
+
+| ❌ Fout                          | Waarom                                                    | ✅ Goed                                      |
+| ------------------------------- | --------------------------------------------------------- | ------------------------------------------- |
+| Nieuw {itemType}                | bijvoeglijk naamwoord vóór de placeholder                 | {itemType} toevoegen                        |
+| Nieuw {model_api_key} aanmaken  | bijvoeglijk naamwoord vóór de placeholder                 | Nieuw record {model_api_key} aanmaken       |
+| {inputTypeName}s                | meervoud met aangeplakte -s ("teksts" in plaats van "teksten") | waarden van het type {inputTypeName}   |
+| Voeg {name} records toe         | samenstelling zonder koppelteken                          | Voeg {name}-records toe                     |
+
+**Koppelteken**: staat een placeholder in een samenstelling, dan hoort er een koppelteken tussen: `{name}-records`, `{env}-site`.
+
+**Let op**: `een` buigt niet, dus "Voer een {inputTypeName} in" is grammaticaal veilig. We gebruiken het ankerwoord daar toch, zodat enkelvoud en meervoud dezelfde bouw hebben.
+
 ## Regels voor Verduidelijking
 
 ### Bijgewerkt vs Geüpdatet (BELANGRIJK)
@@ -246,7 +275,7 @@ Maar behoud gevestigde technische termen: **API**, **webhook**, **token**, **plu
 "Duplicate" → "Dupliceren"
 "Edit" → "Bewerken"
 "Editor" → "Editor"
-"Environment" → "Environment" of "Omgeving"
+"Environment" → "Environment" (niet vertalen)
 "Error" → "Fout"
 "Field" → "Veld"
 "File" → "Bestand"

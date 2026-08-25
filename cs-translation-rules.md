@@ -12,7 +12,7 @@ Tento průvodce definuje pravidla pro zajištění konzistentních českých př
 
 Čeština je genderově podmíněný jazyk: slovesa v minulém čase a přísudková přídavná jména se shodují v rodě s podmětem. Když text **oslovuje uživatele** (jehož rod neznáme), vyhýbej se tvarům, které vyžadují rodovou shodu. Místo nich volej neutrální formulace: infinitivy, přítomný čas, neosobní a trpné konstrukce.
 
-**Toto pravidlo platí pouze pro text, který odkazuje na uživatele.** Příčestí a přídavná jména odkazující na **objekty** (položka, médium, prostředí) si normální rodovou shodu ponechávají: „Položka byla smazána", „Médium bylo nahráno", „Prostředí bylo vytvořeno" jsou správně.
+**Toto pravidlo platí pro jakoukoli osobu, jejíž rod neznáme** — nejen pro oslovovaného uživatele, ale i pro třetí osobu (autora úpravy, pozvaného člena týmu). Proto `itemVersion.editedBy` zní „Upraveno: {user}", nikoli „Upravil {user}". Příčestí a přídavná jména odkazující na **objekty** (položka, médium, prostředí) si normální rodovou shodu ponechávají: „Položka byla smazána", „Médium bylo nahráno", „Prostředí bylo vytvořeno" jsou správně.
 
 | ✅ Neutrální (oslovení uživatele)      | ❌ Rodově vázané                       |
 | ------------------------------------- | -------------------------------------- |
@@ -29,6 +29,35 @@ Tento průvodce definuje pravidla pro zajištění konzistentních českých př
 2. **Místo minulého času volej neosobní nebo trpnou konstrukci**: „Přihlášení proběhlo" místo „Byl jsi přihlášen"; „Byl dosažen limit" místo „Dosáhl jsi limitu".
 3. **Místo rodového příčestí volej infinitiv**: „Musíš se přihlásit" místo „Musíš být přihlášen".
 4. **U uvítacích zpráv** dávej přednost tvarům bez rodové shody. Imperativ „Vítej" je neutrální; pozor na minulý čas typu „Byl jsi přidán".
+
+## Interpolovaná podstatná jména (DŮLEŽITÉ)
+
+Zástupný symbol, který obsahuje jméno zvolené zákazníkem — model, blok, pole, prostředí, datový typ — nemá rod, číslo ani pád, které bychom mohli předvídat. **Žádné slovo ve větě se s ním nesmí shodovat.**
+
+V češtině je problém dvojnásobný: kromě rodu vyžaduje věta i **pád**. Ani správně zvolený rod by nestačil, protože „Přidat" váže akuzativ a jméno modelu do něj nikdo neohne.
+
+### Bezpečné vzory
+
+| Vzor                                                                            | Příklad                              | Klíč                    |
+| -------------------------------------------------------------------------------- | ------------------------------------ | ----------------------- |
+| **Sloveso + holý předmět** (bez přívlastku)                                       | Přidat {name}                        | `newItem.title`         |
+| **Kotvicí podstatné jméno** (slovo, které volíme my: položka, model, blok, hodnota) | Přejít na model {model_api_key}      | `item.gotoModel`        |
+| **Uvozovky nebo code style** pro API klíče a identifikátory                       | Seznam položek typu "{name}"         | `itemsCollection.title` |
+
+**Kotvicí podstatné jméno je klíčový trik**: jakmile věta obsahuje slovo, které jsme zvolili *my*, veškerá shoda i pád se řídí jím a zástupný symbol zůstává holým přístavkem vedle. Spojení **„typu {X}"** je pro češtinu nejspolehlivější: po slově „typu" je nominativní přístavek zcela idiomatický.
+
+### Nikdy
+
+| ❌ Špatně                                    | Proč                                              | ✅ Správně                                                 |
+| ------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------- |
+| Nová {itemType} / Nový {itemType}           | přívlastek před zástupným symbolem                | Přidat blok typu {itemType}                               |
+| Vložte {inputTypeName}                      | vyžaduje akuzativ („Vložte autora", ne „autor")   | Vložte hodnotu typu {inputTypeName}                       |
+| Vložte čárkou oddělené {inputTypeName}      | přívlastek v množném čísle, podstatné jméno v jednotném | Vložte čárkou oddělené hodnoty typu {inputTypeName} |
+| Přepnout na {environment}                   | holé, bez kotvy                                   | Přepnout na prostředí {environment}                       |
+
+**Varovný signál**: pokud tentýž zástupný symbol kdy potřeboval více než jeden tvar přívlastku, není správný ani jeden. V `cs.json` stálo vedle sebe „Nová {itemType}" i „Nový {itemType}" — dva rody pro totéž.
+
+**Platí i pro naše vlastní řetězce**: `{inputTypeName}` pochází z `filter.fieldType.*`, takže si ho určujeme sami, ale rod se přesto mění podle typu („datum" je střední, „autor" mužský, „hodnota" ženský). Žádný jeden tvar nesedí na všechny.
 
 ## Pravidla pro disambiguaci
 

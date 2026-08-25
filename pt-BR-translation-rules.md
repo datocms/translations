@@ -27,7 +27,35 @@ Observação sobre "Tem certeza": em pt-BR "certeza" é um substantivo, então "
 
 **Estratégias**: prefira formas verbais ("Deseja…?", "Quer…?", "Você precisa…") em vez de adjetivos de estado ("Você está pronto/conectado/certo"). Para mensagens de boas-vindas, evite "Bem-vindo" e use formas neutras ("Boas-vindas", "Que bom ter você por aqui").
 
-**IMPORTANTE**: esta regra vale **apenas** para texto que se refere ao usuário. Particípios e adjetivos que se referem a **objetos** (registro, arquivo, ambiente) mantêm a concordância de gênero normal: "registro publicado", "arquivo removido", "ambiente excluído".
+**IMPORTANTE**: esta regra vale para **qualquer pessoa cujo gênero desconhecemos**, não só para quem lê mas também para uma terceira pessoa (quem editou um registro, quem foi convidada para o projeto). Particípios e adjetivos que se referem a **objetos** (registro, arquivo, ambiente) mantêm a concordância de gênero normal: "registro publicado", "arquivo removido", "ambiente excluído".
+
+## Substantivos Interpolados (IMPORTANTE)
+
+Um placeholder que contém um nome escolhido pelo cliente — modelo, bloco, campo, ambiente, tipo de dado — não tem gênero nem número previsíveis. **Nenhuma palavra da frase pode concordar com ele.**
+
+O problema é concreto: se um modelo se chamar "Galeria", `Novo {itemType}` mostra "Novo Galeria" em vez de "Nova galeria".
+
+### Padrões seguros
+
+| Padrão                                                                                  | Exemplo                            | Chave                                     |
+| --------------------------------------------------------------------------------------- | ---------------------------------- | ----------------------------------------- |
+| **Verbo + objeto nu** (sem artigo nem adjetivo)                                          | Adicionar {name}                   | `newItem.title`                           |
+| **Substantivo de ancoragem** (um nome escolhido por nós: registro, modelo, bloco, valor) | Ir para o modelo {model_api_key}   | `item.gotoModel`                          |
+| **Aspas ou estilo código** para API keys e identificadores                                | Remover item do menu "{name}"      | `messages.confirm.destroyMenuItem.title` |
+
+**O substantivo de ancoragem é o truque a lembrar**: assim que a frase contém um nome escolhido por *nós*, artigos, adjetivos e contrações concordam com ele, e o placeholder fica como aposto nu ao lado. Em "Ir para **o** modelo {model_api_key}", o "o" é legítimo porque concorda com *modelo*, não com o placeholder.
+
+### Nunca
+
+| ❌ Errado                                        | Por quê                                     | ✅ Correto                                                         |
+| ----------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------ |
+| Novo {itemType}                                 | adjetivo antes do placeholder               | Adicionar {itemType}                                               |
+| Criar novo {model_api_key}                      | adjetivo antes do placeholder               | Criar um registro {model_api_key}                                  |
+| Insira um {inputTypeName}                       | artigo antes do placeholder                 | Insira um valor do tipo {inputTypeName}                            |
+| Insira {inputTypeName}s separados por vírgula   | plural por sufixo + particípio concordado   | Insira valores do tipo {inputTypeName} separados por vírgula       |
+| Mudar para o {environment}                      | artigo antes do placeholder                 | Mudar para o ambiente {environment}                                |
+
+**Vale também para as nossas próprias strings**: `{inputTypeName}` vem de `filter.fieldType.*`, portanto é nosso, mas o gênero muda conforme o tipo ("uma data", "um booleano", "um status"). Nenhum artigo serve para todos.
 
 ## Regras de Disambiguação
 
