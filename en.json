@@ -1,5 +1,10 @@
 {
   "MultipleSelectionActionBar.deselectAll": "Clear selection",
+  "a11y.nav.landmarkCompact": "Main",
+  "a11y.nav.landmarkEnvironment": "Environment",
+  "a11y.nav.landmarkMobile": "Main",
+  "a11y.nav.landmarkProject": "Project",
+  "a11y.nav.userMenu": "Account menu",
   "accessToken.token": "API Token",
   "addNewSchedule.title": "Add new schedule",
   "admin.menuItem.create.failure": "Couldn't create the menu item!",
