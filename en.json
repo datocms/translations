@@ -708,6 +708,7 @@
   "itemLocking.disabled": "Record editing is disabled!",
   "itemLocking.getOtherUserData1": "You now have control over this record. Would you like to recover ",
   "itemLocking.getOtherUserData2": "'s unsaved changes?",
+  "itemLocking.lockRefused": "Another user started to edit this record before you. Your changes are not saved. To keep them, take over the record.",
   "itemLocking.locked": "You are currently editing this record from another tab: you cannot make changes, unless you take over from here.",
   "itemLocking.recover": "Recover",
   "itemLocking.recoverFrom": "Recover the work started by",
