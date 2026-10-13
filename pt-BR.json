@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "Não foi possível fazer login, falta o token",
   "noAuth.signIn.create.success": "Acesso realizado com sucesso! Boas-vindas!",
   "noAuth.signIn.logout.success": "Saindo… Até mais!",
-  "noAuth.signIn.require2fa": "Por motivos de segurança, o proprietário deste projeto solicitou que todos os membros ativassem a autenticação em dois fatores. Por favor, ative-a em seu painel administrativo",
   "noAuth.signIn.tfaRequired": "A autenticação em dois fatores é obrigatória!",
   "noAuth.signIn.title": "Entrar",
   "noEnvironments.details": "Sua conta não pode acessar nenhum ambiente do projeto.",

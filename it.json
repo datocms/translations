@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "Non è stato possibile effettuare il login, token non presente",
   "noAuth.signIn.create.success": "Login effettuato. Buon lavoro!",
   "noAuth.signIn.logout.success": "Logout effettuato correttamente, a presto!",
-  "noAuth.signIn.require2fa": "Per ragioni di sicurezza, il proprietario di questo progetto ha richiesto che tutti i collaboratori attivino l'autenticazione in due passaggi. Per favore abilitala nella tua dashboard",
   "noAuth.signIn.tfaRequired": "Two-factor authentication richiesta!",
   "noAuth.signIn.title": "Effettua il login",
   "noEnvironments.details": "Il tuo account non può accedere a nessun environment del progetto.",

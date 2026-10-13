@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "Impossible de se connecter, token manquant",
   "noAuth.signIn.create.success": "Connexion réussie, bienvenue !",
   "noAuth.signIn.logout.success": "Déconnexion réussie, à bientôt !",
-  "noAuth.signIn.require2fa": "Pour des raisons de sécurité, le propriétaire de ce projet a demandé que chaque membre active l'authentification à deux facteurs. Merci de l'activer depuis ton tableau de bord.",
   "noAuth.signIn.tfaRequired": "Authentification à deux facteurs requise !",
   "noAuth.signIn.title": "Connexion",
   "noEnvironments.details": "Ton compte ne peut accéder à aucun environnement du projet.",

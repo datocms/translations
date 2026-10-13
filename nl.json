@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "Inloggen mislukt, token ontbreekt",
   "noAuth.signIn.create.success": "Inloggen gelukt, welkom!",
   "noAuth.signIn.logout.success": "Uitloggen gelukt, tot ziens!",
-  "noAuth.signIn.require2fa": "Vanwege de veiligheid vraagt de eigenaar van dit project elk teamlid twee-factor-authenticatie te activeren. Je kunt het activeren in je dashboard",
   "noAuth.signIn.tfaRequired": "Twee-factor-authenticatie vereist!",
   "noAuth.signIn.title": "Log in",
   "noEnvironments.details": "Je account heeft geen toegang tot een environment van dit project.",

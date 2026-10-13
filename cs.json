@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "Nepodařilo se přihlásit, chybí token",
   "noAuth.signIn.create.success": "Přihlášení proběhlo úspěšně, vítej!",
   "noAuth.signIn.logout.success": "Odhlášení proběhlo úspěšně, na viděnou!",
-  "noAuth.signIn.require2fa": "Z bezpečnostních důvodů majitel tohoto projektu vyžaduje, aby si každý člen aktivoval dvoufaktorové ověřování. Aktivuj si jej prosím na tvé nástěnce",
   "noAuth.signIn.tfaRequired": "Vyžadováno dvoufázové ověření!",
   "noAuth.signIn.title": "Přihlásit se",
   "noEnvironments.details": "Tvůj účet nemá přístup k žádnému prostředí projektu.",

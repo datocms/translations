@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "Login konnte nicht abgeschlossen werden, Token fehlt",
   "noAuth.signIn.create.success": "Erfolgreich angemeldet, willkommen!",
   "noAuth.signIn.logout.success": "Erfolgreich abgemeldet, auf Wiedersehen!",
-  "noAuth.signIn.require2fa": "Aus Sicherheitsgründen hat der Eigentümer dieses Projekts angefordert, dass jedes Mitglied eine Zwei-Faktor-Authentifizierung aktiviert. Bitte aktiviere sie in deinem Dashboard.",
   "noAuth.signIn.tfaRequired": "Zwei-Faktor-Authentifizierung erforderlich!",
   "noAuth.signIn.title": "Melde dich an",
   "noEnvironments.details": "Dein Account kann auf keine Projektumgebung zugreifen.",

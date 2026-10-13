@@ -913,7 +913,6 @@
   "noAuth.signIn.create.missingToken": "No se pudo iniciar sesión, falta el token",
   "noAuth.signIn.create.success": "¡Sesión iniciada con éxito. ¡Te damos la bienvenida!",
   "noAuth.signIn.logout.success": "¡Sesión cerrada con éxito, adiós!",
-  "noAuth.signIn.require2fa": "Por razones de seguridad, el propietario de este proyecto ha solicitado que cada miembro active la autenticación de dos factores. Por favor, habilítala en tu panel de control",
   "noAuth.signIn.tfaRequired": "¡Autenticación de dos factores requerida!",
   "noAuth.signIn.title": "Iniciar sesión",
   "noEnvironments.details": "Tu cuenta no puede acceder a ningún entorno del proyecto.",
