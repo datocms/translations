@@ -27,7 +27,6 @@
   "buildEvent.type.response_success": "Sestavení dokončeno úspěšně",
   "buildEvent.type.response_timeout": "Sestavení trvalo moc dlouho",
   "buildEvent.type.response_unprocessable": "Přijat neplatný webhook",
-  "button.default": "Odeslat",
   "button.submitting": "Počkejte prosím",
   "changePosition.button.default": "Přesunout na novou pozici",
   "changePosition.newPosition": "Nová pozice",

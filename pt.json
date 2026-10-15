@@ -27,7 +27,6 @@
   "buildEvent.type.response_success": "Build completada com sucesso",
   "buildEvent.type.response_timeout": "A build demorou muito tempo a ser concluída",
   "buildEvent.type.response_unprocessable": "Recebeu um webhook inválido",
-  "button.default": "Enviar",
   "button.submitting": "Por favor aguarde",
   "changePosition.button.default": "Mover para nova posição",
   "changePosition.newPosition": "Nova posição",

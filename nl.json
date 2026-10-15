@@ -27,7 +27,6 @@
   "buildEvent.type.response_success": "Build succesvol afgerond",
   "buildEvent.type.response_timeout": "Build duurde te lang om af te ronden",
   "buildEvent.type.response_unprocessable": "Ongeldige webhook ontvangen",
-  "button.default": "Versturen",
   "button.submitting": "Even geduld…",
   "changePosition.button.default": "Verplaatsen",
   "changePosition.newPosition": "Nieuwe positie",
