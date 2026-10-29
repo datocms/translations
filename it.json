@@ -1205,7 +1205,6 @@
   "uploadTrack.languageCode": "Language code",
   "uploadTrack.name": "Nome della traccia",
   "uploadTrack.name.hint": "Fornisci una descrizione della traccia che gli spettatori possano comprendere facilmente. Verrà visualizzata sul lettore video.",
-  "uploadTrack.preparing": "La traccia è in fase di elaborazione",
   "uploadTrack.remove.action": "Elimina",
   "uploadTrack.remove.download": "Download",
   "uploadTrack.remove.failure": "Non è stato possibile eliminare la traccia!",

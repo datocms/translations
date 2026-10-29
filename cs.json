@@ -1205,7 +1205,6 @@
   "uploadTrack.languageCode": "Language code",
   "uploadTrack.name": "Název stopy",
   "uploadTrack.name.hint": "Zadej popis stopy, který diváci snadno pochopí. Zobrazí se v přehrávači videa.",
-  "uploadTrack.preparing": "Stopa se zpracovává",
   "uploadTrack.remove.action": "Smazat",
   "uploadTrack.remove.download": "Stáhnout",
   "uploadTrack.remove.failure": "Nepodařilo se smazat stopu!",

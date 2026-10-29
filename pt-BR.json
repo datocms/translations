@@ -1205,7 +1205,6 @@
   "uploadTrack.languageCode": "Código de idioma",
   "uploadTrack.name": "Nome da faixa",
   "uploadTrack.name.hint": "Forneça uma descrição da faixa que os espectadores possam entender facilmente. Será exibida no player de vídeo.",
-  "uploadTrack.preparing": "A faixa está sendo processada",
   "uploadTrack.remove.action": "Excluir",
   "uploadTrack.remove.download": "Download",
   "uploadTrack.remove.failure": "Não foi possível excluir a faixa!",

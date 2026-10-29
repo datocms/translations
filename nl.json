@@ -1205,7 +1205,6 @@
   "uploadTrack.languageCode": "Language code",
   "uploadTrack.name": "Tracknaam",
   "uploadTrack.name.hint": "Geef een beschrijving van de track die kijkers gemakkelijk kunnen begrijpen. Wordt weergegeven in de videospeler.",
-  "uploadTrack.preparing": "De track wordt verwerkt",
   "uploadTrack.remove.action": "Verwijderen",
   "uploadTrack.remove.download": "Download",
   "uploadTrack.remove.failure": "Kon track niet verwijderen!",

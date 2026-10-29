@@ -1205,7 +1205,6 @@
   "uploadTrack.languageCode": "Code de langue",
   "uploadTrack.name": "Nom de la piste",
   "uploadTrack.name.hint": "Fournis une description de la piste que les spectateurs peuvent facilement comprendre. Elle sera affichée sur le lecteur vidéo.",
-  "uploadTrack.preparing": "La piste est en cours de traitement",
   "uploadTrack.remove.action": "Supprimer",
   "uploadTrack.remove.download": "Télécharger",
   "uploadTrack.remove.failure": "Impossible de supprimer la piste !",
